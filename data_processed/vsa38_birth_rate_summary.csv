@@ -1,0 +1,747 @@
+year,area_of_residence,STATISTIC,value
+2009,Fingal,VSA38,21.8
+2008,Fingal,VSA38,21.7
+2008,Meath,VSA38,21.2
+2008,Carlow,VSA38,20.7
+2009,Kildare,VSA38,20.5
+2009,Meath,VSA38,20.5
+2008,Kildare,VSA38,20.5
+2012,Fingal,VSA38,20.2
+2011,Fingal,VSA38,20.2
+2008,Longford,VSA38,20.2
+2010,Fingal,VSA38,20.2
+2009,Laois,VSA38,19.9
+2009,Longford,VSA38,19.8
+2010,Meath,VSA38,19.6
+2008,Mid-East,VSA38,19.6
+2008,Laois,VSA38,19.5
+2013,Fingal,VSA38,19.3
+2009,Mid-East,VSA38,19.3
+2010,Mid-East,VSA38,19.2
+2010,Kildare,VSA38,19.1
+2011,Meath,VSA38,19.0
+2008,Wicklow,VSA38,19.0
+2011,South Dublin,VSA38,18.9
+2008,Cavan,VSA38,18.9
+2009,Carlow,VSA38,18.8
+2010,Wicklow,VSA38,18.8
+2010,Waterford City,VSA38,18.8
+2008,Waterford City,VSA38,18.7
+2008,Galway County,VSA38,18.6
+2009,Wicklow,VSA38,18.6
+2014,Fingal,VSA38,18.4
+2008,Wexford,VSA38,18.4
+2012,South Dublin,VSA38,18.4
+2008,North Tipperary,VSA38,18.3
+2011,Kildare,VSA38,18.3
+2009,Cavan,VSA38,18.3
+2009,Midland,VSA38,18.1
+2010,South Dublin,VSA38,18.1
+2008,South Dublin,VSA38,18.1
+2008,Midland,VSA38,18.1
+2010,Carlow,VSA38,18.1
+2011,Carlow,VSA38,18.1
+2008,Westmeath,VSA38,18.0
+2011,Mid-East,VSA38,18.0
+2008,Cork County,VSA38,18.0
+2009,North Tipperary,VSA38,17.9
+2011,Waterford City,VSA38,17.9
+2009,South Dublin,VSA38,17.9
+2009,Cork County,VSA38,17.9
+2010,Laois,VSA38,17.9
+2009,Westmeath,VSA38,17.8
+2010,Westmeath,VSA38,17.8
+2017,South Dublin,VSA38,17.8
+2009,Leinster,VSA38,17.7
+2008,Leinster,VSA38,17.7
+2009,Limerick County,VSA38,17.6
+2010,Limerick County,VSA38,17.5
+2009,Galway County,VSA38,17.5
+2010,North Tipperary,VSA38,17.5
+2010,Longford,VSA38,17.5
+2009,Waterford City,VSA38,17.5
+2009,Wexford,VSA38,17.4
+2011,Cavan,VSA38,17.3
+2010,Leinster,VSA38,17.3
+2010,Midland,VSA38,17.3
+2011,Limerick County,VSA38,17.2
+2012,Waterford City,VSA38,17.2
+2012,Kildare,VSA38,17.2
+2010,Cork County,VSA38,17.1
+2012,Meath,VSA38,17.1
+2009,Dublin,VSA38,17.1
+2008,Limerick County,VSA38,17.1
+2011,Dublin,VSA38,17.1
+2008,Offaly,VSA38,17.1
+2008,Louth,VSA38,17.1
+2008,State,VSA38,17.0
+2013,South Dublin,VSA38,17.0
+2013,Waterford City,VSA38,17.0
+2010,Dublin,VSA38,17.0
+2012,Mid-East,VSA38,17.0
+2011,Leinster,VSA38,17.0
+2008,Leitrim,VSA38,16.9
+2009,State,VSA38,16.9
+2008,South-East,VSA38,16.9
+2013,Meath,VSA38,16.9
+2009,Offaly,VSA38,16.9
+2009,Mid-West,VSA38,16.9
+2014,South Dublin,VSA38,16.9
+2015,Fingal,VSA38,16.8
+2010,Cavan,VSA38,16.8
+2012,Carlow,VSA38,16.8
+2011,North Tipperary,VSA38,16.8
+2012,Dublin,VSA38,16.8
+2008,Dublin,VSA38,16.8
+2014,Carlow,VSA38,16.8
+2008,Mid-West,VSA38,16.8
+2011,Cork County,VSA38,16.7
+2012,Westmeath,VSA38,16.7
+2010,Galway County,VSA38,16.6
+2011,Laois,VSA38,16.6
+2010,State,VSA38,16.5
+2012,Cork County,VSA38,16.5
+2009,South-West,VSA38,16.5
+2016,Fingal,VSA38,16.5
+2011,Wicklow,VSA38,16.5
+2012,Galway City,VSA38,16.4
+2014,Waterford City,VSA38,16.4
+2009,Munster,VSA38,16.4
+2013,Galway City,VSA38,16.4
+2009,South-East,VSA38,16.4
+2012,Leinster,VSA38,16.4
+2009,Clare,VSA38,16.3
+2008,West,VSA38,16.3
+2008,Waterford County,VSA38,16.3
+2010,Offaly,VSA38,16.3
+2011,Midland,VSA38,16.3
+2011,Galway County,VSA38,16.3
+2012,Wicklow,VSA38,16.3
+2008,Munster,VSA38,16.3
+2012,Longford,VSA38,16.3
+2008,South-West,VSA38,16.2
+2009,Louth,VSA38,16.2
+2013,Dublin,VSA38,16.2
+2011,State,VSA38,16.2
+2011,Offaly,VSA38,16.2
+2013,Mid-East,VSA38,16.1
+2011,Westmeath,VSA38,16.1
+2013,Kildare,VSA38,16.1
+2010,Galway City,VSA38,16.1
+2011,Longford,VSA38,16.1
+2008,Border,VSA38,16.0
+2008,Connacht,VSA38,16.0
+2010,Louth,VSA38,16.0
+2009,Leitrim,VSA38,16.0
+2010,Mid-West,VSA38,16.0
+2010,Dublin City,VSA38,16.0
+2012,Midland,VSA38,15.9
+2008,Clare,VSA38,15.9
+2014,Kildare,VSA38,15.9
+2014,Dublin,VSA38,15.9
+2013,Louth,VSA38,15.9
+2014,Galway City,VSA38,15.8
+2009,Waterford County,VSA38,15.8
+2010,South-West,VSA38,15.8
+2011,Mid-West,VSA38,15.8
+2008,Ulster (part of),VSA38,15.8
+2013,Carlow,VSA38,15.8
+2013,Leinster,VSA38,15.8
+2012,Laois,VSA38,15.7
+2012,Cavan,VSA38,15.7
+2011,Wexford,VSA38,15.7
+2009,Ulster (part of),VSA38,15.7
+2014,Meath,VSA38,15.7
+2009,West,VSA38,15.7
+2009,Border,VSA38,15.7
+2010,South-East,VSA38,15.7
+2010,Wexford,VSA38,15.7
+2011,Dublin City,VSA38,15.7
+2010,Munster,VSA38,15.7
+2011,Galway City,VSA38,15.6
+2012,State,VSA38,15.6
+2014,Limerick City,VSA38,15.6
+2009,Connacht,VSA38,15.5
+2014,Mid-East,VSA38,15.5
+2009,Sligo,VSA38,15.5
+2009,South Tipperary,VSA38,15.5
+2011,South-West,VSA38,15.5
+2011,South-East,VSA38,15.5
+2010,West,VSA38,15.5
+2013,Cork County,VSA38,15.5
+2013,Cavan,VSA38,15.5
+2008,Kilkenny,VSA38,15.5
+2011,Munster,VSA38,15.5
+2014,Leinster,VSA38,15.5
+2012,Galway County,VSA38,15.5
+2014,Westmeath,VSA38,15.4
+2009,Kilkenny,VSA38,15.4
+2021,South Dublin,VSA38,15.4
+2013,Longford,VSA38,15.3
+2015,Kildare,VSA38,15.3
+2010,Connacht,VSA38,15.3
+2015,South Dublin,VSA38,15.3
+2011,Louth,VSA38,15.3
+2012,Dublin City,VSA38,15.3
+2012,Limerick County,VSA38,15.3
+2009,Donegal,VSA38,15.2
+2012,Louth,VSA38,15.2
+2013,Dublin City,VSA38,15.2
+2008,Sligo,VSA38,15.2
+2013,Westmeath,VSA38,15.2
+2012,Wexford,VSA38,15.2
+2010,Kilkenny,VSA38,15.2
+2008,Monaghan,VSA38,15.1
+2011,West,VSA38,15.1
+2014,Louth,VSA38,15.1
+2017,Fingal,VSA38,15.1
+2010,Border,VSA38,15.1
+2012,South-West,VSA38,15.1
+2014,Dublin City,VSA38,15.0
+2008,Limerick City,VSA38,15.0
+2013,State,VSA38,15.0
+2013,Limerick City,VSA38,15.0
+2012,Offaly,VSA38,15.0
+2009,Dublin City,VSA38,15.0
+2011,Connacht,VSA38,14.9
+2011,Kilkenny,VSA38,14.9
+2018,Fingal,VSA38,14.9
+2013,Wicklow,VSA38,14.9
+2016,Longford,VSA38,14.9
+2010,Leitrim,VSA38,14.9
+2009,Roscommon,VSA38,14.9
+2013,Laois,VSA38,14.8
+2008,Roscommon,VSA38,14.8
+2010,Ulster (part of),VSA38,14.8
+2016,Galway City,VSA38,14.8
+2012,Sligo,VSA38,14.8
+2015,Dublin,VSA38,14.8
+2010,Waterford County,VSA38,14.8
+2013,Galway County,VSA38,14.8
+2012,Munster,VSA38,14.8
+2011,Clare,VSA38,14.8
+2012,Mid-West,VSA38,14.8
+2016,South Dublin,VSA38,14.8
+2013,North Tipperary,VSA38,14.8
+2009,Kerry,VSA38,14.8
+2012,South-East,VSA38,14.8
+2014,Cavan,VSA38,14.7
+2008,Donegal,VSA38,14.7
+2014,Cork County,VSA38,14.7
+2013,Midland,VSA38,14.7
+2012,West,VSA38,14.7
+2016,Limerick City,VSA38,14.7
+2012,Connacht,VSA38,14.7
+2011,Border,VSA38,14.7
+2012,Limerick City,VSA38,14.7
+2015,Mid-East,VSA38,14.7
+2015,Louth,VSA38,14.7
+2016,Kildare,VSA38,14.7
+2015,Galway City,VSA38,14.7
+2012,North Tipperary,VSA38,14.6
+2010,Monaghan,VSA38,14.6
+2011,Ulster (part of),VSA38,14.6
+2014,State,VSA38,14.6
+2008,Mayo,VSA38,14.6
+2014,Midland,VSA38,14.6
+2012,Clare,VSA38,14.5
+2015,Meath,VSA38,14.5
+2008,Dublin City,VSA38,14.5
+2012,Kilkenny,VSA38,14.5
+2014,Offaly,VSA38,14.5
+2011,Monaghan,VSA38,14.5
+2010,Sligo,VSA38,14.5
+2015,Leinster,VSA38,14.5
+2015,Cork County,VSA38,14.5
+2015,Carlow,VSA38,14.5
+2014,Wicklow,VSA38,14.4
+2011,Leitrim,VSA38,14.4
+2010,Clare,VSA38,14.4
+2011,Waterford County,VSA38,14.4
+2014,Galway County,VSA38,14.4
+2015,Longford,VSA38,14.4
+2013,Leitrim,VSA38,14.4
+2015,Limerick City,VSA38,14.4
+2013,West,VSA38,14.3
+2012,Border,VSA38,14.3
+2014,Laois,VSA38,14.3
+2013,South-West,VSA38,14.3
+2013,South-East,VSA38,14.3
+2011,Sligo,VSA38,14.3
+2008,South Tipperary,VSA38,14.3
+2016,Dublin,VSA38,14.3
+2018,Carlow,VSA38,14.3
+2013,Connacht,VSA38,14.3
+2013,Limerick County,VSA38,14.3
+2015,North Tipperary,VSA38,14.2
+2015,Dublin City,VSA38,14.2
+2010,Mayo,VSA38,14.2
+2015,Laois,VSA38,14.2
+2015,Cavan,VSA38,14.2
+2012,Leitrim,VSA38,14.2
+2017,Westmeath,VSA38,14.2
+2014,Wexford,VSA38,14.2
+2009,Monaghan,VSA38,14.2
+2008,Kerry,VSA38,14.2
+2013,Monaghan,VSA38,14.2
+2013,Munster,VSA38,14.2
+2015,Wicklow,VSA38,14.1
+2014,South-East,VSA38,14.1
+2015,Limerick County,VSA38,14.1
+2014,Longford,VSA38,14.1
+2016,Westmeath,VSA38,14.1
+2016,Mid-East,VSA38,14.1
+2016,Meath,VSA38,14.1
+2015,Waterford City,VSA38,14.1
+2016,Cavan,VSA38,14.1
+2015,Westmeath,VSA38,14.1
+2013,Border,VSA38,14.1
+2010,Roscommon,VSA38,14.1
+2010,Cork City,VSA38,14.1
+2009,Dun Laoghaire-Rathdown,VSA38,14.1
+2017,Kildare,VSA38,14.0
+2013,Mid-West,VSA38,14.0
+2008,Galway City,VSA38,14.0
+2015,State,VSA38,14.0
+2011,Kerry,VSA38,14.0
+2009,Limerick City,VSA38,14.0
+2009,Cork City,VSA38,14.0
+2009,Mayo,VSA38,14.0
+2016,Leinster,VSA38,14.0
+2013,Wexford,VSA38,13.9
+2018,South Dublin,VSA38,13.9
+2017,Laois,VSA38,13.9
+2015,Galway County,VSA38,13.9
+2014,West,VSA38,13.9
+2011,Mayo,VSA38,13.9
+2010,Donegal,VSA38,13.9
+2016,Louth,VSA38,13.9
+2011,South Tipperary,VSA38,13.8
+2012,Ulster (part of),VSA38,13.8
+2013,Kilkenny,VSA38,13.8
+2015,Midland,VSA38,13.8
+2014,South-West,VSA38,13.8
+2013,Sligo,VSA38,13.8
+2010,Dun Laoghaire-Rathdown,VSA38,13.8
+2014,Limerick County,VSA38,13.8
+2011,Dun Laoghaire-Rathdown,VSA38,13.8
+2015,Mid-West,VSA38,13.8
+2017,Cavan,VSA38,13.7
+2012,Monaghan,VSA38,13.7
+2019,Limerick City,VSA38,13.7
+2019,Longford,VSA38,13.7
+2009,Galway City,VSA38,13.7
+2019,Fingal,VSA38,13.7
+2014,Monaghan,VSA38,13.7
+2014,Munster,VSA38,13.7
+2014,Connacht,VSA38,13.7
+2013,Offaly,VSA38,13.7
+2014,Kilkenny,VSA38,13.6
+2012,Dun Laoghaire-Rathdown,VSA38,13.6
+2014,Mid-West,VSA38,13.6
+2013,Waterford County,VSA38,13.6
+2011,Limerick City,VSA38,13.6
+2015,Munster,VSA38,13.6
+2010,South Tipperary,VSA38,13.6
+2010,Limerick City,VSA38,13.6
+2016,Galway County,VSA38,13.6
+2017,Midland,VSA38,13.6
+2014,Dun Laoghaire-Rathdown,VSA38,13.6
+2016,Midland,VSA38,13.6
+2017,Meath,VSA38,13.6
+2013,Dun Laoghaire-Rathdown,VSA38,13.6
+2015,South-West,VSA38,13.6
+2016,Waterford County,VSA38,13.6
+2018,Limerick City,VSA38,13.6
+2019,South Dublin,VSA38,13.6
+2015,Wexford,VSA38,13.5
+2013,Ulster (part of),VSA38,13.5
+2011,Donegal,VSA38,13.5
+2011,Cork City,VSA38,13.5
+2017,Dublin,VSA38,13.5
+2010,Kerry,VSA38,13.5
+2017,Mid-East,VSA38,13.5
+2016,Dublin City,VSA38,13.5
+2013,South Tipperary,VSA38,13.5
+2017,Limerick City,VSA38,13.5
+2011,Roscommon,VSA38,13.5
+2012,Kerry,VSA38,13.5
+2008,Dun Laoghaire-Rathdown,VSA38,13.5
+2016,State,VSA38,13.5
+2017,Leinster,VSA38,13.4
+2021,Fingal,VSA38,13.4
+2012,Mayo,VSA38,13.4
+2016,Cork County,VSA38,13.4
+2016,Wicklow,VSA38,13.4
+2017,Galway County,VSA38,13.4
+2018,Westmeath,VSA38,13.4
+2014,Border,VSA38,13.4
+2014,North Tipperary,VSA38,13.4
+2017,Carlow,VSA38,13.4
+2012,Roscommon,VSA38,13.4
+2018,Kildare,VSA38,13.3
+2016,Carlow,VSA38,13.3
+2016,Laois,VSA38,13.3
+2015,Monaghan,VSA38,13.3
+2015,South-East,VSA38,13.3
+2017,Louth,VSA38,13.3
+2012,South Tipperary,VSA38,13.3
+2021,Meath,VSA38,13.2
+2018,Cavan,VSA38,13.2
+2018,Waterford City,VSA38,13.2
+2018,Longford,VSA38,13.2
+2013,Roscommon,VSA38,13.2
+2015,West,VSA38,13.2
+2019,Meath,VSA38,13.2
+2015,Border,VSA38,13.2
+2021,Monaghan,VSA38,13.1
+2016,Monaghan,VSA38,13.1
+2017,Longford,VSA38,13.1
+2013,Mayo,VSA38,13.1
+2018,Monaghan,VSA38,13.1
+2018,Dublin,VSA38,13.1
+2015,Connacht,VSA38,13.1
+2021,Westmeath,VSA38,13.0
+2016,South Tipperary,VSA38,13.0
+2015,Clare,VSA38,13.0
+2016,Mid-West,VSA38,13.0
+2016,Limerick County,VSA38,13.0
+2016,Leitrim,VSA38,13.0
+2016,West,VSA38,13.0
+2015,Waterford County,VSA38,13.0
+2017,Dublin City,VSA38,13.0
+2015,Leitrim,VSA38,13.0
+2018,Meath,VSA38,13.0
+2017,Cork County,VSA38,13.0
+2015,Dun Laoghaire-Rathdown,VSA38,13.0
+2017,Limerick County,VSA38,13.0
+2008,Cork City,VSA38,12.9
+2019,Waterford City,VSA38,12.9
+2016,Munster,VSA38,12.9
+2019,Leitrim,VSA38,12.9
+2014,Cork City,VSA38,12.9
+2014,Sligo,VSA38,12.9
+2014,Ulster (part of),VSA38,12.9
+2018,Louth,VSA38,12.9
+2018,Leinster,VSA38,12.9
+2012,Waterford County,VSA38,12.9
+2019,Kildare,VSA38,12.9
+2020,Cavan,VSA38,12.9
+2018,Cork County,VSA38,12.9
+2016,Border,VSA38,12.9
+2017,State,VSA38,12.9
+2016,Connacht,VSA38,12.9
+2020,Fingal,VSA38,12.9
+2018,Mid-East,VSA38,12.8
+2017,Wicklow,VSA38,12.8
+2020,Westmeath,VSA38,12.8
+2012,Donegal,VSA38,12.8
+2014,South Tipperary,VSA38,12.8
+2015,Ulster (part of),VSA38,12.8
+2013,Clare,VSA38,12.8
+2015,Cork City,VSA38,12.8
+2021,Waterford City,VSA38,12.8
+2016,South-West,VSA38,12.8
+2014,Mayo,VSA38,12.8
+2018,Tipperary,VSA38,12.7
+2017,Offaly,VSA38,12.7
+2018,Leitrim,VSA38,12.7
+2014,Leitrim,VSA38,12.7
+2021,Kildare,VSA38,12.7
+2018,Galway County,VSA38,12.7
+2015,Kilkenny,VSA38,12.7
+2015,Offaly,VSA38,12.7
+2019,Carlow,VSA38,12.7
+2020,Kildare,VSA38,12.7
+2016,Dun Laoghaire-Rathdown,VSA38,12.7
+2016,Offaly,VSA38,12.7
+2017,Mid-West,VSA38,12.7
+2016,North Tipperary,VSA38,12.7
+2017,North Tipperary,VSA38,12.7
+2016,South-East,VSA38,12.7
+2016,Ulster (part of),VSA38,12.7
+2018,Midland,VSA38,12.6
+2019,Mid-East,VSA38,12.6
+2021,Galway County,VSA38,12.6
+2020,Carlow,VSA38,12.6
+2019,Galway County,VSA38,12.6
+2013,Cork City,VSA38,12.6
+2014,Roscommon,VSA38,12.6
+2016,Wexford,VSA38,12.6
+2021,Longford,VSA38,12.6
+2020,South Dublin,VSA38,12.6
+2018,State,VSA38,12.6
+2021,Carlow,VSA38,12.6
+2017,Wexford,VSA38,12.6
+2018,Galway City,VSA38,12.5
+2014,Waterford County,VSA38,12.5
+2018,Limerick County,VSA38,12.5
+2014,Clare,VSA38,12.5
+2019,Dublin,VSA38,12.5
+2021,Mid-East,VSA38,12.5
+2020,Waterford City,VSA38,12.5
+2020,Longford,VSA38,12.5
+2018,Dublin City,VSA38,12.5
+2019,Laois,VSA38,12.5
+2021,Limerick City,VSA38,12.5
+2022,Waterford City,VSA38,12.4
+2017,Monaghan,VSA38,12.4
+2018,Mid-West,VSA38,12.4
+2016,Clare,VSA38,12.4
+2015,South Tipperary,VSA38,12.4
+2017,Border,VSA38,12.4
+2017,West,VSA38,12.4
+2019,Westmeath,VSA38,12.4
+2019,Leinster,VSA38,12.4
+2017,Munster,VSA38,12.4
+2019,Louth,VSA38,12.4
+2019,Cavan,VSA38,12.4
+2017,South-East,VSA38,12.3
+2017,South-West,VSA38,12.3
+2018,Ulster (part of),VSA38,12.3
+2019,Midland,VSA38,12.3
+2018,Munster,VSA38,12.3
+2017,Leitrim,VSA38,12.3
+2018,Border,VSA38,12.3
+2013,Donegal,VSA38,12.3
+2015,Sligo,VSA38,12.3
+2019,Roscommon,VSA38,12.3
+2017,South Tipperary,VSA38,12.2
+2017,Connacht,VSA38,12.2
+2021,Leinster,VSA38,12.2
+2021,Cavan,VSA38,12.2
+2021,Midland,VSA38,12.2
+2021,Cork County,VSA38,12.2
+2021,Dublin,VSA38,12.2
+2013,Kerry,VSA38,12.2
+2017,Ulster (part of),VSA38,12.2
+2017,Waterford County,VSA38,12.2
+2019,Cork County,VSA38,12.1
+2020,Limerick City,VSA38,12.1
+2019,Dublin City,VSA38,12.1
+2018,Laois,VSA38,12.1
+2023,Waterford City,VSA38,12.1
+2016,Kilkenny,VSA38,12.1
+2022,Cavan,VSA38,12.1
+2023,Limerick City,VSA38,12.1
+2021,Tipperary,VSA38,12.1
+2017,Galway City,VSA38,12.1
+2021,Louth,VSA38,12.1
+2021,Leitrim,VSA38,12.1
+2012,Cork City,VSA38,12.1
+2015,Mayo,VSA38,12.1
+2018,South-East,VSA38,12.1
+2018,South-West,VSA38,12.1
+2019,State,VSA38,12.0
+2020,Monaghan,VSA38,12.0
+2018,Sligo,VSA38,12.0
+2016,Sligo,VSA38,12.0
+2015,Donegal,VSA38,11.9
+2015,Roscommon,VSA38,11.9
+2022,Limerick City,VSA38,11.9
+2016,Donegal,VSA38,11.9
+2019,West,VSA38,11.9
+2019,Connacht,VSA38,11.9
+2016,Mayo,VSA38,11.9
+2021,State,VSA38,11.9
+2018,Connacht,VSA38,11.9
+2020,Meath,VSA38,11.9
+2020,Mid-East,VSA38,11.9
+2023,Kildare,VSA38,11.9
+2018,West,VSA38,11.9
+2017,Clare,VSA38,11.9
+2020,Limerick County,VSA38,11.8
+2023,Meath,VSA38,11.8
+2023,Cavan,VSA38,11.8
+2020,Cork County,VSA38,11.8
+2021,Laois,VSA38,11.8
+2021,Dublin City,VSA38,11.8
+2014,Kerry,VSA38,11.8
+2016,Cork City,VSA38,11.8
+2018,Wexford,VSA38,11.8
+2018,Offaly,VSA38,11.8
+2017,Waterford City,VSA38,11.8
+2016,Kerry,VSA38,11.7
+2021,Wicklow,VSA38,11.7
+2020,Leinster,VSA38,11.7
+2020,Midland,VSA38,11.7
+2016,Roscommon,VSA38,11.7
+2020,Dublin,VSA38,11.7
+2020,Louth,VSA38,11.7
+2019,Monaghan,VSA38,11.7
+2014,Donegal,VSA38,11.7
+2017,Roscommon,VSA38,11.7
+2017,Kilkenny,VSA38,11.7
+2019,Wicklow,VSA38,11.7
+2022,South Dublin,VSA38,11.7
+2022,Carlow,VSA38,11.6
+2021,Munster,VSA38,11.6
+2021,West,VSA38,11.6
+2021,Connacht,VSA38,11.6
+2019,Border,VSA38,11.6
+2016,Waterford City,VSA38,11.6
+2021,South-West,VSA38,11.6
+2018,Donegal,VSA38,11.6
+2021,Offaly,VSA38,11.6
+2021,Mid-West,VSA38,11.6
+2019,Wexford,VSA38,11.6
+2018,Wicklow,VSA38,11.5
+2021,Border,VSA38,11.5
+2022,Meath,VSA38,11.5
+2015,Kerry,VSA38,11.5
+2019,Ulster (part of),VSA38,11.5
+2020,Leitrim,VSA38,11.5
+2019,South-East,VSA38,11.5
+2022,Galway County,VSA38,11.5
+2019,Mid-West,VSA38,11.5
+2019,Galway City,VSA38,11.4
+2019,South-West,VSA38,11.4
+2017,Mayo,VSA38,11.4
+2021,Limerick County,VSA38,11.4
+2018,Clare,VSA38,11.4
+2018,Dun Laoghaire-Rathdown,VSA38,11.4
+2021,Sligo,VSA38,11.4
+2017,Donegal,VSA38,11.4
+2021,Ulster (part of),VSA38,11.4
+2019,Offaly,VSA38,11.4
+2020,Galway County,VSA38,11.4
+2019,Munster,VSA38,11.4
+2018,Waterford County,VSA38,11.4
+2021,Wexford,VSA38,11.4
+2020,State,VSA38,11.4
+2020,Ulster (part of),VSA38,11.4
+2021,South-East,VSA38,11.3
+2020,Border,VSA38,11.3
+2017,Sligo,VSA38,11.3
+2022,Westmeath,VSA38,11.3
+2019,Limerick County,VSA38,11.3
+2021,Roscommon,VSA38,11.3
+2020,Dublin City,VSA38,11.3
+2023,South Dublin,VSA38,11.2
+2020,Mid-West,VSA38,11.2
+2019,Sligo,VSA38,11.2
+2017,Kerry,VSA38,11.2
+2019,Tipperary,VSA38,11.2
+2023,Longford,VSA38,11.2
+2022,Kildare,VSA38,11.2
+2023,Mid-East,VSA38,11.2
+2018,Kilkenny,VSA38,11.1
+2019,Mayo,VSA38,11.1
+2017,Cork City,VSA38,11.1
+2023,Westmeath,VSA38,11.1
+2020,Munster,VSA38,11.1
+2022,Mid-East,VSA38,11.1
+2020,Sligo,VSA38,11.1
+2020,Offaly,VSA38,11.1
+2022,Fingal,VSA38,11.0
+2022,Leitrim,VSA38,11.0
+2022,Longford,VSA38,11.0
+2023,Galway County,VSA38,11.0
+2018,Mayo,VSA38,11.0
+2021,Mayo,VSA38,11.0
+2021,Clare,VSA38,11.0
+2023,Monaghan,VSA38,11.0
+2020,South-East,VSA38,11.0
+2020,South-West,VSA38,11.0
+2019,Donegal,VSA38,11.0
+2022,Louth,VSA38,11.0
+2018,Kerry,VSA38,11.0
+2021,Kerry,VSA38,11.0
+2023,Louth,VSA38,10.9
+2020,Wicklow,VSA38,10.9
+2020,Wexford,VSA38,10.9
+2019,Clare,VSA38,10.9
+2018,Roscommon,VSA38,10.8
+2019,Dun Laoghaire-Rathdown,VSA38,10.8
+2018,Cork City,VSA38,10.8
+2023,Fingal,VSA38,10.8
+2020,Tipperary,VSA38,10.8
+2022,Dublin City,VSA38,10.8
+2020,Connacht,VSA38,10.8
+2022,Leinster,VSA38,10.7
+2023,Ulster (part of),VSA38,10.7
+2020,Laois,VSA38,10.7
+2019,Kilkenny,VSA38,10.7
+2022,Dublin,VSA38,10.7
+2020,West,VSA38,10.7
+2021,Galway City,VSA38,10.7
+2023,Leinster,VSA38,10.6
+2020,Roscommon,VSA38,10.6
+2023,Wexford,VSA38,10.6
+2021,Kilkenny,VSA38,10.6
+2020,Clare,VSA38,10.6
+2022,State,VSA38,10.5
+2022,South-East,VSA38,10.5
+2022,Ulster (part of),VSA38,10.5
+2023,Midland,VSA38,10.5
+2022,Monaghan,VSA38,10.5
+2022,Midland,VSA38,10.5
+2022,Wexford,VSA38,10.5
+2019,Cork City,VSA38,10.5
+2022,Cork County,VSA38,10.5
+2023,Border,VSA38,10.4
+2020,Galway City,VSA38,10.4
+2022,Border,VSA38,10.4
+2022,Limerick County,VSA38,10.4
+2023,Carlow,VSA38,10.4
+2020,Donegal,VSA38,10.4
+2021,Donegal,VSA38,10.4
+2023,Dublin,VSA38,10.4
+2023,State,VSA38,10.3
+2020,Waterford County,VSA38,10.3
+2022,West,VSA38,10.3
+2023,Dublin City,VSA38,10.3
+2021,Cork City,VSA38,10.3
+2019,Kerry,VSA38,10.3
+2022,Mid-West,VSA38,10.3
+2023,Laois,VSA38,10.2
+2021,Waterford County,VSA38,10.2
+2022,Connacht,VSA38,10.2
+2022,Wicklow,VSA38,10.2
+2022,Tipperary,VSA38,10.1
+2023,Mid-West,VSA38,10.1
+2019,Waterford County,VSA38,10.1
+2020,Mayo,VSA38,10.1
+2022,Munster,VSA38,10.1
+2022,Laois,VSA38,10.1
+2020,Dun Laoghaire-Rathdown,VSA38,10.1
+2023,South-East,VSA38,10.1
+2022,Mayo,VSA38,10.0
+2023,Donegal,VSA38,10.0
+2023,Cork County,VSA38,10.0
+2023,Offaly,VSA38,10.0
+2023,West,VSA38,10.0
+2023,Limerick County,VSA38,10.0
+2023,Connacht,VSA38,9.9
+2023,Sligo,VSA38,9.9
+2022,South-West,VSA38,9.9
+2023,Tipperary,VSA38,9.9
+2020,Cork City,VSA38,9.9
+2022,Offaly,VSA38,9.9
+2023,Munster,VSA38,9.8
+2020,Kerry,VSA38,9.8
+2020,Kilkenny,VSA38,9.8
+2023,Wicklow,VSA38,9.8
+2022,Donegal,VSA38,9.8
+2022,Roscommon,VSA38,9.8
+2022,Kilkenny,VSA38,9.7
+2022,Clare,VSA38,9.6
+2023,Roscommon,VSA38,9.6
+2023,South-West,VSA38,9.6
+2022,Waterford County,VSA38,9.5
+2022,Sligo,VSA38,9.5
+2023,Mayo,VSA38,9.5
+2023,Kilkenny,VSA38,9.4
+2023,Clare,VSA38,9.4
+2017,Dun Laoghaire-Rathdown,VSA38,9.3
+2023,Leitrim,VSA38,9.3
+2022,Kerry,VSA38,9.2
+2023,Cork City,VSA38,9.1
+2023,Dun Laoghaire-Rathdown,VSA38,9.0
+2021,Dun Laoghaire-Rathdown,VSA38,9.0
+2023,Kerry,VSA38,8.8
+2022,Cork City,VSA38,8.7
+2022,Dun Laoghaire-Rathdown,VSA38,8.7
+2023,Galway City,VSA38,8.7
+2023,Waterford County,VSA38,8.6
+2022,Galway City,VSA38,8.4

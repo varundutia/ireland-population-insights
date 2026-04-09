@@ -1,0 +1,1027 @@
+STATISTIC,STATISTIC_label,statistic,TLIST(A1),TLIST(A1)_label,year,C02076V03371,C02076V03371_label,age_group,C03788V04538,C03788V04538_label,nuts_3_region,C02199V02655,C02199V02655_label,sex,value
+PEA26C01,Persons,Persons,2023,2023,2023,-,All ages,All ages,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,430893.0
+PEA26C01,Persons,Persons,2023,2023,2023,-,All ages,All ages,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,214219.0
+PEA26C01,Persons,Persons,2023,2023,2023,-,All ages,All ages,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,216674.0
+PEA26C01,Persons,Persons,2023,2023,2023,-,All ages,All ages,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,1499179.0
+PEA26C01,Persons,Persons,2023,2023,2023,-,All ages,All ages,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,735290.0
+PEA26C01,Persons,Persons,2023,2023,2023,-,All ages,All ages,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,763889.0
+PEA26C01,Persons,Persons,2023,2023,2023,-,All ages,All ages,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,776202.0
+PEA26C01,Persons,Persons,2023,2023,2023,-,All ages,All ages,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,385465.0
+PEA26C01,Persons,Persons,2023,2023,2023,-,All ages,All ages,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,390737.0
+PEA26C01,Persons,Persons,2023,2023,2023,-,All ages,All ages,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,324626.0
+PEA26C01,Persons,Persons,2023,2023,2023,-,All ages,All ages,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,161431.0
+PEA26C01,Persons,Persons,2023,2023,2023,-,All ages,All ages,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,163195.0
+PEA26C01,Persons,Persons,2023,2023,2023,-,All ages,All ages,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,517337.0
+PEA26C01,Persons,Persons,2023,2023,2023,-,All ages,All ages,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,255856.0
+PEA26C01,Persons,Persons,2023,2023,2023,-,All ages,All ages,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,261481.0
+PEA26C01,Persons,Persons,2023,2023,2023,-,All ages,All ages,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,467589.0
+PEA26C01,Persons,Persons,2023,2023,2023,-,All ages,All ages,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,230710.0
+PEA26C01,Persons,Persons,2023,2023,2023,-,All ages,All ages,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,236879.0
+PEA26C01,Persons,Persons,2023,2023,2023,-,All ages,All ages,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,756254.0
+PEA26C01,Persons,Persons,2023,2023,2023,-,All ages,All ages,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,374046.0
+PEA26C01,Persons,Persons,2023,2023,2023,-,All ages,All ages,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,382208.0
+PEA26C01,Persons,Persons,2023,2023,2023,-,All ages,All ages,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,499315.0
+PEA26C01,Persons,Persons,2023,2023,2023,-,All ages,All ages,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,247530.0
+PEA26C01,Persons,Persons,2023,2023,2023,-,All ages,All ages,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,251785.0
+PEA26C01,Persons,Persons,2023,2023,2023,-,All ages,All ages,IE0,Ireland,Ireland,-,Both sexes,Both sexes,5271395.0
+PEA26C01,Persons,Persons,2023,2023,2023,-,All ages,All ages,IE0,Ireland,Ireland,1,Male,Male,2604547.0
+PEA26C01,Persons,Persons,2023,2023,2023,-,All ages,All ages,IE0,Ireland,Ireland,2,Female,Female,2666848.0
+PEA26C01,Persons,Persons,2023,2023,2023,205,0 - 4 years,0 - 4 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,26583.0
+PEA26C01,Persons,Persons,2023,2023,2023,205,0 - 4 years,0 - 4 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,13270.0
+PEA26C01,Persons,Persons,2023,2023,2023,205,0 - 4 years,0 - 4 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,13313.0
+PEA26C01,Persons,Persons,2023,2023,2023,205,0 - 4 years,0 - 4 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,83398.0
+PEA26C01,Persons,Persons,2023,2023,2023,205,0 - 4 years,0 - 4 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,42705.0
+PEA26C01,Persons,Persons,2023,2023,2023,205,0 - 4 years,0 - 4 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,40693.0
+PEA26C01,Persons,Persons,2023,2023,2023,205,0 - 4 years,0 - 4 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,46046.0
+PEA26C01,Persons,Persons,2023,2023,2023,205,0 - 4 years,0 - 4 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,23693.0
+PEA26C01,Persons,Persons,2023,2023,2023,205,0 - 4 years,0 - 4 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,22353.0
+PEA26C01,Persons,Persons,2023,2023,2023,205,0 - 4 years,0 - 4 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,18554.0
+PEA26C01,Persons,Persons,2023,2023,2023,205,0 - 4 years,0 - 4 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,9476.0
+PEA26C01,Persons,Persons,2023,2023,2023,205,0 - 4 years,0 - 4 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,9078.0
+PEA26C01,Persons,Persons,2023,2023,2023,205,0 - 4 years,0 - 4 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,28716.0
+PEA26C01,Persons,Persons,2023,2023,2023,205,0 - 4 years,0 - 4 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,14557.0
+PEA26C01,Persons,Persons,2023,2023,2023,205,0 - 4 years,0 - 4 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,14159.0
+PEA26C01,Persons,Persons,2023,2023,2023,205,0 - 4 years,0 - 4 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,25951.0
+PEA26C01,Persons,Persons,2023,2023,2023,205,0 - 4 years,0 - 4 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,13092.0
+PEA26C01,Persons,Persons,2023,2023,2023,205,0 - 4 years,0 - 4 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,12859.0
+PEA26C01,Persons,Persons,2023,2023,2023,205,0 - 4 years,0 - 4 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,41076.0
+PEA26C01,Persons,Persons,2023,2023,2023,205,0 - 4 years,0 - 4 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,20868.0
+PEA26C01,Persons,Persons,2023,2023,2023,205,0 - 4 years,0 - 4 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,20208.0
+PEA26C01,Persons,Persons,2023,2023,2023,205,0 - 4 years,0 - 4 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,27683.0
+PEA26C01,Persons,Persons,2023,2023,2023,205,0 - 4 years,0 - 4 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,14015.0
+PEA26C01,Persons,Persons,2023,2023,2023,205,0 - 4 years,0 - 4 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,13668.0
+PEA26C01,Persons,Persons,2023,2023,2023,205,0 - 4 years,0 - 4 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,298007.0
+PEA26C01,Persons,Persons,2023,2023,2023,205,0 - 4 years,0 - 4 years,IE0,Ireland,Ireland,1,Male,Male,151676.0
+PEA26C01,Persons,Persons,2023,2023,2023,205,0 - 4 years,0 - 4 years,IE0,Ireland,Ireland,2,Female,Female,146331.0
+PEA26C01,Persons,Persons,2023,2023,2023,245,5 - 9 years,5 - 9 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,29001.0
+PEA26C01,Persons,Persons,2023,2023,2023,245,5 - 9 years,5 - 9 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,14690.0
+PEA26C01,Persons,Persons,2023,2023,2023,245,5 - 9 years,5 - 9 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,14311.0
+PEA26C01,Persons,Persons,2023,2023,2023,245,5 - 9 years,5 - 9 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,92710.0
+PEA26C01,Persons,Persons,2023,2023,2023,245,5 - 9 years,5 - 9 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,47441.0
+PEA26C01,Persons,Persons,2023,2023,2023,245,5 - 9 years,5 - 9 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,45269.0
+PEA26C01,Persons,Persons,2023,2023,2023,245,5 - 9 years,5 - 9 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,54857.0
+PEA26C01,Persons,Persons,2023,2023,2023,245,5 - 9 years,5 - 9 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,28232.0
+PEA26C01,Persons,Persons,2023,2023,2023,245,5 - 9 years,5 - 9 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,26625.0
+PEA26C01,Persons,Persons,2023,2023,2023,245,5 - 9 years,5 - 9 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,22703.0
+PEA26C01,Persons,Persons,2023,2023,2023,245,5 - 9 years,5 - 9 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,11614.0
+PEA26C01,Persons,Persons,2023,2023,2023,245,5 - 9 years,5 - 9 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,11089.0
+PEA26C01,Persons,Persons,2023,2023,2023,245,5 - 9 years,5 - 9 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,32193.0
+PEA26C01,Persons,Persons,2023,2023,2023,245,5 - 9 years,5 - 9 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,16521.0
+PEA26C01,Persons,Persons,2023,2023,2023,245,5 - 9 years,5 - 9 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,15672.0
+PEA26C01,Persons,Persons,2023,2023,2023,245,5 - 9 years,5 - 9 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,29886.0
+PEA26C01,Persons,Persons,2023,2023,2023,245,5 - 9 years,5 - 9 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,15305.0
+PEA26C01,Persons,Persons,2023,2023,2023,245,5 - 9 years,5 - 9 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,14581.0
+PEA26C01,Persons,Persons,2023,2023,2023,245,5 - 9 years,5 - 9 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,48045.0
+PEA26C01,Persons,Persons,2023,2023,2023,245,5 - 9 years,5 - 9 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,24750.0
+PEA26C01,Persons,Persons,2023,2023,2023,245,5 - 9 years,5 - 9 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,23295.0
+PEA26C01,Persons,Persons,2023,2023,2023,245,5 - 9 years,5 - 9 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,32572.0
+PEA26C01,Persons,Persons,2023,2023,2023,245,5 - 9 years,5 - 9 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,16658.0
+PEA26C01,Persons,Persons,2023,2023,2023,245,5 - 9 years,5 - 9 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,15914.0
+PEA26C01,Persons,Persons,2023,2023,2023,245,5 - 9 years,5 - 9 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,341967.0
+PEA26C01,Persons,Persons,2023,2023,2023,245,5 - 9 years,5 - 9 years,IE0,Ireland,Ireland,1,Male,Male,175211.0
+PEA26C01,Persons,Persons,2023,2023,2023,245,5 - 9 years,5 - 9 years,IE0,Ireland,Ireland,2,Female,Female,166756.0
+PEA26C01,Persons,Persons,2023,2023,2023,265,10 - 14 years,10 - 14 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,33340.0
+PEA26C01,Persons,Persons,2023,2023,2023,265,10 - 14 years,10 - 14 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,16938.0
+PEA26C01,Persons,Persons,2023,2023,2023,265,10 - 14 years,10 - 14 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,16402.0
+PEA26C01,Persons,Persons,2023,2023,2023,265,10 - 14 years,10 - 14 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,98734.0
+PEA26C01,Persons,Persons,2023,2023,2023,265,10 - 14 years,10 - 14 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,50373.0
+PEA26C01,Persons,Persons,2023,2023,2023,265,10 - 14 years,10 - 14 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,48361.0
+PEA26C01,Persons,Persons,2023,2023,2023,265,10 - 14 years,10 - 14 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,61971.0
+PEA26C01,Persons,Persons,2023,2023,2023,265,10 - 14 years,10 - 14 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,31684.0
+PEA26C01,Persons,Persons,2023,2023,2023,265,10 - 14 years,10 - 14 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,30287.0
+PEA26C01,Persons,Persons,2023,2023,2023,265,10 - 14 years,10 - 14 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,25026.0
+PEA26C01,Persons,Persons,2023,2023,2023,265,10 - 14 years,10 - 14 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,12886.0
+PEA26C01,Persons,Persons,2023,2023,2023,265,10 - 14 years,10 - 14 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,12140.0
+PEA26C01,Persons,Persons,2023,2023,2023,265,10 - 14 years,10 - 14 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,36915.0
+PEA26C01,Persons,Persons,2023,2023,2023,265,10 - 14 years,10 - 14 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,18960.0
+PEA26C01,Persons,Persons,2023,2023,2023,265,10 - 14 years,10 - 14 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,17955.0
+PEA26C01,Persons,Persons,2023,2023,2023,265,10 - 14 years,10 - 14 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,34636.0
+PEA26C01,Persons,Persons,2023,2023,2023,265,10 - 14 years,10 - 14 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,17691.0
+PEA26C01,Persons,Persons,2023,2023,2023,265,10 - 14 years,10 - 14 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,16945.0
+PEA26C01,Persons,Persons,2023,2023,2023,265,10 - 14 years,10 - 14 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,53541.0
+PEA26C01,Persons,Persons,2023,2023,2023,265,10 - 14 years,10 - 14 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,27276.0
+PEA26C01,Persons,Persons,2023,2023,2023,265,10 - 14 years,10 - 14 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,26265.0
+PEA26C01,Persons,Persons,2023,2023,2023,265,10 - 14 years,10 - 14 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,35304.0
+PEA26C01,Persons,Persons,2023,2023,2023,265,10 - 14 years,10 - 14 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,18108.0
+PEA26C01,Persons,Persons,2023,2023,2023,265,10 - 14 years,10 - 14 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,17196.0
+PEA26C01,Persons,Persons,2023,2023,2023,265,10 - 14 years,10 - 14 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,379467.0
+PEA26C01,Persons,Persons,2023,2023,2023,265,10 - 14 years,10 - 14 years,IE0,Ireland,Ireland,1,Male,Male,193916.0
+PEA26C01,Persons,Persons,2023,2023,2023,265,10 - 14 years,10 - 14 years,IE0,Ireland,Ireland,2,Female,Female,185551.0
+PEA26C01,Persons,Persons,2023,2023,2023,300,15 - 19 years,15 - 19 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,29278.0
+PEA26C01,Persons,Persons,2023,2023,2023,300,15 - 19 years,15 - 19 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,15393.0
+PEA26C01,Persons,Persons,2023,2023,2023,300,15 - 19 years,15 - 19 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,13885.0
+PEA26C01,Persons,Persons,2023,2023,2023,300,15 - 19 years,15 - 19 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,87674.0
+PEA26C01,Persons,Persons,2023,2023,2023,300,15 - 19 years,15 - 19 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,44718.0
+PEA26C01,Persons,Persons,2023,2023,2023,300,15 - 19 years,15 - 19 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,42956.0
+PEA26C01,Persons,Persons,2023,2023,2023,300,15 - 19 years,15 - 19 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,56028.0
+PEA26C01,Persons,Persons,2023,2023,2023,300,15 - 19 years,15 - 19 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,28807.0
+PEA26C01,Persons,Persons,2023,2023,2023,300,15 - 19 years,15 - 19 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,27221.0
+PEA26C01,Persons,Persons,2023,2023,2023,300,15 - 19 years,15 - 19 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,22926.0
+PEA26C01,Persons,Persons,2023,2023,2023,300,15 - 19 years,15 - 19 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,11647.0
+PEA26C01,Persons,Persons,2023,2023,2023,300,15 - 19 years,15 - 19 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,11279.0
+PEA26C01,Persons,Persons,2023,2023,2023,300,15 - 19 years,15 - 19 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,34300.0
+PEA26C01,Persons,Persons,2023,2023,2023,300,15 - 19 years,15 - 19 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,17410.0
+PEA26C01,Persons,Persons,2023,2023,2023,300,15 - 19 years,15 - 19 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,16890.0
+PEA26C01,Persons,Persons,2023,2023,2023,300,15 - 19 years,15 - 19 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,32318.0
+PEA26C01,Persons,Persons,2023,2023,2023,300,15 - 19 years,15 - 19 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,16932.0
+PEA26C01,Persons,Persons,2023,2023,2023,300,15 - 19 years,15 - 19 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,15386.0
+PEA26C01,Persons,Persons,2023,2023,2023,300,15 - 19 years,15 - 19 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,48848.0
+PEA26C01,Persons,Persons,2023,2023,2023,300,15 - 19 years,15 - 19 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,24917.0
+PEA26C01,Persons,Persons,2023,2023,2023,300,15 - 19 years,15 - 19 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,23931.0
+PEA26C01,Persons,Persons,2023,2023,2023,300,15 - 19 years,15 - 19 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,32167.0
+PEA26C01,Persons,Persons,2023,2023,2023,300,15 - 19 years,15 - 19 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,16810.0
+PEA26C01,Persons,Persons,2023,2023,2023,300,15 - 19 years,15 - 19 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,15357.0
+PEA26C01,Persons,Persons,2023,2023,2023,300,15 - 19 years,15 - 19 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,343539.0
+PEA26C01,Persons,Persons,2023,2023,2023,300,15 - 19 years,15 - 19 years,IE0,Ireland,Ireland,1,Male,Male,176634.0
+PEA26C01,Persons,Persons,2023,2023,2023,300,15 - 19 years,15 - 19 years,IE0,Ireland,Ireland,2,Female,Female,166905.0
+PEA26C01,Persons,Persons,2023,2023,2023,365,20 - 24 years,20 - 24 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,23191.0
+PEA26C01,Persons,Persons,2023,2023,2023,365,20 - 24 years,20 - 24 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,12103.0
+PEA26C01,Persons,Persons,2023,2023,2023,365,20 - 24 years,20 - 24 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,11088.0
+PEA26C01,Persons,Persons,2023,2023,2023,365,20 - 24 years,20 - 24 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,94810.0
+PEA26C01,Persons,Persons,2023,2023,2023,365,20 - 24 years,20 - 24 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,47340.0
+PEA26C01,Persons,Persons,2023,2023,2023,365,20 - 24 years,20 - 24 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,47470.0
+PEA26C01,Persons,Persons,2023,2023,2023,365,20 - 24 years,20 - 24 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,46945.0
+PEA26C01,Persons,Persons,2023,2023,2023,365,20 - 24 years,20 - 24 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,24464.0
+PEA26C01,Persons,Persons,2023,2023,2023,365,20 - 24 years,20 - 24 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,22481.0
+PEA26C01,Persons,Persons,2023,2023,2023,365,20 - 24 years,20 - 24 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,18751.0
+PEA26C01,Persons,Persons,2023,2023,2023,365,20 - 24 years,20 - 24 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,9464.0
+PEA26C01,Persons,Persons,2023,2023,2023,365,20 - 24 years,20 - 24 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,9287.0
+PEA26C01,Persons,Persons,2023,2023,2023,365,20 - 24 years,20 - 24 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,30464.0
+PEA26C01,Persons,Persons,2023,2023,2023,365,20 - 24 years,20 - 24 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,15180.0
+PEA26C01,Persons,Persons,2023,2023,2023,365,20 - 24 years,20 - 24 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,15284.0
+PEA26C01,Persons,Persons,2023,2023,2023,365,20 - 24 years,20 - 24 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,26987.0
+PEA26C01,Persons,Persons,2023,2023,2023,365,20 - 24 years,20 - 24 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,14058.0
+PEA26C01,Persons,Persons,2023,2023,2023,365,20 - 24 years,20 - 24 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,12929.0
+PEA26C01,Persons,Persons,2023,2023,2023,365,20 - 24 years,20 - 24 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,44070.0
+PEA26C01,Persons,Persons,2023,2023,2023,365,20 - 24 years,20 - 24 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,22401.0
+PEA26C01,Persons,Persons,2023,2023,2023,365,20 - 24 years,20 - 24 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,21669.0
+PEA26C01,Persons,Persons,2023,2023,2023,365,20 - 24 years,20 - 24 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,29219.0
+PEA26C01,Persons,Persons,2023,2023,2023,365,20 - 24 years,20 - 24 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,14903.0
+PEA26C01,Persons,Persons,2023,2023,2023,365,20 - 24 years,20 - 24 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,14316.0
+PEA26C01,Persons,Persons,2023,2023,2023,365,20 - 24 years,20 - 24 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,314437.0
+PEA26C01,Persons,Persons,2023,2023,2023,365,20 - 24 years,20 - 24 years,IE0,Ireland,Ireland,1,Male,Male,159913.0
+PEA26C01,Persons,Persons,2023,2023,2023,365,20 - 24 years,20 - 24 years,IE0,Ireland,Ireland,2,Female,Female,154524.0
+PEA26C01,Persons,Persons,2023,2023,2023,410,25 - 29 years,25 - 29 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,20491.0
+PEA26C01,Persons,Persons,2023,2023,2023,410,25 - 29 years,25 - 29 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,10402.0
+PEA26C01,Persons,Persons,2023,2023,2023,410,25 - 29 years,25 - 29 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,10089.0
+PEA26C01,Persons,Persons,2023,2023,2023,410,25 - 29 years,25 - 29 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,113203.0
+PEA26C01,Persons,Persons,2023,2023,2023,410,25 - 29 years,25 - 29 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,56148.0
+PEA26C01,Persons,Persons,2023,2023,2023,410,25 - 29 years,25 - 29 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,57055.0
+PEA26C01,Persons,Persons,2023,2023,2023,410,25 - 29 years,25 - 29 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,38776.0
+PEA26C01,Persons,Persons,2023,2023,2023,410,25 - 29 years,25 - 29 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,19650.0
+PEA26C01,Persons,Persons,2023,2023,2023,410,25 - 29 years,25 - 29 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,19126.0
+PEA26C01,Persons,Persons,2023,2023,2023,410,25 - 29 years,25 - 29 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,16954.0
+PEA26C01,Persons,Persons,2023,2023,2023,410,25 - 29 years,25 - 29 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,8605.0
+PEA26C01,Persons,Persons,2023,2023,2023,410,25 - 29 years,25 - 29 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,8349.0
+PEA26C01,Persons,Persons,2023,2023,2023,410,25 - 29 years,25 - 29 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,28119.0
+PEA26C01,Persons,Persons,2023,2023,2023,410,25 - 29 years,25 - 29 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,13957.0
+PEA26C01,Persons,Persons,2023,2023,2023,410,25 - 29 years,25 - 29 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,14162.0
+PEA26C01,Persons,Persons,2023,2023,2023,410,25 - 29 years,25 - 29 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,23540.0
+PEA26C01,Persons,Persons,2023,2023,2023,410,25 - 29 years,25 - 29 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,11709.0
+PEA26C01,Persons,Persons,2023,2023,2023,410,25 - 29 years,25 - 29 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,11831.0
+PEA26C01,Persons,Persons,2023,2023,2023,410,25 - 29 years,25 - 29 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,42107.0
+PEA26C01,Persons,Persons,2023,2023,2023,410,25 - 29 years,25 - 29 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,21118.0
+PEA26C01,Persons,Persons,2023,2023,2023,410,25 - 29 years,25 - 29 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,20989.0
+PEA26C01,Persons,Persons,2023,2023,2023,410,25 - 29 years,25 - 29 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,26369.0
+PEA26C01,Persons,Persons,2023,2023,2023,410,25 - 29 years,25 - 29 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,13370.0
+PEA26C01,Persons,Persons,2023,2023,2023,410,25 - 29 years,25 - 29 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,12999.0
+PEA26C01,Persons,Persons,2023,2023,2023,410,25 - 29 years,25 - 29 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,309559.0
+PEA26C01,Persons,Persons,2023,2023,2023,410,25 - 29 years,25 - 29 years,IE0,Ireland,Ireland,1,Male,Male,154959.0
+PEA26C01,Persons,Persons,2023,2023,2023,410,25 - 29 years,25 - 29 years,IE0,Ireland,Ireland,2,Female,Female,154600.0
+PEA26C01,Persons,Persons,2023,2023,2023,440,30 - 34 years,30 - 34 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,23041.0
+PEA26C01,Persons,Persons,2023,2023,2023,440,30 - 34 years,30 - 34 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,11074.0
+PEA26C01,Persons,Persons,2023,2023,2023,440,30 - 34 years,30 - 34 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,11967.0
+PEA26C01,Persons,Persons,2023,2023,2023,440,30 - 34 years,30 - 34 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,121853.0
+PEA26C01,Persons,Persons,2023,2023,2023,440,30 - 34 years,30 - 34 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,60057.0
+PEA26C01,Persons,Persons,2023,2023,2023,440,30 - 34 years,30 - 34 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,61796.0
+PEA26C01,Persons,Persons,2023,2023,2023,440,30 - 34 years,30 - 34 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,44447.0
+PEA26C01,Persons,Persons,2023,2023,2023,440,30 - 34 years,30 - 34 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,21353.0
+PEA26C01,Persons,Persons,2023,2023,2023,440,30 - 34 years,30 - 34 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,23094.0
+PEA26C01,Persons,Persons,2023,2023,2023,440,30 - 34 years,30 - 34 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,18922.0
+PEA26C01,Persons,Persons,2023,2023,2023,440,30 - 34 years,30 - 34 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,9147.0
+PEA26C01,Persons,Persons,2023,2023,2023,440,30 - 34 years,30 - 34 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,9775.0
+PEA26C01,Persons,Persons,2023,2023,2023,440,30 - 34 years,30 - 34 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,29955.0
+PEA26C01,Persons,Persons,2023,2023,2023,440,30 - 34 years,30 - 34 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,14413.0
+PEA26C01,Persons,Persons,2023,2023,2023,440,30 - 34 years,30 - 34 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,15542.0
+PEA26C01,Persons,Persons,2023,2023,2023,440,30 - 34 years,30 - 34 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,26503.0
+PEA26C01,Persons,Persons,2023,2023,2023,440,30 - 34 years,30 - 34 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,12726.0
+PEA26C01,Persons,Persons,2023,2023,2023,440,30 - 34 years,30 - 34 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,13777.0
+PEA26C01,Persons,Persons,2023,2023,2023,440,30 - 34 years,30 - 34 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,45726.0
+PEA26C01,Persons,Persons,2023,2023,2023,440,30 - 34 years,30 - 34 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,22157.0
+PEA26C01,Persons,Persons,2023,2023,2023,440,30 - 34 years,30 - 34 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,23569.0
+PEA26C01,Persons,Persons,2023,2023,2023,440,30 - 34 years,30 - 34 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,28862.0
+PEA26C01,Persons,Persons,2023,2023,2023,440,30 - 34 years,30 - 34 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,13830.0
+PEA26C01,Persons,Persons,2023,2023,2023,440,30 - 34 years,30 - 34 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,15032.0
+PEA26C01,Persons,Persons,2023,2023,2023,440,30 - 34 years,30 - 34 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,339309.0
+PEA26C01,Persons,Persons,2023,2023,2023,440,30 - 34 years,30 - 34 years,IE0,Ireland,Ireland,1,Male,Male,164757.0
+PEA26C01,Persons,Persons,2023,2023,2023,440,30 - 34 years,30 - 34 years,IE0,Ireland,Ireland,2,Female,Female,174552.0
+PEA26C01,Persons,Persons,2023,2023,2023,460,35 - 39 years,35 - 39 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,28416.0
+PEA26C01,Persons,Persons,2023,2023,2023,460,35 - 39 years,35 - 39 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,13448.0
+PEA26C01,Persons,Persons,2023,2023,2023,460,35 - 39 years,35 - 39 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,14968.0
+PEA26C01,Persons,Persons,2023,2023,2023,460,35 - 39 years,35 - 39 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,124419.0
+PEA26C01,Persons,Persons,2023,2023,2023,460,35 - 39 years,35 - 39 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,60856.0
+PEA26C01,Persons,Persons,2023,2023,2023,460,35 - 39 years,35 - 39 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,63563.0
+PEA26C01,Persons,Persons,2023,2023,2023,460,35 - 39 years,35 - 39 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,55605.0
+PEA26C01,Persons,Persons,2023,2023,2023,460,35 - 39 years,35 - 39 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,26268.0
+PEA26C01,Persons,Persons,2023,2023,2023,460,35 - 39 years,35 - 39 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,29337.0
+PEA26C01,Persons,Persons,2023,2023,2023,460,35 - 39 years,35 - 39 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,23691.0
+PEA26C01,Persons,Persons,2023,2023,2023,460,35 - 39 years,35 - 39 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,11230.0
+PEA26C01,Persons,Persons,2023,2023,2023,460,35 - 39 years,35 - 39 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,12461.0
+PEA26C01,Persons,Persons,2023,2023,2023,460,35 - 39 years,35 - 39 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,35131.0
+PEA26C01,Persons,Persons,2023,2023,2023,460,35 - 39 years,35 - 39 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,16625.0
+PEA26C01,Persons,Persons,2023,2023,2023,460,35 - 39 years,35 - 39 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,18506.0
+PEA26C01,Persons,Persons,2023,2023,2023,460,35 - 39 years,35 - 39 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,31373.0
+PEA26C01,Persons,Persons,2023,2023,2023,460,35 - 39 years,35 - 39 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,14660.0
+PEA26C01,Persons,Persons,2023,2023,2023,460,35 - 39 years,35 - 39 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,16713.0
+PEA26C01,Persons,Persons,2023,2023,2023,460,35 - 39 years,35 - 39 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,53074.0
+PEA26C01,Persons,Persons,2023,2023,2023,460,35 - 39 years,35 - 39 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,25265.0
+PEA26C01,Persons,Persons,2023,2023,2023,460,35 - 39 years,35 - 39 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,27809.0
+PEA26C01,Persons,Persons,2023,2023,2023,460,35 - 39 years,35 - 39 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,34253.0
+PEA26C01,Persons,Persons,2023,2023,2023,460,35 - 39 years,35 - 39 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,16148.0
+PEA26C01,Persons,Persons,2023,2023,2023,460,35 - 39 years,35 - 39 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,18105.0
+PEA26C01,Persons,Persons,2023,2023,2023,460,35 - 39 years,35 - 39 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,385962.0
+PEA26C01,Persons,Persons,2023,2023,2023,460,35 - 39 years,35 - 39 years,IE0,Ireland,Ireland,1,Male,Male,184500.0
+PEA26C01,Persons,Persons,2023,2023,2023,460,35 - 39 years,35 - 39 years,IE0,Ireland,Ireland,2,Female,Female,201462.0
+PEA26C01,Persons,Persons,2023,2023,2023,475,40 - 44 years,40 - 44 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,32041.0
+PEA26C01,Persons,Persons,2023,2023,2023,475,40 - 44 years,40 - 44 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,15426.0
+PEA26C01,Persons,Persons,2023,2023,2023,475,40 - 44 years,40 - 44 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,16615.0
+PEA26C01,Persons,Persons,2023,2023,2023,475,40 - 44 years,40 - 44 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,127670.0
+PEA26C01,Persons,Persons,2023,2023,2023,475,40 - 44 years,40 - 44 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,62853.0
+PEA26C01,Persons,Persons,2023,2023,2023,475,40 - 44 years,40 - 44 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,64817.0
+PEA26C01,Persons,Persons,2023,2023,2023,475,40 - 44 years,40 - 44 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,64827.0
+PEA26C01,Persons,Persons,2023,2023,2023,475,40 - 44 years,40 - 44 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,31263.0
+PEA26C01,Persons,Persons,2023,2023,2023,475,40 - 44 years,40 - 44 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,33564.0
+PEA26C01,Persons,Persons,2023,2023,2023,475,40 - 44 years,40 - 44 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,26309.0
+PEA26C01,Persons,Persons,2023,2023,2023,475,40 - 44 years,40 - 44 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,12804.0
+PEA26C01,Persons,Persons,2023,2023,2023,475,40 - 44 years,40 - 44 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,13505.0
+PEA26C01,Persons,Persons,2023,2023,2023,475,40 - 44 years,40 - 44 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,39775.0
+PEA26C01,Persons,Persons,2023,2023,2023,475,40 - 44 years,40 - 44 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,19067.0
+PEA26C01,Persons,Persons,2023,2023,2023,475,40 - 44 years,40 - 44 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,20708.0
+PEA26C01,Persons,Persons,2023,2023,2023,475,40 - 44 years,40 - 44 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,35819.0
+PEA26C01,Persons,Persons,2023,2023,2023,475,40 - 44 years,40 - 44 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,17182.0
+PEA26C01,Persons,Persons,2023,2023,2023,475,40 - 44 years,40 - 44 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,18637.0
+PEA26C01,Persons,Persons,2023,2023,2023,475,40 - 44 years,40 - 44 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,60125.0
+PEA26C01,Persons,Persons,2023,2023,2023,475,40 - 44 years,40 - 44 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,29111.0
+PEA26C01,Persons,Persons,2023,2023,2023,475,40 - 44 years,40 - 44 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,31014.0
+PEA26C01,Persons,Persons,2023,2023,2023,475,40 - 44 years,40 - 44 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,39142.0
+PEA26C01,Persons,Persons,2023,2023,2023,475,40 - 44 years,40 - 44 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,18835.0
+PEA26C01,Persons,Persons,2023,2023,2023,475,40 - 44 years,40 - 44 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,20307.0
+PEA26C01,Persons,Persons,2023,2023,2023,475,40 - 44 years,40 - 44 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,425708.0
+PEA26C01,Persons,Persons,2023,2023,2023,475,40 - 44 years,40 - 44 years,IE0,Ireland,Ireland,1,Male,Male,206541.0
+PEA26C01,Persons,Persons,2023,2023,2023,475,40 - 44 years,40 - 44 years,IE0,Ireland,Ireland,2,Female,Female,219167.0
+PEA26C01,Persons,Persons,2023,2023,2023,495,45 - 49 years,45 - 49 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,30515.0
+PEA26C01,Persons,Persons,2023,2023,2023,495,45 - 49 years,45 - 49 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,15114.0
+PEA26C01,Persons,Persons,2023,2023,2023,495,45 - 49 years,45 - 49 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,15401.0
+PEA26C01,Persons,Persons,2023,2023,2023,495,45 - 49 years,45 - 49 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,106803.0
+PEA26C01,Persons,Persons,2023,2023,2023,495,45 - 49 years,45 - 49 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,52621.0
+PEA26C01,Persons,Persons,2023,2023,2023,495,45 - 49 years,45 - 49 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,54182.0
+PEA26C01,Persons,Persons,2023,2023,2023,495,45 - 49 years,45 - 49 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,60256.0
+PEA26C01,Persons,Persons,2023,2023,2023,495,45 - 49 years,45 - 49 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,29627.0
+PEA26C01,Persons,Persons,2023,2023,2023,495,45 - 49 years,45 - 49 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,30629.0
+PEA26C01,Persons,Persons,2023,2023,2023,495,45 - 49 years,45 - 49 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,23580.0
+PEA26C01,Persons,Persons,2023,2023,2023,495,45 - 49 years,45 - 49 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,11683.0
+PEA26C01,Persons,Persons,2023,2023,2023,495,45 - 49 years,45 - 49 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,11897.0
+PEA26C01,Persons,Persons,2023,2023,2023,495,45 - 49 years,45 - 49 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,37298.0
+PEA26C01,Persons,Persons,2023,2023,2023,495,45 - 49 years,45 - 49 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,18591.0
+PEA26C01,Persons,Persons,2023,2023,2023,495,45 - 49 years,45 - 49 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,18707.0
+PEA26C01,Persons,Persons,2023,2023,2023,495,45 - 49 years,45 - 49 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,33945.0
+PEA26C01,Persons,Persons,2023,2023,2023,495,45 - 49 years,45 - 49 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,16443.0
+PEA26C01,Persons,Persons,2023,2023,2023,495,45 - 49 years,45 - 49 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,17502.0
+PEA26C01,Persons,Persons,2023,2023,2023,495,45 - 49 years,45 - 49 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,55539.0
+PEA26C01,Persons,Persons,2023,2023,2023,495,45 - 49 years,45 - 49 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,27461.0
+PEA26C01,Persons,Persons,2023,2023,2023,495,45 - 49 years,45 - 49 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,28078.0
+PEA26C01,Persons,Persons,2023,2023,2023,495,45 - 49 years,45 - 49 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,35947.0
+PEA26C01,Persons,Persons,2023,2023,2023,495,45 - 49 years,45 - 49 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,17728.0
+PEA26C01,Persons,Persons,2023,2023,2023,495,45 - 49 years,45 - 49 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,18219.0
+PEA26C01,Persons,Persons,2023,2023,2023,495,45 - 49 years,45 - 49 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,383883.0
+PEA26C01,Persons,Persons,2023,2023,2023,495,45 - 49 years,45 - 49 years,IE0,Ireland,Ireland,1,Male,Male,189268.0
+PEA26C01,Persons,Persons,2023,2023,2023,495,45 - 49 years,45 - 49 years,IE0,Ireland,Ireland,2,Female,Female,194615.0
+PEA26C01,Persons,Persons,2023,2023,2023,515,50 - 54 years,50 - 54 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,29141.0
+PEA26C01,Persons,Persons,2023,2023,2023,515,50 - 54 years,50 - 54 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,14690.0
+PEA26C01,Persons,Persons,2023,2023,2023,515,50 - 54 years,50 - 54 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,14451.0
+PEA26C01,Persons,Persons,2023,2023,2023,515,50 - 54 years,50 - 54 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,92864.0
+PEA26C01,Persons,Persons,2023,2023,2023,515,50 - 54 years,50 - 54 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,46041.0
+PEA26C01,Persons,Persons,2023,2023,2023,515,50 - 54 years,50 - 54 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,46823.0
+PEA26C01,Persons,Persons,2023,2023,2023,515,50 - 54 years,50 - 54 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,55431.0
+PEA26C01,Persons,Persons,2023,2023,2023,515,50 - 54 years,50 - 54 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,27738.0
+PEA26C01,Persons,Persons,2023,2023,2023,515,50 - 54 years,50 - 54 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,27693.0
+PEA26C01,Persons,Persons,2023,2023,2023,515,50 - 54 years,50 - 54 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,21775.0
+PEA26C01,Persons,Persons,2023,2023,2023,515,50 - 54 years,50 - 54 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,11013.0
+PEA26C01,Persons,Persons,2023,2023,2023,515,50 - 54 years,50 - 54 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,10762.0
+PEA26C01,Persons,Persons,2023,2023,2023,515,50 - 54 years,50 - 54 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,34879.0
+PEA26C01,Persons,Persons,2023,2023,2023,515,50 - 54 years,50 - 54 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,17538.0
+PEA26C01,Persons,Persons,2023,2023,2023,515,50 - 54 years,50 - 54 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,17341.0
+PEA26C01,Persons,Persons,2023,2023,2023,515,50 - 54 years,50 - 54 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,32252.0
+PEA26C01,Persons,Persons,2023,2023,2023,515,50 - 54 years,50 - 54 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,15887.0
+PEA26C01,Persons,Persons,2023,2023,2023,515,50 - 54 years,50 - 54 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,16365.0
+PEA26C01,Persons,Persons,2023,2023,2023,515,50 - 54 years,50 - 54 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,51241.0
+PEA26C01,Persons,Persons,2023,2023,2023,515,50 - 54 years,50 - 54 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,25625.0
+PEA26C01,Persons,Persons,2023,2023,2023,515,50 - 54 years,50 - 54 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,25616.0
+PEA26C01,Persons,Persons,2023,2023,2023,515,50 - 54 years,50 - 54 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,33409.0
+PEA26C01,Persons,Persons,2023,2023,2023,515,50 - 54 years,50 - 54 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,16602.0
+PEA26C01,Persons,Persons,2023,2023,2023,515,50 - 54 years,50 - 54 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,16807.0
+PEA26C01,Persons,Persons,2023,2023,2023,515,50 - 54 years,50 - 54 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,350992.0
+PEA26C01,Persons,Persons,2023,2023,2023,515,50 - 54 years,50 - 54 years,IE0,Ireland,Ireland,1,Male,Male,175134.0
+PEA26C01,Persons,Persons,2023,2023,2023,515,50 - 54 years,50 - 54 years,IE0,Ireland,Ireland,2,Female,Female,175858.0
+PEA26C01,Persons,Persons,2023,2023,2023,530,55 - 59 years,55 - 59 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,27080.0
+PEA26C01,Persons,Persons,2023,2023,2023,530,55 - 59 years,55 - 59 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,13487.0
+PEA26C01,Persons,Persons,2023,2023,2023,530,55 - 59 years,55 - 59 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,13593.0
+PEA26C01,Persons,Persons,2023,2023,2023,530,55 - 59 years,55 - 59 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,80528.0
+PEA26C01,Persons,Persons,2023,2023,2023,530,55 - 59 years,55 - 59 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,38836.0
+PEA26C01,Persons,Persons,2023,2023,2023,530,55 - 59 years,55 - 59 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,41692.0
+PEA26C01,Persons,Persons,2023,2023,2023,530,55 - 59 years,55 - 59 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,46887.0
+PEA26C01,Persons,Persons,2023,2023,2023,530,55 - 59 years,55 - 59 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,23351.0
+PEA26C01,Persons,Persons,2023,2023,2023,530,55 - 59 years,55 - 59 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,23536.0
+PEA26C01,Persons,Persons,2023,2023,2023,530,55 - 59 years,55 - 59 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,19726.0
+PEA26C01,Persons,Persons,2023,2023,2023,530,55 - 59 years,55 - 59 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,9873.0
+PEA26C01,Persons,Persons,2023,2023,2023,530,55 - 59 years,55 - 59 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,9853.0
+PEA26C01,Persons,Persons,2023,2023,2023,530,55 - 59 years,55 - 59 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,32602.0
+PEA26C01,Persons,Persons,2023,2023,2023,530,55 - 59 years,55 - 59 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,16275.0
+PEA26C01,Persons,Persons,2023,2023,2023,530,55 - 59 years,55 - 59 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,16327.0
+PEA26C01,Persons,Persons,2023,2023,2023,530,55 - 59 years,55 - 59 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,29979.0
+PEA26C01,Persons,Persons,2023,2023,2023,530,55 - 59 years,55 - 59 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,14626.0
+PEA26C01,Persons,Persons,2023,2023,2023,530,55 - 59 years,55 - 59 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,15353.0
+PEA26C01,Persons,Persons,2023,2023,2023,530,55 - 59 years,55 - 59 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,47143.0
+PEA26C01,Persons,Persons,2023,2023,2023,530,55 - 59 years,55 - 59 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,23307.0
+PEA26C01,Persons,Persons,2023,2023,2023,530,55 - 59 years,55 - 59 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,23836.0
+PEA26C01,Persons,Persons,2023,2023,2023,530,55 - 59 years,55 - 59 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,30938.0
+PEA26C01,Persons,Persons,2023,2023,2023,530,55 - 59 years,55 - 59 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,15557.0
+PEA26C01,Persons,Persons,2023,2023,2023,530,55 - 59 years,55 - 59 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,15381.0
+PEA26C01,Persons,Persons,2023,2023,2023,530,55 - 59 years,55 - 59 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,314883.0
+PEA26C01,Persons,Persons,2023,2023,2023,530,55 - 59 years,55 - 59 years,IE0,Ireland,Ireland,1,Male,Male,155312.0
+PEA26C01,Persons,Persons,2023,2023,2023,530,55 - 59 years,55 - 59 years,IE0,Ireland,Ireland,2,Female,Female,159571.0
+PEA26C01,Persons,Persons,2023,2023,2023,550,60 - 64 years,60 - 64 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,25183.0
+PEA26C01,Persons,Persons,2023,2023,2023,550,60 - 64 years,60 - 64 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,12557.0
+PEA26C01,Persons,Persons,2023,2023,2023,550,60 - 64 years,60 - 64 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,12626.0
+PEA26C01,Persons,Persons,2023,2023,2023,550,60 - 64 years,60 - 64 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,72360.0
+PEA26C01,Persons,Persons,2023,2023,2023,550,60 - 64 years,60 - 64 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,34634.0
+PEA26C01,Persons,Persons,2023,2023,2023,550,60 - 64 years,60 - 64 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,37726.0
+PEA26C01,Persons,Persons,2023,2023,2023,550,60 - 64 years,60 - 64 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,39473.0
+PEA26C01,Persons,Persons,2023,2023,2023,550,60 - 64 years,60 - 64 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,19588.0
+PEA26C01,Persons,Persons,2023,2023,2023,550,60 - 64 years,60 - 64 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,19885.0
+PEA26C01,Persons,Persons,2023,2023,2023,550,60 - 64 years,60 - 64 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,17539.0
+PEA26C01,Persons,Persons,2023,2023,2023,550,60 - 64 years,60 - 64 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,8798.0
+PEA26C01,Persons,Persons,2023,2023,2023,550,60 - 64 years,60 - 64 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,8741.0
+PEA26C01,Persons,Persons,2023,2023,2023,550,60 - 64 years,60 - 64 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,29731.0
+PEA26C01,Persons,Persons,2023,2023,2023,550,60 - 64 years,60 - 64 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,14902.0
+PEA26C01,Persons,Persons,2023,2023,2023,550,60 - 64 years,60 - 64 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,14829.0
+PEA26C01,Persons,Persons,2023,2023,2023,550,60 - 64 years,60 - 64 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,27467.0
+PEA26C01,Persons,Persons,2023,2023,2023,550,60 - 64 years,60 - 64 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,13348.0
+PEA26C01,Persons,Persons,2023,2023,2023,550,60 - 64 years,60 - 64 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,14119.0
+PEA26C01,Persons,Persons,2023,2023,2023,550,60 - 64 years,60 - 64 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,42866.0
+PEA26C01,Persons,Persons,2023,2023,2023,550,60 - 64 years,60 - 64 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,21289.0
+PEA26C01,Persons,Persons,2023,2023,2023,550,60 - 64 years,60 - 64 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,21577.0
+PEA26C01,Persons,Persons,2023,2023,2023,550,60 - 64 years,60 - 64 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,28548.0
+PEA26C01,Persons,Persons,2023,2023,2023,550,60 - 64 years,60 - 64 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,14204.0
+PEA26C01,Persons,Persons,2023,2023,2023,550,60 - 64 years,60 - 64 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,14344.0
+PEA26C01,Persons,Persons,2023,2023,2023,550,60 - 64 years,60 - 64 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,283167.0
+PEA26C01,Persons,Persons,2023,2023,2023,550,60 - 64 years,60 - 64 years,IE0,Ireland,Ireland,1,Male,Male,139320.0
+PEA26C01,Persons,Persons,2023,2023,2023,550,60 - 64 years,60 - 64 years,IE0,Ireland,Ireland,2,Female,Female,143847.0
+PEA26C01,Persons,Persons,2023,2023,2023,565,65 - 69 years,65 - 69 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,22313.0
+PEA26C01,Persons,Persons,2023,2023,2023,565,65 - 69 years,65 - 69 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,11123.0
+PEA26C01,Persons,Persons,2023,2023,2023,565,65 - 69 years,65 - 69 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,11190.0
+PEA26C01,Persons,Persons,2023,2023,2023,565,65 - 69 years,65 - 69 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,60306.0
+PEA26C01,Persons,Persons,2023,2023,2023,565,65 - 69 years,65 - 69 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,28521.0
+PEA26C01,Persons,Persons,2023,2023,2023,565,65 - 69 years,65 - 69 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,31785.0
+PEA26C01,Persons,Persons,2023,2023,2023,565,65 - 69 years,65 - 69 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,33328.0
+PEA26C01,Persons,Persons,2023,2023,2023,565,65 - 69 years,65 - 69 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,16394.0
+PEA26C01,Persons,Persons,2023,2023,2023,565,65 - 69 years,65 - 69 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,16934.0
+PEA26C01,Persons,Persons,2023,2023,2023,565,65 - 69 years,65 - 69 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,15157.0
+PEA26C01,Persons,Persons,2023,2023,2023,565,65 - 69 years,65 - 69 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,7590.0
+PEA26C01,Persons,Persons,2023,2023,2023,565,65 - 69 years,65 - 69 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,7567.0
+PEA26C01,Persons,Persons,2023,2023,2023,565,65 - 69 years,65 - 69 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,26620.0
+PEA26C01,Persons,Persons,2023,2023,2023,565,65 - 69 years,65 - 69 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,13445.0
+PEA26C01,Persons,Persons,2023,2023,2023,565,65 - 69 years,65 - 69 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,13175.0
+PEA26C01,Persons,Persons,2023,2023,2023,565,65 - 69 years,65 - 69 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,23349.0
+PEA26C01,Persons,Persons,2023,2023,2023,565,65 - 69 years,65 - 69 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,11753.0
+PEA26C01,Persons,Persons,2023,2023,2023,565,65 - 69 years,65 - 69 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,11596.0
+PEA26C01,Persons,Persons,2023,2023,2023,565,65 - 69 years,65 - 69 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,37159.0
+PEA26C01,Persons,Persons,2023,2023,2023,565,65 - 69 years,65 - 69 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,18437.0
+PEA26C01,Persons,Persons,2023,2023,2023,565,65 - 69 years,65 - 69 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,18722.0
+PEA26C01,Persons,Persons,2023,2023,2023,565,65 - 69 years,65 - 69 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,25909.0
+PEA26C01,Persons,Persons,2023,2023,2023,565,65 - 69 years,65 - 69 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,12798.0
+PEA26C01,Persons,Persons,2023,2023,2023,565,65 - 69 years,65 - 69 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,13111.0
+PEA26C01,Persons,Persons,2023,2023,2023,565,65 - 69 years,65 - 69 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,244141.0
+PEA26C01,Persons,Persons,2023,2023,2023,565,65 - 69 years,65 - 69 years,IE0,Ireland,Ireland,1,Male,Male,120061.0
+PEA26C01,Persons,Persons,2023,2023,2023,565,65 - 69 years,65 - 69 years,IE0,Ireland,Ireland,2,Female,Female,124080.0
+PEA26C01,Persons,Persons,2023,2023,2023,580,70 - 74 years,70 - 74 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,19302.0
+PEA26C01,Persons,Persons,2023,2023,2023,580,70 - 74 years,70 - 74 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,9671.0
+PEA26C01,Persons,Persons,2023,2023,2023,580,70 - 74 years,70 - 74 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,9631.0
+PEA26C01,Persons,Persons,2023,2023,2023,580,70 - 74 years,70 - 74 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,51749.0
+PEA26C01,Persons,Persons,2023,2023,2023,580,70 - 74 years,70 - 74 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,24120.0
+PEA26C01,Persons,Persons,2023,2023,2023,580,70 - 74 years,70 - 74 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,27629.0
+PEA26C01,Persons,Persons,2023,2023,2023,580,70 - 74 years,70 - 74 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,27764.0
+PEA26C01,Persons,Persons,2023,2023,2023,580,70 - 74 years,70 - 74 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,13558.0
+PEA26C01,Persons,Persons,2023,2023,2023,580,70 - 74 years,70 - 74 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,14206.0
+PEA26C01,Persons,Persons,2023,2023,2023,580,70 - 74 years,70 - 74 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,12662.0
+PEA26C01,Persons,Persons,2023,2023,2023,580,70 - 74 years,70 - 74 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,6345.0
+PEA26C01,Persons,Persons,2023,2023,2023,580,70 - 74 years,70 - 74 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,6317.0
+PEA26C01,Persons,Persons,2023,2023,2023,580,70 - 74 years,70 - 74 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,23035.0
+PEA26C01,Persons,Persons,2023,2023,2023,580,70 - 74 years,70 - 74 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,11456.0
+PEA26C01,Persons,Persons,2023,2023,2023,580,70 - 74 years,70 - 74 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,11579.0
+PEA26C01,Persons,Persons,2023,2023,2023,580,70 - 74 years,70 - 74 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,20002.0
+PEA26C01,Persons,Persons,2023,2023,2023,580,70 - 74 years,70 - 74 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,9830.0
+PEA26C01,Persons,Persons,2023,2023,2023,580,70 - 74 years,70 - 74 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,10172.0
+PEA26C01,Persons,Persons,2023,2023,2023,580,70 - 74 years,70 - 74 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,32066.0
+PEA26C01,Persons,Persons,2023,2023,2023,580,70 - 74 years,70 - 74 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,15876.0
+PEA26C01,Persons,Persons,2023,2023,2023,580,70 - 74 years,70 - 74 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,16190.0
+PEA26C01,Persons,Persons,2023,2023,2023,580,70 - 74 years,70 - 74 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,22093.0
+PEA26C01,Persons,Persons,2023,2023,2023,580,70 - 74 years,70 - 74 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,10986.0
+PEA26C01,Persons,Persons,2023,2023,2023,580,70 - 74 years,70 - 74 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,11107.0
+PEA26C01,Persons,Persons,2023,2023,2023,580,70 - 74 years,70 - 74 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,208673.0
+PEA26C01,Persons,Persons,2023,2023,2023,580,70 - 74 years,70 - 74 years,IE0,Ireland,Ireland,1,Male,Male,101842.0
+PEA26C01,Persons,Persons,2023,2023,2023,580,70 - 74 years,70 - 74 years,IE0,Ireland,Ireland,2,Female,Female,106831.0
+PEA26C01,Persons,Persons,2023,2023,2023,595,75 - 79 years,75 - 79 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,14874.0
+PEA26C01,Persons,Persons,2023,2023,2023,595,75 - 79 years,75 - 79 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,7328.0
+PEA26C01,Persons,Persons,2023,2023,2023,595,75 - 79 years,75 - 79 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,7546.0
+PEA26C01,Persons,Persons,2023,2023,2023,595,75 - 79 years,75 - 79 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,39690.0
+PEA26C01,Persons,Persons,2023,2023,2023,595,75 - 79 years,75 - 79 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,18150.0
+PEA26C01,Persons,Persons,2023,2023,2023,595,75 - 79 years,75 - 79 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,21540.0
+PEA26C01,Persons,Persons,2023,2023,2023,595,75 - 79 years,75 - 79 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,21381.0
+PEA26C01,Persons,Persons,2023,2023,2023,595,75 - 79 years,75 - 79 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,10306.0
+PEA26C01,Persons,Persons,2023,2023,2023,595,75 - 79 years,75 - 79 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,11075.0
+PEA26C01,Persons,Persons,2023,2023,2023,595,75 - 79 years,75 - 79 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,9621.0
+PEA26C01,Persons,Persons,2023,2023,2023,595,75 - 79 years,75 - 79 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,4622.0
+PEA26C01,Persons,Persons,2023,2023,2023,595,75 - 79 years,75 - 79 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,4999.0
+PEA26C01,Persons,Persons,2023,2023,2023,595,75 - 79 years,75 - 79 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,17688.0
+PEA26C01,Persons,Persons,2023,2023,2023,595,75 - 79 years,75 - 79 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,8463.0
+PEA26C01,Persons,Persons,2023,2023,2023,595,75 - 79 years,75 - 79 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,9225.0
+PEA26C01,Persons,Persons,2023,2023,2023,595,75 - 79 years,75 - 79 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,15636.0
+PEA26C01,Persons,Persons,2023,2023,2023,595,75 - 79 years,75 - 79 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,7657.0
+PEA26C01,Persons,Persons,2023,2023,2023,595,75 - 79 years,75 - 79 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,7979.0
+PEA26C01,Persons,Persons,2023,2023,2023,595,75 - 79 years,75 - 79 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,24950.0
+PEA26C01,Persons,Persons,2023,2023,2023,595,75 - 79 years,75 - 79 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,12136.0
+PEA26C01,Persons,Persons,2023,2023,2023,595,75 - 79 years,75 - 79 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,12814.0
+PEA26C01,Persons,Persons,2023,2023,2023,595,75 - 79 years,75 - 79 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,16718.0
+PEA26C01,Persons,Persons,2023,2023,2023,595,75 - 79 years,75 - 79 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,8337.0
+PEA26C01,Persons,Persons,2023,2023,2023,595,75 - 79 years,75 - 79 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,8381.0
+PEA26C01,Persons,Persons,2023,2023,2023,595,75 - 79 years,75 - 79 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,160558.0
+PEA26C01,Persons,Persons,2023,2023,2023,595,75 - 79 years,75 - 79 years,IE0,Ireland,Ireland,1,Male,Male,76999.0
+PEA26C01,Persons,Persons,2023,2023,2023,595,75 - 79 years,75 - 79 years,IE0,Ireland,Ireland,2,Female,Female,83559.0
+PEA26C01,Persons,Persons,2023,2023,2023,610,80 - 84 years,80 - 84 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,9164.0
+PEA26C01,Persons,Persons,2023,2023,2023,610,80 - 84 years,80 - 84 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,4423.0
+PEA26C01,Persons,Persons,2023,2023,2023,610,80 - 84 years,80 - 84 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,4741.0
+PEA26C01,Persons,Persons,2023,2023,2023,610,80 - 84 years,80 - 84 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,26237.0
+PEA26C01,Persons,Persons,2023,2023,2023,610,80 - 84 years,80 - 84 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,11214.0
+PEA26C01,Persons,Persons,2023,2023,2023,610,80 - 84 years,80 - 84 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,15023.0
+PEA26C01,Persons,Persons,2023,2023,2023,610,80 - 84 years,80 - 84 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,12415.0
+PEA26C01,Persons,Persons,2023,2023,2023,610,80 - 84 years,80 - 84 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,5732.0
+PEA26C01,Persons,Persons,2023,2023,2023,610,80 - 84 years,80 - 84 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,6683.0
+PEA26C01,Persons,Persons,2023,2023,2023,610,80 - 84 years,80 - 84 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,5745.0
+PEA26C01,Persons,Persons,2023,2023,2023,610,80 - 84 years,80 - 84 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,2634.0
+PEA26C01,Persons,Persons,2023,2023,2023,610,80 - 84 years,80 - 84 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,3111.0
+PEA26C01,Persons,Persons,2023,2023,2023,610,80 - 84 years,80 - 84 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,10854.0
+PEA26C01,Persons,Persons,2023,2023,2023,610,80 - 84 years,80 - 84 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,4980.0
+PEA26C01,Persons,Persons,2023,2023,2023,610,80 - 84 years,80 - 84 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,5874.0
+PEA26C01,Persons,Persons,2023,2023,2023,610,80 - 84 years,80 - 84 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,9744.0
+PEA26C01,Persons,Persons,2023,2023,2023,610,80 - 84 years,80 - 84 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,4640.0
+PEA26C01,Persons,Persons,2023,2023,2023,610,80 - 84 years,80 - 84 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,5104.0
+PEA26C01,Persons,Persons,2023,2023,2023,610,80 - 84 years,80 - 84 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,15315.0
+PEA26C01,Persons,Persons,2023,2023,2023,610,80 - 84 years,80 - 84 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,6829.0
+PEA26C01,Persons,Persons,2023,2023,2023,610,80 - 84 years,80 - 84 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,8486.0
+PEA26C01,Persons,Persons,2023,2023,2023,610,80 - 84 years,80 - 84 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,10635.0
+PEA26C01,Persons,Persons,2023,2023,2023,610,80 - 84 years,80 - 84 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,4975.0
+PEA26C01,Persons,Persons,2023,2023,2023,610,80 - 84 years,80 - 84 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,5660.0
+PEA26C01,Persons,Persons,2023,2023,2023,610,80 - 84 years,80 - 84 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,100109.0
+PEA26C01,Persons,Persons,2023,2023,2023,610,80 - 84 years,80 - 84 years,IE0,Ireland,Ireland,1,Male,Male,45427.0
+PEA26C01,Persons,Persons,2023,2023,2023,610,80 - 84 years,80 - 84 years,IE0,Ireland,Ireland,2,Female,Female,54682.0
+PEA26C01,Persons,Persons,2023,2023,2023,630,85 years and over,85 years and over,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,7939.0
+PEA26C01,Persons,Persons,2023,2023,2023,630,85 years and over,85 years and over,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,3082.0
+PEA26C01,Persons,Persons,2023,2023,2023,630,85 years and over,85 years and over,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,4857.0
+PEA26C01,Persons,Persons,2023,2023,2023,630,85 years and over,85 years and over,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,24171.0
+PEA26C01,Persons,Persons,2023,2023,2023,630,85 years and over,85 years and over,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,8662.0
+PEA26C01,Persons,Persons,2023,2023,2023,630,85 years and over,85 years and over,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,15509.0
+PEA26C01,Persons,Persons,2023,2023,2023,630,85 years and over,85 years and over,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,9765.0
+PEA26C01,Persons,Persons,2023,2023,2023,630,85 years and over,85 years and over,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,3757.0
+PEA26C01,Persons,Persons,2023,2023,2023,630,85 years and over,85 years and over,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,6008.0
+PEA26C01,Persons,Persons,2023,2023,2023,630,85 years and over,85 years and over,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,4985.0
+PEA26C01,Persons,Persons,2023,2023,2023,630,85 years and over,85 years and over,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,2000.0
+PEA26C01,Persons,Persons,2023,2023,2023,630,85 years and over,85 years and over,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,2985.0
+PEA26C01,Persons,Persons,2023,2023,2023,630,85 years and over,85 years and over,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,9062.0
+PEA26C01,Persons,Persons,2023,2023,2023,630,85 years and over,85 years and over,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,3516.0
+PEA26C01,Persons,Persons,2023,2023,2023,630,85 years and over,85 years and over,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,5546.0
+PEA26C01,Persons,Persons,2023,2023,2023,630,85 years and over,85 years and over,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,8202.0
+PEA26C01,Persons,Persons,2023,2023,2023,630,85 years and over,85 years and over,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,3171.0
+PEA26C01,Persons,Persons,2023,2023,2023,630,85 years and over,85 years and over,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,5031.0
+PEA26C01,Persons,Persons,2023,2023,2023,630,85 years and over,85 years and over,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,13363.0
+PEA26C01,Persons,Persons,2023,2023,2023,630,85 years and over,85 years and over,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,5223.0
+PEA26C01,Persons,Persons,2023,2023,2023,630,85 years and over,85 years and over,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,8140.0
+PEA26C01,Persons,Persons,2023,2023,2023,630,85 years and over,85 years and over,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,9547.0
+PEA26C01,Persons,Persons,2023,2023,2023,630,85 years and over,85 years and over,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,3666.0
+PEA26C01,Persons,Persons,2023,2023,2023,630,85 years and over,85 years and over,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,5881.0
+PEA26C01,Persons,Persons,2023,2023,2023,630,85 years and over,85 years and over,IE0,Ireland,Ireland,-,Both sexes,Both sexes,87034.0
+PEA26C01,Persons,Persons,2023,2023,2023,630,85 years and over,85 years and over,IE0,Ireland,Ireland,1,Male,Male,33077.0
+PEA26C01,Persons,Persons,2023,2023,2023,630,85 years and over,85 years and over,IE0,Ireland,Ireland,2,Female,Female,53957.0
+PEA26C01,Persons,Persons,2024,2024,2024,-,All ages,All ages,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,441644.0
+PEA26C01,Persons,Persons,2024,2024,2024,-,All ages,All ages,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,219762.0
+PEA26C01,Persons,Persons,2024,2024,2024,-,All ages,All ages,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,221882.0
+PEA26C01,Persons,Persons,2024,2024,2024,-,All ages,All ages,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,1519751.0
+PEA26C01,Persons,Persons,2024,2024,2024,-,All ages,All ages,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,745562.0
+PEA26C01,Persons,Persons,2024,2024,2024,-,All ages,All ages,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,774189.0
+PEA26C01,Persons,Persons,2024,2024,2024,-,All ages,All ages,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,782429.0
+PEA26C01,Persons,Persons,2024,2024,2024,-,All ages,All ages,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,389095.0
+PEA26C01,Persons,Persons,2024,2024,2024,-,All ages,All ages,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,393334.0
+PEA26C01,Persons,Persons,2024,2024,2024,-,All ages,All ages,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,331530.0
+PEA26C01,Persons,Persons,2024,2024,2024,-,All ages,All ages,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,164458.0
+PEA26C01,Persons,Persons,2024,2024,2024,-,All ages,All ages,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,167072.0
+PEA26C01,Persons,Persons,2024,2024,2024,-,All ages,All ages,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,529583.0
+PEA26C01,Persons,Persons,2024,2024,2024,-,All ages,All ages,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,260831.0
+PEA26C01,Persons,Persons,2024,2024,2024,-,All ages,All ages,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,268752.0
+PEA26C01,Persons,Persons,2024,2024,2024,-,All ages,All ages,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,473064.0
+PEA26C01,Persons,Persons,2024,2024,2024,-,All ages,All ages,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,234200.0
+PEA26C01,Persons,Persons,2024,2024,2024,-,All ages,All ages,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,238864.0
+PEA26C01,Persons,Persons,2024,2024,2024,-,All ages,All ages,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,769764.0
+PEA26C01,Persons,Persons,2024,2024,2024,-,All ages,All ages,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,379627.0
+PEA26C01,Persons,Persons,2024,2024,2024,-,All ages,All ages,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,390137.0
+PEA26C01,Persons,Persons,2024,2024,2024,-,All ages,All ages,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,503916.0
+PEA26C01,Persons,Persons,2024,2024,2024,-,All ages,All ages,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,249840.0
+PEA26C01,Persons,Persons,2024,2024,2024,-,All ages,All ages,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,254076.0
+PEA26C01,Persons,Persons,2024,2024,2024,-,All ages,All ages,IE0,Ireland,Ireland,-,Both sexes,Both sexes,5351681.0
+PEA26C01,Persons,Persons,2024,2024,2024,-,All ages,All ages,IE0,Ireland,Ireland,1,Male,Male,2643375.0
+PEA26C01,Persons,Persons,2024,2024,2024,-,All ages,All ages,IE0,Ireland,Ireland,2,Female,Female,2708306.0
+PEA26C01,Persons,Persons,2024,2024,2024,205,0 - 4 years,0 - 4 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,25903.0
+PEA26C01,Persons,Persons,2024,2024,2024,205,0 - 4 years,0 - 4 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,13116.0
+PEA26C01,Persons,Persons,2024,2024,2024,205,0 - 4 years,0 - 4 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,12787.0
+PEA26C01,Persons,Persons,2024,2024,2024,205,0 - 4 years,0 - 4 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,84269.0
+PEA26C01,Persons,Persons,2024,2024,2024,205,0 - 4 years,0 - 4 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,42950.0
+PEA26C01,Persons,Persons,2024,2024,2024,205,0 - 4 years,0 - 4 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,41319.0
+PEA26C01,Persons,Persons,2024,2024,2024,205,0 - 4 years,0 - 4 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,45362.0
+PEA26C01,Persons,Persons,2024,2024,2024,205,0 - 4 years,0 - 4 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,23320.0
+PEA26C01,Persons,Persons,2024,2024,2024,205,0 - 4 years,0 - 4 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,22042.0
+PEA26C01,Persons,Persons,2024,2024,2024,205,0 - 4 years,0 - 4 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,18054.0
+PEA26C01,Persons,Persons,2024,2024,2024,205,0 - 4 years,0 - 4 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,9239.0
+PEA26C01,Persons,Persons,2024,2024,2024,205,0 - 4 years,0 - 4 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,8815.0
+PEA26C01,Persons,Persons,2024,2024,2024,205,0 - 4 years,0 - 4 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,27931.0
+PEA26C01,Persons,Persons,2024,2024,2024,205,0 - 4 years,0 - 4 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,14166.0
+PEA26C01,Persons,Persons,2024,2024,2024,205,0 - 4 years,0 - 4 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,13765.0
+PEA26C01,Persons,Persons,2024,2024,2024,205,0 - 4 years,0 - 4 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,24918.0
+PEA26C01,Persons,Persons,2024,2024,2024,205,0 - 4 years,0 - 4 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,12543.0
+PEA26C01,Persons,Persons,2024,2024,2024,205,0 - 4 years,0 - 4 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,12375.0
+PEA26C01,Persons,Persons,2024,2024,2024,205,0 - 4 years,0 - 4 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,39506.0
+PEA26C01,Persons,Persons,2024,2024,2024,205,0 - 4 years,0 - 4 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,19988.0
+PEA26C01,Persons,Persons,2024,2024,2024,205,0 - 4 years,0 - 4 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,19518.0
+PEA26C01,Persons,Persons,2024,2024,2024,205,0 - 4 years,0 - 4 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,27688.0
+PEA26C01,Persons,Persons,2024,2024,2024,205,0 - 4 years,0 - 4 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,13938.0
+PEA26C01,Persons,Persons,2024,2024,2024,205,0 - 4 years,0 - 4 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,13750.0
+PEA26C01,Persons,Persons,2024,2024,2024,205,0 - 4 years,0 - 4 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,293631.0
+PEA26C01,Persons,Persons,2024,2024,2024,205,0 - 4 years,0 - 4 years,IE0,Ireland,Ireland,1,Male,Male,149260.0
+PEA26C01,Persons,Persons,2024,2024,2024,205,0 - 4 years,0 - 4 years,IE0,Ireland,Ireland,2,Female,Female,144371.0
+PEA26C01,Persons,Persons,2024,2024,2024,245,5 - 9 years,5 - 9 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,30235.0
+PEA26C01,Persons,Persons,2024,2024,2024,245,5 - 9 years,5 - 9 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,15410.0
+PEA26C01,Persons,Persons,2024,2024,2024,245,5 - 9 years,5 - 9 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,14825.0
+PEA26C01,Persons,Persons,2024,2024,2024,245,5 - 9 years,5 - 9 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,92178.0
+PEA26C01,Persons,Persons,2024,2024,2024,245,5 - 9 years,5 - 9 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,47245.0
+PEA26C01,Persons,Persons,2024,2024,2024,245,5 - 9 years,5 - 9 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,44933.0
+PEA26C01,Persons,Persons,2024,2024,2024,245,5 - 9 years,5 - 9 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,52790.0
+PEA26C01,Persons,Persons,2024,2024,2024,245,5 - 9 years,5 - 9 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,27271.0
+PEA26C01,Persons,Persons,2024,2024,2024,245,5 - 9 years,5 - 9 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,25519.0
+PEA26C01,Persons,Persons,2024,2024,2024,245,5 - 9 years,5 - 9 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,21832.0
+PEA26C01,Persons,Persons,2024,2024,2024,245,5 - 9 years,5 - 9 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,11206.0
+PEA26C01,Persons,Persons,2024,2024,2024,245,5 - 9 years,5 - 9 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,10626.0
+PEA26C01,Persons,Persons,2024,2024,2024,245,5 - 9 years,5 - 9 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,32587.0
+PEA26C01,Persons,Persons,2024,2024,2024,245,5 - 9 years,5 - 9 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,16505.0
+PEA26C01,Persons,Persons,2024,2024,2024,245,5 - 9 years,5 - 9 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,16082.0
+PEA26C01,Persons,Persons,2024,2024,2024,245,5 - 9 years,5 - 9 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,29576.0
+PEA26C01,Persons,Persons,2024,2024,2024,245,5 - 9 years,5 - 9 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,15038.0
+PEA26C01,Persons,Persons,2024,2024,2024,245,5 - 9 years,5 - 9 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,14538.0
+PEA26C01,Persons,Persons,2024,2024,2024,245,5 - 9 years,5 - 9 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,47420.0
+PEA26C01,Persons,Persons,2024,2024,2024,245,5 - 9 years,5 - 9 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,24333.0
+PEA26C01,Persons,Persons,2024,2024,2024,245,5 - 9 years,5 - 9 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,23087.0
+PEA26C01,Persons,Persons,2024,2024,2024,245,5 - 9 years,5 - 9 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,31670.0
+PEA26C01,Persons,Persons,2024,2024,2024,245,5 - 9 years,5 - 9 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,16135.0
+PEA26C01,Persons,Persons,2024,2024,2024,245,5 - 9 years,5 - 9 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,15535.0
+PEA26C01,Persons,Persons,2024,2024,2024,245,5 - 9 years,5 - 9 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,338288.0
+PEA26C01,Persons,Persons,2024,2024,2024,245,5 - 9 years,5 - 9 years,IE0,Ireland,Ireland,1,Male,Male,173143.0
+PEA26C01,Persons,Persons,2024,2024,2024,245,5 - 9 years,5 - 9 years,IE0,Ireland,Ireland,2,Female,Female,165145.0
+PEA26C01,Persons,Persons,2024,2024,2024,265,10 - 14 years,10 - 14 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,34094.0
+PEA26C01,Persons,Persons,2024,2024,2024,265,10 - 14 years,10 - 14 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,17596.0
+PEA26C01,Persons,Persons,2024,2024,2024,265,10 - 14 years,10 - 14 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,16498.0
+PEA26C01,Persons,Persons,2024,2024,2024,265,10 - 14 years,10 - 14 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,100316.0
+PEA26C01,Persons,Persons,2024,2024,2024,265,10 - 14 years,10 - 14 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,51385.0
+PEA26C01,Persons,Persons,2024,2024,2024,265,10 - 14 years,10 - 14 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,48931.0
+PEA26C01,Persons,Persons,2024,2024,2024,265,10 - 14 years,10 - 14 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,61354.0
+PEA26C01,Persons,Persons,2024,2024,2024,265,10 - 14 years,10 - 14 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,31418.0
+PEA26C01,Persons,Persons,2024,2024,2024,265,10 - 14 years,10 - 14 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,29936.0
+PEA26C01,Persons,Persons,2024,2024,2024,265,10 - 14 years,10 - 14 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,25017.0
+PEA26C01,Persons,Persons,2024,2024,2024,265,10 - 14 years,10 - 14 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,12874.0
+PEA26C01,Persons,Persons,2024,2024,2024,265,10 - 14 years,10 - 14 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,12143.0
+PEA26C01,Persons,Persons,2024,2024,2024,265,10 - 14 years,10 - 14 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,36912.0
+PEA26C01,Persons,Persons,2024,2024,2024,265,10 - 14 years,10 - 14 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,18914.0
+PEA26C01,Persons,Persons,2024,2024,2024,265,10 - 14 years,10 - 14 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,17998.0
+PEA26C01,Persons,Persons,2024,2024,2024,265,10 - 14 years,10 - 14 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,34296.0
+PEA26C01,Persons,Persons,2024,2024,2024,265,10 - 14 years,10 - 14 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,17428.0
+PEA26C01,Persons,Persons,2024,2024,2024,265,10 - 14 years,10 - 14 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,16868.0
+PEA26C01,Persons,Persons,2024,2024,2024,265,10 - 14 years,10 - 14 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,53593.0
+PEA26C01,Persons,Persons,2024,2024,2024,265,10 - 14 years,10 - 14 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,27317.0
+PEA26C01,Persons,Persons,2024,2024,2024,265,10 - 14 years,10 - 14 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,26276.0
+PEA26C01,Persons,Persons,2024,2024,2024,265,10 - 14 years,10 - 14 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,35242.0
+PEA26C01,Persons,Persons,2024,2024,2024,265,10 - 14 years,10 - 14 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,18152.0
+PEA26C01,Persons,Persons,2024,2024,2024,265,10 - 14 years,10 - 14 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,17090.0
+PEA26C01,Persons,Persons,2024,2024,2024,265,10 - 14 years,10 - 14 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,380824.0
+PEA26C01,Persons,Persons,2024,2024,2024,265,10 - 14 years,10 - 14 years,IE0,Ireland,Ireland,1,Male,Male,195084.0
+PEA26C01,Persons,Persons,2024,2024,2024,265,10 - 14 years,10 - 14 years,IE0,Ireland,Ireland,2,Female,Female,185740.0
+PEA26C01,Persons,Persons,2024,2024,2024,300,15 - 19 years,15 - 19 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,30561.0
+PEA26C01,Persons,Persons,2024,2024,2024,300,15 - 19 years,15 - 19 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,16064.0
+PEA26C01,Persons,Persons,2024,2024,2024,300,15 - 19 years,15 - 19 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,14497.0
+PEA26C01,Persons,Persons,2024,2024,2024,300,15 - 19 years,15 - 19 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,88407.0
+PEA26C01,Persons,Persons,2024,2024,2024,300,15 - 19 years,15 - 19 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,45105.0
+PEA26C01,Persons,Persons,2024,2024,2024,300,15 - 19 years,15 - 19 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,43302.0
+PEA26C01,Persons,Persons,2024,2024,2024,300,15 - 19 years,15 - 19 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,58046.0
+PEA26C01,Persons,Persons,2024,2024,2024,300,15 - 19 years,15 - 19 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,29902.0
+PEA26C01,Persons,Persons,2024,2024,2024,300,15 - 19 years,15 - 19 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,28144.0
+PEA26C01,Persons,Persons,2024,2024,2024,300,15 - 19 years,15 - 19 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,24115.0
+PEA26C01,Persons,Persons,2024,2024,2024,300,15 - 19 years,15 - 19 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,12370.0
+PEA26C01,Persons,Persons,2024,2024,2024,300,15 - 19 years,15 - 19 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,11745.0
+PEA26C01,Persons,Persons,2024,2024,2024,300,15 - 19 years,15 - 19 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,36144.0
+PEA26C01,Persons,Persons,2024,2024,2024,300,15 - 19 years,15 - 19 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,18591.0
+PEA26C01,Persons,Persons,2024,2024,2024,300,15 - 19 years,15 - 19 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,17553.0
+PEA26C01,Persons,Persons,2024,2024,2024,300,15 - 19 years,15 - 19 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,34256.0
+PEA26C01,Persons,Persons,2024,2024,2024,300,15 - 19 years,15 - 19 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,18305.0
+PEA26C01,Persons,Persons,2024,2024,2024,300,15 - 19 years,15 - 19 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,15951.0
+PEA26C01,Persons,Persons,2024,2024,2024,300,15 - 19 years,15 - 19 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,51133.0
+PEA26C01,Persons,Persons,2024,2024,2024,300,15 - 19 years,15 - 19 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,25825.0
+PEA26C01,Persons,Persons,2024,2024,2024,300,15 - 19 years,15 - 19 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,25308.0
+PEA26C01,Persons,Persons,2024,2024,2024,300,15 - 19 years,15 - 19 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,32936.0
+PEA26C01,Persons,Persons,2024,2024,2024,300,15 - 19 years,15 - 19 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,17619.0
+PEA26C01,Persons,Persons,2024,2024,2024,300,15 - 19 years,15 - 19 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,15317.0
+PEA26C01,Persons,Persons,2024,2024,2024,300,15 - 19 years,15 - 19 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,355598.0
+PEA26C01,Persons,Persons,2024,2024,2024,300,15 - 19 years,15 - 19 years,IE0,Ireland,Ireland,1,Male,Male,183781.0
+PEA26C01,Persons,Persons,2024,2024,2024,300,15 - 19 years,15 - 19 years,IE0,Ireland,Ireland,2,Female,Female,171817.0
+PEA26C01,Persons,Persons,2024,2024,2024,365,20 - 24 years,20 - 24 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,24237.0
+PEA26C01,Persons,Persons,2024,2024,2024,365,20 - 24 years,20 - 24 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,12697.0
+PEA26C01,Persons,Persons,2024,2024,2024,365,20 - 24 years,20 - 24 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,11540.0
+PEA26C01,Persons,Persons,2024,2024,2024,365,20 - 24 years,20 - 24 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,88891.0
+PEA26C01,Persons,Persons,2024,2024,2024,365,20 - 24 years,20 - 24 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,44899.0
+PEA26C01,Persons,Persons,2024,2024,2024,365,20 - 24 years,20 - 24 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,43992.0
+PEA26C01,Persons,Persons,2024,2024,2024,365,20 - 24 years,20 - 24 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,48975.0
+PEA26C01,Persons,Persons,2024,2024,2024,365,20 - 24 years,20 - 24 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,25544.0
+PEA26C01,Persons,Persons,2024,2024,2024,365,20 - 24 years,20 - 24 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,23431.0
+PEA26C01,Persons,Persons,2024,2024,2024,365,20 - 24 years,20 - 24 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,20021.0
+PEA26C01,Persons,Persons,2024,2024,2024,365,20 - 24 years,20 - 24 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,10128.0
+PEA26C01,Persons,Persons,2024,2024,2024,365,20 - 24 years,20 - 24 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,9893.0
+PEA26C01,Persons,Persons,2024,2024,2024,365,20 - 24 years,20 - 24 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,32248.0
+PEA26C01,Persons,Persons,2024,2024,2024,365,20 - 24 years,20 - 24 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,16240.0
+PEA26C01,Persons,Persons,2024,2024,2024,365,20 - 24 years,20 - 24 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,16008.0
+PEA26C01,Persons,Persons,2024,2024,2024,365,20 - 24 years,20 - 24 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,29089.0
+PEA26C01,Persons,Persons,2024,2024,2024,365,20 - 24 years,20 - 24 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,15553.0
+PEA26C01,Persons,Persons,2024,2024,2024,365,20 - 24 years,20 - 24 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,13536.0
+PEA26C01,Persons,Persons,2024,2024,2024,365,20 - 24 years,20 - 24 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,46058.0
+PEA26C01,Persons,Persons,2024,2024,2024,365,20 - 24 years,20 - 24 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,23227.0
+PEA26C01,Persons,Persons,2024,2024,2024,365,20 - 24 years,20 - 24 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,22831.0
+PEA26C01,Persons,Persons,2024,2024,2024,365,20 - 24 years,20 - 24 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,30065.0
+PEA26C01,Persons,Persons,2024,2024,2024,365,20 - 24 years,20 - 24 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,15579.0
+PEA26C01,Persons,Persons,2024,2024,2024,365,20 - 24 years,20 - 24 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,14486.0
+PEA26C01,Persons,Persons,2024,2024,2024,365,20 - 24 years,20 - 24 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,319584.0
+PEA26C01,Persons,Persons,2024,2024,2024,365,20 - 24 years,20 - 24 years,IE0,Ireland,Ireland,1,Male,Male,163867.0
+PEA26C01,Persons,Persons,2024,2024,2024,365,20 - 24 years,20 - 24 years,IE0,Ireland,Ireland,2,Female,Female,155717.0
+PEA26C01,Persons,Persons,2024,2024,2024,410,25 - 29 years,25 - 29 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,21701.0
+PEA26C01,Persons,Persons,2024,2024,2024,410,25 - 29 years,25 - 29 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,11122.0
+PEA26C01,Persons,Persons,2024,2024,2024,410,25 - 29 years,25 - 29 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,10579.0
+PEA26C01,Persons,Persons,2024,2024,2024,410,25 - 29 years,25 - 29 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,110960.0
+PEA26C01,Persons,Persons,2024,2024,2024,410,25 - 29 years,25 - 29 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,55175.0
+PEA26C01,Persons,Persons,2024,2024,2024,410,25 - 29 years,25 - 29 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,55785.0
+PEA26C01,Persons,Persons,2024,2024,2024,410,25 - 29 years,25 - 29 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,40362.0
+PEA26C01,Persons,Persons,2024,2024,2024,410,25 - 29 years,25 - 29 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,20676.0
+PEA26C01,Persons,Persons,2024,2024,2024,410,25 - 29 years,25 - 29 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,19686.0
+PEA26C01,Persons,Persons,2024,2024,2024,410,25 - 29 years,25 - 29 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,17881.0
+PEA26C01,Persons,Persons,2024,2024,2024,410,25 - 29 years,25 - 29 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,9060.0
+PEA26C01,Persons,Persons,2024,2024,2024,410,25 - 29 years,25 - 29 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,8821.0
+PEA26C01,Persons,Persons,2024,2024,2024,410,25 - 29 years,25 - 29 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,30319.0
+PEA26C01,Persons,Persons,2024,2024,2024,410,25 - 29 years,25 - 29 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,15025.0
+PEA26C01,Persons,Persons,2024,2024,2024,410,25 - 29 years,25 - 29 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,15294.0
+PEA26C01,Persons,Persons,2024,2024,2024,410,25 - 29 years,25 - 29 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,24298.0
+PEA26C01,Persons,Persons,2024,2024,2024,410,25 - 29 years,25 - 29 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,12365.0
+PEA26C01,Persons,Persons,2024,2024,2024,410,25 - 29 years,25 - 29 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,11933.0
+PEA26C01,Persons,Persons,2024,2024,2024,410,25 - 29 years,25 - 29 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,43653.0
+PEA26C01,Persons,Persons,2024,2024,2024,410,25 - 29 years,25 - 29 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,22080.0
+PEA26C01,Persons,Persons,2024,2024,2024,410,25 - 29 years,25 - 29 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,21573.0
+PEA26C01,Persons,Persons,2024,2024,2024,410,25 - 29 years,25 - 29 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,27006.0
+PEA26C01,Persons,Persons,2024,2024,2024,410,25 - 29 years,25 - 29 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,13593.0
+PEA26C01,Persons,Persons,2024,2024,2024,410,25 - 29 years,25 - 29 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,13413.0
+PEA26C01,Persons,Persons,2024,2024,2024,410,25 - 29 years,25 - 29 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,316180.0
+PEA26C01,Persons,Persons,2024,2024,2024,410,25 - 29 years,25 - 29 years,IE0,Ireland,Ireland,1,Male,Male,159096.0
+PEA26C01,Persons,Persons,2024,2024,2024,410,25 - 29 years,25 - 29 years,IE0,Ireland,Ireland,2,Female,Female,157084.0
+PEA26C01,Persons,Persons,2024,2024,2024,440,30 - 34 years,30 - 34 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,23079.0
+PEA26C01,Persons,Persons,2024,2024,2024,440,30 - 34 years,30 - 34 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,11184.0
+PEA26C01,Persons,Persons,2024,2024,2024,440,30 - 34 years,30 - 34 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,11895.0
+PEA26C01,Persons,Persons,2024,2024,2024,440,30 - 34 years,30 - 34 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,123318.0
+PEA26C01,Persons,Persons,2024,2024,2024,440,30 - 34 years,30 - 34 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,60709.0
+PEA26C01,Persons,Persons,2024,2024,2024,440,30 - 34 years,30 - 34 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,62609.0
+PEA26C01,Persons,Persons,2024,2024,2024,440,30 - 34 years,30 - 34 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,42261.0
+PEA26C01,Persons,Persons,2024,2024,2024,440,30 - 34 years,30 - 34 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,20562.0
+PEA26C01,Persons,Persons,2024,2024,2024,440,30 - 34 years,30 - 34 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,21699.0
+PEA26C01,Persons,Persons,2024,2024,2024,440,30 - 34 years,30 - 34 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,18884.0
+PEA26C01,Persons,Persons,2024,2024,2024,440,30 - 34 years,30 - 34 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,9031.0
+PEA26C01,Persons,Persons,2024,2024,2024,440,30 - 34 years,30 - 34 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,9853.0
+PEA26C01,Persons,Persons,2024,2024,2024,440,30 - 34 years,30 - 34 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,30290.0
+PEA26C01,Persons,Persons,2024,2024,2024,440,30 - 34 years,30 - 34 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,14437.0
+PEA26C01,Persons,Persons,2024,2024,2024,440,30 - 34 years,30 - 34 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,15853.0
+PEA26C01,Persons,Persons,2024,2024,2024,440,30 - 34 years,30 - 34 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,25731.0
+PEA26C01,Persons,Persons,2024,2024,2024,440,30 - 34 years,30 - 34 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,12508.0
+PEA26C01,Persons,Persons,2024,2024,2024,440,30 - 34 years,30 - 34 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,13223.0
+PEA26C01,Persons,Persons,2024,2024,2024,440,30 - 34 years,30 - 34 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,45778.0
+PEA26C01,Persons,Persons,2024,2024,2024,440,30 - 34 years,30 - 34 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,22273.0
+PEA26C01,Persons,Persons,2024,2024,2024,440,30 - 34 years,30 - 34 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,23505.0
+PEA26C01,Persons,Persons,2024,2024,2024,440,30 - 34 years,30 - 34 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,28770.0
+PEA26C01,Persons,Persons,2024,2024,2024,440,30 - 34 years,30 - 34 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,13878.0
+PEA26C01,Persons,Persons,2024,2024,2024,440,30 - 34 years,30 - 34 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,14892.0
+PEA26C01,Persons,Persons,2024,2024,2024,440,30 - 34 years,30 - 34 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,338111.0
+PEA26C01,Persons,Persons,2024,2024,2024,440,30 - 34 years,30 - 34 years,IE0,Ireland,Ireland,1,Male,Male,164582.0
+PEA26C01,Persons,Persons,2024,2024,2024,440,30 - 34 years,30 - 34 years,IE0,Ireland,Ireland,2,Female,Female,173529.0
+PEA26C01,Persons,Persons,2024,2024,2024,460,35 - 39 years,35 - 39 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,28120.0
+PEA26C01,Persons,Persons,2024,2024,2024,460,35 - 39 years,35 - 39 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,13289.0
+PEA26C01,Persons,Persons,2024,2024,2024,460,35 - 39 years,35 - 39 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,14831.0
+PEA26C01,Persons,Persons,2024,2024,2024,460,35 - 39 years,35 - 39 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,126978.0
+PEA26C01,Persons,Persons,2024,2024,2024,460,35 - 39 years,35 - 39 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,61790.0
+PEA26C01,Persons,Persons,2024,2024,2024,460,35 - 39 years,35 - 39 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,65188.0
+PEA26C01,Persons,Persons,2024,2024,2024,460,35 - 39 years,35 - 39 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,53470.0
+PEA26C01,Persons,Persons,2024,2024,2024,460,35 - 39 years,35 - 39 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,25474.0
+PEA26C01,Persons,Persons,2024,2024,2024,460,35 - 39 years,35 - 39 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,27996.0
+PEA26C01,Persons,Persons,2024,2024,2024,460,35 - 39 years,35 - 39 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,23075.0
+PEA26C01,Persons,Persons,2024,2024,2024,460,35 - 39 years,35 - 39 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,10842.0
+PEA26C01,Persons,Persons,2024,2024,2024,460,35 - 39 years,35 - 39 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,12233.0
+PEA26C01,Persons,Persons,2024,2024,2024,460,35 - 39 years,35 - 39 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,35220.0
+PEA26C01,Persons,Persons,2024,2024,2024,460,35 - 39 years,35 - 39 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,16551.0
+PEA26C01,Persons,Persons,2024,2024,2024,460,35 - 39 years,35 - 39 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,18669.0
+PEA26C01,Persons,Persons,2024,2024,2024,460,35 - 39 years,35 - 39 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,30313.0
+PEA26C01,Persons,Persons,2024,2024,2024,460,35 - 39 years,35 - 39 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,14155.0
+PEA26C01,Persons,Persons,2024,2024,2024,460,35 - 39 years,35 - 39 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,16158.0
+PEA26C01,Persons,Persons,2024,2024,2024,460,35 - 39 years,35 - 39 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,52484.0
+PEA26C01,Persons,Persons,2024,2024,2024,460,35 - 39 years,35 - 39 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,24950.0
+PEA26C01,Persons,Persons,2024,2024,2024,460,35 - 39 years,35 - 39 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,27534.0
+PEA26C01,Persons,Persons,2024,2024,2024,460,35 - 39 years,35 - 39 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,33614.0
+PEA26C01,Persons,Persons,2024,2024,2024,460,35 - 39 years,35 - 39 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,15736.0
+PEA26C01,Persons,Persons,2024,2024,2024,460,35 - 39 years,35 - 39 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,17878.0
+PEA26C01,Persons,Persons,2024,2024,2024,460,35 - 39 years,35 - 39 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,383274.0
+PEA26C01,Persons,Persons,2024,2024,2024,460,35 - 39 years,35 - 39 years,IE0,Ireland,Ireland,1,Male,Male,182787.0
+PEA26C01,Persons,Persons,2024,2024,2024,460,35 - 39 years,35 - 39 years,IE0,Ireland,Ireland,2,Female,Female,200487.0
+PEA26C01,Persons,Persons,2024,2024,2024,475,40 - 44 years,40 - 44 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,32513.0
+PEA26C01,Persons,Persons,2024,2024,2024,475,40 - 44 years,40 - 44 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,15585.0
+PEA26C01,Persons,Persons,2024,2024,2024,475,40 - 44 years,40 - 44 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,16928.0
+PEA26C01,Persons,Persons,2024,2024,2024,475,40 - 44 years,40 - 44 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,131865.0
+PEA26C01,Persons,Persons,2024,2024,2024,475,40 - 44 years,40 - 44 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,64824.0
+PEA26C01,Persons,Persons,2024,2024,2024,475,40 - 44 years,40 - 44 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,67041.0
+PEA26C01,Persons,Persons,2024,2024,2024,475,40 - 44 years,40 - 44 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,64572.0
+PEA26C01,Persons,Persons,2024,2024,2024,475,40 - 44 years,40 - 44 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,31283.0
+PEA26C01,Persons,Persons,2024,2024,2024,475,40 - 44 years,40 - 44 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,33289.0
+PEA26C01,Persons,Persons,2024,2024,2024,475,40 - 44 years,40 - 44 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,26931.0
+PEA26C01,Persons,Persons,2024,2024,2024,475,40 - 44 years,40 - 44 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,12793.0
+PEA26C01,Persons,Persons,2024,2024,2024,475,40 - 44 years,40 - 44 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,14138.0
+PEA26C01,Persons,Persons,2024,2024,2024,475,40 - 44 years,40 - 44 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,40533.0
+PEA26C01,Persons,Persons,2024,2024,2024,475,40 - 44 years,40 - 44 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,19123.0
+PEA26C01,Persons,Persons,2024,2024,2024,475,40 - 44 years,40 - 44 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,21410.0
+PEA26C01,Persons,Persons,2024,2024,2024,475,40 - 44 years,40 - 44 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,35340.0
+PEA26C01,Persons,Persons,2024,2024,2024,475,40 - 44 years,40 - 44 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,16896.0
+PEA26C01,Persons,Persons,2024,2024,2024,475,40 - 44 years,40 - 44 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,18444.0
+PEA26C01,Persons,Persons,2024,2024,2024,475,40 - 44 years,40 - 44 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,60626.0
+PEA26C01,Persons,Persons,2024,2024,2024,475,40 - 44 years,40 - 44 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,29020.0
+PEA26C01,Persons,Persons,2024,2024,2024,475,40 - 44 years,40 - 44 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,31606.0
+PEA26C01,Persons,Persons,2024,2024,2024,475,40 - 44 years,40 - 44 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,39249.0
+PEA26C01,Persons,Persons,2024,2024,2024,475,40 - 44 years,40 - 44 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,18570.0
+PEA26C01,Persons,Persons,2024,2024,2024,475,40 - 44 years,40 - 44 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,20679.0
+PEA26C01,Persons,Persons,2024,2024,2024,475,40 - 44 years,40 - 44 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,431629.0
+PEA26C01,Persons,Persons,2024,2024,2024,475,40 - 44 years,40 - 44 years,IE0,Ireland,Ireland,1,Male,Male,208094.0
+PEA26C01,Persons,Persons,2024,2024,2024,475,40 - 44 years,40 - 44 years,IE0,Ireland,Ireland,2,Female,Female,223535.0
+PEA26C01,Persons,Persons,2024,2024,2024,495,45 - 49 years,45 - 49 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,31105.0
+PEA26C01,Persons,Persons,2024,2024,2024,495,45 - 49 years,45 - 49 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,15217.0
+PEA26C01,Persons,Persons,2024,2024,2024,495,45 - 49 years,45 - 49 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,15888.0
+PEA26C01,Persons,Persons,2024,2024,2024,495,45 - 49 years,45 - 49 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,109987.0
+PEA26C01,Persons,Persons,2024,2024,2024,495,45 - 49 years,45 - 49 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,54359.0
+PEA26C01,Persons,Persons,2024,2024,2024,495,45 - 49 years,45 - 49 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,55628.0
+PEA26C01,Persons,Persons,2024,2024,2024,495,45 - 49 years,45 - 49 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,60873.0
+PEA26C01,Persons,Persons,2024,2024,2024,495,45 - 49 years,45 - 49 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,29671.0
+PEA26C01,Persons,Persons,2024,2024,2024,495,45 - 49 years,45 - 49 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,31202.0
+PEA26C01,Persons,Persons,2024,2024,2024,495,45 - 49 years,45 - 49 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,24282.0
+PEA26C01,Persons,Persons,2024,2024,2024,495,45 - 49 years,45 - 49 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,12048.0
+PEA26C01,Persons,Persons,2024,2024,2024,495,45 - 49 years,45 - 49 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,12234.0
+PEA26C01,Persons,Persons,2024,2024,2024,495,45 - 49 years,45 - 49 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,37567.0
+PEA26C01,Persons,Persons,2024,2024,2024,495,45 - 49 years,45 - 49 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,18447.0
+PEA26C01,Persons,Persons,2024,2024,2024,495,45 - 49 years,45 - 49 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,19120.0
+PEA26C01,Persons,Persons,2024,2024,2024,495,45 - 49 years,45 - 49 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,34298.0
+PEA26C01,Persons,Persons,2024,2024,2024,495,45 - 49 years,45 - 49 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,16637.0
+PEA26C01,Persons,Persons,2024,2024,2024,495,45 - 49 years,45 - 49 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,17661.0
+PEA26C01,Persons,Persons,2024,2024,2024,495,45 - 49 years,45 - 49 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,56732.0
+PEA26C01,Persons,Persons,2024,2024,2024,495,45 - 49 years,45 - 49 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,27868.0
+PEA26C01,Persons,Persons,2024,2024,2024,495,45 - 49 years,45 - 49 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,28864.0
+PEA26C01,Persons,Persons,2024,2024,2024,495,45 - 49 years,45 - 49 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,36489.0
+PEA26C01,Persons,Persons,2024,2024,2024,495,45 - 49 years,45 - 49 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,17956.0
+PEA26C01,Persons,Persons,2024,2024,2024,495,45 - 49 years,45 - 49 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,18533.0
+PEA26C01,Persons,Persons,2024,2024,2024,495,45 - 49 years,45 - 49 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,391333.0
+PEA26C01,Persons,Persons,2024,2024,2024,495,45 - 49 years,45 - 49 years,IE0,Ireland,Ireland,1,Male,Male,192203.0
+PEA26C01,Persons,Persons,2024,2024,2024,495,45 - 49 years,45 - 49 years,IE0,Ireland,Ireland,2,Female,Female,199130.0
+PEA26C01,Persons,Persons,2024,2024,2024,515,50 - 54 years,50 - 54 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,29793.0
+PEA26C01,Persons,Persons,2024,2024,2024,515,50 - 54 years,50 - 54 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,14819.0
+PEA26C01,Persons,Persons,2024,2024,2024,515,50 - 54 years,50 - 54 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,14974.0
+PEA26C01,Persons,Persons,2024,2024,2024,515,50 - 54 years,50 - 54 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,96977.0
+PEA26C01,Persons,Persons,2024,2024,2024,515,50 - 54 years,50 - 54 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,47667.0
+PEA26C01,Persons,Persons,2024,2024,2024,515,50 - 54 years,50 - 54 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,49310.0
+PEA26C01,Persons,Persons,2024,2024,2024,515,50 - 54 years,50 - 54 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,56877.0
+PEA26C01,Persons,Persons,2024,2024,2024,515,50 - 54 years,50 - 54 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,28321.0
+PEA26C01,Persons,Persons,2024,2024,2024,515,50 - 54 years,50 - 54 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,28556.0
+PEA26C01,Persons,Persons,2024,2024,2024,515,50 - 54 years,50 - 54 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,22651.0
+PEA26C01,Persons,Persons,2024,2024,2024,515,50 - 54 years,50 - 54 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,11355.0
+PEA26C01,Persons,Persons,2024,2024,2024,515,50 - 54 years,50 - 54 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,11296.0
+PEA26C01,Persons,Persons,2024,2024,2024,515,50 - 54 years,50 - 54 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,36209.0
+PEA26C01,Persons,Persons,2024,2024,2024,515,50 - 54 years,50 - 54 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,17992.0
+PEA26C01,Persons,Persons,2024,2024,2024,515,50 - 54 years,50 - 54 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,18217.0
+PEA26C01,Persons,Persons,2024,2024,2024,515,50 - 54 years,50 - 54 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,32944.0
+PEA26C01,Persons,Persons,2024,2024,2024,515,50 - 54 years,50 - 54 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,16190.0
+PEA26C01,Persons,Persons,2024,2024,2024,515,50 - 54 years,50 - 54 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,16754.0
+PEA26C01,Persons,Persons,2024,2024,2024,515,50 - 54 years,50 - 54 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,53051.0
+PEA26C01,Persons,Persons,2024,2024,2024,515,50 - 54 years,50 - 54 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,26441.0
+PEA26C01,Persons,Persons,2024,2024,2024,515,50 - 54 years,50 - 54 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,26610.0
+PEA26C01,Persons,Persons,2024,2024,2024,515,50 - 54 years,50 - 54 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,33941.0
+PEA26C01,Persons,Persons,2024,2024,2024,515,50 - 54 years,50 - 54 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,16934.0
+PEA26C01,Persons,Persons,2024,2024,2024,515,50 - 54 years,50 - 54 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,17007.0
+PEA26C01,Persons,Persons,2024,2024,2024,515,50 - 54 years,50 - 54 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,362443.0
+PEA26C01,Persons,Persons,2024,2024,2024,515,50 - 54 years,50 - 54 years,IE0,Ireland,Ireland,1,Male,Male,179719.0
+PEA26C01,Persons,Persons,2024,2024,2024,515,50 - 54 years,50 - 54 years,IE0,Ireland,Ireland,2,Female,Female,182724.0
+PEA26C01,Persons,Persons,2024,2024,2024,530,55 - 59 years,55 - 59 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,27860.0
+PEA26C01,Persons,Persons,2024,2024,2024,530,55 - 59 years,55 - 59 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,13840.0
+PEA26C01,Persons,Persons,2024,2024,2024,530,55 - 59 years,55 - 59 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,14020.0
+PEA26C01,Persons,Persons,2024,2024,2024,530,55 - 59 years,55 - 59 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,82117.0
+PEA26C01,Persons,Persons,2024,2024,2024,530,55 - 59 years,55 - 59 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,39772.0
+PEA26C01,Persons,Persons,2024,2024,2024,530,55 - 59 years,55 - 59 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,42345.0
+PEA26C01,Persons,Persons,2024,2024,2024,530,55 - 59 years,55 - 59 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,48068.0
+PEA26C01,Persons,Persons,2024,2024,2024,530,55 - 59 years,55 - 59 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,23969.0
+PEA26C01,Persons,Persons,2024,2024,2024,530,55 - 59 years,55 - 59 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,24099.0
+PEA26C01,Persons,Persons,2024,2024,2024,530,55 - 59 years,55 - 59 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,20367.0
+PEA26C01,Persons,Persons,2024,2024,2024,530,55 - 59 years,55 - 59 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,10229.0
+PEA26C01,Persons,Persons,2024,2024,2024,530,55 - 59 years,55 - 59 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,10138.0
+PEA26C01,Persons,Persons,2024,2024,2024,530,55 - 59 years,55 - 59 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,33042.0
+PEA26C01,Persons,Persons,2024,2024,2024,530,55 - 59 years,55 - 59 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,16531.0
+PEA26C01,Persons,Persons,2024,2024,2024,530,55 - 59 years,55 - 59 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,16511.0
+PEA26C01,Persons,Persons,2024,2024,2024,530,55 - 59 years,55 - 59 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,30376.0
+PEA26C01,Persons,Persons,2024,2024,2024,530,55 - 59 years,55 - 59 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,14810.0
+PEA26C01,Persons,Persons,2024,2024,2024,530,55 - 59 years,55 - 59 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,15566.0
+PEA26C01,Persons,Persons,2024,2024,2024,530,55 - 59 years,55 - 59 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,47718.0
+PEA26C01,Persons,Persons,2024,2024,2024,530,55 - 59 years,55 - 59 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,23498.0
+PEA26C01,Persons,Persons,2024,2024,2024,530,55 - 59 years,55 - 59 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,24220.0
+PEA26C01,Persons,Persons,2024,2024,2024,530,55 - 59 years,55 - 59 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,31119.0
+PEA26C01,Persons,Persons,2024,2024,2024,530,55 - 59 years,55 - 59 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,15562.0
+PEA26C01,Persons,Persons,2024,2024,2024,530,55 - 59 years,55 - 59 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,15557.0
+PEA26C01,Persons,Persons,2024,2024,2024,530,55 - 59 years,55 - 59 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,320667.0
+PEA26C01,Persons,Persons,2024,2024,2024,530,55 - 59 years,55 - 59 years,IE0,Ireland,Ireland,1,Male,Male,158211.0
+PEA26C01,Persons,Persons,2024,2024,2024,530,55 - 59 years,55 - 59 years,IE0,Ireland,Ireland,2,Female,Female,162456.0
+PEA26C01,Persons,Persons,2024,2024,2024,550,60 - 64 years,60 - 64 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,26065.0
+PEA26C01,Persons,Persons,2024,2024,2024,550,60 - 64 years,60 - 64 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,12845.0
+PEA26C01,Persons,Persons,2024,2024,2024,550,60 - 64 years,60 - 64 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,13220.0
+PEA26C01,Persons,Persons,2024,2024,2024,550,60 - 64 years,60 - 64 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,75016.0
+PEA26C01,Persons,Persons,2024,2024,2024,550,60 - 64 years,60 - 64 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,35919.0
+PEA26C01,Persons,Persons,2024,2024,2024,550,60 - 64 years,60 - 64 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,39097.0
+PEA26C01,Persons,Persons,2024,2024,2024,550,60 - 64 years,60 - 64 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,40934.0
+PEA26C01,Persons,Persons,2024,2024,2024,550,60 - 64 years,60 - 64 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,20224.0
+PEA26C01,Persons,Persons,2024,2024,2024,550,60 - 64 years,60 - 64 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,20710.0
+PEA26C01,Persons,Persons,2024,2024,2024,550,60 - 64 years,60 - 64 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,18490.0
+PEA26C01,Persons,Persons,2024,2024,2024,550,60 - 64 years,60 - 64 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,9274.0
+PEA26C01,Persons,Persons,2024,2024,2024,550,60 - 64 years,60 - 64 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,9216.0
+PEA26C01,Persons,Persons,2024,2024,2024,550,60 - 64 years,60 - 64 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,30601.0
+PEA26C01,Persons,Persons,2024,2024,2024,550,60 - 64 years,60 - 64 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,15151.0
+PEA26C01,Persons,Persons,2024,2024,2024,550,60 - 64 years,60 - 64 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,15450.0
+PEA26C01,Persons,Persons,2024,2024,2024,550,60 - 64 years,60 - 64 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,28282.0
+PEA26C01,Persons,Persons,2024,2024,2024,550,60 - 64 years,60 - 64 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,13709.0
+PEA26C01,Persons,Persons,2024,2024,2024,550,60 - 64 years,60 - 64 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,14573.0
+PEA26C01,Persons,Persons,2024,2024,2024,550,60 - 64 years,60 - 64 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,44414.0
+PEA26C01,Persons,Persons,2024,2024,2024,550,60 - 64 years,60 - 64 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,21954.0
+PEA26C01,Persons,Persons,2024,2024,2024,550,60 - 64 years,60 - 64 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,22460.0
+PEA26C01,Persons,Persons,2024,2024,2024,550,60 - 64 years,60 - 64 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,29008.0
+PEA26C01,Persons,Persons,2024,2024,2024,550,60 - 64 years,60 - 64 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,14440.0
+PEA26C01,Persons,Persons,2024,2024,2024,550,60 - 64 years,60 - 64 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,14568.0
+PEA26C01,Persons,Persons,2024,2024,2024,550,60 - 64 years,60 - 64 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,292810.0
+PEA26C01,Persons,Persons,2024,2024,2024,550,60 - 64 years,60 - 64 years,IE0,Ireland,Ireland,1,Male,Male,143516.0
+PEA26C01,Persons,Persons,2024,2024,2024,550,60 - 64 years,60 - 64 years,IE0,Ireland,Ireland,2,Female,Female,149294.0
+PEA26C01,Persons,Persons,2024,2024,2024,565,65 - 69 years,65 - 69 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,22896.0
+PEA26C01,Persons,Persons,2024,2024,2024,565,65 - 69 years,65 - 69 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,11389.0
+PEA26C01,Persons,Persons,2024,2024,2024,565,65 - 69 years,65 - 69 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,11507.0
+PEA26C01,Persons,Persons,2024,2024,2024,565,65 - 69 years,65 - 69 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,61933.0
+PEA26C01,Persons,Persons,2024,2024,2024,565,65 - 69 years,65 - 69 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,29282.0
+PEA26C01,Persons,Persons,2024,2024,2024,565,65 - 69 years,65 - 69 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,32651.0
+PEA26C01,Persons,Persons,2024,2024,2024,565,65 - 69 years,65 - 69 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,34097.0
+PEA26C01,Persons,Persons,2024,2024,2024,565,65 - 69 years,65 - 69 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,16718.0
+PEA26C01,Persons,Persons,2024,2024,2024,565,65 - 69 years,65 - 69 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,17379.0
+PEA26C01,Persons,Persons,2024,2024,2024,565,65 - 69 years,65 - 69 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,15564.0
+PEA26C01,Persons,Persons,2024,2024,2024,565,65 - 69 years,65 - 69 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,7794.0
+PEA26C01,Persons,Persons,2024,2024,2024,565,65 - 69 years,65 - 69 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,7770.0
+PEA26C01,Persons,Persons,2024,2024,2024,565,65 - 69 years,65 - 69 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,27231.0
+PEA26C01,Persons,Persons,2024,2024,2024,565,65 - 69 years,65 - 69 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,13660.0
+PEA26C01,Persons,Persons,2024,2024,2024,565,65 - 69 years,65 - 69 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,13571.0
+PEA26C01,Persons,Persons,2024,2024,2024,565,65 - 69 years,65 - 69 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,23815.0
+PEA26C01,Persons,Persons,2024,2024,2024,565,65 - 69 years,65 - 69 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,11853.0
+PEA26C01,Persons,Persons,2024,2024,2024,565,65 - 69 years,65 - 69 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,11962.0
+PEA26C01,Persons,Persons,2024,2024,2024,565,65 - 69 years,65 - 69 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,38271.0
+PEA26C01,Persons,Persons,2024,2024,2024,565,65 - 69 years,65 - 69 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,18994.0
+PEA26C01,Persons,Persons,2024,2024,2024,565,65 - 69 years,65 - 69 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,19277.0
+PEA26C01,Persons,Persons,2024,2024,2024,565,65 - 69 years,65 - 69 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,26506.0
+PEA26C01,Persons,Persons,2024,2024,2024,565,65 - 69 years,65 - 69 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,13092.0
+PEA26C01,Persons,Persons,2024,2024,2024,565,65 - 69 years,65 - 69 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,13414.0
+PEA26C01,Persons,Persons,2024,2024,2024,565,65 - 69 years,65 - 69 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,250313.0
+PEA26C01,Persons,Persons,2024,2024,2024,565,65 - 69 years,65 - 69 years,IE0,Ireland,Ireland,1,Male,Male,122782.0
+PEA26C01,Persons,Persons,2024,2024,2024,565,65 - 69 years,65 - 69 years,IE0,Ireland,Ireland,2,Female,Female,127531.0
+PEA26C01,Persons,Persons,2024,2024,2024,580,70 - 74 years,70 - 74 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,19790.0
+PEA26C01,Persons,Persons,2024,2024,2024,580,70 - 74 years,70 - 74 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,9894.0
+PEA26C01,Persons,Persons,2024,2024,2024,580,70 - 74 years,70 - 74 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,9896.0
+PEA26C01,Persons,Persons,2024,2024,2024,580,70 - 74 years,70 - 74 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,52813.0
+PEA26C01,Persons,Persons,2024,2024,2024,580,70 - 74 years,70 - 74 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,24673.0
+PEA26C01,Persons,Persons,2024,2024,2024,580,70 - 74 years,70 - 74 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,28140.0
+PEA26C01,Persons,Persons,2024,2024,2024,580,70 - 74 years,70 - 74 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,28417.0
+PEA26C01,Persons,Persons,2024,2024,2024,580,70 - 74 years,70 - 74 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,13822.0
+PEA26C01,Persons,Persons,2024,2024,2024,580,70 - 74 years,70 - 74 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,14595.0
+PEA26C01,Persons,Persons,2024,2024,2024,580,70 - 74 years,70 - 74 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,13084.0
+PEA26C01,Persons,Persons,2024,2024,2024,580,70 - 74 years,70 - 74 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,6520.0
+PEA26C01,Persons,Persons,2024,2024,2024,580,70 - 74 years,70 - 74 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,6564.0
+PEA26C01,Persons,Persons,2024,2024,2024,580,70 - 74 years,70 - 74 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,23546.0
+PEA26C01,Persons,Persons,2024,2024,2024,580,70 - 74 years,70 - 74 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,11753.0
+PEA26C01,Persons,Persons,2024,2024,2024,580,70 - 74 years,70 - 74 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,11793.0
+PEA26C01,Persons,Persons,2024,2024,2024,580,70 - 74 years,70 - 74 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,20663.0
+PEA26C01,Persons,Persons,2024,2024,2024,580,70 - 74 years,70 - 74 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,10173.0
+PEA26C01,Persons,Persons,2024,2024,2024,580,70 - 74 years,70 - 74 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,10490.0
+PEA26C01,Persons,Persons,2024,2024,2024,580,70 - 74 years,70 - 74 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,32880.0
+PEA26C01,Persons,Persons,2024,2024,2024,580,70 - 74 years,70 - 74 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,16174.0
+PEA26C01,Persons,Persons,2024,2024,2024,580,70 - 74 years,70 - 74 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,16706.0
+PEA26C01,Persons,Persons,2024,2024,2024,580,70 - 74 years,70 - 74 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,22511.0
+PEA26C01,Persons,Persons,2024,2024,2024,580,70 - 74 years,70 - 74 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,11079.0
+PEA26C01,Persons,Persons,2024,2024,2024,580,70 - 74 years,70 - 74 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,11432.0
+PEA26C01,Persons,Persons,2024,2024,2024,580,70 - 74 years,70 - 74 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,213704.0
+PEA26C01,Persons,Persons,2024,2024,2024,580,70 - 74 years,70 - 74 years,IE0,Ireland,Ireland,1,Male,Male,104088.0
+PEA26C01,Persons,Persons,2024,2024,2024,580,70 - 74 years,70 - 74 years,IE0,Ireland,Ireland,2,Female,Female,109616.0
+PEA26C01,Persons,Persons,2024,2024,2024,595,75 - 79 years,75 - 79 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,15598.0
+PEA26C01,Persons,Persons,2024,2024,2024,595,75 - 79 years,75 - 79 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,7721.0
+PEA26C01,Persons,Persons,2024,2024,2024,595,75 - 79 years,75 - 79 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,7877.0
+PEA26C01,Persons,Persons,2024,2024,2024,595,75 - 79 years,75 - 79 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,41204.0
+PEA26C01,Persons,Persons,2024,2024,2024,595,75 - 79 years,75 - 79 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,18832.0
+PEA26C01,Persons,Persons,2024,2024,2024,595,75 - 79 years,75 - 79 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,22372.0
+PEA26C01,Persons,Persons,2024,2024,2024,595,75 - 79 years,75 - 79 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,22356.0
+PEA26C01,Persons,Persons,2024,2024,2024,595,75 - 79 years,75 - 79 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,10778.0
+PEA26C01,Persons,Persons,2024,2024,2024,595,75 - 79 years,75 - 79 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,11578.0
+PEA26C01,Persons,Persons,2024,2024,2024,595,75 - 79 years,75 - 79 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,10048.0
+PEA26C01,Persons,Persons,2024,2024,2024,595,75 - 79 years,75 - 79 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,4844.0
+PEA26C01,Persons,Persons,2024,2024,2024,595,75 - 79 years,75 - 79 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,5204.0
+PEA26C01,Persons,Persons,2024,2024,2024,595,75 - 79 years,75 - 79 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,18400.0
+PEA26C01,Persons,Persons,2024,2024,2024,595,75 - 79 years,75 - 79 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,8760.0
+PEA26C01,Persons,Persons,2024,2024,2024,595,75 - 79 years,75 - 79 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,9640.0
+PEA26C01,Persons,Persons,2024,2024,2024,595,75 - 79 years,75 - 79 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,16121.0
+PEA26C01,Persons,Persons,2024,2024,2024,595,75 - 79 years,75 - 79 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,7839.0
+PEA26C01,Persons,Persons,2024,2024,2024,595,75 - 79 years,75 - 79 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,8282.0
+PEA26C01,Persons,Persons,2024,2024,2024,595,75 - 79 years,75 - 79 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,26145.0
+PEA26C01,Persons,Persons,2024,2024,2024,595,75 - 79 years,75 - 79 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,12738.0
+PEA26C01,Persons,Persons,2024,2024,2024,595,75 - 79 years,75 - 79 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,13407.0
+PEA26C01,Persons,Persons,2024,2024,2024,595,75 - 79 years,75 - 79 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,17407.0
+PEA26C01,Persons,Persons,2024,2024,2024,595,75 - 79 years,75 - 79 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,8680.0
+PEA26C01,Persons,Persons,2024,2024,2024,595,75 - 79 years,75 - 79 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,8727.0
+PEA26C01,Persons,Persons,2024,2024,2024,595,75 - 79 years,75 - 79 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,167279.0
+PEA26C01,Persons,Persons,2024,2024,2024,595,75 - 79 years,75 - 79 years,IE0,Ireland,Ireland,1,Male,Male,80192.0
+PEA26C01,Persons,Persons,2024,2024,2024,595,75 - 79 years,75 - 79 years,IE0,Ireland,Ireland,2,Female,Female,87087.0
+PEA26C01,Persons,Persons,2024,2024,2024,610,80 - 84 years,80 - 84 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,9709.0
+PEA26C01,Persons,Persons,2024,2024,2024,610,80 - 84 years,80 - 84 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,4677.0
+PEA26C01,Persons,Persons,2024,2024,2024,610,80 - 84 years,80 - 84 years,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,5032.0
+PEA26C01,Persons,Persons,2024,2024,2024,610,80 - 84 years,80 - 84 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,27369.0
+PEA26C01,Persons,Persons,2024,2024,2024,610,80 - 84 years,80 - 84 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,11848.0
+PEA26C01,Persons,Persons,2024,2024,2024,610,80 - 84 years,80 - 84 years,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,15521.0
+PEA26C01,Persons,Persons,2024,2024,2024,610,80 - 84 years,80 - 84 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,13336.0
+PEA26C01,Persons,Persons,2024,2024,2024,610,80 - 84 years,80 - 84 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,6139.0
+PEA26C01,Persons,Persons,2024,2024,2024,610,80 - 84 years,80 - 84 years,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,7197.0
+PEA26C01,Persons,Persons,2024,2024,2024,610,80 - 84 years,80 - 84 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,6073.0
+PEA26C01,Persons,Persons,2024,2024,2024,610,80 - 84 years,80 - 84 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,2748.0
+PEA26C01,Persons,Persons,2024,2024,2024,610,80 - 84 years,80 - 84 years,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,3325.0
+PEA26C01,Persons,Persons,2024,2024,2024,610,80 - 84 years,80 - 84 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,11372.0
+PEA26C01,Persons,Persons,2024,2024,2024,610,80 - 84 years,80 - 84 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,5249.0
+PEA26C01,Persons,Persons,2024,2024,2024,610,80 - 84 years,80 - 84 years,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,6123.0
+PEA26C01,Persons,Persons,2024,2024,2024,610,80 - 84 years,80 - 84 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,10322.0
+PEA26C01,Persons,Persons,2024,2024,2024,610,80 - 84 years,80 - 84 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,4912.0
+PEA26C01,Persons,Persons,2024,2024,2024,610,80 - 84 years,80 - 84 years,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,5410.0
+PEA26C01,Persons,Persons,2024,2024,2024,610,80 - 84 years,80 - 84 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,16324.0
+PEA26C01,Persons,Persons,2024,2024,2024,610,80 - 84 years,80 - 84 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,7385.0
+PEA26C01,Persons,Persons,2024,2024,2024,610,80 - 84 years,80 - 84 years,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,8939.0
+PEA26C01,Persons,Persons,2024,2024,2024,610,80 - 84 years,80 - 84 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,10979.0
+PEA26C01,Persons,Persons,2024,2024,2024,610,80 - 84 years,80 - 84 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,5102.0
+PEA26C01,Persons,Persons,2024,2024,2024,610,80 - 84 years,80 - 84 years,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,5877.0
+PEA26C01,Persons,Persons,2024,2024,2024,610,80 - 84 years,80 - 84 years,IE0,Ireland,Ireland,-,Both sexes,Both sexes,105484.0
+PEA26C01,Persons,Persons,2024,2024,2024,610,80 - 84 years,80 - 84 years,IE0,Ireland,Ireland,1,Male,Male,48060.0
+PEA26C01,Persons,Persons,2024,2024,2024,610,80 - 84 years,80 - 84 years,IE0,Ireland,Ireland,2,Female,Female,57424.0
+PEA26C01,Persons,Persons,2024,2024,2024,630,85 years and over,85 years and over,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,-,Both sexes,Both sexes,8385.0
+PEA26C01,Persons,Persons,2024,2024,2024,630,85 years and over,85 years and over,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,1,Male,Male,3297.0
+PEA26C01,Persons,Persons,2024,2024,2024,630,85 years and over,85 years and over,B1A65D7C-1984-4A87-AD58-0E846812C992,Border,Border,2,Female,Female,5088.0
+PEA26C01,Persons,Persons,2024,2024,2024,630,85 years and over,85 years and over,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,-,Both sexes,Both sexes,25153.0
+PEA26C01,Persons,Persons,2024,2024,2024,630,85 years and over,85 years and over,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,1,Male,Male,9128.0
+PEA26C01,Persons,Persons,2024,2024,2024,630,85 years and over,85 years and over,F97E459B-57ED-49C0-8A28-2BC1C7F08E88,Dublin,Dublin,2,Female,Female,16025.0
+PEA26C01,Persons,Persons,2024,2024,2024,630,85 years and over,85 years and over,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,-,Both sexes,Both sexes,10279.0
+PEA26C01,Persons,Persons,2024,2024,2024,630,85 years and over,85 years and over,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,1,Male,Male,4003.0
+PEA26C01,Persons,Persons,2024,2024,2024,630,85 years and over,85 years and over,8E4862CC-7E43-4BF5-A4EF-B2D5ECBA61EF,Mid-East,Mid-East,2,Female,Female,6276.0
+PEA26C01,Persons,Persons,2024,2024,2024,630,85 years and over,85 years and over,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,-,Both sexes,Both sexes,5161.0
+PEA26C01,Persons,Persons,2024,2024,2024,630,85 years and over,85 years and over,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,1,Male,Male,2103.0
+PEA26C01,Persons,Persons,2024,2024,2024,630,85 years and over,85 years and over,B26C8BAA-F3C5-49A9-B74E-D7FED1823E65,Midland,Midland,2,Female,Female,3058.0
+PEA26C01,Persons,Persons,2024,2024,2024,630,85 years and over,85 years and over,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,-,Both sexes,Both sexes,9431.0
+PEA26C01,Persons,Persons,2024,2024,2024,630,85 years and over,85 years and over,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,1,Male,Male,3736.0
+PEA26C01,Persons,Persons,2024,2024,2024,630,85 years and over,85 years and over,42C5C2A5-2D71-4BD1-BDB5-BD7D3198CD78,Mid-West,Mid-West,2,Female,Female,5695.0
+PEA26C01,Persons,Persons,2024,2024,2024,630,85 years and over,85 years and over,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,-,Both sexes,Both sexes,8426.0
+PEA26C01,Persons,Persons,2024,2024,2024,630,85 years and over,85 years and over,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,1,Male,Male,3286.0
+PEA26C01,Persons,Persons,2024,2024,2024,630,85 years and over,85 years and over,27C93D4E-AD0E-4B0C-8FA8-3566AEEDA5CC,South-East,South-East,2,Female,Female,5140.0
+PEA26C01,Persons,Persons,2024,2024,2024,630,85 years and over,85 years and over,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,-,Both sexes,Both sexes,13978.0
+PEA26C01,Persons,Persons,2024,2024,2024,630,85 years and over,85 years and over,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,1,Male,Male,5562.0
+PEA26C01,Persons,Persons,2024,2024,2024,630,85 years and over,85 years and over,604546A1-A856-4B9B-AD46-E88B27C27155,South-West,South-West,2,Female,Female,8416.0
+PEA26C01,Persons,Persons,2024,2024,2024,630,85 years and over,85 years and over,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,-,Both sexes,Both sexes,9716.0
+PEA26C01,Persons,Persons,2024,2024,2024,630,85 years and over,85 years and over,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,1,Male,Male,3795.0
+PEA26C01,Persons,Persons,2024,2024,2024,630,85 years and over,85 years and over,A69CA800-8D87-4920-A7C1-50426A1D39B4,West,West,2,Female,Female,5921.0
+PEA26C01,Persons,Persons,2024,2024,2024,630,85 years and over,85 years and over,IE0,Ireland,Ireland,-,Both sexes,Both sexes,90529.0
+PEA26C01,Persons,Persons,2024,2024,2024,630,85 years and over,85 years and over,IE0,Ireland,Ireland,1,Male,Male,34910.0
+PEA26C01,Persons,Persons,2024,2024,2024,630,85 years and over,85 years and over,IE0,Ireland,Ireland,2,Female,Female,55619.0

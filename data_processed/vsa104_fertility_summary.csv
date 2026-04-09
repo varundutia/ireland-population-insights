@@ -1,0 +1,633 @@
+year,age_group,nuts_3_region,STATISTIC,value
+1971,25 - 29 years,Ireland,VSA104C02,243.5
+1972,25 - 29 years,Ireland,VSA104C02,241.5
+1973,25 - 29 years,Ireland,VSA104C02,235.0
+1974,25 - 29 years,Ireland,VSA104C02,229.5
+1970,25 - 29 years,Ireland,VSA104C02,228.7
+1969,25 - 29 years,Ireland,VSA104C02,228.7
+1975,25 - 29 years,Ireland,VSA104C02,216.0
+1976,25 - 29 years,Ireland,VSA104C02,211.7
+1977,25 - 29 years,Ireland,VSA104C02,205.5
+1979,25 - 29 years,Ireland,VSA104C02,202.5
+1980,25 - 29 years,Ireland,VSA104C02,202.3
+1970,30 - 34 years,Ireland,VSA104C02,201.9
+1978,25 - 29 years,Ireland,VSA104C02,201.7
+1971,30 - 34 years,Ireland,VSA104C02,200.5
+1969,30 - 34 years,Ireland,VSA104C02,199.5
+1981,25 - 29 years,Ireland,VSA104C02,190.3
+1972,30 - 34 years,Ireland,VSA104C02,187.6
+1982,25 - 29 years,Ireland,VSA104C02,185.0
+1973,30 - 34 years,Ireland,VSA104C02,181.2
+1983,25 - 29 years,Ireland,VSA104C02,172.3
+1974,30 - 34 years,Ireland,VSA104C02,171.9
+1979,30 - 34 years,Ireland,VSA104C02,168.4
+1978,30 - 34 years,Ireland,VSA104C02,167.8
+1977,30 - 34 years,Ireland,VSA104C02,166.7
+1980,30 - 34 years,Ireland,VSA104C02,165.7
+1984,25 - 29 years,Ireland,VSA104C02,163.3
+1975,30 - 34 years,Ireland,VSA104C02,162.2
+1976,30 - 34 years,Ireland,VSA104C02,162.2
+1981,30 - 34 years,Ireland,VSA104C02,161.5
+1985,25 - 29 years,Ireland,VSA104C02,158.6
+1982,30 - 34 years,Ireland,VSA104C02,156.9
+1986,25 - 29 years,Ireland,VSA104C02,154.3
+1972,20 - 24 years,Ireland,VSA104C02,152.1
+1971,20 - 24 years,Ireland,VSA104C02,150.3
+1973,20 - 24 years,Ireland,VSA104C02,149.9
+1987,25 - 29 years,Ireland,VSA104C02,147.9
+1983,30 - 34 years,Ireland,VSA104C02,146.9
+2021,30 - 34 years,Border,VSA104C02,146.6
+1970,20 - 24 years,Ireland,VSA104C02,145.5
+1974,20 - 24 years,Ireland,VSA104C02,145.4
+2021,30 - 34 years,Mid-East,VSA104C02,143.1
+1988,25 - 29 years,Ireland,VSA104C02,141.0
+1969,20 - 24 years,Ireland,VSA104C02,139.7
+2023,30 - 34 years,Mid-East,VSA104C02,139.4
+2008,30 - 34 years,Ireland,VSA104C02,139.3
+1986,30 - 34 years,Ireland,VSA104C02,139.0
+1975,20 - 24 years,Ireland,VSA104C02,138.5
+1985,30 - 34 years,Ireland,VSA104C02,138.4
+1984,30 - 34 years,Ireland,VSA104C02,138.4
+2021,30 - 34 years,Midland,VSA104C02,138.3
+2007,30 - 34 years,Ireland,VSA104C02,138.1
+2021,30 - 34 years,Mid-West,VSA104C02,138.0
+1990,25 - 29 years,Ireland,VSA104C02,137.6
+2023,30 - 34 years,Border,VSA104C02,136.5
+2010,30 - 34 years,Ireland,VSA104C02,136.4
+2009,30 - 34 years,Ireland,VSA104C02,136.3
+2021,30 - 34 years,South-East,VSA104C02,135.3
+2003,30 - 34 years,Ireland,VSA104C02,135.0
+2011,30 - 34 years,Ireland,VSA104C02,134.8
+2002,30 - 34 years,Ireland,VSA104C02,134.5
+1989,25 - 29 years,Ireland,VSA104C02,134.4
+2004,30 - 34 years,Ireland,VSA104C02,134.3
+2001,30 - 34 years,Ireland,VSA104C02,134.1
+1976,20 - 24 years,Ireland,VSA104C02,133.7
+2021,30 - 34 years,West,VSA104C02,133.3
+1969,35 - 39 years,Ireland,VSA104C02,133.1
+1987,30 - 34 years,Ireland,VSA104C02,132.3
+1970,35 - 39 years,Ireland,VSA104C02,131.9
+1991,25 - 29 years,Ireland,VSA104C02,131.8
+1971,35 - 39 years,Ireland,VSA104C02,131.7
+1998,30 - 34 years,Ireland,VSA104C02,131.5
+1997,30 - 34 years,Ireland,VSA104C02,131.5
+2006,30 - 34 years,Ireland,VSA104C02,130.4
+1977,20 - 24 years,Ireland,VSA104C02,130.4
+2012,30 - 34 years,Ireland,VSA104C02,129.7
+1999,30 - 34 years,Ireland,VSA104C02,129.5
+2005,30 - 34 years,Ireland,VSA104C02,129.4
+2000,30 - 34 years,Ireland,VSA104C02,129.3
+2022,30 - 34 years,Border,VSA104C02,128.6
+2021,30 - 34 years,South-West,VSA104C02,127.2
+1996,30 - 34 years,Ireland,VSA104C02,127.1
+2013,30 - 34 years,Ireland,VSA104C02,126.5
+1990,30 - 34 years,Ireland,VSA104C02,126.2
+1978,20 - 24 years,Ireland,VSA104C02,126.2
+2023,30 - 34 years,South-East,VSA104C02,126.0
+1979,20 - 24 years,Ireland,VSA104C02,125.9
+1972,35 - 39 years,Ireland,VSA104C02,125.7
+1988,30 - 34 years,Ireland,VSA104C02,125.5
+1980,20 - 24 years,Ireland,VSA104C02,125.3
+2014,30 - 34 years,Ireland,VSA104C02,124.8
+1991,30 - 34 years,Ireland,VSA104C02,124.4
+2021,30 - 34 years,Ireland,VSA104C02,124.2
+1992,25 - 29 years,Ireland,VSA104C02,123.9
+1995,30 - 34 years,Ireland,VSA104C02,123.5
+2022,30 - 34 years,South-East,VSA104C02,123.4
+2015,30 - 34 years,Ireland,VSA104C02,123.2
+2016,30 - 34 years,Ireland,VSA104C02,122.5
+1992,30 - 34 years,Ireland,VSA104C02,122.3
+1989,30 - 34 years,Ireland,VSA104C02,122.0
+1993,30 - 34 years,Ireland,VSA104C02,121.2
+2022,30 - 34 years,Mid-East,VSA104C02,120.7
+1994,30 - 34 years,Ireland,VSA104C02,119.8
+2018,30 - 34 years,Ireland,VSA104C02,119.5
+2017,30 - 34 years,Ireland,VSA104C02,119.3
+2019,30 - 34 years,Ireland,VSA104C02,118.6
+2023,30 - 34 years,Mid-West,VSA104C02,118.5
+2023,30 - 34 years,Midland,VSA104C02,118.4
+1981,20 - 24 years,Ireland,VSA104C02,117.4
+2020,30 - 34 years,Ireland,VSA104C02,117.4
+1993,25 - 29 years,Ireland,VSA104C02,116.5
+2023,30 - 34 years,West,VSA104C02,116.0
+1973,35 - 39 years,Ireland,VSA104C02,115.6
+2021,35 - 39 years,West,VSA104C02,114.2
+2022,30 - 34 years,Midland,VSA104C02,114.1
+2022,30 - 34 years,Mid-West,VSA104C02,113.9
+2022,30 - 34 years,West,VSA104C02,113.7
+1994,25 - 29 years,Ireland,VSA104C02,112.5
+2023,30 - 34 years,South-West,VSA104C02,111.6
+1974,35 - 39 years,Ireland,VSA104C02,111.2
+1982,20 - 24 years,Ireland,VSA104C02,110.2
+2023,30 - 34 years,Ireland,VSA104C02,109.5
+2022,30 - 34 years,South-West,VSA104C02,108.0
+1995,25 - 29 years,Ireland,VSA104C02,106.7
+2021,35 - 39 years,South-West,VSA104C02,106.6
+1997,25 - 29 years,Ireland,VSA104C02,106.4
+2022,30 - 34 years,Ireland,VSA104C02,106.4
+1996,25 - 29 years,Ireland,VSA104C02,105.3
+1998,25 - 29 years,Ireland,VSA104C02,103.1
+1983,20 - 24 years,Ireland,VSA104C02,102.6
+2022,35 - 39 years,West,VSA104C02,101.9
+2021,30 - 34 years,Dublin,VSA104C02,100.7
+2021,35 - 39 years,Mid-East,VSA104C02,100.4
+1975,35 - 39 years,Ireland,VSA104C02,100.2
+1999,25 - 29 years,Ireland,VSA104C02,99.4
+2008,35 - 39 years,Ireland,VSA104C02,98.9
+2021,35 - 39 years,Ireland,VSA104C02,98.6
+2021,35 - 39 years,Border,VSA104C02,98.6
+2009,35 - 39 years,Ireland,VSA104C02,98.5
+2011,35 - 39 years,Ireland,VSA104C02,97.9
+2010,35 - 39 years,Ireland,VSA104C02,97.9
+2012,35 - 39 years,Ireland,VSA104C02,97.4
+2021,35 - 39 years,Mid-West,VSA104C02,97.3
+1980,35 - 39 years,Ireland,VSA104C02,97.3
+2013,35 - 39 years,Ireland,VSA104C02,97.1
+2014,35 - 39 years,Ireland,VSA104C02,96.8
+2007,35 - 39 years,Ireland,VSA104C02,96.7
+1978,35 - 39 years,Ireland,VSA104C02,96.5
+2023,35 - 39 years,West,VSA104C02,96.1
+2015,35 - 39 years,Ireland,VSA104C02,95.6
+1984,20 - 24 years,Ireland,VSA104C02,95.4
+2001,25 - 29 years,Ireland,VSA104C02,95.1
+2000,25 - 29 years,Ireland,VSA104C02,95.1
+2016,35 - 39 years,Ireland,VSA104C02,95.1
+1976,35 - 39 years,Ireland,VSA104C02,94.9
+1979,35 - 39 years,Ireland,VSA104C02,94.1
+1977,35 - 39 years,Ireland,VSA104C02,93.9
+2017,35 - 39 years,Ireland,VSA104C02,93.8
+2002,25 - 29 years,Ireland,VSA104C02,93.7
+1981,35 - 39 years,Ireland,VSA104C02,93.6
+2021,35 - 39 years,Dublin,VSA104C02,93.0
+2003,25 - 29 years,Ireland,VSA104C02,92.6
+2018,35 - 39 years,Ireland,VSA104C02,92.6
+2021,35 - 39 years,South-East,VSA104C02,92.3
+2021,35 - 39 years,Midland,VSA104C02,92.3
+2023,35 - 39 years,Mid-East,VSA104C02,91.9
+1982,35 - 39 years,Ireland,VSA104C02,91.6
+2019,35 - 39 years,Ireland,VSA104C02,91.6
+2021,25 - 29 years,Midland,VSA104C02,91.3
+2010,25 - 29 years,Ireland,VSA104C02,91.1
+2006,35 - 39 years,Ireland,VSA104C02,90.8
+2022,35 - 39 years,South-West,VSA104C02,90.4
+2009,25 - 29 years,Ireland,VSA104C02,90.2
+2021,25 - 29 years,Border,VSA104C02,89.3
+2020,35 - 39 years,Ireland,VSA104C02,89.2
+2011,25 - 29 years,Ireland,VSA104C02,88.9
+2004,25 - 29 years,Ireland,VSA104C02,88.4
+2022,35 - 39 years,Mid-East,VSA104C02,88.3
+2022,35 - 39 years,Border,VSA104C02,88.2
+2008,25 - 29 years,Ireland,VSA104C02,87.8
+2023,35 - 39 years,Border,VSA104C02,87.8
+1985,20 - 24 years,Ireland,VSA104C02,87.2
+2022,30 - 34 years,Dublin,VSA104C02,86.5
+2022,35 - 39 years,Mid-West,VSA104C02,86.4
+2005,35 - 39 years,Ireland,VSA104C02,86.4
+2012,25 - 29 years,Ireland,VSA104C02,86.0
+2023,35 - 39 years,South-West,VSA104C02,85.6
+2022,35 - 39 years,Ireland,VSA104C02,85.4
+2004,35 - 39 years,Ireland,VSA104C02,85.2
+1983,35 - 39 years,Ireland,VSA104C02,84.6
+2023,35 - 39 years,Mid-West,VSA104C02,84.5
+2007,25 - 29 years,Ireland,VSA104C02,84.1
+2023,35 - 39 years,Ireland,VSA104C02,83.7
+2023,30 - 34 years,Dublin,VSA104C02,83.6
+2013,25 - 29 years,Ireland,VSA104C02,83.2
+1986,20 - 24 years,Ireland,VSA104C02,83.1
+2022,35 - 39 years,South-East,VSA104C02,82.9
+2014,25 - 29 years,Ireland,VSA104C02,82.7
+2003,35 - 39 years,Ireland,VSA104C02,82.3
+2021,25 - 29 years,South-East,VSA104C02,82.3
+2021,25 - 29 years,Mid-East,VSA104C02,82.2
+2006,25 - 29 years,Ireland,VSA104C02,82.1
+2022,25 - 29 years,Border,VSA104C02,81.9
+2022,25 - 29 years,Midland,VSA104C02,81.4
+2023,25 - 29 years,Border,VSA104C02,80.8
+2023,25 - 29 years,Midland,VSA104C02,80.4
+2002,35 - 39 years,Ireland,VSA104C02,80.0
+2021,25 - 29 years,Mid-West,VSA104C02,79.9
+2005,25 - 29 years,Ireland,VSA104C02,79.9
+2015,25 - 29 years,Ireland,VSA104C02,79.5
+2023,35 - 39 years,Midland,VSA104C02,79.4
+1984,35 - 39 years,Ireland,VSA104C02,78.9
+2022,35 - 39 years,Dublin,VSA104C02,78.4
+2023,35 - 39 years,South-East,VSA104C02,77.4
+2023,35 - 39 years,Dublin,VSA104C02,76.5
+2023,25 - 29 years,Mid-East,VSA104C02,76.3
+2022,35 - 39 years,Midland,VSA104C02,75.8
+1987,20 - 24 years,Ireland,VSA104C02,75.4
+1985,35 - 39 years,Ireland,VSA104C02,75.3
+2001,35 - 39 years,Ireland,VSA104C02,75.3
+2022,25 - 29 years,South-East,VSA104C02,75.2
+2016,25 - 29 years,Ireland,VSA104C02,75.0
+2022,25 - 29 years,Mid-East,VSA104C02,74.9
+2023,25 - 29 years,South-East,VSA104C02,74.7
+1986,35 - 39 years,Ireland,VSA104C02,73.4
+2017,25 - 29 years,Ireland,VSA104C02,72.8
+2018,25 - 29 years,Ireland,VSA104C02,71.9
+2000,35 - 39 years,Ireland,VSA104C02,71.3
+2019,25 - 29 years,Ireland,VSA104C02,69.6
+1988,20 - 24 years,Ireland,VSA104C02,69.6
+1998,35 - 39 years,Ireland,VSA104C02,69.3
+2022,25 - 29 years,Mid-West,VSA104C02,68.8
+1987,35 - 39 years,Ireland,VSA104C02,68.6
+1999,35 - 39 years,Ireland,VSA104C02,68.5
+2023,25 - 29 years,Mid-West,VSA104C02,67.7
+2021,25 - 29 years,Ireland,VSA104C02,66.8
+1997,35 - 39 years,Ireland,VSA104C02,66.6
+2020,25 - 29 years,Ireland,VSA104C02,66.0
+1989,20 - 24 years,Ireland,VSA104C02,64.0
+1991,20 - 24 years,Ireland,VSA104C02,64.0
+1996,35 - 39 years,Ireland,VSA104C02,63.9
+1991,35 - 39 years,Ireland,VSA104C02,63.4
+1990,20 - 24 years,Ireland,VSA104C02,63.3
+1988,35 - 39 years,Ireland,VSA104C02,63.2
+1990,35 - 39 years,Ireland,VSA104C02,63.1
+1989,35 - 39 years,Ireland,VSA104C02,62.4
+2021,25 - 29 years,West,VSA104C02,61.4
+1992,35 - 39 years,Ireland,VSA104C02,61.3
+2021,25 - 29 years,South-West,VSA104C02,61.1
+1995,35 - 39 years,Ireland,VSA104C02,60.3
+2022,25 - 29 years,Ireland,VSA104C02,60.1
+1992,20 - 24 years,Ireland,VSA104C02,58.9
+2023,25 - 29 years,Ireland,VSA104C02,58.6
+1994,35 - 39 years,Ireland,VSA104C02,58.6
+1993,35 - 39 years,Ireland,VSA104C02,58.5
+2022,25 - 29 years,West,VSA104C02,56.8
+2023,25 - 29 years,West,VSA104C02,55.1
+1993,20 - 24 years,Ireland,VSA104C02,53.8
+2001,20 - 24 years,Ireland,VSA104C02,53.3
+2002,20 - 24 years,Ireland,VSA104C02,52.8
+2022,25 - 29 years,South-West,VSA104C02,52.6
+1998,20 - 24 years,Ireland,VSA104C02,52.5
+1996,20 - 24 years,Ireland,VSA104C02,52.2
+2000,20 - 24 years,Ireland,VSA104C02,51.6
+1999,20 - 24 years,Ireland,VSA104C02,51.0
+1997,20 - 24 years,Ireland,VSA104C02,50.9
+1994,20 - 24 years,Ireland,VSA104C02,50.7
+2003,20 - 24 years,Ireland,VSA104C02,50.3
+1995,20 - 24 years,Ireland,VSA104C02,50.3
+2021,25 - 29 years,Dublin,VSA104C02,50.2
+2023,25 - 29 years,South-West,VSA104C02,49.7
+2008,20 - 24 years,Ireland,VSA104C02,49.6
+2006,20 - 24 years,Ireland,VSA104C02,49.5
+2004,20 - 24 years,Ireland,VSA104C02,49.1
+2009,20 - 24 years,Ireland,VSA104C02,48.9
+2011,20 - 24 years,Ireland,VSA104C02,48.8
+2010,20 - 24 years,Ireland,VSA104C02,48.7
+2007,20 - 24 years,Ireland,VSA104C02,48.5
+1969,40 - 44 years,Ireland,VSA104C02,48.1
+2012,20 - 24 years,Ireland,VSA104C02,48.0
+1971,40 - 44 years,Ireland,VSA104C02,46.6
+2022,25 - 29 years,Dublin,VSA104C02,46.1
+2013,20 - 24 years,Ireland,VSA104C02,46.0
+2005,20 - 24 years,Ireland,VSA104C02,45.8
+1970,40 - 44 years,Ireland,VSA104C02,45.3
+2023,25 - 29 years,Dublin,VSA104C02,43.9
+2014,20 - 24 years,Ireland,VSA104C02,43.4
+1972,40 - 44 years,Ireland,VSA104C02,43.4
+2015,20 - 24 years,Ireland,VSA104C02,42.1
+1973,40 - 44 years,Ireland,VSA104C02,41.3
+1974,40 - 44 years,Ireland,VSA104C02,39.9
+2016,20 - 24 years,Ireland,VSA104C02,38.6
+2021,20 - 24 years,Midland,VSA104C02,38.1
+2017,20 - 24 years,Ireland,VSA104C02,37.6
+1975,40 - 44 years,Ireland,VSA104C02,36.8
+2023,20 - 24 years,Midland,VSA104C02,36.0
+2022,20 - 24 years,South-East,VSA104C02,35.7
+2022,20 - 24 years,Midland,VSA104C02,35.7
+2018,20 - 24 years,Ireland,VSA104C02,35.7
+1976,40 - 44 years,Ireland,VSA104C02,34.8
+2021,20 - 24 years,Mid-West,VSA104C02,33.9
+2021,20 - 24 years,South-East,VSA104C02,33.7
+1977,40 - 44 years,Ireland,VSA104C02,33.2
+2022,20 - 24 years,Mid-West,VSA104C02,32.2
+2019,20 - 24 years,Ireland,VSA104C02,31.9
+2022,20 - 24 years,Border,VSA104C02,31.7
+2023,20 - 24 years,Border,VSA104C02,31.1
+1978,40 - 44 years,Ireland,VSA104C02,31.1
+2023,20 - 24 years,South-East,VSA104C02,30.5
+1979,40 - 44 years,Ireland,VSA104C02,29.9
+1980,40 - 44 years,Ireland,VSA104C02,29.6
+2021,20 - 24 years,Mid-East,VSA104C02,29.6
+2021,40 - 44 years,West,VSA104C02,29.1
+2022,20 - 24 years,Mid-East,VSA104C02,28.5
+2020,20 - 24 years,Ireland,VSA104C02,28.5
+2021,20 - 24 years,Ireland,VSA104C02,28.0
+2021,20 - 24 years,Border,VSA104C02,27.5
+2022,20 - 24 years,Ireland,VSA104C02,27.3
+2023,20 - 24 years,Mid-East,VSA104C02,27.1
+1981,40 - 44 years,Ireland,VSA104C02,26.5
+2021,40 - 44 years,South-West,VSA104C02,25.8
+2023,20 - 24 years,Mid-West,VSA104C02,25.6
+2023,20 - 24 years,Ireland,VSA104C02,25.6
+2021,20 - 24 years,Dublin,VSA104C02,25.6
+2023,20 - 24 years,Dublin,VSA104C02,25.4
+2022,40 - 44 years,West,VSA104C02,25.2
+1983,40 - 44 years,Ireland,VSA104C02,25.0
+1982,40 - 44 years,Ireland,VSA104C02,24.9
+2022,20 - 24 years,Dublin,VSA104C02,24.8
+2021,40 - 44 years,Dublin,VSA104C02,24.2
+2023,40 - 44 years,West,VSA104C02,23.5
+2021,40 - 44 years,Ireland,VSA104C02,23.3
+2021,20 - 24 years,West,VSA104C02,23.2
+2021,20 - 24 years,South-West,VSA104C02,23.1
+2018,40 - 44 years,Ireland,VSA104C02,23.0
+1980,15 - 19 years,Ireland,VSA104C02,23.0
+1975,15 - 19 years,Ireland,VSA104C02,22.8
+2012,40 - 44 years,Ireland,VSA104C02,22.8
+1979,15 - 19 years,Ireland,VSA104C02,22.7
+2016,40 - 44 years,Ireland,VSA104C02,22.7
+2021,40 - 44 years,Mid-West,VSA104C02,22.6
+1974,15 - 19 years,Ireland,VSA104C02,22.6
+2022,20 - 24 years,South-West,VSA104C02,22.5
+1973,15 - 19 years,Ireland,VSA104C02,22.4
+2011,40 - 44 years,Ireland,VSA104C02,22.4
+2019,40 - 44 years,Ireland,VSA104C02,22.4
+2014,40 - 44 years,Ireland,VSA104C02,22.3
+2013,40 - 44 years,Ireland,VSA104C02,22.2
+1981,15 - 19 years,Ireland,VSA104C02,22.2
+2015,40 - 44 years,Ireland,VSA104C02,22.2
+2023,40 - 44 years,Dublin,VSA104C02,22.0
+1976,15 - 19 years,Ireland,VSA104C02,21.9
+2021,40 - 44 years,Border,VSA104C02,21.9
+2022,40 - 44 years,Dublin,VSA104C02,21.9
+2020,40 - 44 years,Ireland,VSA104C02,21.8
+1978,15 - 19 years,Ireland,VSA104C02,21.8
+1984,40 - 44 years,Ireland,VSA104C02,21.8
+2017,40 - 44 years,Ireland,VSA104C02,21.7
+2010,40 - 44 years,Ireland,VSA104C02,21.7
+1985,40 - 44 years,Ireland,VSA104C02,21.6
+2023,40 - 44 years,South-West,VSA104C02,21.5
+2022,40 - 44 years,South-West,VSA104C02,21.4
+2021,40 - 44 years,Mid-East,VSA104C02,21.4
+1972,15 - 19 years,Ireland,VSA104C02,21.3
+2022,40 - 44 years,Ireland,VSA104C02,21.2
+1986,40 - 44 years,Ireland,VSA104C02,21.2
+1977,15 - 19 years,Ireland,VSA104C02,21.2
+2009,40 - 44 years,Ireland,VSA104C02,20.9
+2022,20 - 24 years,West,VSA104C02,20.8
+1982,15 - 19 years,Ireland,VSA104C02,20.7
+2023,40 - 44 years,Ireland,VSA104C02,20.7
+2022,40 - 44 years,Mid-West,VSA104C02,20.5
+2023,40 - 44 years,Border,VSA104C02,20.4
+2023,40 - 44 years,Mid-East,VSA104C02,20.3
+1999,15 - 19 years,Ireland,VSA104C02,20.2
+2022,40 - 44 years,Mid-East,VSA104C02,20.1
+2022,40 - 44 years,Border,VSA104C02,20.1
+2001,15 - 19 years,Ireland,VSA104C02,19.9
+1987,40 - 44 years,Ireland,VSA104C02,19.8
+2008,40 - 44 years,Ireland,VSA104C02,19.7
+2021,40 - 44 years,Midland,VSA104C02,19.6
+2000,15 - 19 years,Ireland,VSA104C02,19.5
+2002,15 - 19 years,Ireland,VSA104C02,19.4
+2007,40 - 44 years,Ireland,VSA104C02,19.4
+2022,40 - 44 years,Midland,VSA104C02,19.4
+1998,15 - 19 years,Ireland,VSA104C02,19.2
+1971,15 - 19 years,Ireland,VSA104C02,19.1
+2003,15 - 19 years,Ireland,VSA104C02,19.0
+2023,20 - 24 years,South-West,VSA104C02,18.8
+2022,40 - 44 years,South-East,VSA104C02,18.8
+1983,15 - 19 years,Ireland,VSA104C02,18.7
+2021,40 - 44 years,South-East,VSA104C02,18.5
+2023,40 - 44 years,Midland,VSA104C02,18.3
+2023,40 - 44 years,South-East,VSA104C02,18.2
+2006,40 - 44 years,Ireland,VSA104C02,18.1
+1984,15 - 19 years,Ireland,VSA104C02,18.0
+2023,40 - 44 years,Mid-West,VSA104C02,17.9
+1988,40 - 44 years,Ireland,VSA104C02,17.8
+2023,20 - 24 years,West,VSA104C02,17.8
+1997,15 - 19 years,Ireland,VSA104C02,17.5
+2007,15 - 19 years,Ireland,VSA104C02,17.4
+1991,15 - 19 years,Ireland,VSA104C02,17.1
+2004,15 - 19 years,Ireland,VSA104C02,17.1
+1989,40 - 44 years,Ireland,VSA104C02,17.0
+2005,40 - 44 years,Ireland,VSA104C02,16.9
+1992,15 - 19 years,Ireland,VSA104C02,16.9
+2005,15 - 19 years,Ireland,VSA104C02,16.8
+1996,15 - 19 years,Ireland,VSA104C02,16.7
+1990,15 - 19 years,Ireland,VSA104C02,16.7
+1985,15 - 19 years,Ireland,VSA104C02,16.6
+2008,15 - 19 years,Ireland,VSA104C02,16.5
+2006,15 - 19 years,Ireland,VSA104C02,16.4
+1986,15 - 19 years,Ireland,VSA104C02,16.4
+1993,15 - 19 years,Ireland,VSA104C02,16.3
+1970,15 - 19 years,Ireland,VSA104C02,16.3
+2004,40 - 44 years,Ireland,VSA104C02,16.2
+1987,15 - 19 years,Ireland,VSA104C02,16.1
+2003,40 - 44 years,Ireland,VSA104C02,15.7
+2009,15 - 19 years,Ireland,VSA104C02,15.6
+1969,15 - 19 years,Ireland,VSA104C02,15.4
+1990,40 - 44 years,Ireland,VSA104C02,15.4
+1988,15 - 19 years,Ireland,VSA104C02,15.3
+1991,40 - 44 years,Ireland,VSA104C02,15.2
+1995,15 - 19 years,Ireland,VSA104C02,15.1
+1994,15 - 19 years,Ireland,VSA104C02,15.0
+1989,15 - 19 years,Ireland,VSA104C02,14.8
+2002,40 - 44 years,Ireland,VSA104C02,14.5
+2010,15 - 19 years,Ireland,VSA104C02,14.4
+1992,40 - 44 years,Ireland,VSA104C02,14.4
+1993,40 - 44 years,Ireland,VSA104C02,14.1
+2001,40 - 44 years,Ireland,VSA104C02,13.9
+2000,40 - 44 years,Ireland,VSA104C02,13.6
+1998,40 - 44 years,Ireland,VSA104C02,13.4
+1997,40 - 44 years,Ireland,VSA104C02,13.4
+1995,40 - 44 years,Ireland,VSA104C02,13.1
+1999,40 - 44 years,Ireland,VSA104C02,12.9
+1994,40 - 44 years,Ireland,VSA104C02,12.8
+2011,15 - 19 years,Ireland,VSA104C02,12.3
+1996,40 - 44 years,Ireland,VSA104C02,11.8
+2012,15 - 19 years,Ireland,VSA104C02,11.8
+2013,15 - 19 years,Ireland,VSA104C02,10.0
+2014,15 - 19 years,Ireland,VSA104C02,8.7
+2015,15 - 19 years,Ireland,VSA104C02,8.3
+2016,15 - 19 years,Ireland,VSA104C02,7.5
+2022,15 - 19 years,Midland,VSA104C02,7.0
+2017,15 - 19 years,Ireland,VSA104C02,6.9
+2021,15 - 19 years,Midland,VSA104C02,6.6
+2018,15 - 19 years,Ireland,VSA104C02,6.2
+2022,15 - 19 years,Dublin,VSA104C02,5.8
+2022,15 - 19 years,Mid-West,VSA104C02,5.7
+2021,15 - 19 years,Dublin,VSA104C02,5.6
+2020,15 - 19 years,Ireland,VSA104C02,5.4
+2019,15 - 19 years,Ireland,VSA104C02,5.4
+2021,15 - 19 years,Mid-West,VSA104C02,5.0
+2023,15 - 19 years,South-East,VSA104C02,4.9
+2021,15 - 19 years,South-East,VSA104C02,4.8
+2023,15 - 19 years,Dublin,VSA104C02,4.7
+2022,15 - 19 years,Ireland,VSA104C02,4.7
+2022,15 - 19 years,Mid-East,VSA104C02,4.4
+1969,45 - 49 years,Ireland,VSA104C02,4.4
+2021,15 - 19 years,Ireland,VSA104C02,4.4
+2023,15 - 19 years,Midland,VSA104C02,4.2
+2023,15 - 19 years,Border,VSA104C02,4.1
+2022,15 - 19 years,South-East,VSA104C02,4.1
+2023,15 - 19 years,Ireland,VSA104C02,4.0
+1971,All ages,Ireland,VSA104C01,3.98
+1972,All ages,Ireland,VSA104C01,3.88
+1970,All ages,Ireland,VSA104C01,3.87
+1969,All ages,Ireland,VSA104C01,3.85
+1973,All ages,Ireland,VSA104C01,3.74
+1970,45 - 49 years,Ireland,VSA104C02,3.7
+1974,All ages,Ireland,VSA104C01,3.62
+2022,15 - 19 years,West,VSA104C02,3.6
+2023,15 - 19 years,South-West,VSA104C02,3.5
+2023,15 - 19 years,Mid-West,VSA104C02,3.5
+2023,15 - 19 years,Mid-East,VSA104C02,3.4
+1972,45 - 49 years,Ireland,VSA104C02,3.4
+1975,All ages,Ireland,VSA104C01,3.4
+1976,All ages,Ireland,VSA104C01,3.31
+1971,45 - 49 years,Ireland,VSA104C02,3.3
+2022,15 - 19 years,Border,VSA104C02,3.3
+2021,15 - 19 years,Mid-East,VSA104C02,3.3
+2021,15 - 19 years,Border,VSA104C02,3.3
+1977,All ages,Ireland,VSA104C01,3.27
+1978,All ages,Ireland,VSA104C01,3.24
+1980,All ages,Ireland,VSA104C01,3.23
+1979,All ages,Ireland,VSA104C01,3.23
+2022,15 - 19 years,South-West,VSA104C02,3.2
+2021,15 - 19 years,South-West,VSA104C02,3.1
+1976,45 - 49 years,Ireland,VSA104C02,3.1
+1981,All ages,Ireland,VSA104C01,3.07
+1977,45 - 49 years,Ireland,VSA104C02,3.0
+1982,All ages,Ireland,VSA104C01,2.96
+2021,15 - 19 years,West,VSA104C02,2.9
+2023,15 - 19 years,West,VSA104C02,2.9
+1974,45 - 49 years,Ireland,VSA104C02,2.8
+1978,45 - 49 years,Ireland,VSA104C02,2.8
+1983,All ages,Ireland,VSA104C01,2.76
+1973,45 - 49 years,Ireland,VSA104C02,2.7
+1975,45 - 49 years,Ireland,VSA104C02,2.6
+1984,All ages,Ireland,VSA104C01,2.59
+1985,All ages,Ireland,VSA104C01,2.5
+1986,All ages,Ireland,VSA104C01,2.44
+1981,45 - 49 years,Ireland,VSA104C02,2.4
+2023,45 - 49 years,Dublin,VSA104C02,2.4
+1987,All ages,Ireland,VSA104C01,2.31
+1980,45 - 49 years,Ireland,VSA104C02,2.3
+1979,45 - 49 years,Ireland,VSA104C02,2.3
+1982,45 - 49 years,Ireland,VSA104C02,2.2
+1988,All ages,Ireland,VSA104C01,2.17
+1990,All ages,Ireland,VSA104C01,2.12
+2021,45 - 49 years,Dublin,VSA104C02,2.1
+2022,45 - 49 years,South-West,VSA104C02,2.1
+2019,45 - 49 years,Ireland,VSA104C02,2.1
+1991,All ages,Ireland,VSA104C01,2.09
+1989,All ages,Ireland,VSA104C01,2.08
+2008,All ages,Ireland,VSA104C01,2.07
+2009,All ages,Ireland,VSA104C01,2.06
+2010,All ages,Ireland,VSA104C01,2.06
+2007,All ages,Ireland,VSA104C01,2.03
+2011,All ages,Ireland,VSA104C01,2.02
+2022,45 - 49 years,Dublin,VSA104C02,2.0
+2023,45 - 49 years,South-West,VSA104C02,2.0
+1992,All ages,Ireland,VSA104C01,1.99
+2002,All ages,Ireland,VSA104C01,1.98
+2003,All ages,Ireland,VSA104C01,1.98
+2012,All ages,Ireland,VSA104C01,1.98
+2001,All ages,Ireland,VSA104C01,1.96
+2004,All ages,Ireland,VSA104C01,1.95
+1998,All ages,Ireland,VSA104C01,1.95
+2006,All ages,Ireland,VSA104C01,1.94
+1997,All ages,Ireland,VSA104C01,1.94
+2021,All ages,Midland,VSA104C01,1.94
+2021,All ages,Border,VSA104C01,1.94
+2013,All ages,Ireland,VSA104C01,1.93
+1993,All ages,Ireland,VSA104C01,1.91
+2021,All ages,Mid-East,VSA104C01,1.91
+1999,All ages,Ireland,VSA104C01,1.91
+2022,45 - 49 years,South-East,VSA104C02,1.9
+2022,45 - 49 years,West,VSA104C02,1.9
+2023,45 - 49 years,Mid-West,VSA104C02,1.9
+2017,45 - 49 years,Ireland,VSA104C02,1.9
+2018,45 - 49 years,Ireland,VSA104C02,1.9
+1984,45 - 49 years,Ireland,VSA104C02,1.9
+2000,All ages,Ireland,VSA104C01,1.9
+2023,45 - 49 years,Ireland,VSA104C02,1.9
+2014,All ages,Ireland,VSA104C01,1.9
+1996,All ages,Ireland,VSA104C01,1.89
+2021,All ages,Mid-West,VSA104C01,1.89
+2005,All ages,Ireland,VSA104C01,1.88
+2015,All ages,Ireland,VSA104C01,1.86
+1995,All ages,Ireland,VSA104C01,1.85
+1994,All ages,Ireland,VSA104C01,1.85
+2021,All ages,South-East,VSA104C01,1.84
+2021,All ages,West,VSA104C01,1.83
+2016,All ages,Ireland,VSA104C01,1.81
+2023,All ages,Border,VSA104C01,1.81
+2016,45 - 49 years,Ireland,VSA104C02,1.8
+2023,45 - 49 years,South-East,VSA104C02,1.8
+2023,All ages,Mid-East,VSA104C01,1.8
+2021,45 - 49 years,South-East,VSA104C02,1.8
+2022,All ages,Border,VSA104C01,1.77
+2017,All ages,Ireland,VSA104C01,1.77
+2018,All ages,Ireland,VSA104C01,1.75
+2021,All ages,South-West,VSA104C01,1.74
+2021,All ages,Ireland,VSA104C01,1.73
+2022,All ages,South-East,VSA104C01,1.71
+2019,All ages,Ireland,VSA104C01,1.71
+2023,45 - 49 years,Mid-East,VSA104C02,1.7
+2023,45 - 49 years,West,VSA104C02,1.7
+1983,45 - 49 years,Ireland,VSA104C02,1.7
+2022,45 - 49 years,Ireland,VSA104C02,1.7
+2022,45 - 49 years,Mid-West,VSA104C02,1.7
+2020,45 - 49 years,Ireland,VSA104C02,1.7
+2022,All ages,Mid-East,VSA104C01,1.69
+2023,All ages,Midland,VSA104C01,1.69
+2023,All ages,South-East,VSA104C01,1.67
+2022,All ages,Midland,VSA104C01,1.67
+2020,All ages,Ireland,VSA104C01,1.65
+2022,All ages,Mid-West,VSA104C01,1.65
+2022,All ages,West,VSA104C01,1.62
+2023,All ages,Mid-West,VSA104C01,1.6
+2014,45 - 49 years,Ireland,VSA104C02,1.6
+2023,All ages,West,VSA104C01,1.57
+2022,All ages,Ireland,VSA104C01,1.53
+2023,All ages,Ireland,VSA104C01,1.52
+2021,All ages,Dublin,VSA104C01,1.51
+2021,45 - 49 years,Ireland,VSA104C02,1.5
+2021,45 - 49 years,South-West,VSA104C02,1.5
+2022,45 - 49 years,Mid-East,VSA104C02,1.5
+2021,45 - 49 years,West,VSA104C02,1.5
+2022,All ages,South-West,VSA104C01,1.5
+2013,45 - 49 years,Ireland,VSA104C02,1.5
+1985,45 - 49 years,Ireland,VSA104C02,1.5
+1986,45 - 49 years,Ireland,VSA104C02,1.5
+2023,All ages,South-West,VSA104C01,1.46
+2012,45 - 49 years,Ireland,VSA104C02,1.4
+2015,45 - 49 years,Ireland,VSA104C02,1.4
+2022,All ages,Dublin,VSA104C01,1.33
+2023,45 - 49 years,Border,VSA104C02,1.3
+1987,45 - 49 years,Ireland,VSA104C02,1.3
+2023,All ages,Dublin,VSA104C01,1.29
+2008,45 - 49 years,Ireland,VSA104C02,1.2
+2009,45 - 49 years,Ireland,VSA104C02,1.1
+2022,45 - 49 years,Border,VSA104C02,1.1
+2010,45 - 49 years,Ireland,VSA104C02,1.1
+1990,45 - 49 years,Ireland,VSA104C02,1.1
+2011,45 - 49 years,Ireland,VSA104C02,1.1
+1988,45 - 49 years,Ireland,VSA104C02,1.1
+1989,45 - 49 years,Ireland,VSA104C02,1.1
+2023,45 - 49 years,Midland,VSA104C02,1.0
+1991,45 - 49 years,Ireland,VSA104C02,1.0
+2021,45 - 49 years,Border,VSA104C02,1.0
+2021,45 - 49 years,Midland,VSA104C02,1.0
+2021,45 - 49 years,Mid-West,VSA104C02,1.0
+2021,45 - 49 years,Mid-East,VSA104C02,1.0
+2022,45 - 49 years,Midland,VSA104C02,0.9
+1993,45 - 49 years,Ireland,VSA104C02,0.9
+2007,45 - 49 years,Ireland,VSA104C02,0.8
+1992,45 - 49 years,Ireland,VSA104C02,0.8
+2006,45 - 49 years,Ireland,VSA104C02,0.8
+1997,45 - 49 years,Ireland,VSA104C02,0.8
+1995,45 - 49 years,Ireland,VSA104C02,0.8
+1994,45 - 49 years,Ireland,VSA104C02,0.7
+2001,45 - 49 years,Ireland,VSA104C02,0.7
+2005,45 - 49 years,Ireland,VSA104C02,0.6
+1999,45 - 49 years,Ireland,VSA104C02,0.6
+1998,45 - 49 years,Ireland,VSA104C02,0.6
+1996,45 - 49 years,Ireland,VSA104C02,0.6
+2002,45 - 49 years,Ireland,VSA104C02,0.6
+2004,45 - 49 years,Ireland,VSA104C02,0.5
+2003,45 - 49 years,Ireland,VSA104C02,0.5
+2000,45 - 49 years,Ireland,VSA104C02,0.5

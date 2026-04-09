@@ -1,0 +1,747 @@
+STATISTIC,STATISTIC_label,statistic,TLIST(A1),TLIST(A1)_label,year,C03171V03833,C03171V03833_label,area_of_residence,value
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,-,State,State,17.0
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,A,Leinster,Leinster,17.7
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,010,Carlow,Carlow,20.7
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,021,Dublin City,Dublin City,14.5
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,022,South Dublin,South Dublin,18.1
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,023,Fingal,Fingal,21.7
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,024,Dun Laoghaire-Rathdown,Dun Laoghaire-Rathdown,13.5
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,030,Kildare,Kildare,20.5
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,040,Kilkenny,Kilkenny,15.5
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,050,Laois,Laois,19.5
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,060,Longford,Longford,20.2
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,070,Louth,Louth,17.1
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,080,Meath,Meath,21.2
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,090,Offaly,Offaly,17.1
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,100,Westmeath,Westmeath,18.0
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,110,Wexford,Wexford,18.4
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,120,Wicklow,Wicklow,19.0
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,B,Munster,Munster,16.3
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,130,Clare,Clare,15.9
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,141,Cork City,Cork City,12.9
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,142,Cork County,Cork County,18.0
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,150,Kerry,Kerry,14.2
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,161,Limerick City,Limerick City,15.0
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,162,Limerick County,Limerick County,17.1
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,171,North Tipperary,North Tipperary,18.3
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,172,South Tipperary,South Tipperary,14.3
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,181,Waterford City,Waterford City,18.7
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,182,Waterford County,Waterford County,16.3
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,C,Connacht,Connacht,16.0
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,191,Galway City,Galway City,14.0
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,192,Galway County,Galway County,18.6
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,200,Leitrim,Leitrim,16.9
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,210,Mayo,Mayo,14.6
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,220,Roscommon,Roscommon,14.8
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,230,Sligo,Sligo,15.2
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,D,Ulster (part of),Ulster (part of),15.8
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,240,Cavan,Cavan,18.9
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,250,Donegal,Donegal,14.7
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,260,Monaghan,Monaghan,15.1
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,IE11,Border,Border,16.0
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,IE12,Midland,Midland,18.1
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,IE13,West,West,16.3
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,IE21,Dublin,Dublin,16.8
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,IE22,Mid-East,Mid-East,19.6
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,IE23,Mid-West,Mid-West,16.8
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,IE24,South-East,South-East,16.9
+VSA38,Birth Rates,Birth Rates,2008,2008,2008,IE25,South-West,South-West,16.2
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,-,State,State,16.9
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,A,Leinster,Leinster,17.7
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,010,Carlow,Carlow,18.8
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,021,Dublin City,Dublin City,15.0
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,022,South Dublin,South Dublin,17.9
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,023,Fingal,Fingal,21.8
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,024,Dun Laoghaire-Rathdown,Dun Laoghaire-Rathdown,14.1
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,030,Kildare,Kildare,20.5
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,040,Kilkenny,Kilkenny,15.4
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,050,Laois,Laois,19.9
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,060,Longford,Longford,19.8
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,070,Louth,Louth,16.2
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,080,Meath,Meath,20.5
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,090,Offaly,Offaly,16.9
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,100,Westmeath,Westmeath,17.8
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,110,Wexford,Wexford,17.4
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,120,Wicklow,Wicklow,18.6
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,B,Munster,Munster,16.4
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,130,Clare,Clare,16.3
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,141,Cork City,Cork City,14.0
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,142,Cork County,Cork County,17.9
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,150,Kerry,Kerry,14.8
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,161,Limerick City,Limerick City,14.0
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,162,Limerick County,Limerick County,17.6
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,171,North Tipperary,North Tipperary,17.9
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,172,South Tipperary,South Tipperary,15.5
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,181,Waterford City,Waterford City,17.5
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,182,Waterford County,Waterford County,15.8
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,C,Connacht,Connacht,15.5
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,191,Galway City,Galway City,13.7
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,192,Galway County,Galway County,17.5
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,200,Leitrim,Leitrim,16.0
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,210,Mayo,Mayo,14.0
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,220,Roscommon,Roscommon,14.9
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,230,Sligo,Sligo,15.5
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,D,Ulster (part of),Ulster (part of),15.7
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,240,Cavan,Cavan,18.3
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,250,Donegal,Donegal,15.2
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,260,Monaghan,Monaghan,14.2
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,IE11,Border,Border,15.7
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,IE12,Midland,Midland,18.1
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,IE13,West,West,15.7
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,IE21,Dublin,Dublin,17.1
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,IE22,Mid-East,Mid-East,19.3
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,IE23,Mid-West,Mid-West,16.9
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,IE24,South-East,South-East,16.4
+VSA38,Birth Rates,Birth Rates,2009,2009,2009,IE25,South-West,South-West,16.5
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,-,State,State,16.5
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,A,Leinster,Leinster,17.3
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,010,Carlow,Carlow,18.1
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,021,Dublin City,Dublin City,16.0
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,022,South Dublin,South Dublin,18.1
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,023,Fingal,Fingal,20.2
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,024,Dun Laoghaire-Rathdown,Dun Laoghaire-Rathdown,13.8
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,030,Kildare,Kildare,19.1
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,040,Kilkenny,Kilkenny,15.2
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,050,Laois,Laois,17.9
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,060,Longford,Longford,17.5
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,070,Louth,Louth,16.0
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,080,Meath,Meath,19.6
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,090,Offaly,Offaly,16.3
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,100,Westmeath,Westmeath,17.8
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,110,Wexford,Wexford,15.7
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,120,Wicklow,Wicklow,18.8
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,B,Munster,Munster,15.7
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,130,Clare,Clare,14.4
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,141,Cork City,Cork City,14.1
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,142,Cork County,Cork County,17.1
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,150,Kerry,Kerry,13.5
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,161,Limerick City,Limerick City,13.6
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,162,Limerick County,Limerick County,17.5
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,171,North Tipperary,North Tipperary,17.5
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,172,South Tipperary,South Tipperary,13.6
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,181,Waterford City,Waterford City,18.8
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,182,Waterford County,Waterford County,14.8
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,C,Connacht,Connacht,15.3
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,191,Galway City,Galway City,16.1
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,192,Galway County,Galway County,16.6
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,200,Leitrim,Leitrim,14.9
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,210,Mayo,Mayo,14.2
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,220,Roscommon,Roscommon,14.1
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,230,Sligo,Sligo,14.5
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,D,Ulster (part of),Ulster (part of),14.8
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,240,Cavan,Cavan,16.8
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,250,Donegal,Donegal,13.9
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,260,Monaghan,Monaghan,14.6
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,IE11,Border,Border,15.1
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,IE12,Midland,Midland,17.3
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,IE13,West,West,15.5
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,IE21,Dublin,Dublin,17.0
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,IE22,Mid-East,Mid-East,19.2
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,IE23,Mid-West,Mid-West,16.0
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,IE24,South-East,South-East,15.7
+VSA38,Birth Rates,Birth Rates,2010,2010,2010,IE25,South-West,South-West,15.8
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,-,State,State,16.2
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,A,Leinster,Leinster,17.0
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,010,Carlow,Carlow,18.1
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,021,Dublin City,Dublin City,15.7
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,022,South Dublin,South Dublin,18.9
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,023,Fingal,Fingal,20.2
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,024,Dun Laoghaire-Rathdown,Dun Laoghaire-Rathdown,13.8
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,030,Kildare,Kildare,18.3
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,040,Kilkenny,Kilkenny,14.9
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,050,Laois,Laois,16.6
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,060,Longford,Longford,16.1
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,070,Louth,Louth,15.3
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,080,Meath,Meath,19.0
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,090,Offaly,Offaly,16.2
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,100,Westmeath,Westmeath,16.1
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,110,Wexford,Wexford,15.7
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,120,Wicklow,Wicklow,16.5
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,B,Munster,Munster,15.5
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,130,Clare,Clare,14.8
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,141,Cork City,Cork City,13.5
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,142,Cork County,Cork County,16.7
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,150,Kerry,Kerry,14.0
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,161,Limerick City,Limerick City,13.6
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,162,Limerick County,Limerick County,17.2
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,171,North Tipperary,North Tipperary,16.8
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,172,South Tipperary,South Tipperary,13.8
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,181,Waterford City,Waterford City,17.9
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,182,Waterford County,Waterford County,14.4
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,C,Connacht,Connacht,14.9
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,191,Galway City,Galway City,15.6
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,192,Galway County,Galway County,16.3
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,200,Leitrim,Leitrim,14.4
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,210,Mayo,Mayo,13.9
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,220,Roscommon,Roscommon,13.5
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,230,Sligo,Sligo,14.3
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,D,Ulster (part of),Ulster (part of),14.6
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,240,Cavan,Cavan,17.3
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,250,Donegal,Donegal,13.5
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,260,Monaghan,Monaghan,14.5
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,IE11,Border,Border,14.7
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,IE12,Midland,Midland,16.3
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,IE13,West,West,15.1
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,IE21,Dublin,Dublin,17.1
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,IE22,Mid-East,Mid-East,18.0
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,IE23,Mid-West,Mid-West,15.8
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,IE24,South-East,South-East,15.5
+VSA38,Birth Rates,Birth Rates,2011,2011,2011,IE25,South-West,South-West,15.5
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,-,State,State,15.6
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,A,Leinster,Leinster,16.4
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,010,Carlow,Carlow,16.8
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,021,Dublin City,Dublin City,15.3
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,022,South Dublin,South Dublin,18.4
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,023,Fingal,Fingal,20.2
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,024,Dun Laoghaire-Rathdown,Dun Laoghaire-Rathdown,13.6
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,030,Kildare,Kildare,17.2
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,040,Kilkenny,Kilkenny,14.5
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,050,Laois,Laois,15.7
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,060,Longford,Longford,16.3
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,070,Louth,Louth,15.2
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,080,Meath,Meath,17.1
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,090,Offaly,Offaly,15.0
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,100,Westmeath,Westmeath,16.7
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,110,Wexford,Wexford,15.2
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,120,Wicklow,Wicklow,16.3
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,B,Munster,Munster,14.8
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,130,Clare,Clare,14.5
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,141,Cork City,Cork City,12.1
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,142,Cork County,Cork County,16.5
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,150,Kerry,Kerry,13.5
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,161,Limerick City,Limerick City,14.7
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,162,Limerick County,Limerick County,15.3
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,171,North Tipperary,North Tipperary,14.6
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,172,South Tipperary,South Tipperary,13.3
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,181,Waterford City,Waterford City,17.2
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,182,Waterford County,Waterford County,12.9
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,C,Connacht,Connacht,14.7
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,191,Galway City,Galway City,16.4
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,192,Galway County,Galway County,15.5
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,200,Leitrim,Leitrim,14.2
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,210,Mayo,Mayo,13.4
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,220,Roscommon,Roscommon,13.4
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,230,Sligo,Sligo,14.8
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,D,Ulster (part of),Ulster (part of),13.8
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,240,Cavan,Cavan,15.7
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,250,Donegal,Donegal,12.8
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,260,Monaghan,Monaghan,13.7
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,IE11,Border,Border,14.3
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,IE12,Midland,Midland,15.9
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,IE13,West,West,14.7
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,IE21,Dublin,Dublin,16.8
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,IE22,Mid-East,Mid-East,17.0
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,IE23,Mid-West,Mid-West,14.8
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,IE24,South-East,South-East,14.8
+VSA38,Birth Rates,Birth Rates,2012,2012,2012,IE25,South-West,South-West,15.1
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,-,State,State,15.0
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,A,Leinster,Leinster,15.8
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,010,Carlow,Carlow,15.8
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,021,Dublin City,Dublin City,15.2
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,022,South Dublin,South Dublin,17.0
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,023,Fingal,Fingal,19.3
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,024,Dun Laoghaire-Rathdown,Dun Laoghaire-Rathdown,13.6
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,030,Kildare,Kildare,16.1
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,040,Kilkenny,Kilkenny,13.8
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,050,Laois,Laois,14.8
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,060,Longford,Longford,15.3
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,070,Louth,Louth,15.9
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,080,Meath,Meath,16.9
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,090,Offaly,Offaly,13.7
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,100,Westmeath,Westmeath,15.2
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,110,Wexford,Wexford,13.9
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,120,Wicklow,Wicklow,14.9
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,B,Munster,Munster,14.2
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,130,Clare,Clare,12.8
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,141,Cork City,Cork City,12.6
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,142,Cork County,Cork County,15.5
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,150,Kerry,Kerry,12.2
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,161,Limerick City,Limerick City,15.0
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,162,Limerick County,Limerick County,14.3
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,171,North Tipperary,North Tipperary,14.8
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,172,South Tipperary,South Tipperary,13.5
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,181,Waterford City,Waterford City,17.0
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,182,Waterford County,Waterford County,13.6
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,C,Connacht,Connacht,14.3
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,191,Galway City,Galway City,16.4
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,192,Galway County,Galway County,14.8
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,200,Leitrim,Leitrim,14.4
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,210,Mayo,Mayo,13.1
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,220,Roscommon,Roscommon,13.2
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,230,Sligo,Sligo,13.8
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,D,Ulster (part of),Ulster (part of),13.5
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,240,Cavan,Cavan,15.5
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,250,Donegal,Donegal,12.3
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,260,Monaghan,Monaghan,14.2
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,IE11,Border,Border,14.1
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,IE12,Midland,Midland,14.7
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,IE13,West,West,14.3
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,IE21,Dublin,Dublin,16.2
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,IE22,Mid-East,Mid-East,16.1
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,IE23,Mid-West,Mid-West,14.0
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,IE24,South-East,South-East,14.3
+VSA38,Birth Rates,Birth Rates,2013,2013,2013,IE25,South-West,South-West,14.3
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,-,State,State,14.6
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,A,Leinster,Leinster,15.5
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,010,Carlow,Carlow,16.8
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,021,Dublin City,Dublin City,15.0
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,022,South Dublin,South Dublin,16.9
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,023,Fingal,Fingal,18.4
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,024,Dun Laoghaire-Rathdown,Dun Laoghaire-Rathdown,13.6
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,030,Kildare,Kildare,15.9
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,040,Kilkenny,Kilkenny,13.6
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,050,Laois,Laois,14.3
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,060,Longford,Longford,14.1
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,070,Louth,Louth,15.1
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,080,Meath,Meath,15.7
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,090,Offaly,Offaly,14.5
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,100,Westmeath,Westmeath,15.4
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,110,Wexford,Wexford,14.2
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,120,Wicklow,Wicklow,14.4
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,B,Munster,Munster,13.7
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,130,Clare,Clare,12.5
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,141,Cork City,Cork City,12.9
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,142,Cork County,Cork County,14.7
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,150,Kerry,Kerry,11.8
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,161,Limerick City,Limerick City,15.6
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,162,Limerick County,Limerick County,13.8
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,171,North Tipperary,North Tipperary,13.4
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,172,South Tipperary,South Tipperary,12.8
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,181,Waterford City,Waterford City,16.4
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,182,Waterford County,Waterford County,12.5
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,C,Connacht,Connacht,13.7
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,191,Galway City,Galway City,15.8
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,192,Galway County,Galway County,14.4
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,200,Leitrim,Leitrim,12.7
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,210,Mayo,Mayo,12.8
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,220,Roscommon,Roscommon,12.6
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,230,Sligo,Sligo,12.9
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,D,Ulster (part of),Ulster (part of),12.9
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,240,Cavan,Cavan,14.7
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,250,Donegal,Donegal,11.7
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,260,Monaghan,Monaghan,13.7
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,IE11,Border,Border,13.4
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,IE12,Midland,Midland,14.6
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,IE13,West,West,13.9
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,IE21,Dublin,Dublin,15.9
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,IE22,Mid-East,Mid-East,15.5
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,IE23,Mid-West,Mid-West,13.6
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,IE24,South-East,South-East,14.1
+VSA38,Birth Rates,Birth Rates,2014,2014,2014,IE25,South-West,South-West,13.8
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,-,State,State,14.0
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,A,Leinster,Leinster,14.5
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,010,Carlow,Carlow,14.5
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,021,Dublin City,Dublin City,14.2
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,022,South Dublin,South Dublin,15.3
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,023,Fingal,Fingal,16.8
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,024,Dun Laoghaire-Rathdown,Dun Laoghaire-Rathdown,13.0
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,030,Kildare,Kildare,15.3
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,040,Kilkenny,Kilkenny,12.7
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,050,Laois,Laois,14.2
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,060,Longford,Longford,14.4
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,070,Louth,Louth,14.7
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,080,Meath,Meath,14.5
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,090,Offaly,Offaly,12.7
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,100,Westmeath,Westmeath,14.1
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,110,Wexford,Wexford,13.5
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,120,Wicklow,Wicklow,14.1
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,B,Munster,Munster,13.6
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,130,Clare,Clare,13.0
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,141,Cork City,Cork City,12.8
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,142,Cork County,Cork County,14.5
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,150,Kerry,Kerry,11.5
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,161,Limerick City,Limerick City,14.4
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,162,Limerick County,Limerick County,14.1
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,171,North Tipperary,North Tipperary,14.2
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,172,South Tipperary,South Tipperary,12.4
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,181,Waterford City,Waterford City,14.1
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,182,Waterford County,Waterford County,13.0
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,C,Connacht,Connacht,13.1
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,191,Galway City,Galway City,14.7
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,192,Galway County,Galway County,13.9
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,200,Leitrim,Leitrim,13.0
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,210,Mayo,Mayo,12.1
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,220,Roscommon,Roscommon,11.9
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,230,Sligo,Sligo,12.3
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,D,Ulster (part of),Ulster (part of),12.8
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,240,Cavan,Cavan,14.2
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,250,Donegal,Donegal,11.9
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,260,Monaghan,Monaghan,13.3
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,IE11,Border,Border,13.2
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,IE12,Midland,Midland,13.8
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,IE13,West,West,13.2
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,IE21,Dublin,Dublin,14.8
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,IE22,Mid-East,Mid-East,14.7
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,IE23,Mid-West,Mid-West,13.8
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,IE24,South-East,South-East,13.3
+VSA38,Birth Rates,Birth Rates,2015,2015,2015,IE25,South-West,South-West,13.6
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,-,State,State,13.5
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,A,Leinster,Leinster,14.0
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,010,Carlow,Carlow,13.3
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,021,Dublin City,Dublin City,13.5
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,022,South Dublin,South Dublin,14.8
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,023,Fingal,Fingal,16.5
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,024,Dun Laoghaire-Rathdown,Dun Laoghaire-Rathdown,12.7
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,030,Kildare,Kildare,14.7
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,040,Kilkenny,Kilkenny,12.1
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,050,Laois,Laois,13.3
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,060,Longford,Longford,14.9
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,070,Louth,Louth,13.9
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,080,Meath,Meath,14.1
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,090,Offaly,Offaly,12.7
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,100,Westmeath,Westmeath,14.1
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,110,Wexford,Wexford,12.6
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,120,Wicklow,Wicklow,13.4
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,B,Munster,Munster,12.9
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,130,Clare,Clare,12.4
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,141,Cork City,Cork City,11.8
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,142,Cork County,Cork County,13.4
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,150,Kerry,Kerry,11.7
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,161,Limerick City,Limerick City,14.7
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,162,Limerick County,Limerick County,13.0
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,171,North Tipperary,North Tipperary,12.7
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,172,South Tipperary,South Tipperary,13.0
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,181,Waterford City,Waterford City,11.6
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,182,Waterford County,Waterford County,13.6
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,C,Connacht,Connacht,12.9
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,191,Galway City,Galway City,14.8
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,192,Galway County,Galway County,13.6
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,200,Leitrim,Leitrim,13.0
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,210,Mayo,Mayo,11.9
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,220,Roscommon,Roscommon,11.7
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,230,Sligo,Sligo,12.0
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,D,Ulster (part of),Ulster (part of),12.7
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,240,Cavan,Cavan,14.1
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,250,Donegal,Donegal,11.9
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,260,Monaghan,Monaghan,13.1
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,IE11,Border,Border,12.9
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,IE12,Midland,Midland,13.6
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,IE13,West,West,13.0
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,IE21,Dublin,Dublin,14.3
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,IE22,Mid-East,Mid-East,14.1
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,IE23,Mid-West,Mid-West,13.0
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,IE24,South-East,South-East,12.7
+VSA38,Birth Rates,Birth Rates,2016,2016,2016,IE25,South-West,South-West,12.8
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,-,State,State,12.9
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,A,Leinster,Leinster,13.4
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,010,Carlow,Carlow,13.4
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,021,Dublin City,Dublin City,13.0
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,022,South Dublin,South Dublin,17.8
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,023,Fingal,Fingal,15.1
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,024,Dun Laoghaire-Rathdown,Dun Laoghaire-Rathdown,9.3
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,030,Kildare,Kildare,14.0
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,040,Kilkenny,Kilkenny,11.7
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,050,Laois,Laois,13.9
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,060,Longford,Longford,13.1
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,070,Louth,Louth,13.3
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,080,Meath,Meath,13.6
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,090,Offaly,Offaly,12.7
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,100,Westmeath,Westmeath,14.2
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,110,Wexford,Wexford,12.6
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,120,Wicklow,Wicklow,12.8
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,B,Munster,Munster,12.4
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,130,Clare,Clare,11.9
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,141,Cork City,Cork City,11.1
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,142,Cork County,Cork County,13.0
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,150,Kerry,Kerry,11.2
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,161,Limerick City,Limerick City,13.5
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,162,Limerick County,Limerick County,13.0
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,171,North Tipperary,North Tipperary,12.7
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,172,South Tipperary,South Tipperary,12.2
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,181,Waterford City,Waterford City,11.8
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,182,Waterford County,Waterford County,12.2
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,C,Connacht,Connacht,12.2
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,191,Galway City,Galway City,12.1
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,192,Galway County,Galway County,13.4
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,200,Leitrim,Leitrim,12.3
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,210,Mayo,Mayo,11.4
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,220,Roscommon,Roscommon,11.7
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,230,Sligo,Sligo,11.3
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,D,Ulster (part of),Ulster (part of),12.2
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,240,Cavan,Cavan,13.7
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,250,Donegal,Donegal,11.4
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,260,Monaghan,Monaghan,12.4
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,IE11,Border,Border,12.4
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,IE12,Midland,Midland,13.6
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,IE13,West,West,12.4
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,IE21,Dublin,Dublin,13.5
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,IE22,Mid-East,Mid-East,13.5
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,IE23,Mid-West,Mid-West,12.7
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,IE24,South-East,South-East,12.3
+VSA38,Birth Rates,Birth Rates,2017,2017,2017,IE25,South-West,South-West,12.3
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,-,State,State,12.6
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,A,Leinster,Leinster,12.9
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,010,Carlow,Carlow,14.3
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,021,Dublin City,Dublin City,12.5
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,022,South Dublin,South Dublin,13.9
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,023,Fingal,Fingal,14.9
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,024,Dun Laoghaire-Rathdown,Dun Laoghaire-Rathdown,11.4
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,030,Kildare,Kildare,13.3
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,040,Kilkenny,Kilkenny,11.1
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,050,Laois,Laois,12.1
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,060,Longford,Longford,13.2
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,070,Louth,Louth,12.9
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,080,Meath,Meath,13.0
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,090,Offaly,Offaly,11.8
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,100,Westmeath,Westmeath,13.4
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,110,Wexford,Wexford,11.8
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,120,Wicklow,Wicklow,11.5
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,B,Munster,Munster,12.3
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,130,Clare,Clare,11.4
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,141,Cork City,Cork City,10.8
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,142,Cork County,Cork County,12.9
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,150,Kerry,Kerry,11.0
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,161,Limerick City,Limerick City,13.6
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,162,Limerick County,Limerick County,12.5
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,170,Tipperary,Tipperary,12.7
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,181,Waterford City,Waterford City,13.2
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,182,Waterford County,Waterford County,11.4
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,C,Connacht,Connacht,11.9
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,191,Galway City,Galway City,12.5
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,192,Galway County,Galway County,12.7
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,200,Leitrim,Leitrim,12.7
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,210,Mayo,Mayo,11.0
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,220,Roscommon,Roscommon,10.8
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,230,Sligo,Sligo,12.0
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,D,Ulster (part of),Ulster (part of),12.3
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,240,Cavan,Cavan,13.2
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,250,Donegal,Donegal,11.6
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,260,Monaghan,Monaghan,13.1
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,IE11,Border,Border,12.3
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,IE12,Midland,Midland,12.6
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,IE13,West,West,11.9
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,IE21,Dublin,Dublin,13.1
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,IE22,Mid-East,Mid-East,12.8
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,IE23,Mid-West,Mid-West,12.4
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,IE24,South-East,South-East,12.1
+VSA38,Birth Rates,Birth Rates,2018,2018,2018,IE25,South-West,South-West,12.1
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,-,State,State,12.0
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,A,Leinster,Leinster,12.4
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,010,Carlow,Carlow,12.7
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,021,Dublin City,Dublin City,12.1
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,022,South Dublin,South Dublin,13.6
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,023,Fingal,Fingal,13.7
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,024,Dun Laoghaire-Rathdown,Dun Laoghaire-Rathdown,10.8
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,030,Kildare,Kildare,12.9
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,040,Kilkenny,Kilkenny,10.7
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,050,Laois,Laois,12.5
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,060,Longford,Longford,13.7
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,070,Louth,Louth,12.4
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,080,Meath,Meath,13.2
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,090,Offaly,Offaly,11.4
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,100,Westmeath,Westmeath,12.4
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,110,Wexford,Wexford,11.6
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,120,Wicklow,Wicklow,11.7
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,B,Munster,Munster,11.4
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,130,Clare,Clare,10.9
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,141,Cork City,Cork City,10.5
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,142,Cork County,Cork County,12.1
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,150,Kerry,Kerry,10.3
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,161,Limerick City,Limerick City,13.7
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,162,Limerick County,Limerick County,11.3
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,170,Tipperary,Tipperary,11.2
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,181,Waterford City,Waterford City,12.9
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,182,Waterford County,Waterford County,10.1
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,C,Connacht,Connacht,11.9
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,191,Galway City,Galway City,11.4
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,192,Galway County,Galway County,12.6
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,200,Leitrim,Leitrim,12.9
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,210,Mayo,Mayo,11.1
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,220,Roscommon,Roscommon,12.3
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,230,Sligo,Sligo,11.2
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,D,Ulster (part of),Ulster (part of),11.5
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,240,Cavan,Cavan,12.4
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,250,Donegal,Donegal,11.0
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,260,Monaghan,Monaghan,11.7
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,IE11,Border,Border,11.6
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,IE12,Midland,Midland,12.3
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,IE13,West,West,11.9
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,IE21,Dublin,Dublin,12.5
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,IE22,Mid-East,Mid-East,12.6
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,IE23,Mid-West,Mid-West,11.5
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,IE24,South-East,South-East,11.5
+VSA38,Birth Rates,Birth Rates,2019,2019,2019,IE25,South-West,South-West,11.4
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,-,State,State,11.4
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,A,Leinster,Leinster,11.7
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,010,Carlow,Carlow,12.6
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,021,Dublin City,Dublin City,11.3
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,022,South Dublin,South Dublin,12.6
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,023,Fingal,Fingal,12.9
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,024,Dun Laoghaire-Rathdown,Dun Laoghaire-Rathdown,10.1
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,030,Kildare,Kildare,12.7
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,040,Kilkenny,Kilkenny,9.8
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,050,Laois,Laois,10.7
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,060,Longford,Longford,12.5
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,070,Louth,Louth,11.7
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,080,Meath,Meath,11.9
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,090,Offaly,Offaly,11.1
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,100,Westmeath,Westmeath,12.8
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,110,Wexford,Wexford,10.9
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,120,Wicklow,Wicklow,10.9
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,B,Munster,Munster,11.1
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,130,Clare,Clare,10.6
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,141,Cork City,Cork City,9.9
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,142,Cork County,Cork County,11.8
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,150,Kerry,Kerry,9.8
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,161,Limerick City,Limerick City,12.1
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,162,Limerick County,Limerick County,11.8
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,170,Tipperary,Tipperary,10.8
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,181,Waterford City,Waterford City,12.5
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,182,Waterford County,Waterford County,10.3
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,C,Connacht,Connacht,10.8
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,191,Galway City,Galway City,10.4
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,192,Galway County,Galway County,11.4
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,200,Leitrim,Leitrim,11.5
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,210,Mayo,Mayo,10.1
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,220,Roscommon,Roscommon,10.6
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,230,Sligo,Sligo,11.1
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,D,Ulster (part of),Ulster (part of),11.4
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,240,Cavan,Cavan,12.9
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,250,Donegal,Donegal,10.4
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,260,Monaghan,Monaghan,12.0
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,IE11,Border,Border,11.3
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,IE12,Midland,Midland,11.7
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,IE13,West,West,10.7
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,IE21,Dublin,Dublin,11.7
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,IE22,Mid-East,Mid-East,11.9
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,IE23,Mid-West,Mid-West,11.2
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,IE24,South-East,South-East,11.0
+VSA38,Birth Rates,Birth Rates,2020,2020,2020,IE25,South-West,South-West,11.0
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,-,State,State,11.9
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,A,Leinster,Leinster,12.2
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,010,Carlow,Carlow,12.6
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,021,Dublin City,Dublin City,11.8
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,022,South Dublin,South Dublin,15.4
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,023,Fingal,Fingal,13.4
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,024,Dun Laoghaire-Rathdown,Dun Laoghaire-Rathdown,9.0
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,030,Kildare,Kildare,12.7
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,040,Kilkenny,Kilkenny,10.6
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,050,Laois,Laois,11.8
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,060,Longford,Longford,12.6
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,070,Louth,Louth,12.1
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,080,Meath,Meath,13.2
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,090,Offaly,Offaly,11.6
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,100,Westmeath,Westmeath,13.0
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,110,Wexford,Wexford,11.4
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,120,Wicklow,Wicklow,11.7
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,B,Munster,Munster,11.6
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,130,Clare,Clare,11.0
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,141,Cork City,Cork City,10.3
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,142,Cork County,Cork County,12.2
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,150,Kerry,Kerry,11.0
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,161,Limerick City,Limerick City,12.5
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,162,Limerick County,Limerick County,11.4
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,170,Tipperary,Tipperary,12.1
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,181,Waterford City,Waterford City,12.8
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,182,Waterford County,Waterford County,10.2
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,C,Connacht,Connacht,11.6
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,191,Galway City,Galway City,10.7
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,192,Galway County,Galway County,12.6
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,200,Leitrim,Leitrim,12.1
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,210,Mayo,Mayo,11.0
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,220,Roscommon,Roscommon,11.3
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,230,Sligo,Sligo,11.4
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,D,Ulster (part of),Ulster (part of),11.4
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,240,Cavan,Cavan,12.2
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,250,Donegal,Donegal,10.4
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,260,Monaghan,Monaghan,13.1
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,IE11,Border,Border,11.5
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,IE12,Midland,Midland,12.2
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,IE13,West,West,11.6
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,IE21,Dublin,Dublin,12.2
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,IE22,Mid-East,Mid-East,12.5
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,IE23,Mid-West,Mid-West,11.6
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,IE24,South-East,South-East,11.3
+VSA38,Birth Rates,Birth Rates,2021,2021,2021,IE25,South-West,South-West,11.6
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,-,State,State,10.5
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,A,Leinster,Leinster,10.7
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,010,Carlow,Carlow,11.6
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,021,Dublin City,Dublin City,10.8
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,022,South Dublin,South Dublin,11.7
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,023,Fingal,Fingal,11.0
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,024,Dun Laoghaire-Rathdown,Dun Laoghaire-Rathdown,8.7
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,030,Kildare,Kildare,11.2
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,040,Kilkenny,Kilkenny,9.7
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,050,Laois,Laois,10.1
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,060,Longford,Longford,11.0
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,070,Louth,Louth,11.0
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,080,Meath,Meath,11.5
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,090,Offaly,Offaly,9.9
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,100,Westmeath,Westmeath,11.3
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,110,Wexford,Wexford,10.5
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,120,Wicklow,Wicklow,10.2
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,B,Munster,Munster,10.1
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,130,Clare,Clare,9.6
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,141,Cork City,Cork City,8.7
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,142,Cork County,Cork County,10.5
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,150,Kerry,Kerry,9.2
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,161,Limerick City,Limerick City,11.9
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,162,Limerick County,Limerick County,10.4
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,170,Tipperary,Tipperary,10.1
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,181,Waterford City,Waterford City,12.4
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,182,Waterford County,Waterford County,9.5
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,C,Connacht,Connacht,10.2
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,191,Galway City,Galway City,8.4
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,192,Galway County,Galway County,11.5
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,200,Leitrim,Leitrim,11.0
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,210,Mayo,Mayo,10.0
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,220,Roscommon,Roscommon,9.8
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,230,Sligo,Sligo,9.5
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,D,Ulster (part of),Ulster (part of),10.5
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,240,Cavan,Cavan,12.1
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,250,Donegal,Donegal,9.8
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,260,Monaghan,Monaghan,10.5
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,IE11,Border,Border,10.4
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,IE12,Midland,Midland,10.5
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,IE13,West,West,10.3
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,IE21,Dublin,Dublin,10.7
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,IE22,Mid-East,Mid-East,11.1
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,IE23,Mid-West,Mid-West,10.3
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,IE24,South-East,South-East,10.5
+VSA38,Birth Rates,Birth Rates,2022,2022,2022,IE25,South-West,South-West,9.9
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,-,State,State,10.3
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,A,Leinster,Leinster,10.6
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,010,Carlow,Carlow,10.4
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,021,Dublin City,Dublin City,10.3
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,022,South Dublin,South Dublin,11.2
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,023,Fingal,Fingal,10.8
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,024,Dun Laoghaire-Rathdown,Dun Laoghaire-Rathdown,9.0
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,030,Kildare,Kildare,11.9
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,040,Kilkenny,Kilkenny,9.4
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,050,Laois,Laois,10.2
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,060,Longford,Longford,11.2
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,070,Louth,Louth,10.9
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,080,Meath,Meath,11.8
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,090,Offaly,Offaly,10.0
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,100,Westmeath,Westmeath,11.1
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,110,Wexford,Wexford,10.6
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,120,Wicklow,Wicklow,9.8
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,B,Munster,Munster,9.8
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,130,Clare,Clare,9.4
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,141,Cork City,Cork City,9.1
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,142,Cork County,Cork County,10.0
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,150,Kerry,Kerry,8.8
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,161,Limerick City,Limerick City,12.1
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,162,Limerick County,Limerick County,10.0
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,170,Tipperary,Tipperary,9.9
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,181,Waterford City,Waterford City,12.1
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,182,Waterford County,Waterford County,8.6
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,C,Connacht,Connacht,9.9
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,191,Galway City,Galway City,8.7
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,192,Galway County,Galway County,11.0
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,200,Leitrim,Leitrim,9.3
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,210,Mayo,Mayo,9.5
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,220,Roscommon,Roscommon,9.6
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,230,Sligo,Sligo,9.9
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,D,Ulster (part of),Ulster (part of),10.7
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,240,Cavan,Cavan,11.8
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,250,Donegal,Donegal,10.0
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,260,Monaghan,Monaghan,11.0
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,IE11,Border,Border,10.4
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,IE12,Midland,Midland,10.5
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,IE13,West,West,10.0
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,IE21,Dublin,Dublin,10.4
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,IE22,Mid-East,Mid-East,11.2
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,IE23,Mid-West,Mid-West,10.1
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,IE24,South-East,South-East,10.1
+VSA38,Birth Rates,Birth Rates,2023,2023,2023,IE25,South-West,South-West,9.6

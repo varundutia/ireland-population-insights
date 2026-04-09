@@ -1,0 +1,1027 @@
+year,age_group,sex,nuts_3_region,STATISTIC,value
+2024,All ages,Both sexes,Ireland,PEA26C01,5351681.0
+2023,All ages,Both sexes,Ireland,PEA26C01,5271395.0
+2024,All ages,Female,Ireland,PEA26C01,2708306.0
+2023,All ages,Female,Ireland,PEA26C01,2666848.0
+2024,All ages,Male,Ireland,PEA26C01,2643375.0
+2023,All ages,Male,Ireland,PEA26C01,2604547.0
+2024,All ages,Both sexes,Dublin,PEA26C01,1519751.0
+2023,All ages,Both sexes,Dublin,PEA26C01,1499179.0
+2024,All ages,Both sexes,Mid-East,PEA26C01,782429.0
+2023,All ages,Both sexes,Mid-East,PEA26C01,776202.0
+2024,All ages,Female,Dublin,PEA26C01,774189.0
+2024,All ages,Both sexes,South-West,PEA26C01,769764.0
+2023,All ages,Female,Dublin,PEA26C01,763889.0
+2023,All ages,Both sexes,South-West,PEA26C01,756254.0
+2024,All ages,Male,Dublin,PEA26C01,745562.0
+2023,All ages,Male,Dublin,PEA26C01,735290.0
+2024,All ages,Both sexes,Mid-West,PEA26C01,529583.0
+2023,All ages,Both sexes,Mid-West,PEA26C01,517337.0
+2024,All ages,Both sexes,West,PEA26C01,503916.0
+2023,All ages,Both sexes,West,PEA26C01,499315.0
+2024,All ages,Both sexes,South-East,PEA26C01,473064.0
+2023,All ages,Both sexes,South-East,PEA26C01,467589.0
+2024,All ages,Both sexes,Border,PEA26C01,441644.0
+2024,40 - 44 years,Both sexes,Ireland,PEA26C01,431629.0
+2023,All ages,Both sexes,Border,PEA26C01,430893.0
+2023,40 - 44 years,Both sexes,Ireland,PEA26C01,425708.0
+2024,All ages,Female,Mid-East,PEA26C01,393334.0
+2024,45 - 49 years,Both sexes,Ireland,PEA26C01,391333.0
+2023,All ages,Female,Mid-East,PEA26C01,390737.0
+2024,All ages,Female,South-West,PEA26C01,390137.0
+2024,All ages,Male,Mid-East,PEA26C01,389095.0
+2023,35 - 39 years,Both sexes,Ireland,PEA26C01,385962.0
+2023,All ages,Male,Mid-East,PEA26C01,385465.0
+2023,45 - 49 years,Both sexes,Ireland,PEA26C01,383883.0
+2024,35 - 39 years,Both sexes,Ireland,PEA26C01,383274.0
+2023,All ages,Female,South-West,PEA26C01,382208.0
+2024,10 - 14 years,Both sexes,Ireland,PEA26C01,380824.0
+2024,All ages,Male,South-West,PEA26C01,379627.0
+2023,10 - 14 years,Both sexes,Ireland,PEA26C01,379467.0
+2023,All ages,Male,South-West,PEA26C01,374046.0
+2024,50 - 54 years,Both sexes,Ireland,PEA26C01,362443.0
+2024,15 - 19 years,Both sexes,Ireland,PEA26C01,355598.0
+2023,50 - 54 years,Both sexes,Ireland,PEA26C01,350992.0
+2023,15 - 19 years,Both sexes,Ireland,PEA26C01,343539.0
+2023,5 - 9 years,Both sexes,Ireland,PEA26C01,341967.0
+2023,30 - 34 years,Both sexes,Ireland,PEA26C01,339309.0
+2024,5 - 9 years,Both sexes,Ireland,PEA26C01,338288.0
+2024,30 - 34 years,Both sexes,Ireland,PEA26C01,338111.0
+2024,All ages,Both sexes,Midland,PEA26C01,331530.0
+2023,All ages,Both sexes,Midland,PEA26C01,324626.0
+2024,55 - 59 years,Both sexes,Ireland,PEA26C01,320667.0
+2024,20 - 24 years,Both sexes,Ireland,PEA26C01,319584.0
+2024,25 - 29 years,Both sexes,Ireland,PEA26C01,316180.0
+2023,55 - 59 years,Both sexes,Ireland,PEA26C01,314883.0
+2023,20 - 24 years,Both sexes,Ireland,PEA26C01,314437.0
+2023,25 - 29 years,Both sexes,Ireland,PEA26C01,309559.0
+2023,0 - 4 years,Both sexes,Ireland,PEA26C01,298007.0
+2024,0 - 4 years,Both sexes,Ireland,PEA26C01,293631.0
+2024,60 - 64 years,Both sexes,Ireland,PEA26C01,292810.0
+2023,60 - 64 years,Both sexes,Ireland,PEA26C01,283167.0
+2024,All ages,Female,Mid-West,PEA26C01,268752.0
+2023,All ages,Female,Mid-West,PEA26C01,261481.0
+2024,All ages,Male,Mid-West,PEA26C01,260831.0
+2023,All ages,Male,Mid-West,PEA26C01,255856.0
+2024,All ages,Female,West,PEA26C01,254076.0
+2023,All ages,Female,West,PEA26C01,251785.0
+2024,65 - 69 years,Both sexes,Ireland,PEA26C01,250313.0
+2024,All ages,Male,West,PEA26C01,249840.0
+2023,All ages,Male,West,PEA26C01,247530.0
+2023,65 - 69 years,Both sexes,Ireland,PEA26C01,244141.0
+2024,All ages,Female,South-East,PEA26C01,238864.0
+2023,All ages,Female,South-East,PEA26C01,236879.0
+2024,All ages,Male,South-East,PEA26C01,234200.0
+2023,All ages,Male,South-East,PEA26C01,230710.0
+2024,40 - 44 years,Female,Ireland,PEA26C01,223535.0
+2024,All ages,Female,Border,PEA26C01,221882.0
+2024,All ages,Male,Border,PEA26C01,219762.0
+2023,40 - 44 years,Female,Ireland,PEA26C01,219167.0
+2023,All ages,Female,Border,PEA26C01,216674.0
+2023,All ages,Male,Border,PEA26C01,214219.0
+2024,70 - 74 years,Both sexes,Ireland,PEA26C01,213704.0
+2023,70 - 74 years,Both sexes,Ireland,PEA26C01,208673.0
+2024,40 - 44 years,Male,Ireland,PEA26C01,208094.0
+2023,40 - 44 years,Male,Ireland,PEA26C01,206541.0
+2023,35 - 39 years,Female,Ireland,PEA26C01,201462.0
+2024,35 - 39 years,Female,Ireland,PEA26C01,200487.0
+2024,45 - 49 years,Female,Ireland,PEA26C01,199130.0
+2024,10 - 14 years,Male,Ireland,PEA26C01,195084.0
+2023,45 - 49 years,Female,Ireland,PEA26C01,194615.0
+2023,10 - 14 years,Male,Ireland,PEA26C01,193916.0
+2024,45 - 49 years,Male,Ireland,PEA26C01,192203.0
+2023,45 - 49 years,Male,Ireland,PEA26C01,189268.0
+2024,10 - 14 years,Female,Ireland,PEA26C01,185740.0
+2023,10 - 14 years,Female,Ireland,PEA26C01,185551.0
+2023,35 - 39 years,Male,Ireland,PEA26C01,184500.0
+2024,15 - 19 years,Male,Ireland,PEA26C01,183781.0
+2024,35 - 39 years,Male,Ireland,PEA26C01,182787.0
+2024,50 - 54 years,Female,Ireland,PEA26C01,182724.0
+2024,50 - 54 years,Male,Ireland,PEA26C01,179719.0
+2023,15 - 19 years,Male,Ireland,PEA26C01,176634.0
+2023,50 - 54 years,Female,Ireland,PEA26C01,175858.0
+2023,5 - 9 years,Male,Ireland,PEA26C01,175211.0
+2023,50 - 54 years,Male,Ireland,PEA26C01,175134.0
+2023,30 - 34 years,Female,Ireland,PEA26C01,174552.0
+2024,30 - 34 years,Female,Ireland,PEA26C01,173529.0
+2024,5 - 9 years,Male,Ireland,PEA26C01,173143.0
+2024,15 - 19 years,Female,Ireland,PEA26C01,171817.0
+2024,75 - 79 years,Both sexes,Ireland,PEA26C01,167279.0
+2024,All ages,Female,Midland,PEA26C01,167072.0
+2023,15 - 19 years,Female,Ireland,PEA26C01,166905.0
+2023,5 - 9 years,Female,Ireland,PEA26C01,166756.0
+2024,5 - 9 years,Female,Ireland,PEA26C01,165145.0
+2023,30 - 34 years,Male,Ireland,PEA26C01,164757.0
+2024,30 - 34 years,Male,Ireland,PEA26C01,164582.0
+2024,All ages,Male,Midland,PEA26C01,164458.0
+2024,20 - 24 years,Male,Ireland,PEA26C01,163867.0
+2023,All ages,Female,Midland,PEA26C01,163195.0
+2024,55 - 59 years,Female,Ireland,PEA26C01,162456.0
+2023,All ages,Male,Midland,PEA26C01,161431.0
+2023,75 - 79 years,Both sexes,Ireland,PEA26C01,160558.0
+2023,20 - 24 years,Male,Ireland,PEA26C01,159913.0
+2023,55 - 59 years,Female,Ireland,PEA26C01,159571.0
+2024,25 - 29 years,Male,Ireland,PEA26C01,159096.0
+2024,55 - 59 years,Male,Ireland,PEA26C01,158211.0
+2024,25 - 29 years,Female,Ireland,PEA26C01,157084.0
+2024,20 - 24 years,Female,Ireland,PEA26C01,155717.0
+2023,55 - 59 years,Male,Ireland,PEA26C01,155312.0
+2023,25 - 29 years,Male,Ireland,PEA26C01,154959.0
+2023,25 - 29 years,Female,Ireland,PEA26C01,154600.0
+2023,20 - 24 years,Female,Ireland,PEA26C01,154524.0
+2023,0 - 4 years,Male,Ireland,PEA26C01,151676.0
+2024,60 - 64 years,Female,Ireland,PEA26C01,149294.0
+2024,0 - 4 years,Male,Ireland,PEA26C01,149260.0
+2023,0 - 4 years,Female,Ireland,PEA26C01,146331.0
+2024,0 - 4 years,Female,Ireland,PEA26C01,144371.0
+2023,60 - 64 years,Female,Ireland,PEA26C01,143847.0
+2024,60 - 64 years,Male,Ireland,PEA26C01,143516.0
+2023,60 - 64 years,Male,Ireland,PEA26C01,139320.0
+2024,40 - 44 years,Both sexes,Dublin,PEA26C01,131865.0
+2023,40 - 44 years,Both sexes,Dublin,PEA26C01,127670.0
+2024,65 - 69 years,Female,Ireland,PEA26C01,127531.0
+2024,35 - 39 years,Both sexes,Dublin,PEA26C01,126978.0
+2023,35 - 39 years,Both sexes,Dublin,PEA26C01,124419.0
+2023,65 - 69 years,Female,Ireland,PEA26C01,124080.0
+2024,30 - 34 years,Both sexes,Dublin,PEA26C01,123318.0
+2024,65 - 69 years,Male,Ireland,PEA26C01,122782.0
+2023,30 - 34 years,Both sexes,Dublin,PEA26C01,121853.0
+2023,65 - 69 years,Male,Ireland,PEA26C01,120061.0
+2023,25 - 29 years,Both sexes,Dublin,PEA26C01,113203.0
+2024,25 - 29 years,Both sexes,Dublin,PEA26C01,110960.0
+2024,45 - 49 years,Both sexes,Dublin,PEA26C01,109987.0
+2024,70 - 74 years,Female,Ireland,PEA26C01,109616.0
+2023,70 - 74 years,Female,Ireland,PEA26C01,106831.0
+2023,45 - 49 years,Both sexes,Dublin,PEA26C01,106803.0
+2024,80 - 84 years,Both sexes,Ireland,PEA26C01,105484.0
+2024,70 - 74 years,Male,Ireland,PEA26C01,104088.0
+2023,70 - 74 years,Male,Ireland,PEA26C01,101842.0
+2024,10 - 14 years,Both sexes,Dublin,PEA26C01,100316.0
+2023,80 - 84 years,Both sexes,Ireland,PEA26C01,100109.0
+2023,10 - 14 years,Both sexes,Dublin,PEA26C01,98734.0
+2024,50 - 54 years,Both sexes,Dublin,PEA26C01,96977.0
+2023,20 - 24 years,Both sexes,Dublin,PEA26C01,94810.0
+2023,50 - 54 years,Both sexes,Dublin,PEA26C01,92864.0
+2023,5 - 9 years,Both sexes,Dublin,PEA26C01,92710.0
+2024,5 - 9 years,Both sexes,Dublin,PEA26C01,92178.0
+2024,85 years and over,Both sexes,Ireland,PEA26C01,90529.0
+2024,20 - 24 years,Both sexes,Dublin,PEA26C01,88891.0
+2024,15 - 19 years,Both sexes,Dublin,PEA26C01,88407.0
+2023,15 - 19 years,Both sexes,Dublin,PEA26C01,87674.0
+2024,75 - 79 years,Female,Ireland,PEA26C01,87087.0
+2023,85 years and over,Both sexes,Ireland,PEA26C01,87034.0
+2024,0 - 4 years,Both sexes,Dublin,PEA26C01,84269.0
+2023,75 - 79 years,Female,Ireland,PEA26C01,83559.0
+2023,0 - 4 years,Both sexes,Dublin,PEA26C01,83398.0
+2024,55 - 59 years,Both sexes,Dublin,PEA26C01,82117.0
+2023,55 - 59 years,Both sexes,Dublin,PEA26C01,80528.0
+2024,75 - 79 years,Male,Ireland,PEA26C01,80192.0
+2023,75 - 79 years,Male,Ireland,PEA26C01,76999.0
+2024,60 - 64 years,Both sexes,Dublin,PEA26C01,75016.0
+2023,60 - 64 years,Both sexes,Dublin,PEA26C01,72360.0
+2024,40 - 44 years,Female,Dublin,PEA26C01,67041.0
+2024,35 - 39 years,Female,Dublin,PEA26C01,65188.0
+2023,40 - 44 years,Both sexes,Mid-East,PEA26C01,64827.0
+2024,40 - 44 years,Male,Dublin,PEA26C01,64824.0
+2023,40 - 44 years,Female,Dublin,PEA26C01,64817.0
+2024,40 - 44 years,Both sexes,Mid-East,PEA26C01,64572.0
+2023,35 - 39 years,Female,Dublin,PEA26C01,63563.0
+2023,40 - 44 years,Male,Dublin,PEA26C01,62853.0
+2024,30 - 34 years,Female,Dublin,PEA26C01,62609.0
+2023,10 - 14 years,Both sexes,Mid-East,PEA26C01,61971.0
+2024,65 - 69 years,Both sexes,Dublin,PEA26C01,61933.0
+2023,30 - 34 years,Female,Dublin,PEA26C01,61796.0
+2024,35 - 39 years,Male,Dublin,PEA26C01,61790.0
+2024,10 - 14 years,Both sexes,Mid-East,PEA26C01,61354.0
+2024,45 - 49 years,Both sexes,Mid-East,PEA26C01,60873.0
+2023,35 - 39 years,Male,Dublin,PEA26C01,60856.0
+2024,30 - 34 years,Male,Dublin,PEA26C01,60709.0
+2024,40 - 44 years,Both sexes,South-West,PEA26C01,60626.0
+2023,65 - 69 years,Both sexes,Dublin,PEA26C01,60306.0
+2023,45 - 49 years,Both sexes,Mid-East,PEA26C01,60256.0
+2023,40 - 44 years,Both sexes,South-West,PEA26C01,60125.0
+2023,30 - 34 years,Male,Dublin,PEA26C01,60057.0
+2024,15 - 19 years,Both sexes,Mid-East,PEA26C01,58046.0
+2024,80 - 84 years,Female,Ireland,PEA26C01,57424.0
+2023,25 - 29 years,Female,Dublin,PEA26C01,57055.0
+2024,50 - 54 years,Both sexes,Mid-East,PEA26C01,56877.0
+2024,45 - 49 years,Both sexes,South-West,PEA26C01,56732.0
+2023,25 - 29 years,Male,Dublin,PEA26C01,56148.0
+2023,15 - 19 years,Both sexes,Mid-East,PEA26C01,56028.0
+2024,25 - 29 years,Female,Dublin,PEA26C01,55785.0
+2024,45 - 49 years,Female,Dublin,PEA26C01,55628.0
+2024,85 years and over,Female,Ireland,PEA26C01,55619.0
+2023,35 - 39 years,Both sexes,Mid-East,PEA26C01,55605.0
+2023,45 - 49 years,Both sexes,South-West,PEA26C01,55539.0
+2023,50 - 54 years,Both sexes,Mid-East,PEA26C01,55431.0
+2024,25 - 29 years,Male,Dublin,PEA26C01,55175.0
+2023,5 - 9 years,Both sexes,Mid-East,PEA26C01,54857.0
+2023,80 - 84 years,Female,Ireland,PEA26C01,54682.0
+2024,45 - 49 years,Male,Dublin,PEA26C01,54359.0
+2023,45 - 49 years,Female,Dublin,PEA26C01,54182.0
+2023,85 years and over,Female,Ireland,PEA26C01,53957.0
+2024,10 - 14 years,Both sexes,South-West,PEA26C01,53593.0
+2023,10 - 14 years,Both sexes,South-West,PEA26C01,53541.0
+2024,35 - 39 years,Both sexes,Mid-East,PEA26C01,53470.0
+2023,35 - 39 years,Both sexes,South-West,PEA26C01,53074.0
+2024,50 - 54 years,Both sexes,South-West,PEA26C01,53051.0
+2024,70 - 74 years,Both sexes,Dublin,PEA26C01,52813.0
+2024,5 - 9 years,Both sexes,Mid-East,PEA26C01,52790.0
+2023,45 - 49 years,Male,Dublin,PEA26C01,52621.0
+2024,35 - 39 years,Both sexes,South-West,PEA26C01,52484.0
+2023,70 - 74 years,Both sexes,Dublin,PEA26C01,51749.0
+2024,10 - 14 years,Male,Dublin,PEA26C01,51385.0
+2023,50 - 54 years,Both sexes,South-West,PEA26C01,51241.0
+2024,15 - 19 years,Both sexes,South-West,PEA26C01,51133.0
+2023,10 - 14 years,Male,Dublin,PEA26C01,50373.0
+2024,50 - 54 years,Female,Dublin,PEA26C01,49310.0
+2024,20 - 24 years,Both sexes,Mid-East,PEA26C01,48975.0
+2024,10 - 14 years,Female,Dublin,PEA26C01,48931.0
+2023,15 - 19 years,Both sexes,South-West,PEA26C01,48848.0
+2023,10 - 14 years,Female,Dublin,PEA26C01,48361.0
+2024,55 - 59 years,Both sexes,Mid-East,PEA26C01,48068.0
+2024,80 - 84 years,Male,Ireland,PEA26C01,48060.0
+2023,5 - 9 years,Both sexes,South-West,PEA26C01,48045.0
+2024,55 - 59 years,Both sexes,South-West,PEA26C01,47718.0
+2024,50 - 54 years,Male,Dublin,PEA26C01,47667.0
+2023,20 - 24 years,Female,Dublin,PEA26C01,47470.0
+2023,5 - 9 years,Male,Dublin,PEA26C01,47441.0
+2024,5 - 9 years,Both sexes,South-West,PEA26C01,47420.0
+2023,20 - 24 years,Male,Dublin,PEA26C01,47340.0
+2024,5 - 9 years,Male,Dublin,PEA26C01,47245.0
+2023,55 - 59 years,Both sexes,South-West,PEA26C01,47143.0
+2023,20 - 24 years,Both sexes,Mid-East,PEA26C01,46945.0
+2023,55 - 59 years,Both sexes,Mid-East,PEA26C01,46887.0
+2023,50 - 54 years,Female,Dublin,PEA26C01,46823.0
+2024,20 - 24 years,Both sexes,South-West,PEA26C01,46058.0
+2023,0 - 4 years,Both sexes,Mid-East,PEA26C01,46046.0
+2023,50 - 54 years,Male,Dublin,PEA26C01,46041.0
+2024,30 - 34 years,Both sexes,South-West,PEA26C01,45778.0
+2023,30 - 34 years,Both sexes,South-West,PEA26C01,45726.0
+2023,80 - 84 years,Male,Ireland,PEA26C01,45427.0
+2024,0 - 4 years,Both sexes,Mid-East,PEA26C01,45362.0
+2023,5 - 9 years,Female,Dublin,PEA26C01,45269.0
+2024,15 - 19 years,Male,Dublin,PEA26C01,45105.0
+2024,5 - 9 years,Female,Dublin,PEA26C01,44933.0
+2024,20 - 24 years,Male,Dublin,PEA26C01,44899.0
+2023,15 - 19 years,Male,Dublin,PEA26C01,44718.0
+2023,30 - 34 years,Both sexes,Mid-East,PEA26C01,44447.0
+2024,60 - 64 years,Both sexes,South-West,PEA26C01,44414.0
+2023,20 - 24 years,Both sexes,South-West,PEA26C01,44070.0
+2024,20 - 24 years,Female,Dublin,PEA26C01,43992.0
+2024,25 - 29 years,Both sexes,South-West,PEA26C01,43653.0
+2024,15 - 19 years,Female,Dublin,PEA26C01,43302.0
+2023,15 - 19 years,Female,Dublin,PEA26C01,42956.0
+2024,0 - 4 years,Male,Dublin,PEA26C01,42950.0
+2023,60 - 64 years,Both sexes,South-West,PEA26C01,42866.0
+2023,0 - 4 years,Male,Dublin,PEA26C01,42705.0
+2024,55 - 59 years,Female,Dublin,PEA26C01,42345.0
+2024,30 - 34 years,Both sexes,Mid-East,PEA26C01,42261.0
+2023,25 - 29 years,Both sexes,South-West,PEA26C01,42107.0
+2023,55 - 59 years,Female,Dublin,PEA26C01,41692.0
+2024,0 - 4 years,Female,Dublin,PEA26C01,41319.0
+2024,75 - 79 years,Both sexes,Dublin,PEA26C01,41204.0
+2023,0 - 4 years,Both sexes,South-West,PEA26C01,41076.0
+2024,60 - 64 years,Both sexes,Mid-East,PEA26C01,40934.0
+2023,0 - 4 years,Female,Dublin,PEA26C01,40693.0
+2024,40 - 44 years,Both sexes,Mid-West,PEA26C01,40533.0
+2024,25 - 29 years,Both sexes,Mid-East,PEA26C01,40362.0
+2023,40 - 44 years,Both sexes,Mid-West,PEA26C01,39775.0
+2024,55 - 59 years,Male,Dublin,PEA26C01,39772.0
+2023,75 - 79 years,Both sexes,Dublin,PEA26C01,39690.0
+2024,0 - 4 years,Both sexes,South-West,PEA26C01,39506.0
+2023,60 - 64 years,Both sexes,Mid-East,PEA26C01,39473.0
+2024,40 - 44 years,Both sexes,West,PEA26C01,39249.0
+2023,40 - 44 years,Both sexes,West,PEA26C01,39142.0
+2024,60 - 64 years,Female,Dublin,PEA26C01,39097.0
+2023,55 - 59 years,Male,Dublin,PEA26C01,38836.0
+2023,25 - 29 years,Both sexes,Mid-East,PEA26C01,38776.0
+2024,65 - 69 years,Both sexes,South-West,PEA26C01,38271.0
+2023,60 - 64 years,Female,Dublin,PEA26C01,37726.0
+2024,45 - 49 years,Both sexes,Mid-West,PEA26C01,37567.0
+2023,45 - 49 years,Both sexes,Mid-West,PEA26C01,37298.0
+2023,65 - 69 years,Both sexes,South-West,PEA26C01,37159.0
+2023,10 - 14 years,Both sexes,Mid-West,PEA26C01,36915.0
+2024,10 - 14 years,Both sexes,Mid-West,PEA26C01,36912.0
+2024,45 - 49 years,Both sexes,West,PEA26C01,36489.0
+2024,50 - 54 years,Both sexes,Mid-West,PEA26C01,36209.0
+2024,15 - 19 years,Both sexes,Mid-West,PEA26C01,36144.0
+2023,45 - 49 years,Both sexes,West,PEA26C01,35947.0
+2024,60 - 64 years,Male,Dublin,PEA26C01,35919.0
+2023,40 - 44 years,Both sexes,South-East,PEA26C01,35819.0
+2024,40 - 44 years,Both sexes,South-East,PEA26C01,35340.0
+2023,10 - 14 years,Both sexes,West,PEA26C01,35304.0
+2024,10 - 14 years,Both sexes,West,PEA26C01,35242.0
+2024,35 - 39 years,Both sexes,Mid-West,PEA26C01,35220.0
+2023,35 - 39 years,Both sexes,Mid-West,PEA26C01,35131.0
+2024,85 years and over,Male,Ireland,PEA26C01,34910.0
+2023,50 - 54 years,Both sexes,Mid-West,PEA26C01,34879.0
+2023,10 - 14 years,Both sexes,South-East,PEA26C01,34636.0
+2023,60 - 64 years,Male,Dublin,PEA26C01,34634.0
+2023,15 - 19 years,Both sexes,Mid-West,PEA26C01,34300.0
+2024,45 - 49 years,Both sexes,South-East,PEA26C01,34298.0
+2024,10 - 14 years,Both sexes,South-East,PEA26C01,34296.0
+2024,15 - 19 years,Both sexes,South-East,PEA26C01,34256.0
+2023,35 - 39 years,Both sexes,West,PEA26C01,34253.0
+2024,65 - 69 years,Both sexes,Mid-East,PEA26C01,34097.0
+2024,10 - 14 years,Both sexes,Border,PEA26C01,34094.0
+2023,45 - 49 years,Both sexes,South-East,PEA26C01,33945.0
+2024,50 - 54 years,Both sexes,West,PEA26C01,33941.0
+2024,35 - 39 years,Both sexes,West,PEA26C01,33614.0
+2023,40 - 44 years,Female,Mid-East,PEA26C01,33564.0
+2023,50 - 54 years,Both sexes,West,PEA26C01,33409.0
+2023,10 - 14 years,Both sexes,Border,PEA26C01,33340.0
+2023,65 - 69 years,Both sexes,Mid-East,PEA26C01,33328.0
+2024,40 - 44 years,Female,Mid-East,PEA26C01,33289.0
+2023,85 years and over,Male,Ireland,PEA26C01,33077.0
+2024,55 - 59 years,Both sexes,Mid-West,PEA26C01,33042.0
+2024,50 - 54 years,Both sexes,South-East,PEA26C01,32944.0
+2024,15 - 19 years,Both sexes,West,PEA26C01,32936.0
+2024,70 - 74 years,Both sexes,South-West,PEA26C01,32880.0
+2024,65 - 69 years,Female,Dublin,PEA26C01,32651.0
+2023,55 - 59 years,Both sexes,Mid-West,PEA26C01,32602.0
+2024,5 - 9 years,Both sexes,Mid-West,PEA26C01,32587.0
+2023,5 - 9 years,Both sexes,West,PEA26C01,32572.0
+2024,40 - 44 years,Both sexes,Border,PEA26C01,32513.0
+2023,15 - 19 years,Both sexes,South-East,PEA26C01,32318.0
+2023,50 - 54 years,Both sexes,South-East,PEA26C01,32252.0
+2024,20 - 24 years,Both sexes,Mid-West,PEA26C01,32248.0
+2023,5 - 9 years,Both sexes,Mid-West,PEA26C01,32193.0
+2023,15 - 19 years,Both sexes,West,PEA26C01,32167.0
+2023,70 - 74 years,Both sexes,South-West,PEA26C01,32066.0
+2023,40 - 44 years,Both sexes,Border,PEA26C01,32041.0
+2023,65 - 69 years,Female,Dublin,PEA26C01,31785.0
+2023,10 - 14 years,Male,Mid-East,PEA26C01,31684.0
+2024,5 - 9 years,Both sexes,West,PEA26C01,31670.0
+2024,40 - 44 years,Female,South-West,PEA26C01,31606.0
+2024,10 - 14 years,Male,Mid-East,PEA26C01,31418.0
+2023,35 - 39 years,Both sexes,South-East,PEA26C01,31373.0
+2024,40 - 44 years,Male,Mid-East,PEA26C01,31283.0
+2023,40 - 44 years,Male,Mid-East,PEA26C01,31263.0
+2024,45 - 49 years,Female,Mid-East,PEA26C01,31202.0
+2024,55 - 59 years,Both sexes,West,PEA26C01,31119.0
+2024,45 - 49 years,Both sexes,Border,PEA26C01,31105.0
+2023,40 - 44 years,Female,South-West,PEA26C01,31014.0
+2023,55 - 59 years,Both sexes,West,PEA26C01,30938.0
+2023,45 - 49 years,Female,Mid-East,PEA26C01,30629.0
+2024,60 - 64 years,Both sexes,Mid-West,PEA26C01,30601.0
+2024,15 - 19 years,Both sexes,Border,PEA26C01,30561.0
+2023,45 - 49 years,Both sexes,Border,PEA26C01,30515.0
+2023,20 - 24 years,Both sexes,Mid-West,PEA26C01,30464.0
+2024,55 - 59 years,Both sexes,South-East,PEA26C01,30376.0
+2024,25 - 29 years,Both sexes,Mid-West,PEA26C01,30319.0
+2024,35 - 39 years,Both sexes,South-East,PEA26C01,30313.0
+2024,30 - 34 years,Both sexes,Mid-West,PEA26C01,30290.0
+2023,10 - 14 years,Female,Mid-East,PEA26C01,30287.0
+2024,5 - 9 years,Both sexes,Border,PEA26C01,30235.0
+2024,20 - 24 years,Both sexes,West,PEA26C01,30065.0
+2023,55 - 59 years,Both sexes,South-East,PEA26C01,29979.0
+2023,30 - 34 years,Both sexes,Mid-West,PEA26C01,29955.0
+2024,10 - 14 years,Female,Mid-East,PEA26C01,29936.0
+2024,15 - 19 years,Male,Mid-East,PEA26C01,29902.0
+2023,5 - 9 years,Both sexes,South-East,PEA26C01,29886.0
+2024,50 - 54 years,Both sexes,Border,PEA26C01,29793.0
+2023,60 - 64 years,Both sexes,Mid-West,PEA26C01,29731.0
+2024,45 - 49 years,Male,Mid-East,PEA26C01,29671.0
+2023,45 - 49 years,Male,Mid-East,PEA26C01,29627.0
+2024,5 - 9 years,Both sexes,South-East,PEA26C01,29576.0
+2023,35 - 39 years,Female,Mid-East,PEA26C01,29337.0
+2024,65 - 69 years,Male,Dublin,PEA26C01,29282.0
+2023,15 - 19 years,Both sexes,Border,PEA26C01,29278.0
+2023,20 - 24 years,Both sexes,West,PEA26C01,29219.0
+2023,50 - 54 years,Both sexes,Border,PEA26C01,29141.0
+2023,40 - 44 years,Male,South-West,PEA26C01,29111.0
+2024,20 - 24 years,Both sexes,South-East,PEA26C01,29089.0
+2024,40 - 44 years,Male,South-West,PEA26C01,29020.0
+2024,60 - 64 years,Both sexes,West,PEA26C01,29008.0
+2023,5 - 9 years,Both sexes,Border,PEA26C01,29001.0
+2024,45 - 49 years,Female,South-West,PEA26C01,28864.0
+2023,30 - 34 years,Both sexes,West,PEA26C01,28862.0
+2023,15 - 19 years,Male,Mid-East,PEA26C01,28807.0
+2024,30 - 34 years,Both sexes,West,PEA26C01,28770.0
+2023,0 - 4 years,Both sexes,Mid-West,PEA26C01,28716.0
+2024,50 - 54 years,Female,Mid-East,PEA26C01,28556.0
+2023,60 - 64 years,Both sexes,West,PEA26C01,28548.0
+2023,65 - 69 years,Male,Dublin,PEA26C01,28521.0
+2024,70 - 74 years,Both sexes,Mid-East,PEA26C01,28417.0
+2023,35 - 39 years,Both sexes,Border,PEA26C01,28416.0
+2024,50 - 54 years,Male,Mid-East,PEA26C01,28321.0
+2024,60 - 64 years,Both sexes,South-East,PEA26C01,28282.0
+2023,5 - 9 years,Male,Mid-East,PEA26C01,28232.0
+2024,15 - 19 years,Female,Mid-East,PEA26C01,28144.0
+2024,70 - 74 years,Female,Dublin,PEA26C01,28140.0
+2024,35 - 39 years,Both sexes,Border,PEA26C01,28120.0
+2023,25 - 29 years,Both sexes,Mid-West,PEA26C01,28119.0
+2023,45 - 49 years,Female,South-West,PEA26C01,28078.0
+2024,35 - 39 years,Female,Mid-East,PEA26C01,27996.0
+2024,0 - 4 years,Both sexes,Mid-West,PEA26C01,27931.0
+2024,45 - 49 years,Male,South-West,PEA26C01,27868.0
+2024,55 - 59 years,Both sexes,Border,PEA26C01,27860.0
+2023,35 - 39 years,Female,South-West,PEA26C01,27809.0
+2023,70 - 74 years,Both sexes,Mid-East,PEA26C01,27764.0
+2023,50 - 54 years,Male,Mid-East,PEA26C01,27738.0
+2023,50 - 54 years,Female,Mid-East,PEA26C01,27693.0
+2024,0 - 4 years,Both sexes,West,PEA26C01,27688.0
+2023,0 - 4 years,Both sexes,West,PEA26C01,27683.0
+2023,70 - 74 years,Female,Dublin,PEA26C01,27629.0
+2024,35 - 39 years,Female,South-West,PEA26C01,27534.0
+2023,60 - 64 years,Both sexes,South-East,PEA26C01,27467.0
+2023,45 - 49 years,Male,South-West,PEA26C01,27461.0
+2024,80 - 84 years,Both sexes,Dublin,PEA26C01,27369.0
+2024,10 - 14 years,Male,South-West,PEA26C01,27317.0
+2023,10 - 14 years,Male,South-West,PEA26C01,27276.0
+2024,5 - 9 years,Male,Mid-East,PEA26C01,27271.0
+2024,65 - 69 years,Both sexes,Mid-West,PEA26C01,27231.0
+2023,15 - 19 years,Female,Mid-East,PEA26C01,27221.0
+2023,55 - 59 years,Both sexes,Border,PEA26C01,27080.0
+2024,25 - 29 years,Both sexes,West,PEA26C01,27006.0
+2023,20 - 24 years,Both sexes,South-East,PEA26C01,26987.0
+2024,40 - 44 years,Both sexes,Midland,PEA26C01,26931.0
+2023,5 - 9 years,Female,Mid-East,PEA26C01,26625.0
+2023,65 - 69 years,Both sexes,Mid-West,PEA26C01,26620.0
+2024,50 - 54 years,Female,South-West,PEA26C01,26610.0
+2023,0 - 4 years,Both sexes,Border,PEA26C01,26583.0
+2024,65 - 69 years,Both sexes,West,PEA26C01,26506.0
+2023,30 - 34 years,Both sexes,South-East,PEA26C01,26503.0
+2024,50 - 54 years,Male,South-West,PEA26C01,26441.0
+2023,25 - 29 years,Both sexes,West,PEA26C01,26369.0
+2023,40 - 44 years,Both sexes,Midland,PEA26C01,26309.0
+2024,10 - 14 years,Female,South-West,PEA26C01,26276.0
+2023,35 - 39 years,Male,Mid-East,PEA26C01,26268.0
+2023,10 - 14 years,Female,South-West,PEA26C01,26265.0
+2023,80 - 84 years,Both sexes,Dublin,PEA26C01,26237.0
+2024,75 - 79 years,Both sexes,South-West,PEA26C01,26145.0
+2024,60 - 64 years,Both sexes,Border,PEA26C01,26065.0
+2023,0 - 4 years,Both sexes,South-East,PEA26C01,25951.0
+2023,65 - 69 years,Both sexes,West,PEA26C01,25909.0
+2024,0 - 4 years,Both sexes,Border,PEA26C01,25903.0
+2024,15 - 19 years,Male,South-West,PEA26C01,25825.0
+2024,30 - 34 years,Both sexes,South-East,PEA26C01,25731.0
+2023,50 - 54 years,Male,South-West,PEA26C01,25625.0
+2023,50 - 54 years,Female,South-West,PEA26C01,25616.0
+2024,20 - 24 years,Male,Mid-East,PEA26C01,25544.0
+2024,5 - 9 years,Female,Mid-East,PEA26C01,25519.0
+2024,35 - 39 years,Male,Mid-East,PEA26C01,25474.0
+2024,15 - 19 years,Female,South-West,PEA26C01,25308.0
+2023,35 - 39 years,Male,South-West,PEA26C01,25265.0
+2023,60 - 64 years,Both sexes,Border,PEA26C01,25183.0
+2024,85 years and over,Both sexes,Dublin,PEA26C01,25153.0
+2023,10 - 14 years,Both sexes,Midland,PEA26C01,25026.0
+2024,10 - 14 years,Both sexes,Midland,PEA26C01,25017.0
+2024,35 - 39 years,Male,South-West,PEA26C01,24950.0
+2023,75 - 79 years,Both sexes,South-West,PEA26C01,24950.0
+2024,0 - 4 years,Both sexes,South-East,PEA26C01,24918.0
+2023,15 - 19 years,Male,South-West,PEA26C01,24917.0
+2023,5 - 9 years,Male,South-West,PEA26C01,24750.0
+2024,70 - 74 years,Male,Dublin,PEA26C01,24673.0
+2023,20 - 24 years,Male,Mid-East,PEA26C01,24464.0
+2024,5 - 9 years,Male,South-West,PEA26C01,24333.0
+2024,25 - 29 years,Both sexes,South-East,PEA26C01,24298.0
+2024,45 - 49 years,Both sexes,Midland,PEA26C01,24282.0
+2024,20 - 24 years,Both sexes,Border,PEA26C01,24237.0
+2024,55 - 59 years,Female,South-West,PEA26C01,24220.0
+2023,85 years and over,Both sexes,Dublin,PEA26C01,24171.0
+2023,70 - 74 years,Male,Dublin,PEA26C01,24120.0
+2024,15 - 19 years,Both sexes,Midland,PEA26C01,24115.0
+2024,55 - 59 years,Female,Mid-East,PEA26C01,24099.0
+2024,55 - 59 years,Male,Mid-East,PEA26C01,23969.0
+2023,15 - 19 years,Female,South-West,PEA26C01,23931.0
+2023,55 - 59 years,Female,South-West,PEA26C01,23836.0
+2024,65 - 69 years,Both sexes,South-East,PEA26C01,23815.0
+2023,0 - 4 years,Male,Mid-East,PEA26C01,23693.0
+2023,35 - 39 years,Both sexes,Midland,PEA26C01,23691.0
+2023,45 - 49 years,Both sexes,Midland,PEA26C01,23580.0
+2023,30 - 34 years,Female,South-West,PEA26C01,23569.0
+2024,70 - 74 years,Both sexes,Mid-West,PEA26C01,23546.0
+2023,25 - 29 years,Both sexes,South-East,PEA26C01,23540.0
+2023,55 - 59 years,Female,Mid-East,PEA26C01,23536.0
+2024,30 - 34 years,Female,South-West,PEA26C01,23505.0
+2024,55 - 59 years,Male,South-West,PEA26C01,23498.0
+2024,20 - 24 years,Female,Mid-East,PEA26C01,23431.0
+2023,55 - 59 years,Male,Mid-East,PEA26C01,23351.0
+2023,65 - 69 years,Both sexes,South-East,PEA26C01,23349.0
+2024,0 - 4 years,Male,Mid-East,PEA26C01,23320.0
+2023,55 - 59 years,Male,South-West,PEA26C01,23307.0
+2023,5 - 9 years,Female,South-West,PEA26C01,23295.0
+2024,20 - 24 years,Male,South-West,PEA26C01,23227.0
+2023,20 - 24 years,Both sexes,Border,PEA26C01,23191.0
+2023,30 - 34 years,Female,Mid-East,PEA26C01,23094.0
+2024,5 - 9 years,Female,South-West,PEA26C01,23087.0
+2024,30 - 34 years,Both sexes,Border,PEA26C01,23079.0
+2024,35 - 39 years,Both sexes,Midland,PEA26C01,23075.0
+2023,30 - 34 years,Both sexes,Border,PEA26C01,23041.0
+2023,70 - 74 years,Both sexes,Mid-West,PEA26C01,23035.0
+2023,15 - 19 years,Both sexes,Midland,PEA26C01,22926.0
+2024,65 - 69 years,Both sexes,Border,PEA26C01,22896.0
+2024,20 - 24 years,Female,South-West,PEA26C01,22831.0
+2023,5 - 9 years,Both sexes,Midland,PEA26C01,22703.0
+2024,50 - 54 years,Both sexes,Midland,PEA26C01,22651.0
+2024,70 - 74 years,Both sexes,West,PEA26C01,22511.0
+2023,20 - 24 years,Female,Mid-East,PEA26C01,22481.0
+2024,60 - 64 years,Female,South-West,PEA26C01,22460.0
+2023,20 - 24 years,Male,South-West,PEA26C01,22401.0
+2024,75 - 79 years,Female,Dublin,PEA26C01,22372.0
+2024,75 - 79 years,Both sexes,Mid-East,PEA26C01,22356.0
+2023,0 - 4 years,Female,Mid-East,PEA26C01,22353.0
+2023,65 - 69 years,Both sexes,Border,PEA26C01,22313.0
+2024,30 - 34 years,Male,South-West,PEA26C01,22273.0
+2023,30 - 34 years,Male,South-West,PEA26C01,22157.0
+2023,70 - 74 years,Both sexes,West,PEA26C01,22093.0
+2024,25 - 29 years,Male,South-West,PEA26C01,22080.0
+2024,0 - 4 years,Female,Mid-East,PEA26C01,22042.0
+2024,60 - 64 years,Male,South-West,PEA26C01,21954.0
+2024,5 - 9 years,Both sexes,Midland,PEA26C01,21832.0
+2023,50 - 54 years,Both sexes,Midland,PEA26C01,21775.0
+2024,25 - 29 years,Both sexes,Border,PEA26C01,21701.0
+2024,30 - 34 years,Female,Mid-East,PEA26C01,21699.0
+2023,20 - 24 years,Female,South-West,PEA26C01,21669.0
+2023,60 - 64 years,Female,South-West,PEA26C01,21577.0
+2024,25 - 29 years,Female,South-West,PEA26C01,21573.0
+2023,75 - 79 years,Female,Dublin,PEA26C01,21540.0
+2024,40 - 44 years,Female,Mid-West,PEA26C01,21410.0
+2023,75 - 79 years,Both sexes,Mid-East,PEA26C01,21381.0
+2023,30 - 34 years,Male,Mid-East,PEA26C01,21353.0
+2023,60 - 64 years,Male,South-West,PEA26C01,21289.0
+2023,25 - 29 years,Male,South-West,PEA26C01,21118.0
+2023,25 - 29 years,Female,South-West,PEA26C01,20989.0
+2023,0 - 4 years,Male,South-West,PEA26C01,20868.0
+2024,60 - 64 years,Female,Mid-East,PEA26C01,20710.0
+2023,40 - 44 years,Female,Mid-West,PEA26C01,20708.0
+2024,40 - 44 years,Female,West,PEA26C01,20679.0
+2024,25 - 29 years,Male,Mid-East,PEA26C01,20676.0
+2024,70 - 74 years,Both sexes,South-East,PEA26C01,20663.0
+2024,30 - 34 years,Male,Mid-East,PEA26C01,20562.0
+2023,25 - 29 years,Both sexes,Border,PEA26C01,20491.0
+2024,55 - 59 years,Both sexes,Midland,PEA26C01,20367.0
+2023,40 - 44 years,Female,West,PEA26C01,20307.0
+2024,60 - 64 years,Male,Mid-East,PEA26C01,20224.0
+2023,0 - 4 years,Female,South-West,PEA26C01,20208.0
+2024,20 - 24 years,Both sexes,Midland,PEA26C01,20021.0
+2023,70 - 74 years,Both sexes,South-East,PEA26C01,20002.0
+2024,0 - 4 years,Male,South-West,PEA26C01,19988.0
+2023,60 - 64 years,Female,Mid-East,PEA26C01,19885.0
+2024,70 - 74 years,Both sexes,Border,PEA26C01,19790.0
+2023,55 - 59 years,Both sexes,Midland,PEA26C01,19726.0
+2024,25 - 29 years,Female,Mid-East,PEA26C01,19686.0
+2023,25 - 29 years,Male,Mid-East,PEA26C01,19650.0
+2023,60 - 64 years,Male,Mid-East,PEA26C01,19588.0
+2024,0 - 4 years,Female,South-West,PEA26C01,19518.0
+2023,70 - 74 years,Both sexes,Border,PEA26C01,19302.0
+2024,65 - 69 years,Female,South-West,PEA26C01,19277.0
+2023,25 - 29 years,Female,Mid-East,PEA26C01,19126.0
+2024,40 - 44 years,Male,Mid-West,PEA26C01,19123.0
+2024,45 - 49 years,Female,Mid-West,PEA26C01,19120.0
+2023,40 - 44 years,Male,Mid-West,PEA26C01,19067.0
+2024,65 - 69 years,Male,South-West,PEA26C01,18994.0
+2023,10 - 14 years,Male,Mid-West,PEA26C01,18960.0
+2023,30 - 34 years,Both sexes,Midland,PEA26C01,18922.0
+2024,10 - 14 years,Male,Mid-West,PEA26C01,18914.0
+2024,30 - 34 years,Both sexes,Midland,PEA26C01,18884.0
+2023,40 - 44 years,Male,West,PEA26C01,18835.0
+2024,75 - 79 years,Male,Dublin,PEA26C01,18832.0
+2023,20 - 24 years,Both sexes,Midland,PEA26C01,18751.0
+2023,65 - 69 years,Female,South-West,PEA26C01,18722.0
+2023,45 - 49 years,Female,Mid-West,PEA26C01,18707.0
+2024,35 - 39 years,Female,Mid-West,PEA26C01,18669.0
+2023,40 - 44 years,Female,South-East,PEA26C01,18637.0
+2024,15 - 19 years,Male,Mid-West,PEA26C01,18591.0
+2023,45 - 49 years,Male,Mid-West,PEA26C01,18591.0
+2024,40 - 44 years,Male,West,PEA26C01,18570.0
+2023,0 - 4 years,Both sexes,Midland,PEA26C01,18554.0
+2024,45 - 49 years,Female,West,PEA26C01,18533.0
+2023,35 - 39 years,Female,Mid-West,PEA26C01,18506.0
+2024,60 - 64 years,Both sexes,Midland,PEA26C01,18490.0
+2024,45 - 49 years,Male,Mid-West,PEA26C01,18447.0
+2024,40 - 44 years,Female,South-East,PEA26C01,18444.0
+2023,65 - 69 years,Male,South-West,PEA26C01,18437.0
+2024,75 - 79 years,Both sexes,Mid-West,PEA26C01,18400.0
+2024,15 - 19 years,Male,South-East,PEA26C01,18305.0
+2023,45 - 49 years,Female,West,PEA26C01,18219.0
+2024,50 - 54 years,Female,Mid-West,PEA26C01,18217.0
+2024,10 - 14 years,Male,West,PEA26C01,18152.0
+2023,75 - 79 years,Male,Dublin,PEA26C01,18150.0
+2023,10 - 14 years,Male,West,PEA26C01,18108.0
+2023,35 - 39 years,Female,West,PEA26C01,18105.0
+2024,0 - 4 years,Both sexes,Midland,PEA26C01,18054.0
+2024,10 - 14 years,Female,Mid-West,PEA26C01,17998.0
+2024,50 - 54 years,Male,Mid-West,PEA26C01,17992.0
+2024,45 - 49 years,Male,West,PEA26C01,17956.0
+2023,10 - 14 years,Female,Mid-West,PEA26C01,17955.0
+2024,25 - 29 years,Both sexes,Midland,PEA26C01,17881.0
+2024,35 - 39 years,Female,West,PEA26C01,17878.0
+2023,45 - 49 years,Male,West,PEA26C01,17728.0
+2023,10 - 14 years,Male,South-East,PEA26C01,17691.0
+2023,75 - 79 years,Both sexes,Mid-West,PEA26C01,17688.0
+2024,45 - 49 years,Female,South-East,PEA26C01,17661.0
+2024,15 - 19 years,Male,West,PEA26C01,17619.0
+2024,10 - 14 years,Male,Border,PEA26C01,17596.0
+2024,15 - 19 years,Female,Mid-West,PEA26C01,17553.0
+2023,60 - 64 years,Both sexes,Midland,PEA26C01,17539.0
+2023,50 - 54 years,Male,Mid-West,PEA26C01,17538.0
+2023,45 - 49 years,Female,South-East,PEA26C01,17502.0
+2024,10 - 14 years,Male,South-East,PEA26C01,17428.0
+2023,15 - 19 years,Male,Mid-West,PEA26C01,17410.0
+2024,75 - 79 years,Both sexes,West,PEA26C01,17407.0
+2024,65 - 69 years,Female,Mid-East,PEA26C01,17379.0
+2023,50 - 54 years,Female,Mid-West,PEA26C01,17341.0
+2023,10 - 14 years,Female,West,PEA26C01,17196.0
+2023,40 - 44 years,Male,South-East,PEA26C01,17182.0
+2024,10 - 14 years,Female,West,PEA26C01,17090.0
+2024,50 - 54 years,Female,West,PEA26C01,17007.0
+2023,25 - 29 years,Both sexes,Midland,PEA26C01,16954.0
+2023,10 - 14 years,Female,South-East,PEA26C01,16945.0
+2023,10 - 14 years,Male,Border,PEA26C01,16938.0
+2023,65 - 69 years,Female,Mid-East,PEA26C01,16934.0
+2024,50 - 54 years,Male,West,PEA26C01,16934.0
+2023,15 - 19 years,Male,South-East,PEA26C01,16932.0
+2024,40 - 44 years,Female,Border,PEA26C01,16928.0
+2024,40 - 44 years,Male,South-East,PEA26C01,16896.0
+2023,15 - 19 years,Female,Mid-West,PEA26C01,16890.0
+2024,10 - 14 years,Female,South-East,PEA26C01,16868.0
+2023,15 - 19 years,Male,West,PEA26C01,16810.0
+2023,50 - 54 years,Female,West,PEA26C01,16807.0
+2024,50 - 54 years,Female,South-East,PEA26C01,16754.0
+2024,65 - 69 years,Male,Mid-East,PEA26C01,16718.0
+2023,75 - 79 years,Both sexes,West,PEA26C01,16718.0
+2023,35 - 39 years,Female,South-East,PEA26C01,16713.0
+2024,70 - 74 years,Female,South-West,PEA26C01,16706.0
+2023,5 - 9 years,Male,West,PEA26C01,16658.0
+2024,45 - 49 years,Male,South-East,PEA26C01,16637.0
+2023,35 - 39 years,Male,Mid-West,PEA26C01,16625.0
+2023,40 - 44 years,Female,Border,PEA26C01,16615.0
+2023,50 - 54 years,Male,West,PEA26C01,16602.0
+2024,35 - 39 years,Male,Mid-West,PEA26C01,16551.0
+2024,55 - 59 years,Male,Mid-West,PEA26C01,16531.0
+2023,5 - 9 years,Male,Mid-West,PEA26C01,16521.0
+2024,55 - 59 years,Female,Mid-West,PEA26C01,16511.0
+2024,5 - 9 years,Male,Mid-West,PEA26C01,16505.0
+2024,10 - 14 years,Female,Border,PEA26C01,16498.0
+2023,45 - 49 years,Male,South-East,PEA26C01,16443.0
+2023,10 - 14 years,Female,Border,PEA26C01,16402.0
+2023,65 - 69 years,Male,Mid-East,PEA26C01,16394.0
+2023,50 - 54 years,Female,South-East,PEA26C01,16365.0
+2023,55 - 59 years,Female,Mid-West,PEA26C01,16327.0
+2024,80 - 84 years,Both sexes,South-West,PEA26C01,16324.0
+2023,55 - 59 years,Male,Mid-West,PEA26C01,16275.0
+2024,20 - 24 years,Male,Mid-West,PEA26C01,16240.0
+2023,70 - 74 years,Female,South-West,PEA26C01,16190.0
+2024,50 - 54 years,Male,South-East,PEA26C01,16190.0
+2024,70 - 74 years,Male,South-West,PEA26C01,16174.0
+2024,35 - 39 years,Female,South-East,PEA26C01,16158.0
+2023,35 - 39 years,Male,West,PEA26C01,16148.0
+2024,5 - 9 years,Male,West,PEA26C01,16135.0
+2024,75 - 79 years,Both sexes,South-East,PEA26C01,16121.0
+2024,5 - 9 years,Female,Mid-West,PEA26C01,16082.0
+2024,15 - 19 years,Male,Border,PEA26C01,16064.0
+2024,85 years and over,Female,Dublin,PEA26C01,16025.0
+2024,20 - 24 years,Female,Mid-West,PEA26C01,16008.0
+2024,15 - 19 years,Female,South-East,PEA26C01,15951.0
+2023,5 - 9 years,Female,West,PEA26C01,15914.0
+2024,45 - 49 years,Female,Border,PEA26C01,15888.0
+2023,50 - 54 years,Male,South-East,PEA26C01,15887.0
+2023,70 - 74 years,Male,South-West,PEA26C01,15876.0
+2024,30 - 34 years,Female,Mid-West,PEA26C01,15853.0
+2024,35 - 39 years,Male,West,PEA26C01,15736.0
+2023,5 - 9 years,Female,Mid-West,PEA26C01,15672.0
+2023,75 - 79 years,Both sexes,South-East,PEA26C01,15636.0
+2024,75 - 79 years,Both sexes,Border,PEA26C01,15598.0
+2024,40 - 44 years,Male,Border,PEA26C01,15585.0
+2024,20 - 24 years,Male,West,PEA26C01,15579.0
+2024,55 - 59 years,Female,South-East,PEA26C01,15566.0
+2024,65 - 69 years,Both sexes,Midland,PEA26C01,15564.0
+2024,55 - 59 years,Male,West,PEA26C01,15562.0
+2024,55 - 59 years,Female,West,PEA26C01,15557.0
+2023,55 - 59 years,Male,West,PEA26C01,15557.0
+2024,20 - 24 years,Male,South-East,PEA26C01,15553.0
+2023,30 - 34 years,Female,Mid-West,PEA26C01,15542.0
+2024,5 - 9 years,Female,West,PEA26C01,15535.0
+2024,80 - 84 years,Female,Dublin,PEA26C01,15521.0
+2023,85 years and over,Female,Dublin,PEA26C01,15509.0
+2024,60 - 64 years,Female,Mid-West,PEA26C01,15450.0
+2023,40 - 44 years,Male,Border,PEA26C01,15426.0
+2024,5 - 9 years,Male,Border,PEA26C01,15410.0
+2023,45 - 49 years,Female,Border,PEA26C01,15401.0
+2023,15 - 19 years,Male,Border,PEA26C01,15393.0
+2023,15 - 19 years,Female,South-East,PEA26C01,15386.0
+2023,55 - 59 years,Female,West,PEA26C01,15381.0
+2023,15 - 19 years,Female,West,PEA26C01,15357.0
+2023,55 - 59 years,Female,South-East,PEA26C01,15353.0
+2024,15 - 19 years,Female,West,PEA26C01,15317.0
+2023,80 - 84 years,Both sexes,South-West,PEA26C01,15315.0
+2023,5 - 9 years,Male,South-East,PEA26C01,15305.0
+2024,25 - 29 years,Female,Mid-West,PEA26C01,15294.0
+2023,20 - 24 years,Female,Mid-West,PEA26C01,15284.0
+2024,45 - 49 years,Male,Border,PEA26C01,15217.0
+2023,20 - 24 years,Male,Mid-West,PEA26C01,15180.0
+2023,65 - 69 years,Both sexes,Midland,PEA26C01,15157.0
+2024,60 - 64 years,Male,Mid-West,PEA26C01,15151.0
+2023,45 - 49 years,Male,Border,PEA26C01,15114.0
+2024,5 - 9 years,Male,South-East,PEA26C01,15038.0
+2023,30 - 34 years,Female,West,PEA26C01,15032.0
+2024,25 - 29 years,Male,Mid-West,PEA26C01,15025.0
+2023,80 - 84 years,Female,Dublin,PEA26C01,15023.0
+2024,50 - 54 years,Female,Border,PEA26C01,14974.0
+2023,35 - 39 years,Female,Border,PEA26C01,14968.0
+2023,20 - 24 years,Male,West,PEA26C01,14903.0
+2023,60 - 64 years,Male,Mid-West,PEA26C01,14902.0
+2024,30 - 34 years,Female,West,PEA26C01,14892.0
+2023,75 - 79 years,Both sexes,Border,PEA26C01,14874.0
+2024,35 - 39 years,Female,Border,PEA26C01,14831.0
+2023,60 - 64 years,Female,Mid-West,PEA26C01,14829.0
+2024,5 - 9 years,Female,Border,PEA26C01,14825.0
+2024,50 - 54 years,Male,Border,PEA26C01,14819.0
+2024,55 - 59 years,Male,South-East,PEA26C01,14810.0
+2023,5 - 9 years,Male,Border,PEA26C01,14690.0
+2023,50 - 54 years,Male,Border,PEA26C01,14690.0
+2023,35 - 39 years,Male,South-East,PEA26C01,14660.0
+2023,55 - 59 years,Male,South-East,PEA26C01,14626.0
+2024,70 - 74 years,Female,Mid-East,PEA26C01,14595.0
+2023,5 - 9 years,Female,South-East,PEA26C01,14581.0
+2024,60 - 64 years,Female,South-East,PEA26C01,14573.0
+2024,60 - 64 years,Female,West,PEA26C01,14568.0
+2023,0 - 4 years,Male,Mid-West,PEA26C01,14557.0
+2024,5 - 9 years,Female,South-East,PEA26C01,14538.0
+2024,15 - 19 years,Female,Border,PEA26C01,14497.0
+2024,20 - 24 years,Female,West,PEA26C01,14486.0
+2023,50 - 54 years,Female,Border,PEA26C01,14451.0
+2024,60 - 64 years,Male,West,PEA26C01,14440.0
+2024,30 - 34 years,Male,Mid-West,PEA26C01,14437.0
+2023,30 - 34 years,Male,Mid-West,PEA26C01,14413.0
+2023,60 - 64 years,Female,West,PEA26C01,14344.0
+2023,20 - 24 years,Female,West,PEA26C01,14316.0
+2023,5 - 9 years,Female,Border,PEA26C01,14311.0
+2023,70 - 74 years,Female,Mid-East,PEA26C01,14206.0
+2023,60 - 64 years,Male,West,PEA26C01,14204.0
+2024,0 - 4 years,Male,Mid-West,PEA26C01,14166.0
+2023,25 - 29 years,Female,Mid-West,PEA26C01,14162.0
+2023,0 - 4 years,Female,Mid-West,PEA26C01,14159.0
+2024,35 - 39 years,Male,South-East,PEA26C01,14155.0
+2024,40 - 44 years,Female,Midland,PEA26C01,14138.0
+2023,60 - 64 years,Female,South-East,PEA26C01,14119.0
+2023,20 - 24 years,Male,South-East,PEA26C01,14058.0
+2024,55 - 59 years,Female,Border,PEA26C01,14020.0
+2023,0 - 4 years,Male,West,PEA26C01,14015.0
+2024,85 years and over,Both sexes,South-West,PEA26C01,13978.0
+2023,25 - 29 years,Male,Mid-West,PEA26C01,13957.0
+2024,0 - 4 years,Male,West,PEA26C01,13938.0
+2023,15 - 19 years,Female,Border,PEA26C01,13885.0
+2024,30 - 34 years,Male,West,PEA26C01,13878.0
+2024,55 - 59 years,Male,Border,PEA26C01,13840.0
+2023,30 - 34 years,Male,West,PEA26C01,13830.0
+2024,70 - 74 years,Male,Mid-East,PEA26C01,13822.0
+2023,30 - 34 years,Female,South-East,PEA26C01,13777.0
+2024,0 - 4 years,Female,Mid-West,PEA26C01,13765.0
+2024,0 - 4 years,Female,West,PEA26C01,13750.0
+2024,60 - 64 years,Male,South-East,PEA26C01,13709.0
+2023,0 - 4 years,Female,West,PEA26C01,13668.0
+2024,65 - 69 years,Male,Mid-West,PEA26C01,13660.0
+2023,55 - 59 years,Female,Border,PEA26C01,13593.0
+2024,25 - 29 years,Male,West,PEA26C01,13593.0
+2024,65 - 69 years,Female,Mid-West,PEA26C01,13571.0
+2023,70 - 74 years,Male,Mid-East,PEA26C01,13558.0
+2024,20 - 24 years,Female,South-East,PEA26C01,13536.0
+2023,40 - 44 years,Female,Midland,PEA26C01,13505.0
+2023,55 - 59 years,Male,Border,PEA26C01,13487.0
+2023,35 - 39 years,Male,Border,PEA26C01,13448.0
+2023,65 - 69 years,Male,Mid-West,PEA26C01,13445.0
+2024,65 - 69 years,Female,West,PEA26C01,13414.0
+2024,25 - 29 years,Female,West,PEA26C01,13413.0
+2024,75 - 79 years,Female,South-West,PEA26C01,13407.0
+2023,25 - 29 years,Male,West,PEA26C01,13370.0
+2023,85 years and over,Both sexes,South-West,PEA26C01,13363.0
+2023,60 - 64 years,Male,South-East,PEA26C01,13348.0
+2024,80 - 84 years,Both sexes,Mid-East,PEA26C01,13336.0
+2023,0 - 4 years,Female,Border,PEA26C01,13313.0
+2024,35 - 39 years,Male,Border,PEA26C01,13289.0
+2023,0 - 4 years,Male,Border,PEA26C01,13270.0
+2024,30 - 34 years,Female,South-East,PEA26C01,13223.0
+2024,60 - 64 years,Female,Border,PEA26C01,13220.0
+2023,65 - 69 years,Female,Mid-West,PEA26C01,13175.0
+2024,0 - 4 years,Male,Border,PEA26C01,13116.0
+2023,65 - 69 years,Female,West,PEA26C01,13111.0
+2023,0 - 4 years,Male,South-East,PEA26C01,13092.0
+2024,65 - 69 years,Male,West,PEA26C01,13092.0
+2024,70 - 74 years,Both sexes,Midland,PEA26C01,13084.0
+2023,25 - 29 years,Female,West,PEA26C01,12999.0
+2023,20 - 24 years,Female,South-East,PEA26C01,12929.0
+2023,10 - 14 years,Male,Midland,PEA26C01,12886.0
+2024,10 - 14 years,Male,Midland,PEA26C01,12874.0
+2023,0 - 4 years,Female,South-East,PEA26C01,12859.0
+2024,60 - 64 years,Male,Border,PEA26C01,12845.0
+2023,75 - 79 years,Female,South-West,PEA26C01,12814.0
+2023,40 - 44 years,Male,Midland,PEA26C01,12804.0
+2023,65 - 69 years,Male,West,PEA26C01,12798.0
+2024,40 - 44 years,Male,Midland,PEA26C01,12793.0
+2024,0 - 4 years,Female,Border,PEA26C01,12787.0
+2024,75 - 79 years,Male,South-West,PEA26C01,12738.0
+2023,30 - 34 years,Male,South-East,PEA26C01,12726.0
+2024,20 - 24 years,Male,Border,PEA26C01,12697.0
+2023,70 - 74 years,Both sexes,Midland,PEA26C01,12662.0
+2023,60 - 64 years,Female,Border,PEA26C01,12626.0
+2023,60 - 64 years,Male,Border,PEA26C01,12557.0
+2024,0 - 4 years,Male,South-East,PEA26C01,12543.0
+2024,30 - 34 years,Male,South-East,PEA26C01,12508.0
+2023,35 - 39 years,Female,Midland,PEA26C01,12461.0
+2023,80 - 84 years,Both sexes,Mid-East,PEA26C01,12415.0
+2024,0 - 4 years,Female,South-East,PEA26C01,12375.0
+2024,15 - 19 years,Male,Midland,PEA26C01,12370.0
+2024,25 - 29 years,Male,South-East,PEA26C01,12365.0
+2024,45 - 49 years,Female,Midland,PEA26C01,12234.0
+2024,35 - 39 years,Female,Midland,PEA26C01,12233.0
+2024,10 - 14 years,Female,Midland,PEA26C01,12143.0
+2023,10 - 14 years,Female,Midland,PEA26C01,12140.0
+2023,75 - 79 years,Male,South-West,PEA26C01,12136.0
+2023,20 - 24 years,Male,Border,PEA26C01,12103.0
+2024,45 - 49 years,Male,Midland,PEA26C01,12048.0
+2023,30 - 34 years,Female,Border,PEA26C01,11967.0
+2024,65 - 69 years,Female,South-East,PEA26C01,11962.0
+2024,25 - 29 years,Female,South-East,PEA26C01,11933.0
+2023,45 - 49 years,Female,Midland,PEA26C01,11897.0
+2024,30 - 34 years,Female,Border,PEA26C01,11895.0
+2024,65 - 69 years,Male,South-East,PEA26C01,11853.0
+2024,80 - 84 years,Male,Dublin,PEA26C01,11848.0
+2023,25 - 29 years,Female,South-East,PEA26C01,11831.0
+2024,70 - 74 years,Female,Mid-West,PEA26C01,11793.0
+2023,65 - 69 years,Male,South-East,PEA26C01,11753.0
+2024,70 - 74 years,Male,Mid-West,PEA26C01,11753.0
+2024,15 - 19 years,Female,Midland,PEA26C01,11745.0
+2023,25 - 29 years,Male,South-East,PEA26C01,11709.0
+2023,45 - 49 years,Male,Midland,PEA26C01,11683.0
+2023,15 - 19 years,Male,Midland,PEA26C01,11647.0
+2023,5 - 9 years,Male,Midland,PEA26C01,11614.0
+2023,65 - 69 years,Female,South-East,PEA26C01,11596.0
+2023,70 - 74 years,Female,Mid-West,PEA26C01,11579.0
+2024,75 - 79 years,Female,Mid-East,PEA26C01,11578.0
+2024,20 - 24 years,Female,Border,PEA26C01,11540.0
+2024,65 - 69 years,Female,Border,PEA26C01,11507.0
+2023,70 - 74 years,Male,Mid-West,PEA26C01,11456.0
+2024,70 - 74 years,Female,West,PEA26C01,11432.0
+2024,65 - 69 years,Male,Border,PEA26C01,11389.0
+2024,80 - 84 years,Both sexes,Mid-West,PEA26C01,11372.0
+2024,50 - 54 years,Male,Midland,PEA26C01,11355.0
+2024,50 - 54 years,Female,Midland,PEA26C01,11296.0
+2023,15 - 19 years,Female,Midland,PEA26C01,11279.0
+2023,35 - 39 years,Male,Midland,PEA26C01,11230.0
+2023,80 - 84 years,Male,Dublin,PEA26C01,11214.0
+2024,5 - 9 years,Male,Midland,PEA26C01,11206.0
+2023,65 - 69 years,Female,Border,PEA26C01,11190.0
+2024,30 - 34 years,Male,Border,PEA26C01,11184.0
+2023,65 - 69 years,Male,Border,PEA26C01,11123.0
+2024,25 - 29 years,Male,Border,PEA26C01,11122.0
+2023,70 - 74 years,Female,West,PEA26C01,11107.0
+2023,5 - 9 years,Female,Midland,PEA26C01,11089.0
+2023,20 - 24 years,Female,Border,PEA26C01,11088.0
+2024,70 - 74 years,Male,West,PEA26C01,11079.0
+2023,75 - 79 years,Female,Mid-East,PEA26C01,11075.0
+2023,30 - 34 years,Male,Border,PEA26C01,11074.0
+2023,50 - 54 years,Male,Midland,PEA26C01,11013.0
+2023,70 - 74 years,Male,West,PEA26C01,10986.0
+2024,80 - 84 years,Both sexes,West,PEA26C01,10979.0
+2023,80 - 84 years,Both sexes,Mid-West,PEA26C01,10854.0
+2024,35 - 39 years,Male,Midland,PEA26C01,10842.0
+2024,75 - 79 years,Male,Mid-East,PEA26C01,10778.0
+2023,50 - 54 years,Female,Midland,PEA26C01,10762.0
+2023,80 - 84 years,Both sexes,West,PEA26C01,10635.0
+2024,5 - 9 years,Female,Midland,PEA26C01,10626.0
+2024,25 - 29 years,Female,Border,PEA26C01,10579.0
+2024,70 - 74 years,Female,South-East,PEA26C01,10490.0
+2023,25 - 29 years,Male,Border,PEA26C01,10402.0
+2024,80 - 84 years,Both sexes,South-East,PEA26C01,10322.0
+2023,75 - 79 years,Male,Mid-East,PEA26C01,10306.0
+2024,85 years and over,Both sexes,Mid-East,PEA26C01,10279.0
+2024,55 - 59 years,Male,Midland,PEA26C01,10229.0
+2024,70 - 74 years,Male,South-East,PEA26C01,10173.0
+2023,70 - 74 years,Female,South-East,PEA26C01,10172.0
+2024,55 - 59 years,Female,Midland,PEA26C01,10138.0
+2024,20 - 24 years,Male,Midland,PEA26C01,10128.0
+2023,25 - 29 years,Female,Border,PEA26C01,10089.0
+2024,75 - 79 years,Both sexes,Midland,PEA26C01,10048.0
+2024,70 - 74 years,Female,Border,PEA26C01,9896.0
+2024,70 - 74 years,Male,Border,PEA26C01,9894.0
+2024,20 - 24 years,Female,Midland,PEA26C01,9893.0
+2023,55 - 59 years,Male,Midland,PEA26C01,9873.0
+2023,55 - 59 years,Female,Midland,PEA26C01,9853.0
+2024,30 - 34 years,Female,Midland,PEA26C01,9853.0
+2023,70 - 74 years,Male,South-East,PEA26C01,9830.0
+2023,30 - 34 years,Female,Midland,PEA26C01,9775.0
+2023,85 years and over,Both sexes,Mid-East,PEA26C01,9765.0
+2023,80 - 84 years,Both sexes,South-East,PEA26C01,9744.0
+2024,85 years and over,Both sexes,West,PEA26C01,9716.0
+2024,80 - 84 years,Both sexes,Border,PEA26C01,9709.0
+2023,70 - 74 years,Male,Border,PEA26C01,9671.0
+2024,75 - 79 years,Female,Mid-West,PEA26C01,9640.0
+2023,70 - 74 years,Female,Border,PEA26C01,9631.0
+2023,75 - 79 years,Both sexes,Midland,PEA26C01,9621.0
+2023,85 years and over,Both sexes,West,PEA26C01,9547.0
+2023,0 - 4 years,Male,Midland,PEA26C01,9476.0
+2023,20 - 24 years,Male,Midland,PEA26C01,9464.0
+2024,85 years and over,Both sexes,Mid-West,PEA26C01,9431.0
+2023,20 - 24 years,Female,Midland,PEA26C01,9287.0
+2024,60 - 64 years,Male,Midland,PEA26C01,9274.0
+2024,0 - 4 years,Male,Midland,PEA26C01,9239.0
+2023,75 - 79 years,Female,Mid-West,PEA26C01,9225.0
+2024,60 - 64 years,Female,Midland,PEA26C01,9216.0
+2023,80 - 84 years,Both sexes,Border,PEA26C01,9164.0
+2023,30 - 34 years,Male,Midland,PEA26C01,9147.0
+2024,85 years and over,Male,Dublin,PEA26C01,9128.0
+2023,0 - 4 years,Female,Midland,PEA26C01,9078.0
+2023,85 years and over,Both sexes,Mid-West,PEA26C01,9062.0
+2024,25 - 29 years,Male,Midland,PEA26C01,9060.0
+2024,30 - 34 years,Male,Midland,PEA26C01,9031.0
+2024,80 - 84 years,Female,South-West,PEA26C01,8939.0
+2024,25 - 29 years,Female,Midland,PEA26C01,8821.0
+2024,0 - 4 years,Female,Midland,PEA26C01,8815.0
+2023,60 - 64 years,Male,Midland,PEA26C01,8798.0
+2024,75 - 79 years,Male,Mid-West,PEA26C01,8760.0
+2023,60 - 64 years,Female,Midland,PEA26C01,8741.0
+2024,75 - 79 years,Female,West,PEA26C01,8727.0
+2024,75 - 79 years,Male,West,PEA26C01,8680.0
+2023,85 years and over,Male,Dublin,PEA26C01,8662.0
+2023,25 - 29 years,Male,Midland,PEA26C01,8605.0
+2023,80 - 84 years,Female,South-West,PEA26C01,8486.0
+2023,75 - 79 years,Male,Mid-West,PEA26C01,8463.0
+2024,85 years and over,Both sexes,South-East,PEA26C01,8426.0
+2024,85 years and over,Female,South-West,PEA26C01,8416.0
+2024,85 years and over,Both sexes,Border,PEA26C01,8385.0
+2023,75 - 79 years,Female,West,PEA26C01,8381.0
+2023,25 - 29 years,Female,Midland,PEA26C01,8349.0
+2023,75 - 79 years,Male,West,PEA26C01,8337.0
+2024,75 - 79 years,Female,South-East,PEA26C01,8282.0
+2023,85 years and over,Both sexes,South-East,PEA26C01,8202.0
+2023,85 years and over,Female,South-West,PEA26C01,8140.0
+2023,75 - 79 years,Female,South-East,PEA26C01,7979.0
+2023,85 years and over,Both sexes,Border,PEA26C01,7939.0
+2024,75 - 79 years,Female,Border,PEA26C01,7877.0
+2024,75 - 79 years,Male,South-East,PEA26C01,7839.0
+2024,65 - 69 years,Male,Midland,PEA26C01,7794.0
+2024,65 - 69 years,Female,Midland,PEA26C01,7770.0
+2024,75 - 79 years,Male,Border,PEA26C01,7721.0
+2023,75 - 79 years,Male,South-East,PEA26C01,7657.0
+2023,65 - 69 years,Male,Midland,PEA26C01,7590.0
+2023,65 - 69 years,Female,Midland,PEA26C01,7567.0
+2023,75 - 79 years,Female,Border,PEA26C01,7546.0
+2024,80 - 84 years,Male,South-West,PEA26C01,7385.0
+2023,75 - 79 years,Male,Border,PEA26C01,7328.0
+2024,80 - 84 years,Female,Mid-East,PEA26C01,7197.0
+2023,80 - 84 years,Male,South-West,PEA26C01,6829.0
+2023,80 - 84 years,Female,Mid-East,PEA26C01,6683.0
+2024,70 - 74 years,Female,Midland,PEA26C01,6564.0
+2024,70 - 74 years,Male,Midland,PEA26C01,6520.0
+2023,70 - 74 years,Male,Midland,PEA26C01,6345.0
+2023,70 - 74 years,Female,Midland,PEA26C01,6317.0
+2024,85 years and over,Female,Mid-East,PEA26C01,6276.0
+2024,80 - 84 years,Male,Mid-East,PEA26C01,6139.0
+2024,80 - 84 years,Female,Mid-West,PEA26C01,6123.0
+2024,80 - 84 years,Both sexes,Midland,PEA26C01,6073.0
+2023,85 years and over,Female,Mid-East,PEA26C01,6008.0
+2024,85 years and over,Female,West,PEA26C01,5921.0
+2023,85 years and over,Female,West,PEA26C01,5881.0
+2024,80 - 84 years,Female,West,PEA26C01,5877.0
+2023,80 - 84 years,Female,Mid-West,PEA26C01,5874.0
+2023,80 - 84 years,Both sexes,Midland,PEA26C01,5745.0
+2023,80 - 84 years,Male,Mid-East,PEA26C01,5732.0
+2024,85 years and over,Female,Mid-West,PEA26C01,5695.0
+2023,80 - 84 years,Female,West,PEA26C01,5660.0
+2024,85 years and over,Male,South-West,PEA26C01,5562.0
+2023,85 years and over,Female,Mid-West,PEA26C01,5546.0
+2024,80 - 84 years,Female,South-East,PEA26C01,5410.0
+2024,80 - 84 years,Male,Mid-West,PEA26C01,5249.0
+2023,85 years and over,Male,South-West,PEA26C01,5223.0
+2024,75 - 79 years,Female,Midland,PEA26C01,5204.0
+2024,85 years and over,Both sexes,Midland,PEA26C01,5161.0
+2024,85 years and over,Female,South-East,PEA26C01,5140.0
+2023,80 - 84 years,Female,South-East,PEA26C01,5104.0
+2024,80 - 84 years,Male,West,PEA26C01,5102.0
+2024,85 years and over,Female,Border,PEA26C01,5088.0
+2024,80 - 84 years,Female,Border,PEA26C01,5032.0
+2023,85 years and over,Female,South-East,PEA26C01,5031.0
+2023,75 - 79 years,Female,Midland,PEA26C01,4999.0
+2023,85 years and over,Both sexes,Midland,PEA26C01,4985.0
+2023,80 - 84 years,Male,Mid-West,PEA26C01,4980.0
+2023,80 - 84 years,Male,West,PEA26C01,4975.0
+2024,80 - 84 years,Male,South-East,PEA26C01,4912.0
+2023,85 years and over,Female,Border,PEA26C01,4857.0
+2024,75 - 79 years,Male,Midland,PEA26C01,4844.0
+2023,80 - 84 years,Female,Border,PEA26C01,4741.0
+2024,80 - 84 years,Male,Border,PEA26C01,4677.0
+2023,80 - 84 years,Male,South-East,PEA26C01,4640.0
+2023,75 - 79 years,Male,Midland,PEA26C01,4622.0
+2023,80 - 84 years,Male,Border,PEA26C01,4423.0
+2024,85 years and over,Male,Mid-East,PEA26C01,4003.0
+2024,85 years and over,Male,West,PEA26C01,3795.0
+2023,85 years and over,Male,Mid-East,PEA26C01,3757.0
+2024,85 years and over,Male,Mid-West,PEA26C01,3736.0
+2023,85 years and over,Male,West,PEA26C01,3666.0
+2023,85 years and over,Male,Mid-West,PEA26C01,3516.0
+2024,80 - 84 years,Female,Midland,PEA26C01,3325.0
+2024,85 years and over,Male,Border,PEA26C01,3297.0
+2024,85 years and over,Male,South-East,PEA26C01,3286.0
+2023,85 years and over,Male,South-East,PEA26C01,3171.0
+2023,80 - 84 years,Female,Midland,PEA26C01,3111.0
+2023,85 years and over,Male,Border,PEA26C01,3082.0
+2024,85 years and over,Female,Midland,PEA26C01,3058.0
+2023,85 years and over,Female,Midland,PEA26C01,2985.0
+2024,80 - 84 years,Male,Midland,PEA26C01,2748.0
+2023,80 - 84 years,Male,Midland,PEA26C01,2634.0
+2024,85 years and over,Male,Midland,PEA26C01,2103.0
+2023,85 years and over,Male,Midland,PEA26C01,2000.0
