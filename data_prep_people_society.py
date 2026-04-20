@@ -26,6 +26,7 @@ DATASETS = {
     "pea27_citizenship_non_eu": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/PEA27/JSON-stat/2.0/en",
     "pea28_birthplace_non_eu": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/PEA28/JSON-stat/2.0/en",
     "pea29_old_age_dependency": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/PEA29/JSON-stat/2.0/en",
+    "eu_nuts3_geojson": "https://gisco-services.ec.europa.eu/distribution/v2/nuts/geojson/NUTS_RG_01M_2024_4326_LEVL_3.geojson",
 }
 
 
@@ -50,6 +51,32 @@ def fetch_json(url: str) -> dict[str, Any]:
             raise
 
         print("SSL verification failed. Retrying with unverified SSL context...")
+        unverified_context = ssl._create_unverified_context()
+        with urllib.request.urlopen(req, timeout=60, context=unverified_context) as response:
+            return json.loads(response.read().decode("utf-8"))
+
+
+# ============================================================
+# GeoJSON helpers
+# ============================================================
+def fetch_geojson(url: str) -> dict[str, Any]:
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": "Mozilla/5.0",
+            "Accept": "application/json",
+        },
+    )
+
+    try:
+        with urllib.request.urlopen(req, timeout=60) as response:
+            return json.loads(response.read().decode("utf-8"))
+    except Exception as exc:
+        msg = str(exc)
+        if "CERTIFICATE_VERIFY_FAILED" not in msg and "certificate verify failed" not in msg:
+            raise
+
+        print("SSL verification failed for GeoJSON download. Retrying with unverified SSL context...")
         unverified_context = ssl._create_unverified_context()
         with urllib.request.urlopen(req, timeout=60, context=unverified_context) as response:
             return json.loads(response.read().decode("utf-8"))
@@ -227,6 +254,34 @@ def save_csv(df: pd.DataFrame, filename: str) -> None:
     print(f"Saved: {path}")
 
 
+def save_geojson(payload: dict[str, Any], filename: str) -> None:
+    path = OUTPUT_DIR / filename
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(payload, f)
+    print(f"Saved: {path}")
+
+
+def create_ireland_nuts3_geojson() -> None:
+    print("Fetching eu_nuts3_geojson...")
+    geojson = fetch_geojson(DATASETS["eu_nuts3_geojson"])
+
+    ireland_features: list[dict[str, Any]] = []
+    for feature in geojson.get("features", []):
+        props = feature.get("properties", {})
+        cntr_code = str(props.get("CNTR_CODE", "")).strip().upper()
+        nuts_id = str(props.get("NUTS_ID", "")).strip().upper()
+
+        if cntr_code == "IE" or nuts_id.startswith("IE"):
+            ireland_features.append(feature)
+
+    ireland_geojson = {
+        "type": "FeatureCollection",
+        "features": ireland_features,
+    }
+
+    save_geojson(ireland_geojson, "ireland_nuts3.geojson")
+
+
 def process_dataset(
     dataset_key: str,
     raw_filename: str,
@@ -353,6 +408,8 @@ def main() -> None:
         ],
     )
 
+    create_ireland_nuts3_geojson()
+
     print("\nDone.")
     print("\nCreated files:")
     print("- data_processed/vsa38_birth_rate_raw_cleaned.csv")
@@ -371,6 +428,7 @@ def main() -> None:
     print("- data_processed/pea28_birthplace_non_eu_summary.csv")
     print("- data_processed/pea29_old_age_dependency_raw_cleaned.csv")
     print("- data_processed/pea29_old_age_dependency_summary.csv")
+    print("- data_processed/ireland_nuts3.geojson")
 
 
 if __name__ == "__main__":

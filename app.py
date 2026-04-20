@@ -1,11 +1,38 @@
 from __future__ import annotations
-
 from pathlib import Path
-from typing import Iterable
-
-import altair as alt
-import pandas as pd
 import streamlit as st
+
+import pandas as pd
+
+from src.chart_builders import (
+    make_line_chart,
+    make_line_with_latest_labels,
+    make_lollipop_chart,
+    make_population_pyramid,
+    make_region_dependency_scatter,
+)
+from src.data_loader import (
+    build_filtered_datasets,
+    detect_columns,
+    load_csv,
+    multiselect_filter,
+)
+from src.geo_utils import (
+    make_hero_choropleth,
+    add_normalized_region_column,
+    build_latest_region_metrics,
+    create_region_insight_text,
+    load_geojson,
+)
+from src.ui_helpers import (
+    exclude_ireland,
+    format_number,
+    get_ireland_total,
+    latest_group,
+    remove_all_ages,
+    remove_both_sexes,
+    top_group,
+)
 
 
 # ============================================================
@@ -17,7 +44,6 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-alt.data_transformers.disable_max_rows()
 
 
 # ============================================================
@@ -34,391 +60,8 @@ FILES = {
     "pea27": DATA_DIR / "pea27_citizenship_non_eu_summary.csv",
     "pea28": DATA_DIR / "pea28_birthplace_non_eu_summary.csv",
     "pea29": DATA_DIR / "pea29_old_age_dependency_summary.csv",
+    "geojson": DATA_DIR / "ireland_nuts3.geojson",
 }
-
-
-# ============================================================
-# Loading helpers
-# ============================================================
-@st.cache_data
-def load_csv(path: Path) -> pd.DataFrame:
-    if not path.exists():
-        raise FileNotFoundError(f"Missing file: {path}")
-    df = pd.read_csv(path)
-    if "value" in df.columns:
-        df["value"] = pd.to_numeric(df["value"], errors="coerce")
-    return df.dropna(subset=["value"]).reset_index(drop=True)
-
-
-def find_col(df: pd.DataFrame, keywords: Iterable[str]) -> str | None:
-    lower_map = {col: col.lower() for col in df.columns}
-    for keyword in keywords:
-        keyword = keyword.lower()
-        for col, low in lower_map.items():
-            if keyword in low:
-                return col
-    return None
-
-
-def pick_col(df: pd.DataFrame, candidate_groups: list[list[str]]) -> str | None:
-    for group in candidate_groups:
-        col = find_col(df, group)
-        if col:
-            return col
-    return None
-
-
-def apply_filter(df: pd.DataFrame, col: str | None, selected: list[str]) -> pd.DataFrame:
-    if col and selected:
-        return df[df[col].astype(str).isin(selected)].copy()
-    return df.copy()
-
-
-def safe_options(df: pd.DataFrame, col: str | None) -> list[str]:
-    if not col or col not in df.columns:
-        return []
-    return sorted(df[col].dropna().astype(str).unique().tolist())
-
-
-def multiselect_filter(label: str, df: pd.DataFrame, col: str | None) -> list[str]:
-    opts = safe_options(df, col)
-    if not opts:
-        return []
-    return st.sidebar.multiselect(label, opts)
-
-
-def format_number(x: float | None) -> str:
-    if x is None or pd.isna(x):
-        return "—"
-    if abs(x) >= 1000:
-        return f"{x:,.0f}"
-    return f"{x:,.2f}"
-
-
-def top_group(df: pd.DataFrame, group_col: str | None) -> tuple[str, str]:
-    if group_col is None or df.empty:
-        return "—", "—"
-    tmp = (
-        df.groupby(group_col, as_index=False)["value"]
-        .sum()
-        .sort_values("value", ascending=False)
-    )
-    if tmp.empty:
-        return "—", "—"
-    return str(tmp.iloc[0][group_col]), format_number(tmp.iloc[0]["value"])
-
-
-def latest_group(df: pd.DataFrame, time_col: str | None, group_col: str | None) -> pd.DataFrame:
-    if df.empty:
-        return df.copy()
-    out = df.copy()
-    if time_col and time_col in out.columns:
-        max_time = sorted(out[time_col].astype(str).unique().tolist())[-1]
-        out = out[out[time_col].astype(str) == max_time].copy()
-    if group_col and group_col in out.columns:
-        return (
-            out.groupby(group_col, as_index=False)["value"]
-            .sum()
-            .sort_values("value", ascending=False)
-        )
-    return out
-
-
-def exclude_ireland(df: pd.DataFrame, region_col: str | None) -> pd.DataFrame:
-    if region_col and region_col in df.columns:
-        return df[
-            ~df[region_col].astype(str).str.strip().str.lower().isin(["ireland"])
-        ].copy()
-    return df.copy()
-
-
-def get_ireland_total(df: pd.DataFrame, region_col: str | None, time_col: str | None) -> float | None:
-    if region_col is None or region_col not in df.columns or df.empty:
-        return None
-
-    tmp = df.copy()
-
-    if time_col and time_col in tmp.columns:
-        max_time = sorted(tmp[time_col].astype(str).unique().tolist())[-1]
-        tmp = tmp[tmp[time_col].astype(str) == max_time].copy()
-
-    ireland_df = tmp[tmp[region_col].astype(str).str.strip().str.lower() == "ireland"]
-    if ireland_df.empty:
-        return None
-
-    return float(ireland_df["value"].sum())
-
-
-def remove_all_ages(df: pd.DataFrame, age_col: str | None) -> pd.DataFrame:
-    out = df.copy()
-    if age_col and age_col in out.columns:
-        out = out[
-            ~out[age_col].astype(str).str.strip().str.lower().isin(["all ages"])
-        ]
-    return out.copy()
-
-
-def remove_both_sexes(df: pd.DataFrame, sex_col: str | None) -> pd.DataFrame:
-    out = df.copy()
-    if sex_col and sex_col in out.columns:
-        out = out[
-            ~out[sex_col].astype(str).str.strip().str.lower().isin(["both sexes"])
-        ]
-    return out.copy()
-
-
-def keep_only_both_sexes(df: pd.DataFrame, sex_col: str | None) -> pd.DataFrame:
-    out = df.copy()
-    if sex_col and sex_col in out.columns:
-        out = out[
-            out[sex_col].astype(str).str.strip().str.lower().isin(["both sexes"])
-        ]
-    return out.copy()
-
-
-def sort_age_groups(df: pd.DataFrame, age_col: str) -> pd.DataFrame:
-    df = df.copy()
-
-    age_order = [
-        "Under 5 years",
-        "0 - 4 years",
-        "5 - 9 years",
-        "10 - 14 years",
-        "15 - 19 years",
-        "20 - 24 years",
-        "25 - 29 years",
-        "30 - 34 years",
-        "35 - 39 years",
-        "40 - 44 years",
-        "45 - 49 years",
-        "50 - 54 years",
-        "55 - 59 years",
-        "60 - 64 years",
-        "65 - 69 years",
-        "70 - 74 years",
-        "75 - 79 years",
-        "80 - 84 years",
-        "85 years and over",
-        "85 years and over ",
-    ]
-
-    df[age_col] = pd.Categorical(df[age_col], categories=age_order, ordered=True)
-    return df.sort_values(age_col)
-
-
-# ============================================================
-# Chart helpers
-# ============================================================
-def make_bar_chart(
-    df: pd.DataFrame,
-    category_col: str,
-    title: str,
-    top_n: int = 10,
-    format_str: str = ",.2f",
-) -> alt.Chart:
-    plot_df = (
-        df.groupby(category_col, as_index=False)["value"]
-        .sum()
-        .sort_values("value", ascending=False)
-        .head(top_n)
-    )
-
-    return (
-        alt.Chart(plot_df)
-        .mark_bar()
-        .encode(
-            x=alt.X("value:Q", title="Value"),
-            y=alt.Y(f"{category_col}:N", sort="-x", title=""),
-            color=alt.Color("value:Q", title="Value"),
-            tooltip=[
-                alt.Tooltip(f"{category_col}:N", title=category_col),
-                alt.Tooltip("value:Q", title="Value", format=format_str),
-            ],
-        )
-        .properties(height=380, title=title)
-    )
-
-
-def make_stacked_bar(
-    df: pd.DataFrame,
-    category_col: str,
-    stack_col: str,
-    title: str,
-    top_n: int = 10,
-    format_str: str = ",.2f",
-) -> alt.Chart:
-    grouped = df.groupby([category_col, stack_col], as_index=False)["value"].sum()
-    top_categories = (
-        grouped.groupby(category_col, as_index=False)["value"]
-        .sum()
-        .sort_values("value", ascending=False)
-        .head(top_n)[category_col]
-        .tolist()
-    )
-    grouped = grouped[grouped[category_col].isin(top_categories)]
-
-    if "age" in category_col.lower():
-        grouped = sort_age_groups(grouped, category_col)
-
-    return (
-        alt.Chart(grouped)
-        .mark_bar()
-        .encode(
-            x=alt.X("value:Q", title="Value"),
-            y=alt.Y(
-                f"{category_col}:N",
-                sort=None if "age" in category_col.lower() else top_categories,
-                title="",
-            ),
-            color=alt.Color(f"{stack_col}:N", title=stack_col),
-            tooltip=[
-                alt.Tooltip(f"{category_col}:N", title=category_col),
-                alt.Tooltip(f"{stack_col}:N", title=stack_col),
-                alt.Tooltip("value:Q", title="Value", format=format_str),
-            ],
-        )
-        .properties(height=380, title=title)
-    )
-
-
-def make_heatmap(
-    df: pd.DataFrame,
-    x_col: str,
-    y_col: str,
-    title: str,
-    format_str: str = ",.2f",
-) -> alt.Chart:
-    if df.empty:
-        empty_df = pd.DataFrame({x_col: [], y_col: [], "value": []})
-        return (
-            alt.Chart(empty_df)
-            .mark_rect()
-            .properties(height=420, title=title)
-        )
-
-    grouped = df.groupby([x_col, y_col], as_index=False)["value"].sum()
-
-    if "age" in x_col.lower():
-        grouped = sort_age_groups(grouped, x_col)
-
-    return (
-        alt.Chart(grouped)
-        .mark_rect()
-        .encode(
-            x=alt.X(f"{x_col}:N", title=x_col, sort=None),
-            y=alt.Y(f"{y_col}:N", title=y_col),
-            color=alt.Color("value:Q", title="Value"),
-            tooltip=[
-                alt.Tooltip(f"{x_col}:N", title=x_col),
-                alt.Tooltip(f"{y_col}:N", title=y_col),
-                alt.Tooltip("value:Q", title="Value", format=format_str),
-            ],
-        )
-        .properties(height=420, title=title)
-    )
-
-
-def make_line_chart(
-    df: pd.DataFrame,
-    time_col: str,
-    group_col: str,
-    title: str,
-    format_str: str = ",.2f",
-) -> alt.Chart:
-    grouped = df.groupby([time_col, group_col], as_index=False)["value"].sum()
-
-    return (
-        alt.Chart(grouped)
-        .mark_line(point=True)
-        .encode(
-            x=alt.X(f"{time_col}:N", title=time_col),
-            y=alt.Y("value:Q", title="Value"),
-            color=alt.Color(f"{group_col}:N", title=group_col),
-            tooltip=[
-                alt.Tooltip(f"{time_col}:N", title=time_col),
-                alt.Tooltip(f"{group_col}:N", title=group_col),
-                alt.Tooltip("value:Q", title="Value", format=format_str),
-            ],
-        )
-        .properties(height=380, title=title)
-    )
-
-
-def make_grouped_bar(
-    df: pd.DataFrame,
-    x_col: str,
-    color_col: str,
-    title: str,
-    format_str: str = ",.2f",
-) -> alt.Chart:
-    grouped = df.groupby([x_col, color_col], as_index=False)["value"].sum()
-
-    if "age" in x_col.lower():
-        grouped = sort_age_groups(grouped, x_col)
-
-    return (
-        alt.Chart(grouped)
-        .mark_bar()
-        .encode(
-            x=alt.X(f"{x_col}:N", title=x_col, sort=None),
-            y=alt.Y("value:Q", title="Value"),
-            color=alt.Color(f"{color_col}:N", title=color_col),
-            tooltip=[
-                alt.Tooltip(f"{x_col}:N", title=x_col),
-                alt.Tooltip(f"{color_col}:N", title=color_col),
-                alt.Tooltip("value:Q", title="Value", format=format_str),
-            ],
-        )
-        .properties(height=380, title=title)
-    )
-
-
-def make_population_pyramid(
-    df: pd.DataFrame,
-    age_col: str,
-    sex_col: str,
-    title: str,
-) -> alt.Chart:
-    grouped = df.groupby([age_col, sex_col], as_index=False)["value"].sum()
-    grouped = sort_age_groups(grouped, age_col)
-
-    sex_values = grouped[sex_col].astype(str).unique().tolist()
-    if len(sex_values) < 2:
-        return (
-            alt.Chart(grouped)
-            .mark_bar()
-            .encode(
-                x=alt.X("value:Q", title="Population"),
-                y=alt.Y(f"{age_col}:N", sort=None, title=age_col),
-                color=alt.Color(f"{sex_col}:N", title=sex_col),
-                tooltip=[
-                    alt.Tooltip(f"{age_col}:N", title=age_col),
-                    alt.Tooltip(f"{sex_col}:N", title=sex_col),
-                    alt.Tooltip("value:Q", title="Population", format=",.0f"),
-                ],
-            )
-            .properties(height=500, title=title)
-        )
-
-    first_sex = sex_values[0]
-    grouped["pyramid_value"] = grouped["value"]
-    grouped.loc[grouped[sex_col].astype(str) == first_sex, "pyramid_value"] *= -1
-
-    return (
-        alt.Chart(grouped)
-        .mark_bar()
-        .encode(
-            x=alt.X("pyramid_value:Q", title="Population"),
-            y=alt.Y(f"{age_col}:N", sort=None, title=age_col),
-            color=alt.Color(f"{sex_col}:N", title=sex_col),
-            tooltip=[
-                alt.Tooltip(f"{age_col}:N", title=age_col),
-                alt.Tooltip(f"{sex_col}:N", title=sex_col),
-                alt.Tooltip("value:Q", title="Population", format=",.0f"),
-            ],
-        )
-        .properties(height=500, title=title)
-    )
 
 
 # ============================================================
@@ -433,6 +76,7 @@ try:
     pea27 = load_csv(FILES["pea27"])
     pea28 = load_csv(FILES["pea28"])
     pea29 = load_csv(FILES["pea29"])
+    ireland_geojson = load_geojson(FILES["geojson"])
 except Exception as e:
     st.error(str(e))
     st.stop()
@@ -441,87 +85,115 @@ except Exception as e:
 # ============================================================
 # Detect columns
 # ============================================================
-vsa38_time = pick_col(vsa38, [["time"], ["year"]])
-vsa38_area = pick_col(vsa38, [["area_of_residence"], ["area"], ["region"]])
+datasets = {
+    "vsa38": vsa38,
+    "vsa94": vsa94,
+    "vsa104": vsa104,
+    "vsa108": vsa108,
+    "pea26": pea26,
+    "pea27": pea27,
+    "pea28": pea28,
+    "pea29": pea29,
+}
 
-vsa94_time = pick_col(vsa94, [["time"], ["year"]])
-vsa94_area = pick_col(vsa94, [["area_of_residence"], ["area"], ["region"]])
+columns = detect_columns(datasets)
 
-vsa104_time = pick_col(vsa104, [["time"], ["year"]])
-vsa104_age = pick_col(vsa104, [["mother_s_age_group"], ["age_group"], ["age group"]])
-vsa104_region = pick_col(vsa104, [["region"], ["nuts3"]])
-
-vsa108_time = pick_col(vsa108, [["time"], ["year"]])
-vsa108_region = pick_col(vsa108, [["region"], ["nuts3"]])
-
-pea26_time = pick_col(pea26, [["time"], ["year"]])
-pea26_age = pick_col(pea26, [["age_group"], ["age group"]])
-pea26_sex = pick_col(pea26, [["sex"]])
-pea26_region = pick_col(pea26, [["region"], ["nuts3"]])
-
-pea27_time = pick_col(pea27, [["time"], ["year"]])
-pea27_age = pick_col(pea27, [["age_group"], ["age group"]])
-pea27_sex = pick_col(pea27, [["sex"]])
-pea27_hdi = pick_col(pea27, [["human_development_index"], ["hdi"]])
-
-pea28_time = pick_col(pea28, [["time"], ["year"]])
-pea28_age = pick_col(pea28, [["age_group"], ["age group"]])
-pea28_sex = pick_col(pea28, [["sex"]])
-pea28_hdi = pick_col(pea28, [["human_development_index"], ["hdi"]])
-
-pea29_time = pick_col(pea29, [["time"], ["year"]])
-pea29_sex = pick_col(pea29, [["sex"]])
-pea29_region = pick_col(pea29, [["region"], ["nuts3"]])
-
+vsa38_time = columns["vsa38_time"]
+vsa38_area = columns["vsa38_area"]
+vsa94_time = columns["vsa94_time"]
+vsa94_area = columns["vsa94_area"]
+vsa104_time = columns["vsa104_time"]
+vsa104_age = columns["vsa104_age"]
+vsa104_region = columns["vsa104_region"]
+vsa108_time = columns["vsa108_time"]
+vsa108_region = columns["vsa108_region"]
+pea26_time = columns["pea26_time"]
+pea26_age = columns["pea26_age"]
+pea26_sex = columns["pea26_sex"]
+pea26_region = columns["pea26_region"]
+pea27_time = columns["pea27_time"]
+pea27_age = columns["pea27_age"]
+pea27_sex = columns["pea27_sex"]
+pea27_hdi = columns["pea27_hdi"]
+pea28_time = columns["pea28_time"]
+pea28_age = columns["pea28_age"]
+pea28_sex = columns["pea28_sex"]
+pea28_hdi = columns["pea28_hdi"]
+pea29_time = columns["pea29_time"]
+pea29_sex = columns["pea29_sex"]
+pea29_region = columns["pea29_region"]
 
 # ============================================================
 # Sidebar filters
 # ============================================================
-st.sidebar.title("Filters")
+st.sidebar.title("Controls")
 
-pea26_region_selected = multiselect_filter("Population region", pea26, pea26_region)
-pea26_sex_selected = multiselect_filter("Population sex", pea26, pea26_sex)
+hero_metric_label = st.sidebar.selectbox(
+    "Hero map metric",
+    [
+        "Old-age dependency",
+        "Population",
+        "Fertility",
+        "Death rate",
+    ],
+    index=0,
+)
 
-vsa104_region_selected = multiselect_filter("Fertility region", vsa104, vsa104_region)
-vsa104_age_selected = multiselect_filter("Mother age group", vsa104, vsa104_age)
+region_focus_mode = st.sidebar.radio(
+    "Supporting charts",
+    ["Clicked region", "Top 5 regions"],
+    index=0,
+)
 
-vsa108_region_selected = multiselect_filter("Death-rate region", vsa108, vsa108_region)
-
-pea29_region_selected = multiselect_filter("Dependency region", pea29, pea29_region)
-pea29_sex_selected = multiselect_filter("Dependency sex", pea29, pea29_sex)
-
-vsa38_area_selected = multiselect_filter("Birth-rate area", vsa38, vsa38_area)
-vsa94_area_selected = multiselect_filter("Infant mortality area", vsa94, vsa94_area)
-
-pea27_sex_selected = multiselect_filter("Citizenship sex", pea27, pea27_sex)
-pea27_hdi_selected = multiselect_filter("Citizenship HDI", pea27, pea27_hdi)
-
-pea28_sex_selected = multiselect_filter("Birthplace sex", pea28, pea28_sex)
-pea28_hdi_selected = multiselect_filter("Birthplace HDI", pea28, pea28_hdi)
+show_data_preview = st.sidebar.checkbox("Show data preview", value=False)
 
 
 # ============================================================
 # Apply filters
 # ============================================================
-pea26_f = apply_filter(pea26, pea26_region, pea26_region_selected)
-pea26_f = apply_filter(pea26_f, pea26_sex, pea26_sex_selected)
+pea26_region_selected = multiselect_filter("Population region", pea26, pea26_region)
+pea26_sex_selected = multiselect_filter("Population sex", pea26, pea26_sex)
+vsa104_region_selected = multiselect_filter("Fertility region", vsa104, vsa104_region)
+vsa104_age_selected = multiselect_filter("Mother age group", vsa104, vsa104_age)
+vsa108_region_selected = multiselect_filter("Death-rate region", vsa108, vsa108_region)
+pea29_region_selected = multiselect_filter("Dependency region", pea29, pea29_region)
+pea29_sex_selected = multiselect_filter("Dependency sex", pea29, pea29_sex)
+vsa38_area_selected = multiselect_filter("Birth-rate area", vsa38, vsa38_area)
+vsa94_area_selected = multiselect_filter("Infant mortality area", vsa94, vsa94_area)
+pea27_sex_selected = multiselect_filter("Citizenship sex", pea27, pea27_sex)
+pea27_hdi_selected = multiselect_filter("Citizenship HDI", pea27, pea27_hdi)
+pea28_sex_selected = multiselect_filter("Birthplace sex", pea28, pea28_sex)
+pea28_hdi_selected = multiselect_filter("Birthplace HDI", pea28, pea28_hdi)
 
-vsa104_f = apply_filter(vsa104, vsa104_region, vsa104_region_selected)
-vsa104_f = apply_filter(vsa104_f, vsa104_age, vsa104_age_selected)
 
-vsa108_f = apply_filter(vsa108, vsa108_region, vsa108_region_selected)
+filtered = build_filtered_datasets(
+    datasets,
+    columns,
+    {
+        "pea26_region_selected": pea26_region_selected,
+        "pea26_sex_selected": pea26_sex_selected,
+        "vsa104_region_selected": vsa104_region_selected,
+        "vsa104_age_selected": vsa104_age_selected,
+        "vsa108_region_selected": vsa108_region_selected,
+        "pea29_region_selected": pea29_region_selected,
+        "pea29_sex_selected": pea29_sex_selected,
+        "vsa38_area_selected": vsa38_area_selected,
+        "vsa94_area_selected": vsa94_area_selected,
+        "pea27_sex_selected": pea27_sex_selected,
+        "pea27_hdi_selected": pea27_hdi_selected,
+        "pea28_sex_selected": pea28_sex_selected,
+        "pea28_hdi_selected": pea28_hdi_selected,
+    },
+)
 
-pea29_f = apply_filter(pea29, pea29_region, pea29_region_selected)
-pea29_f = apply_filter(pea29_f, pea29_sex, pea29_sex_selected)
-
-vsa38_f = apply_filter(vsa38, vsa38_area, vsa38_area_selected)
-vsa94_f = apply_filter(vsa94, vsa94_area, vsa94_area_selected)
-
-pea27_f = apply_filter(pea27, pea27_sex, pea27_sex_selected)
-pea27_f = apply_filter(pea27_f, pea27_hdi, pea27_hdi_selected)
-
-pea28_f = apply_filter(pea28, pea28_sex, pea28_sex_selected)
-pea28_f = apply_filter(pea28_f, pea28_hdi, pea28_hdi_selected)
+pea26_f = add_normalized_region_column(filtered["pea26_f"], pea26_region)
+vsa104_f = add_normalized_region_column(filtered["vsa104_f"], vsa104_region)
+vsa108_f = add_normalized_region_column(filtered["vsa108_f"], vsa108_region)
+pea29_f = add_normalized_region_column(filtered["pea29_f"], pea29_region)
+vsa38_f = filtered["vsa38_f"]
+vsa94_f = filtered["vsa94_f"]
+pea27_f = filtered["pea27_f"]
+pea28_f = filtered["pea28_f"]
 
 
 # ============================================================
@@ -541,13 +213,40 @@ pea29_f = exclude_ireland(pea29_f, pea29_region)
 vsa104_f = exclude_ireland(vsa104_f, vsa104_region)
 vsa108_f = exclude_ireland(vsa108_f, vsa108_region)
 
+# ============================================================
+# Build region metrics for hero map and selection
+# ============================================================
+region_metrics = pd.DataFrame()
+if all([pea26_region, pea29_region, vsa104_region, vsa108_region]):
+    region_metrics = build_latest_region_metrics(
+        latest_group(pea26_f, pea26_time, pea26_region),
+        latest_group(pea29_f, pea29_time, pea29_region),
+        latest_group(vsa104_f, vsa104_time, vsa104_region),
+        latest_group(vsa108_f, vsa108_time, vsa108_region),
+        pea26_region,
+        pea29_region,
+        vsa104_region,
+        vsa108_region,
+    )
+
+metric_column_map = {
+    "Old-age dependency": "dependency_value",
+    "Population": "population_value",
+    "Fertility": "fertility_value",
+    "Death rate": "death_value",
+}
+hero_metric_column = metric_column_map[hero_metric_label]
+
+if "selected_region" not in st.session_state:
+    st.session_state["selected_region"] = None
+
 
 # ============================================================
 # App header
 # ============================================================
-st.title("Ireland People & Society Dashboard")
+st.title("Regional Demographic Pressure in Ireland")
 st.caption(
-    "Exploring population structure, birth and fertility patterns, mortality, dependency, and diversity using CSO High Value Datasets."
+    "A one-page explanatory view of population, ageing, fertility, and mortality across Irish regions. Use the hero map to select a region and read the linked insights below."
 )
 
 
@@ -556,8 +255,6 @@ st.caption(
 # ============================================================
 pop_top_name, pop_top_value = top_group(pea26_f, pea26_region)
 dep_top_name, dep_top_value = top_group(pea29_f, pea29_region)
-death_top_name, death_top_value = top_group(vsa108_f, vsa108_region)
-fert_top_name, fert_top_value = top_group(vsa104_f, vsa104_region)
 
 c1, c2, c3, c4 = st.columns(4)
 c1.metric("Ireland total population", format_number(population_total_ireland))
@@ -567,405 +264,210 @@ c4.metric("Highest dependency region", dep_top_name, dep_top_value)
 
 
 # ============================================================
-# Tabs
+# Hero section
 # ============================================================
-tab1, tab2, tab3, tab4 = st.tabs(
-    [
-        "Population Structure",
-        "Births & Fertility",
-        "Mortality",
-        "Citizenship & Birthplace",
-    ]
-)
+hero_left, hero_right = st.columns([2.1, 1.0])
+
+selected_region_row = None
+
+with hero_left:
+    st.subheader("Hero view: Ireland regional map")
+    if region_metrics.empty:
+        st.info("Regional metrics could not be built for the hero map.")
+    else:
+        hero_fig = make_hero_choropleth(
+            region_metrics,
+            ireland_geojson,
+            hero_metric_column,
+            hero_metric_label,
+        )
+        selection = st.plotly_chart(
+            hero_fig,
+            width="stretch",
+            on_select="rerun",
+            selection_mode="points",
+        )
+
+        if selection and selection.get("selection", {}).get("points"):
+            point = selection["selection"]["points"][0]
+            clicked_region = point.get("location")
+            if clicked_region:
+                st.session_state["selected_region"] = clicked_region
+
+with hero_right:
+    st.subheader("Selected region insights")
+    if not region_metrics.empty and st.session_state.get("selected_region"):
+        selected_match = region_metrics[
+            region_metrics["normalized_region"] == st.session_state["selected_region"]
+        ]
+        if not selected_match.empty:
+            selected_region_row = selected_match.iloc[0]
+    st.markdown(create_region_insight_text(selected_region_row))
 
 
 # ============================================================
-# Tab 1 - Population Structure
+# Supporting charts
 # ============================================================
-with tab1:
-    st.subheader("Population structure and old-age dependency")
+st.subheader("Supporting views")
 
-    row1_col1, row1_col2 = st.columns(2)
+support_left, support_right = st.columns(2)
 
-    with row1_col1:
-        if not pea26_f.empty and pea26_region:
-            latest_pop = latest_group(pea26_f, pea26_time, pea26_region)
-            st.altair_chart(
-                make_bar_chart(
-                    latest_pop,
-                    pea26_region,
-                    "Latest population by region",
-                    top_n=12,
-                    format_str=",.0f",
-                ),
-                use_container_width=True,
-            )
-        else:
-            st.info("Population region column not detected or no data after filtering.")
+with support_left:
+    if not pea26_f.empty and not pea29_f.empty and pea26_region and pea29_region and pea26_region == pea29_region:
+        st.altair_chart(
+            make_region_dependency_scatter(
+                pea26_f,
+                pea29_f,
+                pea26_region,
+                "Population vs old-age dependency by region",
+            ),
+            width="stretch",
+        )
+    else:
+        st.info("Population and dependency scatter could not be displayed.")
 
-    with row1_col2:
-        if not pea29_f.empty and pea29_region:
-            latest_dep = latest_group(pea29_f, pea29_time, pea29_region)
-            st.altair_chart(
-                make_bar_chart(
-                    latest_dep,
-                    pea29_region,
-                    "Latest old-age dependency ratio by region",
-                    top_n=12,
-                    format_str=",.2f",
-                ),
-                use_container_width=True,
-            )
-        else:
-            st.info("Dependency region column not detected or no data after filtering.")
+with support_right:
+    if not pea29_f.empty and pea29_region:
+        latest_dep = latest_group(pea29_f, pea29_time, pea29_region)
+        st.altair_chart(
+            make_lollipop_chart(
+                latest_dep,
+                pea29_region,
+                "Ranked old-age dependency by region",
+                top_n=12,
+                format_str=",.2f",
+            ),
+            width="stretch",
+        )
+    else:
+        st.info("Dependency ranking could not be displayed.")
 
-    row2_col1, row2_col2 = st.columns(2)
 
-    with row2_col1:
-        if not pea26_f.empty and pea26_age and pea26_region:
-            heatmap_df = pea26_f.copy()
-            heatmap_df = remove_all_ages(heatmap_df, pea26_age)
-            heatmap_df = keep_only_both_sexes(heatmap_df, pea26_sex)
+trend_left, trend_right = st.columns(2)
 
-            if heatmap_df.empty:
-                st.warning("No data available for the population heatmap after filtering.")
-            else:
+selected_region_name = None
+selected_region_normalized = st.session_state.get("selected_region")
+if selected_region_row is not None:
+    selected_region_name = selected_region_row.get("region_name")
+
+with trend_left:
+    if not vsa104_f.empty and vsa104_time and vsa104_region:
+        fertility_trend_df = vsa104_f.copy()
+        if region_focus_mode == "Clicked region" and selected_region_normalized:
+            fertility_trend_df = fertility_trend_df[
+                fertility_trend_df["normalized_region"] == selected_region_normalized
+            ]
+            title = f"Fertility trend: {selected_region_name}" if selected_region_name else "Fertility trend"
+            if not fertility_trend_df.empty:
                 st.altair_chart(
-                    make_heatmap(
-                        heatmap_df,
-                        pea26_age,
-                        pea26_region,
-                        "Population heatmap: age group × region",
-                        format_str=",.0f",
+                    make_line_chart(
+                        fertility_trend_df,
+                        vsa104_time,
+                        vsa104_region,
+                        title,
+                        format_str=",.2f",
                     ),
-                    use_container_width=True,
+                    width="stretch",
                 )
-        else:
-            st.info("Population age or region column not detected.")
-
-    with row2_col2:
-        if not pea26_f.empty and pea26_age and pea26_sex:
-            pyramid_df = pea26_f.copy()
-            pyramid_df = remove_all_ages(pyramid_df, pea26_age)
-            pyramid_df = remove_both_sexes(pyramid_df, pea26_sex)
-
-            if pea26_region and pea26_region_selected:
-                selected_non_ireland = [
-                    x for x in pea26_region_selected
-                    if str(x).strip().lower() != "ireland"
-                ]
-                if selected_non_ireland:
-                    pyramid_df = pyramid_df[
-                        pyramid_df[pea26_region].astype(str).isin(selected_non_ireland)
-                    ]
-            elif pea26_region:
-                available_regions = safe_options(pea26_f, pea26_region)
-                if available_regions:
-                    pyramid_df = pyramid_df[
-                        pyramid_df[pea26_region].astype(str) == available_regions[0]
-                    ]
-
-            if pyramid_df.empty:
-                st.warning("No data available for the population pyramid after filtering.")
             else:
-                st.altair_chart(
-                    make_population_pyramid(
-                        pyramid_df,
-                        pea26_age,
-                        pea26_sex,
-                        "Population pyramid for selected/default region",
-                    ),
-                    use_container_width=True,
-                )
+                st.info("Click a region on the map to view a linked fertility trend.")
         else:
-            st.info("Population age or sex column not detected.")
-
-
-# ============================================================
-# Tab 2 - Births & Fertility
-# ============================================================
-with tab2:
-    st.subheader("Birth rates and fertility patterns")
-
-    top_row = st.columns(4)
-    top_row[0].metric("Ireland fertility total", format_number(fertility_total_ireland))
-    top_row[1].metric("Highest fertility region", fert_top_name, fert_top_value)
-    top_row[2].metric("Ireland death total", format_number(death_total_ireland))
-    top_row[3].metric("Highest death-rate region", death_top_name, death_top_value)
-
-    row1_col1, row1_col2 = st.columns(2)
-
-    with row1_col1:
-        if not vsa38_f.empty and vsa38_area:
-            latest_birth = latest_group(vsa38_f, vsa38_time, vsa38_area)
             st.altair_chart(
-                make_bar_chart(
-                    latest_birth,
-                    vsa38_area,
-                    "Latest birth rate by area",
-                    top_n=12,
-                    format_str=",.2f",
-                ),
-                use_container_width=True,
-            )
-        else:
-            st.info("Birth-rate area column not detected or no data after filtering.")
-
-    with row1_col2:
-        if not vsa104_f.empty and vsa104_region and vsa104_age:
-            fertility_heatmap_df = vsa104_f.copy()
-            fertility_heatmap_df = remove_all_ages(fertility_heatmap_df, vsa104_age)
-            st.altair_chart(
-                make_heatmap(
-                    fertility_heatmap_df,
-                    vsa104_age,
-                    vsa104_region,
-                    "Fertility heatmap: mother's age group × region",
-                    format_str=",.2f",
-                ),
-                use_container_width=True,
-            )
-        else:
-            st.info("Fertility age or region column not detected.")
-
-    row2_col1, row2_col2 = st.columns(2)
-
-    with row2_col1:
-        if not vsa104_f.empty and vsa104_time and vsa104_region:
-            top_regions = (
-                vsa104_f.groupby(vsa104_region, as_index=False)["value"]
-                .sum()
-                .sort_values("value", ascending=False)
-                .head(5)[vsa104_region]
-                .tolist()
-            )
-            trend_df = vsa104_f[vsa104_f[vsa104_region].isin(top_regions)]
-            st.altair_chart(
-                make_line_chart(
-                    trend_df,
+                make_line_with_latest_labels(
+                    vsa104_f,
                     vsa104_time,
                     vsa104_region,
-                    "Fertility trend for top regions",
+                    "Fertility trend with latest region labels",
                     format_str=",.2f",
+                    top_n=5,
                 ),
-                use_container_width=True,
+                width="stretch",
             )
+    else:
+        st.info("Fertility trend could not be displayed.")
+
+with trend_right:
+    if not vsa108_f.empty and vsa108_time and vsa108_region:
+        death_trend_df = vsa108_f.copy()
+        if region_focus_mode == "Clicked region" and selected_region_normalized:
+            death_trend_df = death_trend_df[
+                death_trend_df["normalized_region"] == selected_region_normalized
+            ]
+            title = f"Death-rate trend: {selected_region_name}" if selected_region_name else "Death-rate trend"
+            if not death_trend_df.empty:
+                st.altair_chart(
+                    make_line_chart(
+                        death_trend_df,
+                        vsa108_time,
+                        vsa108_region,
+                        title,
+                        format_str=",.2f",
+                    ),
+                    width="stretch",
+                )
+            else:
+                st.info("Click a region on the map to view a linked death-rate trend.")
         else:
-            st.info("Fertility time or region column not detected.")
-
-    with row2_col2:
-        if not vsa104_f.empty and vsa104_region and vsa104_age:
-            fertility_stack_df = vsa104_f.copy()
-            fertility_stack_df = remove_all_ages(fertility_stack_df, vsa104_age)
             st.altair_chart(
-                make_stacked_bar(
-                    fertility_stack_df,
-                    vsa104_region,
-                    vsa104_age,
-                    "Fertility profile by region and mother's age group",
-                    top_n=10,
-                    format_str=",.2f",
-                ),
-                use_container_width=True,
-            )
-        else:
-            st.info("Fertility region or age-group column not detected.")
-
-
-# ============================================================
-# Tab 3 - Mortality
-# ============================================================
-with tab3:
-    st.subheader("Death rates, stillbirths, and infant mortality")
-
-    row1_col1, row1_col2 = st.columns(2)
-
-    with row1_col1:
-        if not vsa108_f.empty and vsa108_region:
-            latest_death = latest_group(vsa108_f, vsa108_time, vsa108_region)
-            st.altair_chart(
-                make_bar_chart(
-                    latest_death,
-                    vsa108_region,
-                    "Latest death rate by region",
-                    top_n=12,
-                    format_str=",.2f",
-                ),
-                use_container_width=True,
-            )
-        else:
-            st.info("Death-rate region column not detected or no data after filtering.")
-
-    with row1_col2:
-        if not vsa94_f.empty and vsa94_area:
-            latest_mortality = latest_group(vsa94_f, vsa94_time, vsa94_area)
-            st.altair_chart(
-                make_bar_chart(
-                    latest_mortality,
-                    vsa94_area,
-                    "Latest stillbirth / infant mortality by area",
-                    top_n=12,
-                    format_str=",.2f",
-                ),
-                use_container_width=True,
-            )
-        else:
-            st.info("Infant mortality area column not detected or no data after filtering.")
-
-    row2_col1, row2_col2 = st.columns(2)
-
-    with row2_col1:
-        if not vsa108_f.empty and vsa108_time and vsa108_region:
-            top_regions = (
-                vsa108_f.groupby(vsa108_region, as_index=False)["value"]
-                .sum()
-                .sort_values("value", ascending=False)
-                .head(5)[vsa108_region]
-                .tolist()
-            )
-            trend_df = vsa108_f[vsa108_f[vsa108_region].isin(top_regions)]
-            st.altair_chart(
-                make_line_chart(
-                    trend_df,
+                make_line_with_latest_labels(
+                    vsa108_f,
                     vsa108_time,
                     vsa108_region,
-                    "Death-rate trend for top regions",
+                    "Death-rate trend with latest region labels",
                     format_str=",.2f",
+                    top_n=5,
                 ),
-                use_container_width=True,
+                width="stretch",
             )
-        else:
-            st.info("Death-rate time or region column not detected.")
-
-    with row2_col2:
-        if not vsa94_f.empty and vsa94_time and vsa94_area:
-            top_areas = (
-                vsa94_f.groupby(vsa94_area, as_index=False)["value"]
-                .sum()
-                .sort_values("value", ascending=False)
-                .head(5)[vsa94_area]
-                .tolist()
-            )
-            trend_df = vsa94_f[vsa94_f[vsa94_area].isin(top_areas)]
-            st.altair_chart(
-                make_line_chart(
-                    trend_df,
-                    vsa94_time,
-                    vsa94_area,
-                    "Stillbirth / infant mortality trend for top areas",
-                    format_str=",.2f",
-                ),
-                use_container_width=True,
-            )
-        else:
-            st.info("Infant mortality time or area column not detected.")
+    else:
+        st.info("Death-rate trend could not be displayed.")
 
 
 # ============================================================
-# Tab 4 - Citizenship & Birthplace
+# Optional detail view
 # ============================================================
-with tab4:
-    st.subheader("Citizenship and birthplace profiles outside the EU/EFTA/EU candidate groups")
+st.subheader("Age structure detail")
+if not pea26_f.empty and pea26_age and pea26_sex:
+    pyramid_df = pea26_f.copy()
+    pyramid_df = remove_all_ages(pyramid_df, pea26_age)
+    pyramid_df = remove_both_sexes(pyramid_df, pea26_sex)
 
-    row1_col1, row1_col2 = st.columns(2)
+    if selected_region_normalized:
+        pyramid_df = pyramid_df[pyramid_df["normalized_region"] == selected_region_normalized]
 
-    with row1_col1:
-        if not pea27_f.empty and pea27_hdi:
-            latest_citizenship = latest_group(pea27_f, pea27_time, pea27_hdi)
-            st.altair_chart(
-                make_bar_chart(
-                    latest_citizenship,
-                    pea27_hdi,
-                    "Latest citizenship profile by Human Development Index",
-                    top_n=12,
-                    format_str=",.0f",
-                ),
-                use_container_width=True,
-            )
-        else:
-            st.info("Citizenship HDI column not detected or no data after filtering.")
-
-    with row1_col2:
-        if not pea28_f.empty and pea28_hdi:
-            latest_birthplace = latest_group(pea28_f, pea28_time, pea28_hdi)
-            st.altair_chart(
-                make_bar_chart(
-                    latest_birthplace,
-                    pea28_hdi,
-                    "Latest birthplace profile by Human Development Index",
-                    top_n=12,
-                    format_str=",.0f",
-                ),
-                use_container_width=True,
-            )
-        else:
-            st.info("Birthplace HDI column not detected or no data after filtering.")
-
-    row2_col1, row2_col2 = st.columns(2)
-
-    with row2_col1:
-        if not pea27_f.empty and pea27_age and pea27_sex:
-            citizenship_plot_df = pea27_f.copy()
-            citizenship_plot_df = remove_all_ages(citizenship_plot_df, pea27_age)
-            citizenship_plot_df = remove_both_sexes(citizenship_plot_df, pea27_sex)
-
-            st.altair_chart(
-                make_grouped_bar(
-                    citizenship_plot_df,
-                    pea27_age,
-                    pea27_sex,
-                    "Citizenship profile by age group and sex",
-                    format_str=",.0f",
-                ),
-                use_container_width=True,
-            )
-        else:
-            st.info("Citizenship age or sex column not detected.")
-
-    with row2_col2:
-        if not pea28_f.empty and pea28_age and pea28_sex:
-            birthplace_plot_df = pea28_f.copy()
-            birthplace_plot_df = remove_all_ages(birthplace_plot_df, pea28_age)
-            birthplace_plot_df = remove_both_sexes(birthplace_plot_df, pea28_sex)
-
-            st.altair_chart(
-                make_grouped_bar(
-                    birthplace_plot_df,
-                    pea28_age,
-                    pea28_sex,
-                    "Birthplace profile by age group and sex",
-                    format_str=",.0f",
-                ),
-                use_container_width=True,
-            )
-        else:
-            st.info("Birthplace age or sex column not detected.")
+    if pyramid_df.empty:
+        st.info("Click a region on the map to inspect the age structure.")
+    else:
+        pyramid_title = f"Population pyramid: {selected_region_name}" if selected_region_name else "Population pyramid"
+        st.altair_chart(
+            make_population_pyramid(
+                pyramid_df,
+                pea26_age,
+                pea26_sex,
+                pyramid_title,
+            ),
+            width="stretch",
+        )
+else:
+    st.info("Population pyramid could not be displayed.")
 
 
 # ============================================================
 # Data preview
 # ============================================================
-with st.expander("Preview processed datasets"):
-    st.markdown("**PEA26 Population**")
-    st.dataframe(pea26_f.head(20), use_container_width=True)
+if show_data_preview:
+    with st.expander("Preview processed datasets"):
+        st.markdown("**Regional metrics for the map**")
+        st.dataframe(region_metrics.head(20), use_container_width=True)
 
-    st.markdown("**PEA29 Old-age dependency**")
-    st.dataframe(pea29_f.head(20), use_container_width=True)
+        st.markdown("**PEA26 Population**")
+        st.dataframe(pea26_f.head(20), use_container_width=True)
 
-    st.markdown("**VSA104 Fertility**")
-    st.dataframe(vsa104_f.head(20), use_container_width=True)
+        st.markdown("**PEA29 Old-age dependency**")
+        st.dataframe(pea29_f.head(20), use_container_width=True)
 
-    st.markdown("**VSA108 Death rate**")
-    st.dataframe(vsa108_f.head(20), use_container_width=True)
+        st.markdown("**VSA104 Fertility**")
+        st.dataframe(vsa104_f.head(20), use_container_width=True)
 
-    st.markdown("**VSA38 Birth rate**")
-    st.dataframe(vsa38_f.head(20), use_container_width=True)
-
-    st.markdown("**VSA94 Infant mortality**")
-    st.dataframe(vsa94_f.head(20), use_container_width=True)
-
-    st.markdown("**PEA27 Citizenship**")
-    st.dataframe(pea27_f.head(20), use_container_width=True)
-
-    st.markdown("**PEA28 Birthplace**")
-    st.dataframe(pea28_f.head(20), use_container_width=True)
+        st.markdown("**VSA108 Death rate**")
+        st.dataframe(vsa108_f.head(20), use_container_width=True)
