@@ -1,8 +1,10 @@
 from __future__ import annotations
+
 from pathlib import Path
-import streamlit as st
 
 import pandas as pd
+import streamlit as st
+from streamlit_theme import st_theme
 
 from src.chart_builders import (
     make_line_chart,
@@ -15,14 +17,12 @@ from src.data_loader import (
     build_filtered_datasets,
     detect_columns,
     load_csv,
-    multiselect_filter,
 )
 from src.geo_utils import (
-    make_hero_choropleth,
     add_normalized_region_column,
     build_latest_region_metrics,
-    create_region_insight_text,
     load_geojson,
+    make_hero_choropleth,
 )
 from src.ui_helpers import (
     exclude_ireland,
@@ -38,12 +38,118 @@ from src.ui_helpers import (
 # ============================================================
 # Page setup
 # ============================================================
+
 st.set_page_config(
     page_title="Ireland People & Society Dashboard",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="collapsed",
 )
 
+theme = st_theme(key="app_theme_detector")
+theme_base = (theme or {}).get("base") or st.get_option("theme.base") or "light"
+
+st.markdown(
+    """
+    <style>
+        .block-container {
+            max-width: 1280px;
+            padding-top: 2rem;
+            padding-bottom: 3rem;
+        }
+        .iv-kicker {
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            font-size: 0.80rem;
+            font-weight: 700;
+            opacity: 0.75;
+            margin-bottom: 0.35rem;
+        }
+        .iv-subtitle {
+            font-size: 1.08rem;
+            line-height: 1.55;
+            max-width: 900px;
+            margin-bottom: 0.4rem;
+        }
+        .iv-section-note {
+            font-size: 0.95rem;
+            opacity: 0.8;
+            margin-top: -0.2rem;
+            margin-bottom: 1rem;
+        }
+        .iv-divider {
+            margin-top: 1.3rem;
+            margin-bottom: 1.3rem;
+            border-top: 1px solid rgba(128,128,128,0.18);
+        }
+        .iv-side-card {
+            border: 1px solid rgba(128,128,128,0.18);
+            border-radius: 16px;
+            padding: 1rem;
+            background: rgba(255,255,255,0.02);
+        }
+        .iv-overview {
+            border: 1px solid rgba(128,128,128,0.18);
+            border-radius: 16px;
+            padding: 1.1rem 1.2rem;
+            background: rgba(255,255,255,0.02);
+            margin-bottom: 1rem;
+        }
+        .iv-overview h3 {
+            margin: 0 0 0.45rem 0;
+            font-size: 1.05rem;
+        }
+        .iv-overview p {
+            margin: 0;
+            line-height: 1.6;
+            font-size: 0.98rem;
+        }
+        .iv-insight-card {
+            border: 1px solid rgba(128,128,128,0.18);
+            border-radius: 14px;
+            padding: 0.95rem 1rem;
+            background: rgba(255,255,255,0.02);
+            height: 100%;
+        }
+        .iv-insight-label {
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            opacity: 0.72;
+            margin-bottom: 0.35rem;
+            font-weight: 700;
+        }
+        .iv-insight-value {
+            font-size: 1.35rem;
+            font-weight: 700;
+            margin-bottom: 0.35rem;
+        }
+        .iv-insight-text {
+            font-size: 0.95rem;
+            line-height: 1.55;
+            opacity: 0.9;
+        }
+        .iv-region-header-card {
+            border: 1px solid rgba(128,128,128,0.18);
+            border-radius: 16px;
+            padding: 1rem;
+            background: rgba(255,255,255,0.02);
+            margin-bottom: 0.85rem;
+        }
+        .iv-region-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0.75rem;
+        }
+        .iv-metric-card {
+            border: 1px solid rgba(128,128,128,0.18);
+            border-radius: 14px;
+            padding: 0.9rem 1rem;
+            background: rgba(255,255,255,0.02);
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 
 
 # ============================================================
@@ -123,49 +229,30 @@ pea29_time = columns["pea29_time"]
 pea29_sex = columns["pea29_sex"]
 pea29_region = columns["pea29_region"]
 
+
 # ============================================================
-# Sidebar filters
+# Fixed defaults (no sidebar controls)
 # ============================================================
-st.sidebar.title("Controls")
+show_data_preview = False
 
-hero_metric_label = st.sidebar.selectbox(
-    "Hero map metric",
-    [
-        "Old-age dependency",
-        "Population",
-        "Fertility",
-        "Death rate",
-    ],
-    index=0,
-)
-
-region_focus_mode = st.sidebar.radio(
-    "Supporting charts",
-    ["Clicked region", "Top 5 regions"],
-    index=0,
-)
-
-show_data_preview = st.sidebar.checkbox("Show data preview", value=False)
+pea26_region_selected: list[str] = []
+pea26_sex_selected: list[str] = []
+vsa104_region_selected: list[str] = []
+vsa104_age_selected: list[str] = []
+vsa108_region_selected: list[str] = []
+pea29_region_selected: list[str] = []
+pea29_sex_selected: list[str] = []
+vsa38_area_selected: list[str] = []
+vsa94_area_selected: list[str] = []
+pea27_sex_selected: list[str] = []
+pea27_hdi_selected: list[str] = []
+pea28_sex_selected: list[str] = []
+pea28_hdi_selected: list[str] = []
 
 
 # ============================================================
 # Apply filters
 # ============================================================
-pea26_region_selected = multiselect_filter("Population region", pea26, pea26_region)
-pea26_sex_selected = multiselect_filter("Population sex", pea26, pea26_sex)
-vsa104_region_selected = multiselect_filter("Fertility region", vsa104, vsa104_region)
-vsa104_age_selected = multiselect_filter("Mother age group", vsa104, vsa104_age)
-vsa108_region_selected = multiselect_filter("Death-rate region", vsa108, vsa108_region)
-pea29_region_selected = multiselect_filter("Dependency region", pea29, pea29_region)
-pea29_sex_selected = multiselect_filter("Dependency sex", pea29, pea29_sex)
-vsa38_area_selected = multiselect_filter("Birth-rate area", vsa38, vsa38_area)
-vsa94_area_selected = multiselect_filter("Infant mortality area", vsa94, vsa94_area)
-pea27_sex_selected = multiselect_filter("Citizenship sex", pea27, pea27_sex)
-pea27_hdi_selected = multiselect_filter("Citizenship HDI", pea27, pea27_hdi)
-pea28_sex_selected = multiselect_filter("Birthplace sex", pea28, pea28_sex)
-pea28_hdi_selected = multiselect_filter("Birthplace HDI", pea28, pea28_hdi)
-
-
 filtered = build_filtered_datasets(
     datasets,
     columns,
@@ -213,8 +300,9 @@ pea29_f = exclude_ireland(pea29_f, pea29_region)
 vsa104_f = exclude_ireland(vsa104_f, vsa104_region)
 vsa108_f = exclude_ireland(vsa108_f, vsa108_region)
 
+
 # ============================================================
-# Build region metrics for hero map and selection
+# Build region metrics for maps and selection
 # ============================================================
 region_metrics = pd.DataFrame()
 if all([pea26_region, pea29_region, vsa104_region, vsa108_region]):
@@ -229,24 +317,185 @@ if all([pea26_region, pea29_region, vsa104_region, vsa108_region]):
         vsa108_region,
     )
 
-metric_column_map = {
-    "Old-age dependency": "dependency_value",
-    "Population": "population_value",
-    "Fertility": "fertility_value",
-    "Death rate": "death_value",
-}
-hero_metric_column = metric_column_map[hero_metric_label]
-
 if "selected_region" not in st.session_state:
     st.session_state["selected_region"] = None
 
 
 # ============================================================
+# Helpers
+# ============================================================
+def get_selected_region_row(metric_df: pd.DataFrame) -> pd.Series | None:
+    if metric_df.empty:
+        return None
+    selected_key = st.session_state.get("selected_region")
+    if not selected_key:
+        return None
+    selected_match = metric_df[metric_df["normalized_region"] == selected_key]
+    if selected_match.empty:
+        return None
+    return selected_match.iloc[0]
+
+
+def render_selected_region_cards(region_row: pd.Series | None) -> None:
+    if region_row is None:
+        st.markdown(
+            """
+            <div class="iv-side-card">
+                <div class="iv-insight-label">Selected region</div>
+                <div class="iv-insight-text">
+                    Click a region on the map to see its profile and linked charts. Click outside the selected region to clear it.
+                </div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+        return
+
+    region_name = str(region_row.get("region_name", "Selected region"))
+    population = region_row.get("population_value")
+    dependency = region_row.get("dependency_value")
+    fertility = region_row.get("fertility_value")
+    death = region_row.get("death_value")
+
+    st.markdown(
+        f"""
+        <div class="iv-region-header-card">
+            <div class="iv-insight-label">Selected region</div>
+            <div class="iv-insight-value" style="font-size: 1.12rem;">{region_name}</div>
+            <div class="iv-insight-text">
+                The charts in this tab now follow this region where available.
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    cards = []
+    if pd.notna(population):
+        cards.append(
+            f"""
+            <div class="iv-metric-card">
+                <div class="iv-insight-label">Population</div>
+                <div class="iv-insight-value">{format_number(population)}</div>
+            </div>
+            """
+        )
+    if pd.notna(dependency):
+        cards.append(
+            f"""
+            <div class="iv-metric-card">
+                <div class="iv-insight-label">Old-age dependency</div>
+                <div class="iv-insight-value">{format_number(dependency)}</div>
+            </div>
+            """
+        )
+    if pd.notna(fertility):
+        cards.append(
+            f"""
+            <div class="iv-metric-card">
+                <div class="iv-insight-label">Fertility</div>
+                <div class="iv-insight-value">{format_number(fertility)}</div>
+            </div>
+            """
+        )
+    if pd.notna(death):
+        cards.append(
+            f"""
+            <div class="iv-metric-card">
+                <div class="iv-insight-label">Death rate</div>
+                <div class="iv-insight-value">{format_number(death)}</div>
+            </div>
+            """
+        )
+
+    if cards:
+        st.markdown(
+            f"""
+            <div class="iv-region-grid">
+                {''.join(cards)}
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
+
+def render_theme_header(metric_df: pd.DataFrame, metric_col: str, metric_label: str, map_title: str):
+    tab_map_col, tab_info_col = st.columns([2.1, 1.0], gap="large")
+    selected_row = None
+
+    with tab_map_col:
+        st.markdown(f"### {map_title}")
+        if metric_df.empty:
+            st.info("Regional metrics could not be built for this map.")
+        else:
+            theme_fig = make_hero_choropleth(
+                metric_df,
+                ireland_geojson,
+                metric_col,
+                metric_label,
+                theme_base=theme_base,
+            )
+            theme_fig.update_layout(dragmode=False)
+            theme_fig.update_geos(fitbounds="locations")
+            theme_fig.update_xaxes(fixedrange=True)
+            theme_fig.update_yaxes(fixedrange=True)
+
+            selection = st.plotly_chart(
+                theme_fig,
+                width="stretch",
+                on_select="rerun",
+                selection_mode="points",
+                key=f"map_{metric_label.lower().replace(' ', '_')}",
+                config={
+                    "displayModeBar": False,
+                    "scrollZoom": False,
+                    "doubleClick": False,
+                    "doubleClickDelay": 1000,
+                    "showTips": False,
+                    "staticPlot": False,
+                    "editable": False,
+                    "modeBarButtonsToRemove": [
+                        "zoom2d",
+                        "pan2d",
+                        "select2d",
+                        "lasso2d",
+                        "zoomIn2d",
+                        "zoomOut2d",
+                        "autoScale2d",
+                        "resetScale2d",
+                        "toImage",
+                    ],
+                },
+            )
+
+            points = (selection or {}).get("selection", {}).get("points", [])
+            if points:
+                clicked_region = points[0].get("location")
+                if clicked_region:
+                    st.session_state["selected_region"] = clicked_region
+            else:
+                st.session_state["selected_region"] = None
+
+    with tab_info_col:
+        st.markdown("### Selected region")
+        selected_row = get_selected_region_row(metric_df)
+        render_selected_region_cards(selected_row)
+
+    return selected_row
+
+
+# ============================================================
 # App header
 # ============================================================
-st.title("Regional Demographic Pressure in Ireland")
-st.caption(
-    "A one-page explanatory view of population, ageing, fertility, and mortality across Irish regions. Use the hero map to select a region and read the linked insights below."
+st.markdown('<div class="iv-kicker">Ireland demographic overview</div>', unsafe_allow_html=True)
+st.title("Regional demographic pressure in Ireland")
+st.markdown(
+    '<div class="iv-subtitle">Explore how Ireland\'s regions differ in population, ageing, fertility, and mortality through four focused thematic views.</div>',
+    unsafe_allow_html=True,
+)
+st.markdown(
+    '<div class="iv-section-note">Each tab starts with its own map and then explains that theme with supporting charts.</div>',
+    unsafe_allow_html=True,
 )
 
 
@@ -256,200 +505,353 @@ st.caption(
 pop_top_name, pop_top_value = top_group(pea26_f, pea26_region)
 dep_top_name, dep_top_value = top_group(pea29_f, pea29_region)
 
+st.markdown('<div class="iv-divider"></div>', unsafe_allow_html=True)
 c1, c2, c3, c4 = st.columns(4)
-c1.metric("Ireland total population", format_number(population_total_ireland))
-c2.metric("Ireland old-age dependency", format_number(dependency_total_ireland))
-c3.metric("Largest population region", pop_top_name, pop_top_value)
-c4.metric("Highest dependency region", dep_top_name, dep_top_value)
+c1.metric("Ireland population", format_number(population_total_ireland))
+c2.metric("Ireland ageing ratio", format_number(dependency_total_ireland))
+c3.metric("Largest region", pop_top_name, pop_top_value)
+c4.metric("Highest ageing pressure", dep_top_name, dep_top_value)
 
 
 # ============================================================
-# Hero section
+# Project overview
 # ============================================================
-hero_left, hero_right = st.columns([2.1, 1.0])
-
-selected_region_row = None
-
-with hero_left:
-    st.subheader("Hero view: Ireland regional map")
-    if region_metrics.empty:
-        st.info("Regional metrics could not be built for the hero map.")
-    else:
-        hero_fig = make_hero_choropleth(
-            region_metrics,
-            ireland_geojson,
-            hero_metric_column,
-            hero_metric_label,
-        )
-        selection = st.plotly_chart(
-            hero_fig,
-            width="stretch",
-            on_select="rerun",
-            selection_mode="points",
-        )
-
-        if selection and selection.get("selection", {}).get("points"):
-            point = selection["selection"]["points"][0]
-            clicked_region = point.get("location")
-            if clicked_region:
-                st.session_state["selected_region"] = clicked_region
-
-with hero_right:
-    st.subheader("Selected region insights")
-    if not region_metrics.empty and st.session_state.get("selected_region"):
-        selected_match = region_metrics[
-            region_metrics["normalized_region"] == st.session_state["selected_region"]
-        ]
-        if not selected_match.empty:
-            selected_region_row = selected_match.iloc[0]
-    st.markdown(create_region_insight_text(selected_region_row))
+st.markdown('<div class="iv-divider"></div>', unsafe_allow_html=True)
+st.subheader("What this project is about")
+st.markdown(
+    """
+    <div class="iv-overview">
+        <p>
+            This project explains how Ireland's regions differ demographically. It brings together population size,
+            age structure, old-age dependency, fertility, and death-rate patterns so the viewer can compare regions,
+            inspect individual regions, and understand where demographic pressure is strongest.
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 
 
 # ============================================================
-# Supporting charts
+# Four thematic tabs with dedicated maps
 # ============================================================
-st.subheader("Supporting views")
+st.markdown('<div class="iv-divider"></div>', unsafe_allow_html=True)
+st.subheader("Explore the story in four themes")
+st.caption(
+    "Each tab starts with its own thematic map and insight panel, followed by supporting charts for that topic."
+)
 
-support_left, support_right = st.columns(2)
-
-with support_left:
-    if not pea26_f.empty and not pea29_f.empty and pea26_region and pea29_region and pea26_region == pea29_region:
-        st.altair_chart(
-            make_region_dependency_scatter(
-                pea26_f,
-                pea29_f,
-                pea26_region,
-                "Population vs old-age dependency by region",
-            ),
-            width="stretch",
-        )
-    else:
-        st.info("Population and dependency scatter could not be displayed.")
-
-with support_right:
-    if not pea29_f.empty and pea29_region:
-        latest_dep = latest_group(pea29_f, pea29_time, pea29_region)
-        st.altair_chart(
-            make_lollipop_chart(
-                latest_dep,
-                pea29_region,
-                "Ranked old-age dependency by region",
-                top_n=12,
-                format_str=",.2f",
-            ),
-            width="stretch",
-        )
-    else:
-        st.info("Dependency ranking could not be displayed.")
+population_tab, ageing_tab, fertility_tab, death_tab = st.tabs(
+    [
+        "Population",
+        "Ageing",
+        "Fertility",
+        "Mortality",
+    ]
+)
 
 
-trend_left, trend_right = st.columns(2)
+with population_tab:
+    population_selected_row = render_theme_header(
+        region_metrics,
+        "population_value",
+        "Population",
+        "Which regions are bigger or smaller?",
+    )
+    st.caption("Compare the relative size of regions and see whether larger population automatically aligns with higher demographic pressure.")
+    pop_left, pop_right = st.columns(2)
 
-selected_region_name = None
-selected_region_normalized = st.session_state.get("selected_region")
-if selected_region_row is not None:
-    selected_region_name = selected_region_row.get("region_name")
+    with pop_left:
+        if not region_metrics.empty and {"region_name", "population_value"}.issubset(region_metrics.columns):
+            population_rank_df = (
+                region_metrics[["region_name", "population_value"]]
+                .dropna()
+                .rename(columns={"region_name": "Region", "population_value": "value"})
+            )
+            st.altair_chart(
+                make_lollipop_chart(
+                    population_rank_df,
+                    "Region",
+                    "Regional population ranking",
+                    top_n=12,
+                    format_str=",.0f",
+                    theme_base=theme_base,
+                ),
+                width="stretch",
+            )
+        else:
+            st.info("Population ranking could not be displayed.")
 
-with trend_left:
-    if not vsa104_f.empty and vsa104_time and vsa104_region:
-        fertility_trend_df = vsa104_f.copy()
-        if region_focus_mode == "Clicked region" and selected_region_normalized:
-            fertility_trend_df = fertility_trend_df[
-                fertility_trend_df["normalized_region"] == selected_region_normalized
-            ]
-            title = f"Fertility trend: {selected_region_name}" if selected_region_name else "Fertility trend"
-            if not fertility_trend_df.empty:
+    with pop_right:
+        if not pea26_f.empty and not pea29_f.empty and pea26_region and pea29_region and pea26_region == pea29_region:
+            st.altair_chart(
+                make_region_dependency_scatter(
+                    pea26_f,
+                    pea29_f,
+                    pea26_region,
+                    "Population size vs ageing pressure",
+                    theme_base=theme_base,
+                ),
+                width="stretch",
+            )
+        else:
+            st.info("Population comparison scatter could not be displayed.")
+
+
+with ageing_tab:
+    ageing_selected_row = render_theme_header(
+        region_metrics,
+        "dependency_value",
+        "Old-age dependency",
+        "Which regions are younger or older?",
+    )
+    ageing_selected_name = ageing_selected_row.get("region_name") if ageing_selected_row is not None else None
+    ageing_selected_normalized = st.session_state.get("selected_region")
+    st.caption("Use dependency ratio and age structure to understand which regions are ageing more and what that looks like underneath the summary numbers.")
+    age_left, age_right = st.columns(2)
+
+    with age_left:
+        if not region_metrics.empty and {"region_name", "dependency_value"}.issubset(region_metrics.columns):
+            dependency_rank_df = (
+                region_metrics[["region_name", "dependency_value"]]
+                .dropna()
+                .rename(columns={"region_name": "Region", "dependency_value": "value"})
+            )
+            st.altair_chart(
+                make_lollipop_chart(
+                    dependency_rank_df,
+                    "Region",
+                    "Old-age dependency ranking",
+                    top_n=12,
+                    format_str=",.2f",
+                    theme_base=theme_base,
+                ),
+                width="stretch",
+            )
+        else:
+            st.info("Ageing ranking could not be displayed.")
+
+    with age_right:
+        if not pea29_f.empty and pea29_time and pea29_region:
+            dependency_trend_df = pea29_f.copy()
+            if ageing_selected_normalized:
+                dependency_trend_df = dependency_trend_df[
+                    dependency_trend_df["normalized_region"] == ageing_selected_normalized
+                ]
+                title = (
+                    f"Old-age dependency trend: {ageing_selected_name}"
+                    if ageing_selected_name
+                    else "Old-age dependency trend"
+                )
+                if not dependency_trend_df.empty:
+                    st.altair_chart(
+                        make_line_chart(
+                            dependency_trend_df,
+                            pea29_time,
+                            pea29_region,
+                            title,
+                            format_str=",.2f",
+                            theme_base=theme_base,
+                        ),
+                        width="stretch",
+                    )
+                else:
+                    st.info("Click a region on the map to view a linked ageing trend.")
+            else:
                 st.altair_chart(
-                    make_line_chart(
-                        fertility_trend_df,
+                    make_line_with_latest_labels(
+                        pea29_f,
+                        pea29_time,
+                        pea29_region,
+                        "Old-age dependency trend with latest region labels",
+                        format_str=",.2f",
+                        top_n=5,
+                        theme_base=theme_base,
+                    ),
+                    width="stretch",
+                )
+        else:
+            st.info("Ageing trend could not be displayed.")
+
+    st.markdown("#### Age structure detail")
+    if not pea26_f.empty and pea26_age and pea26_sex:
+        pyramid_df = pea26_f.copy()
+        pyramid_df = remove_all_ages(pyramid_df, pea26_age)
+        pyramid_df = remove_both_sexes(pyramid_df, pea26_sex)
+        if ageing_selected_normalized:
+            pyramid_df = pyramid_df[pyramid_df["normalized_region"] == ageing_selected_normalized]
+        if pyramid_df.empty:
+            st.info("Click a region on the map to inspect the age structure.")
+        else:
+            pyramid_title = (
+                f"Population pyramid: {ageing_selected_name}"
+                if ageing_selected_name
+                else "Population pyramid"
+            )
+            st.altair_chart(
+                make_population_pyramid(
+                    pyramid_df,
+                    pea26_age,
+                    pea26_sex,
+                    pyramid_title,
+                    theme_base=theme_base,
+                ),
+                width="stretch",
+            )
+    else:
+        st.info("Population pyramid could not be displayed.")
+
+
+with fertility_tab:
+    fertility_selected_row = render_theme_header(
+        region_metrics,
+        "fertility_value",
+        "Fertility",
+        "Which regions have stronger or weaker fertility?",
+    )
+    fertility_selected_name = fertility_selected_row.get("region_name") if fertility_selected_row is not None else None
+    fertility_selected_normalized = st.session_state.get("selected_region")
+    st.caption("Compare the latest fertility levels across regions and then inspect how fertility changes over time for the selected region or leading regions.")
+    fert_left, fert_right = st.columns(2)
+
+    with fert_left:
+        if not region_metrics.empty and {"region_name", "fertility_value"}.issubset(region_metrics.columns):
+            fertility_rank_df = (
+                region_metrics[["region_name", "fertility_value"]]
+                .dropna()
+                .rename(columns={"region_name": "Region", "fertility_value": "value"})
+            )
+            st.altair_chart(
+                make_lollipop_chart(
+                    fertility_rank_df,
+                    "Region",
+                    "Fertility ranking by region",
+                    top_n=12,
+                    format_str=",.2f",
+                    theme_base=theme_base,
+                ),
+                width="stretch",
+            )
+        else:
+            st.info("Fertility ranking could not be displayed.")
+
+    with fert_right:
+        if not vsa104_f.empty and vsa104_time and vsa104_region:
+            fertility_trend_df = vsa104_f.copy()
+            if fertility_selected_normalized:
+                fertility_trend_df = fertility_trend_df[
+                    fertility_trend_df["normalized_region"] == fertility_selected_normalized
+                ]
+                title = (
+                    f"Fertility trend: {fertility_selected_name}"
+                    if fertility_selected_name
+                    else "Fertility trend"
+                )
+                if not fertility_trend_df.empty:
+                    st.altair_chart(
+                        make_line_chart(
+                            fertility_trend_df,
+                            vsa104_time,
+                            vsa104_region,
+                            title,
+                            format_str=",.2f",
+                            theme_base=theme_base,
+                        ),
+                        width="stretch",
+                    )
+                else:
+                    st.info("Click a region on the map to view a linked fertility trend.")
+            else:
+                st.altair_chart(
+                    make_line_with_latest_labels(
+                        vsa104_f,
                         vsa104_time,
                         vsa104_region,
-                        title,
+                        "Fertility trend with latest region labels",
                         format_str=",.2f",
+                        top_n=5,
+                        theme_base=theme_base,
                     ),
                     width="stretch",
                 )
-            else:
-                st.info("Click a region on the map to view a linked fertility trend.")
         else:
+            st.info("Fertility trend could not be displayed.")
+
+
+with death_tab:
+    death_selected_row = render_theme_header(
+        region_metrics,
+        "death_value",
+        "Death rate",
+        "Which regions have higher or lower death rates?",
+    )
+    death_selected_name = death_selected_row.get("region_name") if death_selected_row is not None else None
+    death_selected_normalized = st.session_state.get("selected_region")
+    st.caption("Compare the latest regional death-rate levels and inspect how the pattern changes through time for the selected region or leading regions.")
+    death_left, death_right = st.columns(2)
+
+    with death_left:
+        if not region_metrics.empty and {"region_name", "death_value"}.issubset(region_metrics.columns):
+            death_rank_df = (
+                region_metrics[["region_name", "death_value"]]
+                .dropna()
+                .rename(columns={"region_name": "Region", "death_value": "value"})
+            )
             st.altair_chart(
-                make_line_with_latest_labels(
-                    vsa104_f,
-                    vsa104_time,
-                    vsa104_region,
-                    "Fertility trend with latest region labels",
+                make_lollipop_chart(
+                    death_rank_df,
+                    "Region",
+                    "Death-rate ranking by region",
+                    top_n=12,
                     format_str=",.2f",
-                    top_n=5,
+                    theme_base=theme_base,
                 ),
                 width="stretch",
             )
-    else:
-        st.info("Fertility trend could not be displayed.")
+        else:
+            st.info("Death-rate ranking could not be displayed.")
 
-with trend_right:
-    if not vsa108_f.empty and vsa108_time and vsa108_region:
-        death_trend_df = vsa108_f.copy()
-        if region_focus_mode == "Clicked region" and selected_region_normalized:
-            death_trend_df = death_trend_df[
-                death_trend_df["normalized_region"] == selected_region_normalized
-            ]
-            title = f"Death-rate trend: {selected_region_name}" if selected_region_name else "Death-rate trend"
-            if not death_trend_df.empty:
+    with death_right:
+        if not vsa108_f.empty and vsa108_time and vsa108_region:
+            death_trend_df = vsa108_f.copy()
+            if death_selected_normalized:
+                death_trend_df = death_trend_df[
+                    death_trend_df["normalized_region"] == death_selected_normalized
+                ]
+                title = (
+                    f"Death-rate trend: {death_selected_name}"
+                    if death_selected_name
+                    else "Death-rate trend"
+                )
+                if not death_trend_df.empty:
+                    st.altair_chart(
+                        make_line_chart(
+                            death_trend_df,
+                            vsa108_time,
+                            vsa108_region,
+                            title,
+                            format_str=",.2f",
+                            theme_base=theme_base,
+                        ),
+                        width="stretch",
+                    )
+                else:
+                    st.info("Click a region on the map to view a linked death-rate trend.")
+            else:
                 st.altair_chart(
-                    make_line_chart(
-                        death_trend_df,
+                    make_line_with_latest_labels(
+                        vsa108_f,
                         vsa108_time,
                         vsa108_region,
-                        title,
+                        "Death-rate trend with latest region labels",
                         format_str=",.2f",
+                        top_n=5,
+                        theme_base=theme_base,
                     ),
                     width="stretch",
                 )
-            else:
-                st.info("Click a region on the map to view a linked death-rate trend.")
         else:
-            st.altair_chart(
-                make_line_with_latest_labels(
-                    vsa108_f,
-                    vsa108_time,
-                    vsa108_region,
-                    "Death-rate trend with latest region labels",
-                    format_str=",.2f",
-                    top_n=5,
-                ),
-                width="stretch",
-            )
-    else:
-        st.info("Death-rate trend could not be displayed.")
-
-
-# ============================================================
-# Optional detail view
-# ============================================================
-st.subheader("Age structure detail")
-if not pea26_f.empty and pea26_age and pea26_sex:
-    pyramid_df = pea26_f.copy()
-    pyramid_df = remove_all_ages(pyramid_df, pea26_age)
-    pyramid_df = remove_both_sexes(pyramid_df, pea26_sex)
-
-    if selected_region_normalized:
-        pyramid_df = pyramid_df[pyramid_df["normalized_region"] == selected_region_normalized]
-
-    if pyramid_df.empty:
-        st.info("Click a region on the map to inspect the age structure.")
-    else:
-        pyramid_title = f"Population pyramid: {selected_region_name}" if selected_region_name else "Population pyramid"
-        st.altair_chart(
-            make_population_pyramid(
-                pyramid_df,
-                pea26_age,
-                pea26_sex,
-                pyramid_title,
-            ),
-            width="stretch",
-        )
-else:
-    st.info("Population pyramid could not be displayed.")
+            st.info("Death-rate trend could not be displayed.")
 
 
 # ============================================================
@@ -458,16 +860,16 @@ else:
 if show_data_preview:
     with st.expander("Preview processed datasets"):
         st.markdown("**Regional metrics for the map**")
-        st.dataframe(region_metrics.head(20), use_container_width=True)
+        st.dataframe(region_metrics.head(20), width="stretch")
 
         st.markdown("**PEA26 Population**")
-        st.dataframe(pea26_f.head(20), use_container_width=True)
+        st.dataframe(pea26_f.head(20), width="stretch")
 
         st.markdown("**PEA29 Old-age dependency**")
-        st.dataframe(pea29_f.head(20), use_container_width=True)
+        st.dataframe(pea29_f.head(20), width="stretch")
 
         st.markdown("**VSA104 Fertility**")
-        st.dataframe(vsa104_f.head(20), use_container_width=True)
+        st.dataframe(vsa104_f.head(20), width="stretch")
 
         st.markdown("**VSA108 Death rate**")
-        st.dataframe(vsa108_f.head(20), use_container_width=True)
+        st.dataframe(vsa108_f.head(20), width="stretch")

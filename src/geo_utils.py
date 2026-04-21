@@ -107,11 +107,25 @@ def build_latest_region_metrics(
         .rename(columns={vsa108_region_col: "region_name_death", "value": "death_value"})
     )
 
-    merged = pop.merge(dep[["normalized_region", "dependency_value"]], on="normalized_region", how="outer")
-    merged = merged.merge(fert[["normalized_region", "fertility_value"]], on="normalized_region", how="outer")
-    merged = merged.merge(death[["normalized_region", "death_value"]], on="normalized_region", how="outer")
+    merged = pop.merge(
+        dep[["normalized_region", "dependency_value"]],
+        on="normalized_region",
+        how="outer",
+    )
+    merged = merged.merge(
+        fert[["normalized_region", "fertility_value"]],
+        on="normalized_region",
+        how="outer",
+    )
+    merged = merged.merge(
+        death[["normalized_region", "death_value"]],
+        on="normalized_region",
+        how="outer",
+    )
 
-    merged["region_name"] = merged["region_name"].fillna(merged["normalized_region"].str.title())
+    merged["region_name"] = merged["region_name"].fillna(
+        merged["normalized_region"].str.title()
+    )
     return merged
 
 
@@ -143,8 +157,14 @@ def make_hero_choropleth(
     geojson: dict,
     metric_column: str,
     metric_label: str,
+    theme_base: str = "light",
 ):
     plot_df = region_metrics_df.dropna(subset=[metric_column]).copy()
+
+    is_dark = theme_base == "dark"
+    text_color = "#FFFFFF" if is_dark else "#333333"
+    bg_color = "rgba(0,0,0,0)"
+    border_color = "#6B7280" if is_dark else "#E5E7EB"
 
     fig = px.choropleth(
         plot_df,
@@ -172,23 +192,30 @@ def make_hero_choropleth(
     )
 
     fig.update_traces(
-        marker_line_color="#E5E7EB",
+        marker_line_color=border_color,
         marker_line_width=1.0,
     )
     fig.update_geos(
         fitbounds="locations",
         visible=False,
-        bgcolor="rgba(0,0,0,0)",
+        bgcolor=bg_color,
         projection_type="mercator",
     )
     fig.update_layout(
-        title=f"Ireland NUTS3 regions by {metric_label}",
+        title=dict(
+            text=f"Ireland NUTS3 regions by {metric_label}",
+            font=dict(color=text_color, size=16),
+        ),
         height=620,
         margin={"l": 0, "r": 0, "t": 50, "b": 0},
-        coloraxis_colorbar_title=metric_label,
+        coloraxis_colorbar=dict(
+            title=metric_label,
+            tickfont=dict(color=text_color),
+            titlefont=dict(color=text_color),
+        ),
         dragmode=False,
-        paper_bgcolor="white",
-        plot_bgcolor="white",
-        font={"color": "#333333"},
+        paper_bgcolor=bg_color,
+        plot_bgcolor=bg_color,
+        font=dict(color=text_color),
     )
     return fig

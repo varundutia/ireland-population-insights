@@ -2,9 +2,9 @@ from __future__ import annotations
 
 import altair as alt
 import pandas as pd
-import streamlit as st
 
 from src.ui_helpers import sort_age_groups
+
 
 LIGHT_CATEGORY_COLORS = [
     "#1f77b4",
@@ -15,28 +15,27 @@ LIGHT_CATEGORY_COLORS = [
     "#8c564b",
 ]
 DARK_CATEGORY_COLORS = [
-    "#6baed6",
-    "#fdae6b",
-    "#74c476",
-    "#fb6a4a",
-    "#bcbddc",
-    "#c49c94",
+    "#60A5FA",
+    "#FBBF24",
+    "#34D399",
+    "#F87171",
+    "#C084FC",
+    "#F9A8D4",
 ]
 
 
-def get_theme_tokens() -> dict[str, object]:
-    base = st.get_option("theme.base") or "light"
-    is_dark = str(base).lower() == "dark"
+def get_theme_tokens(theme_base: str = "light") -> dict[str, object]:
+    is_dark = theme_base == "dark"
 
     if is_dark:
         return {
-            "text": "#F3F4F6",
+            "text": "#FFFFFF",
             "grid": "#374151",
             "border": "#4B5563",
             "background": "rgba(0,0,0,0)",
-            "single": "#6baed6",
+            "single": "#60A5FA",
             "categories": DARK_CATEGORY_COLORS,
-            "sequential": ["#3f001f", "#6a014d", "#8c1d6f", "#c51b8a", "#f768a1", "#fde0dd"],
+            "sequential": ["#4a0030", "#7a0060", "#a8006c", "#c51b8a", "#f768a1", "#fcc5c0"],
         }
 
     return {
@@ -50,24 +49,29 @@ def get_theme_tokens() -> dict[str, object]:
     }
 
 
-def apply_common_axis_style(chart: alt.Chart) -> alt.Chart:
-    tokens = get_theme_tokens()
-    return chart.configure_axis(
-        labelColor=tokens["text"],
-        titleColor=tokens["text"],
-        gridColor=tokens["grid"],
-        domainColor=tokens["border"],
-        tickColor=tokens["border"],
-    ).configure_view(
-        stroke=None,
-        fill=tokens["background"],
-    ).configure_title(
-        color=tokens["text"],
-        anchor="start",
-        fontSize=16,
-    ).configure_legend(
-        labelColor=tokens["text"],
-        titleColor=tokens["text"],
+def apply_common_axis_style(chart: alt.Chart, theme_base: str = "light") -> alt.Chart:
+    tokens = get_theme_tokens(theme_base)
+    return (
+        chart.configure_axis(
+            labelColor=tokens["text"],
+            titleColor=tokens["text"],
+            gridColor=tokens["grid"],
+            domainColor=tokens["border"],
+            tickColor=tokens["border"],
+        )
+        .configure_view(
+            stroke=None,
+            fill=tokens["background"],
+        )
+        .configure_title(
+            color=tokens["text"],
+            anchor="start",
+            fontSize=16,
+        )
+        .configure_legend(
+            labelColor=tokens["text"],
+            titleColor=tokens["text"],
+        )
     )
 
 
@@ -77,6 +81,7 @@ def make_bar_chart(
     title: str,
     top_n: int = 10,
     format_str: str = ",.2f",
+    theme_base: str = "light",
 ) -> alt.Chart:
     plot_df = (
         df.groupby(category_col, as_index=False)["value"]
@@ -84,7 +89,7 @@ def make_bar_chart(
         .sort_values("value", ascending=False)
         .head(top_n)
     )
-    tokens = get_theme_tokens()
+    tokens = get_theme_tokens(theme_base)
 
     chart = (
         alt.Chart(plot_df)
@@ -99,7 +104,7 @@ def make_bar_chart(
         )
         .properties(height=380, title=title)
     )
-    return apply_common_axis_style(chart)
+    return apply_common_axis_style(chart, theme_base)
 
 
 def make_lollipop_chart(
@@ -108,6 +113,7 @@ def make_lollipop_chart(
     title: str,
     top_n: int = 10,
     format_str: str = ",.2f",
+    theme_base: str = "light",
 ) -> alt.Chart:
     plot_df = (
         df.groupby(category_col, as_index=False)["value"]
@@ -124,11 +130,14 @@ def make_lollipop_chart(
             alt.Tooltip("value:Q", title="Value", format=format_str),
         ],
     )
-    tokens = get_theme_tokens()
+    tokens = get_theme_tokens(theme_base)
 
     rule = base.mark_rule(color=tokens["border"])
     point = base.mark_circle(size=90, color=tokens["single"])
-    return apply_common_axis_style((rule + point).properties(height=380, title=title))
+    return apply_common_axis_style(
+        (rule + point).properties(height=380, title=title),
+        theme_base,
+    )
 
 
 def make_stacked_bar(
@@ -138,6 +147,7 @@ def make_stacked_bar(
     title: str,
     top_n: int = 10,
     format_str: str = ",.2f",
+    theme_base: str = "light",
 ) -> alt.Chart:
     grouped = df.groupby([category_col, stack_col], as_index=False)["value"].sum()
     top_categories = (
@@ -151,7 +161,7 @@ def make_stacked_bar(
 
     if "age" in category_col.lower():
         grouped = sort_age_groups(grouped, category_col)
-    tokens = get_theme_tokens()
+    tokens = get_theme_tokens(theme_base)
 
     chart = (
         alt.Chart(grouped)
@@ -163,7 +173,11 @@ def make_stacked_bar(
                 sort=None if "age" in category_col.lower() else top_categories,
                 title="",
             ),
-            color=alt.Color(f"{stack_col}:N", title=stack_col, scale=alt.Scale(range=tokens["categories"])),
+            color=alt.Color(
+                f"{stack_col}:N",
+                title=stack_col,
+                scale=alt.Scale(range=tokens["categories"]),
+            ),
             tooltip=[
                 alt.Tooltip(f"{category_col}:N", title=category_col),
                 alt.Tooltip(f"{stack_col}:N", title=stack_col),
@@ -172,7 +186,7 @@ def make_stacked_bar(
         )
         .properties(height=380, title=title)
     )
-    return apply_common_axis_style(chart)
+    return apply_common_axis_style(chart, theme_base)
 
 
 def make_normalized_stacked_bar(
@@ -182,6 +196,7 @@ def make_normalized_stacked_bar(
     title: str,
     top_n: int = 10,
     format_str: str = ",.2f",
+    theme_base: str = "light",
 ) -> alt.Chart:
     grouped = df.groupby([category_col, stack_col], as_index=False)["value"].sum()
     top_categories = (
@@ -195,7 +210,7 @@ def make_normalized_stacked_bar(
 
     if "age" in category_col.lower():
         grouped = sort_age_groups(grouped, category_col)
-    tokens = get_theme_tokens()
+    tokens = get_theme_tokens(theme_base)
 
     chart = (
         alt.Chart(grouped)
@@ -207,7 +222,11 @@ def make_normalized_stacked_bar(
                 sort=None if "age" in category_col.lower() else top_categories,
                 title="",
             ),
-            color=alt.Color(f"{stack_col}:N", title=stack_col, scale=alt.Scale(range=tokens["categories"])),
+            color=alt.Color(
+                f"{stack_col}:N",
+                title=stack_col,
+                scale=alt.Scale(range=tokens["categories"]),
+            ),
             tooltip=[
                 alt.Tooltip(f"{category_col}:N", title=category_col),
                 alt.Tooltip(f"{stack_col}:N", title=stack_col),
@@ -216,7 +235,7 @@ def make_normalized_stacked_bar(
         )
         .properties(height=380, title=title)
     )
-    return apply_common_axis_style(chart)
+    return apply_common_axis_style(chart, theme_base)
 
 
 def make_heatmap(
@@ -225,13 +244,15 @@ def make_heatmap(
     y_col: str,
     title: str,
     format_str: str = ",.2f",
+    theme_base: str = "light",
 ) -> alt.Chart:
     if df.empty:
         empty_df = pd.DataFrame({x_col: [], y_col: [], "value": []})
         return apply_common_axis_style(
-            alt.Chart(empty_df).mark_rect().properties(height=420, title=title)
+            alt.Chart(empty_df).mark_rect().properties(height=420, title=title),
+            theme_base,
         )
-    tokens = get_theme_tokens()
+    tokens = get_theme_tokens(theme_base)
 
     grouped = df.groupby([x_col, y_col], as_index=False)["value"].sum()
 
@@ -257,7 +278,7 @@ def make_heatmap(
         )
         .properties(height=420, title=title)
     )
-    return apply_common_axis_style(chart)
+    return apply_common_axis_style(chart, theme_base)
 
 
 def make_line_chart(
@@ -266,9 +287,10 @@ def make_line_chart(
     group_col: str,
     title: str,
     format_str: str = ",.2f",
+    theme_base: str = "light",
 ) -> alt.Chart:
     grouped = df.groupby([time_col, group_col], as_index=False)["value"].sum()
-    tokens = get_theme_tokens()
+    tokens = get_theme_tokens(theme_base)
 
     chart = (
         alt.Chart(grouped)
@@ -276,7 +298,11 @@ def make_line_chart(
         .encode(
             x=alt.X(f"{time_col}:N", title=time_col),
             y=alt.Y("value:Q", title="Value"),
-            color=alt.Color(f"{group_col}:N", title=group_col, scale=alt.Scale(range=tokens["categories"])),
+            color=alt.Color(
+                f"{group_col}:N",
+                title=group_col,
+                scale=alt.Scale(range=tokens["categories"]),
+            ),
             tooltip=[
                 alt.Tooltip(f"{time_col}:N", title=time_col),
                 alt.Tooltip(f"{group_col}:N", title=group_col),
@@ -285,7 +311,7 @@ def make_line_chart(
         )
         .properties(height=380, title=title)
     )
-    return apply_common_axis_style(chart)
+    return apply_common_axis_style(chart, theme_base)
 
 
 def make_line_with_latest_labels(
@@ -295,6 +321,7 @@ def make_line_with_latest_labels(
     title: str,
     format_str: str = ",.2f",
     top_n: int = 5,
+    theme_base: str = "light",
 ) -> alt.Chart:
     grouped = df.groupby([time_col, group_col], as_index=False)["value"].sum()
     top_groups = (
@@ -306,6 +333,7 @@ def make_line_with_latest_labels(
     )
     grouped = grouped[grouped[group_col].isin(top_groups)].copy()
     grouped[time_col] = grouped[time_col].astype(str)
+    tokens = get_theme_tokens(theme_base)
 
     line = (
         alt.Chart(grouped)
@@ -313,7 +341,11 @@ def make_line_with_latest_labels(
         .encode(
             x=alt.X(f"{time_col}:N", title=time_col),
             y=alt.Y("value:Q", title="Value"),
-            color=alt.Color(f"{group_col}:N", title=group_col),
+            color=alt.Color(
+                f"{group_col}:N",
+                title=group_col,
+                scale=alt.Scale(range=tokens["categories"]),
+            ),
             tooltip=[
                 alt.Tooltip(f"{time_col}:N", title=time_col),
                 alt.Tooltip(f"{group_col}:N", title=group_col),
@@ -327,16 +359,18 @@ def make_line_with_latest_labels(
 
     text = (
         alt.Chart(latest)
-        .mark_text(align="left", dx=6)
+        .mark_text(align="left", dx=6, color=tokens["text"])
         .encode(
             x=alt.X(f"{time_col}:N"),
             y=alt.Y("value:Q"),
             text=alt.Text(f"{group_col}:N"),
-            color=alt.Color(f"{group_col}:N", legend=None),
         )
     )
 
-    return apply_common_axis_style((line + text).properties(height=380, title=title))
+    return apply_common_axis_style(
+        (line + text).properties(height=380, title=title),
+        theme_base,
+    )
 
 
 def make_grouped_bar(
@@ -345,12 +379,13 @@ def make_grouped_bar(
     color_col: str,
     title: str,
     format_str: str = ",.2f",
+    theme_base: str = "light",
 ) -> alt.Chart:
     grouped = df.groupby([x_col, color_col], as_index=False)["value"].sum()
 
     if "age" in x_col.lower():
         grouped = sort_age_groups(grouped, x_col)
-    tokens = get_theme_tokens()
+    tokens = get_theme_tokens(theme_base)
 
     chart = (
         alt.Chart(grouped)
@@ -358,7 +393,11 @@ def make_grouped_bar(
         .encode(
             x=alt.X(f"{x_col}:N", title=x_col, sort=None),
             y=alt.Y("value:Q", title="Value"),
-            color=alt.Color(f"{color_col}:N", title=color_col, scale=alt.Scale(range=tokens["categories"])),
+            color=alt.Color(
+                f"{color_col}:N",
+                title=color_col,
+                scale=alt.Scale(range=tokens["categories"]),
+            ),
             tooltip=[
                 alt.Tooltip(f"{x_col}:N", title=x_col),
                 alt.Tooltip(f"{color_col}:N", title=color_col),
@@ -367,7 +406,7 @@ def make_grouped_bar(
         )
         .properties(height=380, title=title)
     )
-    return apply_common_axis_style(chart)
+    return apply_common_axis_style(chart, theme_base)
 
 
 def make_population_pyramid(
@@ -375,20 +414,25 @@ def make_population_pyramid(
     age_col: str,
     sex_col: str,
     title: str,
+    theme_base: str = "light",
 ) -> alt.Chart:
     grouped = df.groupby([age_col, sex_col], as_index=False)["value"].sum()
     grouped = sort_age_groups(grouped, age_col)
 
     sex_values = grouped[sex_col].astype(str).unique().tolist()
     if len(sex_values) < 2:
-        tokens = get_theme_tokens()
+        tokens = get_theme_tokens(theme_base)
         chart = (
             alt.Chart(grouped)
             .mark_bar()
             .encode(
                 x=alt.X("value:Q", title="Population"),
                 y=alt.Y(f"{age_col}:N", sort=None, title=age_col),
-                color=alt.Color(f"{sex_col}:N", title=sex_col, scale=alt.Scale(range=tokens["categories"])),
+                color=alt.Color(
+                    f"{sex_col}:N",
+                    title=sex_col,
+                    scale=alt.Scale(range=tokens["categories"]),
+                ),
                 tooltip=[
                     alt.Tooltip(f"{age_col}:N", title=age_col),
                     alt.Tooltip(f"{sex_col}:N", title=sex_col),
@@ -397,12 +441,12 @@ def make_population_pyramid(
             )
             .properties(height=500, title=title)
         )
-        return apply_common_axis_style(chart)
+        return apply_common_axis_style(chart, theme_base)
 
     first_sex = sex_values[0]
     grouped["pyramid_value"] = grouped["value"]
     grouped.loc[grouped[sex_col].astype(str) == first_sex, "pyramid_value"] *= -1
-    tokens = get_theme_tokens()
+    tokens = get_theme_tokens(theme_base)
 
     chart = (
         alt.Chart(grouped)
@@ -410,7 +454,11 @@ def make_population_pyramid(
         .encode(
             x=alt.X("pyramid_value:Q", title="Population"),
             y=alt.Y(f"{age_col}:N", sort=None, title=age_col),
-            color=alt.Color(f"{sex_col}:N", title=sex_col, scale=alt.Scale(range=tokens["categories"])),
+            color=alt.Color(
+                f"{sex_col}:N",
+                title=sex_col,
+                scale=alt.Scale(range=tokens["categories"]),
+            ),
             tooltip=[
                 alt.Tooltip(f"{age_col}:N", title=age_col),
                 alt.Tooltip(f"{sex_col}:N", title=sex_col),
@@ -419,7 +467,7 @@ def make_population_pyramid(
         )
         .properties(height=500, title=title)
     )
-    return apply_common_axis_style(chart)
+    return apply_common_axis_style(chart, theme_base)
 
 
 def make_diverging_age_sex_chart(
@@ -428,6 +476,7 @@ def make_diverging_age_sex_chart(
     sex_col: str,
     title: str,
     format_str: str = ",.0f",
+    theme_base: str = "light",
 ) -> alt.Chart:
     grouped = df.groupby([age_col, sex_col], as_index=False)["value"].sum()
     grouped = sort_age_groups(grouped, age_col)
@@ -439,7 +488,7 @@ def make_diverging_age_sex_chart(
         grouped.loc[grouped[sex_col].astype(str) == first_sex, "diverging_value"] *= -1
     else:
         grouped["diverging_value"] = grouped["value"]
-    tokens = get_theme_tokens()
+    tokens = get_theme_tokens(theme_base)
 
     chart = (
         alt.Chart(grouped)
@@ -447,7 +496,11 @@ def make_diverging_age_sex_chart(
         .encode(
             x=alt.X("diverging_value:Q", title="Population / count"),
             y=alt.Y(f"{age_col}:N", sort=None, title=age_col),
-            color=alt.Color(f"{sex_col}:N", title=sex_col, scale=alt.Scale(range=tokens["categories"])),
+            color=alt.Color(
+                f"{sex_col}:N",
+                title=sex_col,
+                scale=alt.Scale(range=tokens["categories"]),
+            ),
             tooltip=[
                 alt.Tooltip(f"{age_col}:N", title=age_col),
                 alt.Tooltip(f"{sex_col}:N", title=sex_col),
@@ -456,7 +509,7 @@ def make_diverging_age_sex_chart(
         )
         .properties(height=420, title=title)
     )
-    return apply_common_axis_style(chart)
+    return apply_common_axis_style(chart, theme_base)
 
 
 def make_region_dependency_scatter(
@@ -464,11 +517,20 @@ def make_region_dependency_scatter(
     dependency_df: pd.DataFrame,
     region_col: str,
     title: str,
+    theme_base: str = "light",
 ) -> alt.Chart:
-    pop = population_df.groupby(region_col, as_index=False)["value"].sum().rename(columns={"value": "population_value"})
-    dep = dependency_df.groupby(region_col, as_index=False)["value"].sum().rename(columns={"value": "dependency_value"})
+    pop = (
+        population_df.groupby(region_col, as_index=False)["value"]
+        .sum()
+        .rename(columns={"value": "population_value"})
+    )
+    dep = (
+        dependency_df.groupby(region_col, as_index=False)["value"]
+        .sum()
+        .rename(columns={"value": "dependency_value"})
+    )
     merged = pop.merge(dep, on=region_col, how="inner")
-    tokens = get_theme_tokens()
+    tokens = get_theme_tokens(theme_base)
 
     chart = (
         alt.Chart(merged)
@@ -489,4 +551,4 @@ def make_region_dependency_scatter(
         )
         .properties(height=380, title=title)
     )
-    return apply_common_axis_style(chart)
+    return apply_common_axis_style(chart, theme_base)
