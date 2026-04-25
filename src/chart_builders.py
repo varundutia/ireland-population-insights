@@ -591,6 +591,18 @@ def make_region_dependency_scatter(
     )
     merged = pop.merge(dep, on=region_col, how="inner")
     tokens = get_theme_tokens(theme_base)
+    if merged.empty:
+        return apply_common_axis_style(
+            alt.Chart(merged).mark_circle().properties(height=380, title=title),
+            theme_base,
+        )
+
+    reference_df = pd.DataFrame(
+        {
+            "median_population": [merged["population_value"].median()],
+            "median_dependency": [merged["dependency_value"].median()],
+        }
+    )
 
     base = alt.Chart(merged).encode(
         x=alt.X("population_value:Q", title="Population"),
@@ -612,6 +624,20 @@ def make_region_dependency_scatter(
             ),
         )
     )
+    population_reference = (
+        alt.Chart(reference_df)
+        .mark_rule(color=tokens["border"], strokeDash=[4, 4])
+        .encode(
+            x=alt.X("median_population:Q"),
+        )
+    )
+    dependency_reference = (
+        alt.Chart(reference_df)
+        .mark_rule(color=tokens["border"], strokeDash=[4, 4])
+        .encode(
+            y=alt.Y("median_dependency:Q"),
+        )
+    )
     labels = base.mark_text(
         align="left",
         baseline="middle",
@@ -622,7 +648,7 @@ def make_region_dependency_scatter(
     )
 
     chart = (
-        (points + labels)
+        (population_reference + dependency_reference + points + labels)
         .properties(height=380, title=title)
     )
     return apply_common_axis_style(chart, theme_base)

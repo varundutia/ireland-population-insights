@@ -540,7 +540,7 @@ def render_theme_header(metric_df: pd.DataFrame, metric_col: str, metric_label: 
 st.markdown('<div class="iv-kicker">Ireland demographic overview</div>', unsafe_allow_html=True)
 st.title("Regional demographic pressure in Ireland")
 st.markdown(
-    '<div class="iv-subtitle">Explore how Ireland\'s regions differ in population, ageing, fertility, and mortality through four focused thematic views.</div>',
+    '<div class="iv-subtitle">A regional comparison showing that demographic pressure is not just about population size: ageing, fertility, and mortality tell different but connected stories.</div>',
     unsafe_allow_html=True,
 )
 st.markdown(
@@ -581,6 +581,17 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
+
+with st.expander("Definitions and data treatment"):
+    st.markdown(
+        """
+        - **Population** uses the latest available total population: All ages, Both sexes.
+        - **Old-age dependency** uses the Both sexes ratio.
+        - **Fertility** uses total fertility rate, not age-specific fertility rates.
+        - **Mortality** uses crude death rate, so regional comparisons may partly reflect age structure.
+        - Regional charts exclude the national Ireland total to avoid comparing a whole with its parts.
+        """
+    )
 
 if not region_metrics.empty:
     fert_top_name, fert_top_value = top_metric(region_metrics, "fertility_value")
@@ -665,7 +676,7 @@ with population_tab:
                 make_bar_chart(
                     population_rank_df,
                     "Region",
-                    "Regional population ranking, 2024",
+                    "Dublin dominates population, but not ageing pressure",
                     top_n=12,
                     format_str=",.0f",
                     value_title="Population",
@@ -683,10 +694,14 @@ with population_tab:
                     pea26_f,
                     pea29_f,
                     pea26_region,
-                    "Population size vs ageing pressure",
+                    "Population size is not a proxy for ageing pressure",
                     theme_base=theme_base,
                 ),
                 width="stretch",
+            )
+            st.caption(
+                "Key insight: Dublin is the largest region but has the lowest old-age dependency ratio, "
+                "so population size is not a reliable proxy for ageing pressure."
             )
         else:
             st.info("Population comparison scatter could not be displayed.")
@@ -715,7 +730,7 @@ with ageing_tab:
                 make_bar_chart(
                     dependency_rank_df,
                     "Region",
-                    "Old-age dependency ranking, 2024",
+                    "Border and West show the strongest ageing pressure",
                     top_n=12,
                     format_str=",.2f",
                     value_title="Old-age dependency ratio",
@@ -759,7 +774,7 @@ with ageing_tab:
                         pea29_f,
                         pea29_time,
                         pea29_region,
-                        "Old-age dependency trend with latest region labels",
+                        "Ageing pressure remains highest in Border and West",
                         format_str=",.2f",
                         top_n=5,
                         y_title="Old-age dependency ratio",
@@ -822,7 +837,7 @@ with fertility_tab:
                 make_bar_chart(
                     fertility_rank_df,
                     "Region",
-                    "Total fertility rate ranking by region, 2023",
+                    "Border and Mid-East have the highest fertility rates",
                     top_n=12,
                     format_str=",.2f",
                     value_title="Total fertility rate",
@@ -866,7 +881,7 @@ with fertility_tab:
                         vsa104_f,
                         vsa104_time,
                         vsa104_region,
-                        "Fertility trend with latest region labels",
+                        "Total fertility has converged below replacement level",
                         format_str=",.2f",
                         top_n=5,
                         y_title="Total fertility rate",
@@ -901,7 +916,7 @@ with death_tab:
                 make_bar_chart(
                     death_rank_df,
                     "Region",
-                    "Crude death-rate ranking by region, 2023",
+                    "Mid-West, Border, and South-East have the highest crude death rates",
                     top_n=12,
                     format_str=",.2f",
                     value_title="Crude death rate",
@@ -945,7 +960,7 @@ with death_tab:
                         vsa108_f,
                         vsa108_time,
                         vsa108_region,
-                        "Death-rate trend with latest region labels",
+                        "Crude death rates are highest in older western and southern regions",
                         format_str=",.2f",
                         top_n=5,
                         y_title="Crude death rate",
