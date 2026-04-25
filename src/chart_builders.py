@@ -81,6 +81,8 @@ def make_bar_chart(
     title: str,
     top_n: int = 10,
     format_str: str = ",.2f",
+    value_title: str = "Value",
+    height: int = 380,
     theme_base: str = "light",
 ) -> alt.Chart:
     plot_df = (
@@ -90,19 +92,35 @@ def make_bar_chart(
         .head(top_n)
     )
     tokens = get_theme_tokens(theme_base)
+    value_max = float(plot_df["value"].max()) if not plot_df.empty else 0.0
+    x_domain_max = value_max * 1.12 if value_max > 0 else 1.0
+
+    base = alt.Chart(plot_df).encode(
+        x=alt.X(
+            "value:Q",
+            title=value_title,
+            scale=alt.Scale(domain=[0, x_domain_max]),
+        ),
+        y=alt.Y(f"{category_col}:N", sort="-x", title=""),
+        tooltip=[
+            alt.Tooltip(f"{category_col}:N", title=category_col),
+            alt.Tooltip("value:Q", title=value_title, format=format_str),
+        ],
+    )
+
+    bars = base.mark_bar(color=tokens["single"])
+    labels = base.mark_text(
+        align="left",
+        baseline="middle",
+        dx=4,
+        color=tokens["text"],
+    ).encode(
+        text=alt.Text("value:Q", format=format_str),
+    )
 
     chart = (
-        alt.Chart(plot_df)
-        .mark_bar(color=tokens["single"])
-        .encode(
-            x=alt.X("value:Q", title="Value"),
-            y=alt.Y(f"{category_col}:N", sort="-x", title=""),
-            tooltip=[
-                alt.Tooltip(f"{category_col}:N", title=category_col),
-                alt.Tooltip("value:Q", title="Value", format=format_str),
-            ],
-        )
-        .properties(height=380, title=title)
+        (bars + labels)
+        .properties(height=height, title=title)
     )
     return apply_common_axis_style(chart, theme_base)
 
@@ -113,6 +131,7 @@ def make_lollipop_chart(
     title: str,
     top_n: int = 10,
     format_str: str = ",.2f",
+    value_title: str = "Value",
     theme_base: str = "light",
 ) -> alt.Chart:
     plot_df = (
@@ -124,10 +143,10 @@ def make_lollipop_chart(
 
     base = alt.Chart(plot_df).encode(
         y=alt.Y(f"{category_col}:N", sort="-x", title=""),
-        x=alt.X("value:Q", title="Value"),
+        x=alt.X("value:Q", title=value_title),
         tooltip=[
             alt.Tooltip(f"{category_col}:N", title=category_col),
-            alt.Tooltip("value:Q", title="Value", format=format_str),
+            alt.Tooltip("value:Q", title=value_title, format=format_str),
         ],
     )
     tokens = get_theme_tokens(theme_base)
@@ -287,26 +306,29 @@ def make_line_chart(
     group_col: str,
     title: str,
     format_str: str = ",.2f",
+    y_title: str = "Value",
     theme_base: str = "light",
 ) -> alt.Chart:
     grouped = df.groupby([time_col, group_col], as_index=False)["value"].sum()
+    grouped[time_col] = pd.to_numeric(grouped[time_col], errors="coerce")
+    grouped = grouped.dropna(subset=[time_col])
     tokens = get_theme_tokens(theme_base)
 
     chart = (
         alt.Chart(grouped)
         .mark_line(point=True)
         .encode(
-            x=alt.X(f"{time_col}:N", title=time_col),
-            y=alt.Y("value:Q", title="Value"),
+            x=alt.X(f"{time_col}:Q", title="Year", axis=alt.Axis(format="d")),
+            y=alt.Y("value:Q", title=y_title),
             color=alt.Color(
                 f"{group_col}:N",
                 title=group_col,
                 scale=alt.Scale(range=tokens["categories"]),
             ),
             tooltip=[
-                alt.Tooltip(f"{time_col}:N", title=time_col),
+                alt.Tooltip(f"{time_col}:Q", title="Year", format="d"),
                 alt.Tooltip(f"{group_col}:N", title=group_col),
-                alt.Tooltip("value:Q", title="Value", format=format_str),
+                alt.Tooltip("value:Q", title=y_title, format=format_str),
             ],
         )
         .properties(height=380, title=title)
@@ -321,48 +343,86 @@ def make_line_with_latest_labels(
     title: str,
     format_str: str = ",.2f",
     top_n: int = 5,
+    y_title: str = "Value",
     theme_base: str = "light",
 ) -> alt.Chart:
     grouped = df.groupby([time_col, group_col], as_index=False)["value"].sum()
+    grouped[time_col] = pd.to_numeric(grouped[time_col], errors="coerce")
+    grouped = grouped.dropna(subset=[time_col])
+    if grouped.empty:
+        return apply_common_axis_style(
+            alt.Chart(grouped).mark_line().properties(height=380, title=title),
+            theme_base,
+        )
+
+    latest_time_for_rank = grouped[time_col].max()
     top_groups = (
-        grouped.groupby(group_col, as_index=False)["value"]
-        .sum()
+        grouped[grouped[time_col] == latest_time_for_rank]
         .sort_values("value", ascending=False)
         .head(top_n)[group_col]
         .tolist()
     )
     grouped = grouped[grouped[group_col].isin(top_groups)].copy()
-    grouped[time_col] = grouped[time_col].astype(str)
+    if grouped.empty:
+        return apply_common_axis_style(
+            alt.Chart(grouped).mark_line().properties(height=380, title=title),
+            theme_base,
+        )
+
     tokens = get_theme_tokens(theme_base)
+    year_min = float(grouped[time_col].min())
+    year_max = float(grouped[time_col].max())
+    year_padding = max((year_max - year_min) * 0.12, 0.35)
 
     line = (
         alt.Chart(grouped)
         .mark_line(point=True)
         .encode(
-            x=alt.X(f"{time_col}:N", title=time_col),
-            y=alt.Y("value:Q", title="Value"),
+            x=alt.X(
+                f"{time_col}:Q",
+                title="Year",
+                axis=alt.Axis(format="d"),
+                scale=alt.Scale(domain=[year_min, year_max + year_padding]),
+            ),
+            y=alt.Y("value:Q", title=y_title),
             color=alt.Color(
                 f"{group_col}:N",
                 title=group_col,
                 scale=alt.Scale(range=tokens["categories"]),
+                legend=None,
             ),
             tooltip=[
-                alt.Tooltip(f"{time_col}:N", title=time_col),
+                alt.Tooltip(f"{time_col}:Q", title="Year", format="d"),
                 alt.Tooltip(f"{group_col}:N", title=group_col),
-                alt.Tooltip("value:Q", title="Value", format=format_str),
+                alt.Tooltip("value:Q", title=y_title, format=format_str),
             ],
         )
     )
 
-    latest_time = sorted(grouped[time_col].unique().tolist())[-1]
-    latest = grouped[grouped[time_col] == latest_time]
+    latest_time = grouped[time_col].max()
+    latest = grouped[grouped[time_col] == latest_time].copy()
+    latest = latest.sort_values("value").reset_index(drop=True)
+    value_span = max(float(grouped["value"].max() - grouped["value"].min()), 1.0)
+    min_label_gap = value_span * 0.045
+    label_values: list[float] = []
+    for value in latest["value"].astype(float):
+        if label_values and value - label_values[-1] < min_label_gap:
+            label_values.append(label_values[-1] + min_label_gap)
+        else:
+            label_values.append(value)
+    latest["label_value"] = label_values
 
     text = (
         alt.Chart(latest)
         .mark_text(align="left", dx=6, color=tokens["text"])
         .encode(
-            x=alt.X(f"{time_col}:N"),
-            y=alt.Y("value:Q"),
+            x=alt.X(f"{time_col}:Q"),
+            y=alt.Y("label_value:Q"),
+            color=alt.Color(
+                f"{group_col}:N",
+                scale=alt.Scale(range=tokens["categories"]),
+                legend=None,
+            ),
             text=alt.Text(f"{group_col}:N"),
         )
     )
@@ -532,23 +592,37 @@ def make_region_dependency_scatter(
     merged = pop.merge(dep, on=region_col, how="inner")
     tokens = get_theme_tokens(theme_base)
 
-    chart = (
-        alt.Chart(merged)
-        .mark_circle(size=180, opacity=0.8)
+    base = alt.Chart(merged).encode(
+        x=alt.X("population_value:Q", title="Population"),
+        y=alt.Y("dependency_value:Q", title="Old-age dependency ratio"),
+        tooltip=[
+            alt.Tooltip(f"{region_col}:N", title="Region"),
+            alt.Tooltip("population_value:Q", title="Population", format=",.0f"),
+            alt.Tooltip("dependency_value:Q", title="Dependency ratio", format=",.2f"),
+        ],
+    )
+
+    points = (
+        base.mark_circle(size=180, opacity=0.8)
         .encode(
-            x=alt.X("population_value:Q", title="Population"),
-            y=alt.Y("dependency_value:Q", title="Old-age dependency ratio"),
             color=alt.Color(
                 "dependency_value:Q",
                 title="Dependency ratio",
                 scale=alt.Scale(range=tokens["sequential"]),
             ),
-            tooltip=[
-                alt.Tooltip(f"{region_col}:N", title="Region"),
-                alt.Tooltip("population_value:Q", title="Population", format=",.0f"),
-                alt.Tooltip("dependency_value:Q", title="Dependency ratio", format=",.2f"),
-            ],
         )
+    )
+    labels = base.mark_text(
+        align="left",
+        baseline="middle",
+        dx=8,
+        color=tokens["text"],
+    ).encode(
+        text=alt.Text(f"{region_col}:N"),
+    )
+
+    chart = (
+        (points + labels)
         .properties(height=380, title=title)
     )
     return apply_common_axis_style(chart, theme_base)

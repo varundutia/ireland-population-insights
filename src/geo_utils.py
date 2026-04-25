@@ -35,6 +35,7 @@ def normalize_region_name(name: str) -> str:
         "dublin": "dublin",
         "border": "border",
         "midland": "midland",
+        "midlands": "midland",
     }
     return aliases.get(text, text)
 
