@@ -1,5 +1,3 @@
-from __future__ import annotations
-
 import itertools
 import json
 import re
@@ -18,13 +16,9 @@ OUTPUT_DIR = Path("data_processed")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 DATASETS = {
-    "vsa38_birth_rate": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/VSA38/JSON-stat/2.0/en",
-    "vsa94_infant_mortality": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/VSA94/JSON-stat/2.0/en",
     "vsa104_fertility": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/VSA104/JSON-stat/2.0/en",
     "vsa108_death_rate": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/VSA108/JSON-stat/2.0/en",
     "pea26_population": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/PEA26/JSON-stat/2.0/en",
-    "pea27_citizenship_non_eu": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/PEA27/JSON-stat/2.0/en",
-    "pea28_birthplace_non_eu": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/PEA28/JSON-stat/2.0/en",
     "pea29_old_age_dependency": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/PEA29/JSON-stat/2.0/en",
     "eu_nuts3_geojson": "https://gisco-services.ec.europa.eu/distribution/v2/nuts/geojson/NUTS_RG_01M_2024_4326_LEVL_3.geojson",
 }
@@ -51,32 +45,6 @@ def fetch_json(url: str) -> dict[str, Any]:
             raise
 
         print("SSL verification failed. Retrying with unverified SSL context...")
-        unverified_context = ssl._create_unverified_context()
-        with urllib.request.urlopen(req, timeout=60, context=unverified_context) as response:
-            return json.loads(response.read().decode("utf-8"))
-
-
-# ============================================================
-# GeoJSON helpers
-# ============================================================
-def fetch_geojson(url: str) -> dict[str, Any]:
-    req = urllib.request.Request(
-        url,
-        headers={
-            "User-Agent": "Mozilla/5.0",
-            "Accept": "application/json",
-        },
-    )
-
-    try:
-        with urllib.request.urlopen(req, timeout=60) as response:
-            return json.loads(response.read().decode("utf-8"))
-    except Exception as exc:
-        msg = str(exc)
-        if "CERTIFICATE_VERIFY_FAILED" not in msg and "certificate verify failed" not in msg:
-            raise
-
-        print("SSL verification failed for GeoJSON download. Retrying with unverified SSL context...")
         unverified_context = ssl._create_unverified_context()
         with urllib.request.urlopen(req, timeout=60, context=unverified_context) as response:
             return json.loads(response.read().decode("utf-8"))
@@ -263,7 +231,7 @@ def save_geojson(payload: dict[str, Any], filename: str) -> None:
 
 def create_ireland_nuts3_geojson() -> None:
     print("Fetching eu_nuts3_geojson...")
-    geojson = fetch_geojson(DATASETS["eu_nuts3_geojson"])
+    geojson = fetch_json(DATASETS["eu_nuts3_geojson"])
 
     ireland_features: list[dict[str, Any]] = []
     for feature in geojson.get("features", []):
@@ -304,30 +272,6 @@ def process_dataset(
 def main() -> None:
     print("Downloading and preparing CSO People and Society datasets...\n")
 
-    # VSA38
-    process_dataset(
-        dataset_key="vsa38_birth_rate",
-        raw_filename="vsa38_birth_rate_raw_cleaned.csv",
-        summary_filename="vsa38_birth_rate_summary.csv",
-        candidate_groups=[
-            ["time", "year"],
-            ["area_of_residence", "area", "region"],
-            ["statistic"],
-        ],
-    )
-
-    # VSA94
-    process_dataset(
-        dataset_key="vsa94_infant_mortality",
-        raw_filename="vsa94_infant_mortality_raw_cleaned.csv",
-        summary_filename="vsa94_infant_mortality_summary.csv",
-        candidate_groups=[
-            ["time", "year"],
-            ["area_of_residence", "area", "region"],
-            ["statistic"],
-        ],
-    )
-
     # VSA104
     process_dataset(
         dataset_key="vsa104_fertility",
@@ -367,34 +311,6 @@ def main() -> None:
         ],
     )
 
-    # PEA27
-    process_dataset(
-        dataset_key="pea27_citizenship_non_eu",
-        raw_filename="pea27_citizenship_non_eu_raw_cleaned.csv",
-        summary_filename="pea27_citizenship_non_eu_summary.csv",
-        candidate_groups=[
-            ["time", "year"],
-            ["age_group", "age group"],
-            ["sex"],
-            ["human_development_index", "hdi"],
-            ["statistic"],
-        ],
-    )
-
-    # PEA28
-    process_dataset(
-        dataset_key="pea28_birthplace_non_eu",
-        raw_filename="pea28_birthplace_non_eu_raw_cleaned.csv",
-        summary_filename="pea28_birthplace_non_eu_summary.csv",
-        candidate_groups=[
-            ["time", "year"],
-            ["age_group", "age group"],
-            ["sex"],
-            ["human_development_index", "hdi"],
-            ["statistic"],
-        ],
-    )
-
     # PEA29
     process_dataset(
         dataset_key="pea29_old_age_dependency",
@@ -412,20 +328,12 @@ def main() -> None:
 
     print("\nDone.")
     print("\nCreated files:")
-    print("- data_processed/vsa38_birth_rate_raw_cleaned.csv")
-    print("- data_processed/vsa38_birth_rate_summary.csv")
-    print("- data_processed/vsa94_infant_mortality_raw_cleaned.csv")
-    print("- data_processed/vsa94_infant_mortality_summary.csv")
     print("- data_processed/vsa104_fertility_raw_cleaned.csv")
     print("- data_processed/vsa104_fertility_summary.csv")
     print("- data_processed/vsa108_death_rate_raw_cleaned.csv")
     print("- data_processed/vsa108_death_rate_summary.csv")
     print("- data_processed/pea26_population_raw_cleaned.csv")
     print("- data_processed/pea26_population_summary.csv")
-    print("- data_processed/pea27_citizenship_non_eu_raw_cleaned.csv")
-    print("- data_processed/pea27_citizenship_non_eu_summary.csv")
-    print("- data_processed/pea28_birthplace_non_eu_raw_cleaned.csv")
-    print("- data_processed/pea28_birthplace_non_eu_summary.csv")
     print("- data_processed/pea29_old_age_dependency_raw_cleaned.csv")
     print("- data_processed/pea29_old_age_dependency_summary.csv")
     print("- data_processed/ireland_nuts3.geojson")

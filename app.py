@@ -1,5 +1,3 @@
-from __future__ import annotations
-
 from pathlib import Path
 
 import pandas as pd
@@ -14,7 +12,6 @@ from src.chart_builders import (
     make_region_dependency_scatter,
 )
 from src.data_loader import (
-    build_filtered_datasets,
     detect_columns,
     load_csv,
 )
@@ -157,13 +154,9 @@ st.markdown(
 DATA_DIR = Path("data_processed")
 
 FILES = {
-    "vsa38": DATA_DIR / "vsa38_birth_rate_summary.csv",
-    "vsa94": DATA_DIR / "vsa94_infant_mortality_summary.csv",
     "vsa104": DATA_DIR / "vsa104_fertility_summary.csv",
     "vsa108": DATA_DIR / "vsa108_death_rate_summary.csv",
     "pea26": DATA_DIR / "pea26_population_summary.csv",
-    "pea27": DATA_DIR / "pea27_citizenship_non_eu_summary.csv",
-    "pea28": DATA_DIR / "pea28_birthplace_non_eu_summary.csv",
     "pea29": DATA_DIR / "pea29_old_age_dependency_summary.csv",
     "geojson": DATA_DIR / "ireland_nuts3.geojson",
 }
@@ -173,13 +166,9 @@ FILES = {
 # Load data
 # ============================================================
 try:
-    vsa38 = load_csv(FILES["vsa38"])
-    vsa94 = load_csv(FILES["vsa94"])
     vsa104 = load_csv(FILES["vsa104"])
     vsa108 = load_csv(FILES["vsa108"])
     pea26 = load_csv(FILES["pea26"])
-    pea27 = load_csv(FILES["pea27"])
-    pea28 = load_csv(FILES["pea28"])
     pea29 = load_csv(FILES["pea29"])
     ireland_geojson = load_geojson(FILES["geojson"])
 except Exception as e:
@@ -191,22 +180,14 @@ except Exception as e:
 # Detect columns
 # ============================================================
 datasets = {
-    "vsa38": vsa38,
-    "vsa94": vsa94,
     "vsa104": vsa104,
     "vsa108": vsa108,
     "pea26": pea26,
-    "pea27": pea27,
-    "pea28": pea28,
     "pea29": pea29,
 }
 
 columns = detect_columns(datasets)
 
-vsa38_time = columns["vsa38_time"]
-vsa38_area = columns["vsa38_area"]
-vsa94_time = columns["vsa94_time"]
-vsa94_area = columns["vsa94_area"]
 vsa104_time = columns["vsa104_time"]
 vsa104_age = columns["vsa104_age"]
 vsa104_region = columns["vsa104_region"]
@@ -216,70 +197,18 @@ pea26_time = columns["pea26_time"]
 pea26_age = columns["pea26_age"]
 pea26_sex = columns["pea26_sex"]
 pea26_region = columns["pea26_region"]
-pea27_time = columns["pea27_time"]
-pea27_age = columns["pea27_age"]
-pea27_sex = columns["pea27_sex"]
-pea27_hdi = columns["pea27_hdi"]
-pea28_time = columns["pea28_time"]
-pea28_age = columns["pea28_age"]
-pea28_sex = columns["pea28_sex"]
-pea28_hdi = columns["pea28_hdi"]
 pea29_time = columns["pea29_time"]
 pea29_sex = columns["pea29_sex"]
 pea29_region = columns["pea29_region"]
 
 
 # ============================================================
-# Fixed defaults (no sidebar controls)
+# Normalize region labels for map joins
 # ============================================================
-show_data_preview = False
-
-pea26_region_selected: list[str] = []
-pea26_sex_selected: list[str] = []
-vsa104_region_selected: list[str] = []
-vsa104_age_selected: list[str] = []
-vsa108_region_selected: list[str] = []
-pea29_region_selected: list[str] = []
-pea29_sex_selected: list[str] = []
-vsa38_area_selected: list[str] = []
-vsa94_area_selected: list[str] = []
-pea27_sex_selected: list[str] = []
-pea27_hdi_selected: list[str] = []
-pea28_sex_selected: list[str] = []
-pea28_hdi_selected: list[str] = []
-
-
-# ============================================================
-# Apply filters
-# ============================================================
-filtered = build_filtered_datasets(
-    datasets,
-    columns,
-    {
-        "pea26_region_selected": pea26_region_selected,
-        "pea26_sex_selected": pea26_sex_selected,
-        "vsa104_region_selected": vsa104_region_selected,
-        "vsa104_age_selected": vsa104_age_selected,
-        "vsa108_region_selected": vsa108_region_selected,
-        "pea29_region_selected": pea29_region_selected,
-        "pea29_sex_selected": pea29_sex_selected,
-        "vsa38_area_selected": vsa38_area_selected,
-        "vsa94_area_selected": vsa94_area_selected,
-        "pea27_sex_selected": pea27_sex_selected,
-        "pea27_hdi_selected": pea27_hdi_selected,
-        "pea28_sex_selected": pea28_sex_selected,
-        "pea28_hdi_selected": pea28_hdi_selected,
-    },
-)
-
-pea26_f = add_normalized_region_column(filtered["pea26_f"], pea26_region)
-vsa104_f = add_normalized_region_column(filtered["vsa104_f"], vsa104_region)
-vsa108_f = add_normalized_region_column(filtered["vsa108_f"], vsa108_region)
-pea29_f = add_normalized_region_column(filtered["pea29_f"], pea29_region)
-vsa38_f = filtered["vsa38_f"]
-vsa94_f = filtered["vsa94_f"]
-pea27_f = filtered["pea27_f"]
-pea28_f = filtered["pea28_f"]
+pea26_f = add_normalized_region_column(pea26, pea26_region)
+vsa104_f = add_normalized_region_column(vsa104, vsa104_region)
+vsa108_f = add_normalized_region_column(vsa108, vsa108_region)
+pea29_f = add_normalized_region_column(pea29, pea29_region)
 
 
 # ============================================================
@@ -970,24 +899,3 @@ with death_tab:
                 )
         else:
             st.info("Death-rate trend could not be displayed.")
-
-
-# ============================================================
-# Data preview
-# ============================================================
-if show_data_preview:
-    with st.expander("Preview processed datasets"):
-        st.markdown("**Regional metrics for the map**")
-        st.dataframe(region_metrics.head(20), width="stretch")
-
-        st.markdown("**PEA26 Population**")
-        st.dataframe(pea26_f.head(20), width="stretch")
-
-        st.markdown("**PEA29 Old-age dependency**")
-        st.dataframe(pea29_f.head(20), width="stretch")
-
-        st.markdown("**VSA104 Fertility**")
-        st.dataframe(vsa104_f.head(20), width="stretch")
-
-        st.markdown("**VSA108 Death rate**")
-        st.dataframe(vsa108_f.head(20), width="stretch")

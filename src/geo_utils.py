@@ -1,13 +1,9 @@
-from __future__ import annotations
-
 import json
 from pathlib import Path
 
 import pandas as pd
 import plotly.express as px
 import streamlit as st
-
-from src.ui_helpers import format_number
 
 
 def normalize_region_name(name: str) -> str:
@@ -128,29 +124,6 @@ def build_latest_region_metrics(
         merged["normalized_region"].str.title()
     )
     return merged
-
-
-def create_region_insight_text(region_row: pd.Series | None) -> str:
-    if region_row is None:
-        return "Click a region on the map to see its profile and linked charts."
-
-    region_name = str(region_row.get("region_name", "Selected region"))
-    population = region_row.get("population_value")
-    dependency = region_row.get("dependency_value")
-    fertility = region_row.get("fertility_value")
-    death = region_row.get("death_value")
-
-    parts = [f"**{region_name}**"]
-    if pd.notna(population):
-        parts.append(f"Population: {format_number(population)}")
-    if pd.notna(dependency):
-        parts.append(f"Old-age dependency: {format_number(dependency)}")
-    if pd.notna(fertility):
-        parts.append(f"Fertility metric: {format_number(fertility)}")
-    if pd.notna(death):
-        parts.append(f"Death-rate metric: {format_number(death)}")
-
-    return "  \n".join(parts)
 
 
 def make_hero_choropleth(
